@@ -1,0 +1,6073 @@
+﻿Code,City,Country
+GKA,Goroka,Papua New Guinea
+MAG,Madang,Papua New Guinea
+HGU,Mount Hagen,Papua New Guinea
+LAE,Nadzab,Papua New Guinea
+POM,Port Moresby,Papua New Guinea
+WWK,Wewak,Papua New Guinea
+UAK,Narssarssuaq,Greenland
+GOH,Godthaab,Greenland
+SFJ,Sondrestrom,Greenland
+THU,Thule,Greenland
+AEY,Akureyri,Iceland
+EGS,Egilsstadir,Iceland
+HFN,Hofn,Iceland
+HZK,Husavik,Iceland
+IFJ,Isafjordur,Iceland
+KEF,Keflavik,Iceland
+PFJ,Patreksfjordur,Iceland
+RKV,Reykjavik,Iceland
+SIJ,Siglufjordur,Iceland
+VEY,Vestmannaeyjar,Iceland
+YAM,Sault Sainte Marie,Canada
+YAY,St. Anthony,Canada
+YAZ,Tofino,Canada
+YBB,Pelly Bay,Canada
+YBC,Baie Comeau,Canada
+YBG,Bagotville,Canada
+YBK,Baker Lake,Canada
+YBL,Campbell River,Canada
+YBR,Brandon,Canada
+YCB,Cambridge Bay,Canada
+YCD,Nanaimo,Canada
+YCG,Castlegar,Canada
+YCH,Chatham,Canada
+YCL,Charlo,Canada
+YCO,Coppermine,Canada
+YCT,Coronation,Canada
+YCW,Chilliwack,Canada
+YCY,Clyde River,Canada
+YZS,Coral Harbour,Canada
+YDA,Dawson,Canada
+YDB,Burwash,Canada
+YDF,Deer Lake,Canada
+YDL,Dease Lake,Canada
+YDN,Dauphin,Canada
+YDQ,Dawson Creek,Canada
+YEG,Edmonton,Canada
+YEK,Eskimo Point,Canada
+YEN,Estevan,Canada
+YET,Edson,Canada
+YEU,Eureka,Canada
+YEV,Inuvik,Canada
+YFB,Iqaluit,Canada
+YFC,Fredericton,Canada
+YFE,Forestville,Canada
+YFO,Flin Flon,Canada
+YFR,Fort Resolution,Canada
+YFS,Fort Simpson,Canada
+YGK,Kingston,Canada
+YGL,La Grande Riviere,Canada
+YGP,Gaspe,Canada
+YGQ,Geraldton,Canada
+YGR,Iles De La Madeleine,Canada
+YHB,Hudson Bay,Canada
+YHD,Dryden,Canada
+YHI,Holman Island,Canada
+YHK,Gjoa Haven,Canada
+YHM,Hamilton,Canada
+YHU,Montreal,Canada
+YHY,Hay River,Canada
+YHZ,Halifax,Canada
+YIB,Atikokan,Canada
+YIO,Pond Inlet,Canada
+YJN,St. Jean,Canada
+YJT,Stephenville,Canada
+YKA,Kamloops,Canada
+YKF,Waterloo,Canada
+YKL,Schefferville,Canada
+YKY,Kindersley,Canada
+YKZ,Toronto,Canada
+YLD,Chapleau,Canada
+YLJ,Meadow Lake,Canada
+YLL,Lloydminster,Canada
+YLT,Alert,Canada
+YLW,Kelowna,Canada
+YMA,Mayo,Canada
+YMJ,Moose Jaw,Canada
+YMM,Fort Mcmurray,Canada
+YMO,Moosonee,Canada
+YMW,Maniwaki,Canada
+YMX,Montreal,Canada
+YNA,Natashquan,Canada
+YND,Gatineau,Canada
+YNM,Matagami,Canada
+YOC,Old Crow,Canada
+YOD,Cold Lake,Canada
+YOJ,High Level,Canada
+YOW,Ottawa,Canada
+YPA,Prince Albert,Canada
+YPE,Peace River,Canada
+YPG,Portage-la-prairie,Canada
+YPL,Pickle Lake,Canada
+YPN,Port Menier,Canada
+YPQ,Peterborough,Canada
+YPR,Prince Pupert,Canada
+YPY,Fort Chipewyan,Canada
+YQA,Muskoka,Canada
+YQB,Quebec,Canada
+YQF,Red Deer Industrial,Canada
+YQG,Windsor,Canada
+YQH,Watson Lake,Canada
+YQK,Kenora,Canada
+YQL,Lethbridge,Canada
+YQM,Moncton,Canada
+YQQ,Comox,Canada
+YQR,Regina,Canada
+YQT,Thunder Bay,Canada
+YQU,Grande Prairie,Canada
+YQV,Yorkton,Canada
+YQW,North Battleford,Canada
+YQX,Gander,Canada
+YQY,Sydney,Canada
+YQZ,Quesnel,Canada
+YRB,Resolute,Canada
+YRI,Riviere Du Loup,Canada
+YRJ,Roberval,Canada
+YRM,Rocky Mountain House,Canada
+YRT,Rankin Inlet,Canada
+YSB,Sudbury,Canada
+YSC,Sherbrooke,Canada
+YSJ,St. John,Canada
+YSM,Fort Smith,Canada
+YSR,Nanisivik,Canada
+YSU,Summerside,Canada
+YSY,Sachs Harbour,Canada
+YTE,Cape Dorset,Canada
+YTH,Thompson,Canada
+YTR,Trenton,Canada
+YTS,Timmins,Canada
+YTZ,Toronto,Canada
+YUB,Tuktoyaktuk,Canada
+YUL,Montreal,Canada
+YUT,Repulse Bay,Canada
+YUX,Hall Beach,Canada
+YUY,Rouyn,Canada
+YVC,La Ronge,Canada
+YVG,Vermillion,Canada
+YVM,Broughton Island,Canada
+YVO,Val D'or,Canada
+YVP,Quujjuaq,Canada
+YVQ,Norman Wells,Canada
+YVR,Vancouver,Canada
+YVT,Buffalo Narrows,Canada
+YVV,Wiarton,Canada
+YWA,Petawawa,Canada
+YWG,Winnipeg,Canada
+YWK,Wabush,Canada
+YWL,Williams Lake,Canada
+YWY,Wrigley,Canada
+YXC,Cranbrook,Canada
+YXD,Edmonton,Canada
+YXE,Saskatoon,Canada
+YXH,Medicine Hat,Canada
+YXJ,Fort Saint John,Canada
+YXL,Sioux Lookout,Canada
+YXP,Pangnirtung,Canada
+YXR,Earlton,Canada
+YXS,Prince George,Canada
+YXT,Terrace,Canada
+YXU,London,Canada
+YXX,Abbotsford,Canada
+YXY,Whitehorse,Canada
+YYB,North Bay,Canada
+YYC,Calgary,Canada
+YYD,Smithers,Canada
+YYE,Fort Nelson,Canada
+YYF,Penticton,Canada
+YYG,Charlottetown,Canada
+YYH,Spence Bay,Canada
+YYJ,Victoria,Canada
+YYL,Lynn Lake,Canada
+YYN,Swift Current,Canada
+YYQ,Churchill,Canada
+YYR,Goose Bay,Canada
+YYT,St. John's,Canada
+YYU,Kapuskasing,Canada
+YYW,Armstrong,Canada
+YYY,Mont Joli,Canada
+YYZ,Toronto,Canada
+YZD,Toronto,Canada
+YZE,Gore Bay,Canada
+YZF,Yellowknife,Canada
+YZH,Slave Lake,Canada
+YZP,Sandspit,Canada
+YZR,Sarnia,Canada
+YZT,Port Hardy,Canada
+YZU,Whitecourt,Canada
+YZV,Sept-iles,Canada
+YZW,Teslin,Canada
+YZX,Greenwood,Canada
+ZFA,Faro,Canada
+ZFM,Fort Mcpherson,Canada
+QLD,Blida,Algeria
+BUJ,Bou Saada,Algeria
+BJA,Bejaja,Algeria
+ALG,Algier,Algeria
+DJG,Djanet,Algeria
+VVZ,Illizi,Algeria
+TMR,Tamanrasset,Algeria
+GJL,Jijel,Algeria
+MZW,Mecheria,Algeria
+AAE,Annaba,Algeria
+CZL,Constantine,Algeria
+TEE,Tebessa,Algeria
+HRM,Tilrempt,Algeria
+TID,Tiaret,Algeria
+TIN,Tindouf,Algeria
+CFK,Ech-cheliff,Algeria
+TAF,Oran,Algeria
+TLM,Tlemcen,Algeria
+ORN,Oran,Algeria
+BFW,Sidi Bel Abbes,Algeria
+MUW,Ghriss,Algeria
+AZR,Adrar,Algeria
+BSK,Biskra,Algeria
+ELG,El Golea,Algeria
+GHA,Ghardaia,Algeria
+HME,Hassi Messaoud,Algeria
+INZ,In Salah,Algeria
+TGR,Touggourt,Algeria
+LOO,Laghouat,Algeria
+TMX,Timimoun,Algeria
+OGX,Ouargla,Algeria
+IAM,Zarzaitine,Algeria
+COO,Cotonou,Benin
+OUA,Ouagadougou,Burkina Faso
+BOY,Bobo-dioulasso,Burkina Faso
+ACC,Accra,Ghana
+TML,Tamale,Ghana
+NYI,Sunyani,Ghana
+TKD,Takoradi,Ghana
+ABJ,Abidjan,Cote d'Ivoire
+BYK,Bouake,Cote d'Ivoire
+DJO,Daloa,Cote d'Ivoire
+HGO,Korhogo,Cote d'Ivoire
+MJC,Man,Cote d'Ivoire
+SPY,San Pedro,Cote d'Ivoire
+ASK,Yamoussoukro,Cote d'Ivoire
+ABV,Abuja,Nigeria
+AKR,Akure,Nigeria
+BNI,Benin,Nigeria
+CBQ,Calabar,Nigeria
+ENU,Enugu,Nigeria
+IBA,Ibadan,Nigeria
+ILR,Ilorin,Nigeria
+JOS,Jos,Nigeria
+KAD,Kaduna,Nigeria
+KAN,Kano,Nigeria
+MIU,Maiduguri,Nigeria
+MDI,Makurdi,Nigeria
+LOS,Lagos,Nigeria
+MXJ,Minna,Nigeria
+PHC,Port Hartcourt,Nigeria
+SKO,Sokoto,Nigeria
+YOL,Yola,Nigeria
+ZAR,Zaria,Nigeria
+MFQ,Maradi,Niger
+NIM,Niamey,Niger
+THZ,Tahoua,Niger
+AJY,Agadez,Niger
+ZND,Zinder,Niger
+MIR,Monastir,Tunisia
+TUN,Tunis,Tunisia
+GAF,Gafsa,Tunisia
+GAE,Gabes,Tunisia
+DJE,Djerba,Tunisia
+EBM,El Borma,Tunisia
+SFA,Sfax,Tunisia
+TOE,Tozeur,Tunisia
+LRL,Niatougou,Togo
+LFW,Lome,Togo
+ANR,Antwerp,Belgium
+BRU,Brussels,Belgium
+CRL,Charleroi,Belgium
+KJK,Kortrijk-vevelgem,Belgium
+LGG,Liege,Belgium
+OST,Ostend,Belgium
+OBL,Zoersel,Belgium
+AOC,Altenburg,Germany
+IES,Riesa,Germany
+REB,Rechlin-laerz,Germany
+QXH,Schoenhagen,Germany
+BBH,Barth,Germany
+ZMG,Magdeburg,Germany
+CBU,Cottbus,Germany
+SXF,Berlin,Germany
+DRS,Dresden,Germany
+ERF,Erfurt,Germany
+FRA,Frankfurt,Germany
+FMO,Munster,Germany
+HAM,Hamburg,Germany
+THF,Berlin,Germany
+CGN,Cologne,Germany
+DUS,Duesseldorf,Germany
+MUC,Munich,Germany
+NUE,Nuernberg,Germany
+LEJ,Leipzig,Germany
+SCN,Saarbruecken,Germany
+STR,Stuttgart,Germany
+TXL,Berlin,Germany
+HAJ,Hannover,Germany
+BRE,Bremen,Germany
+QEF,Egelsbach,Germany
+HHN,Hahn,Germany
+MHG,Mannheim,Germany
+EIB,Eisenach,Germany
+SGE,Siegerland,Germany
+XFW,Hamburg,Germany
+KEL,Kiel,Germany
+LBC,Luebeck,Germany
+ESS,Essen,Germany
+BFE,Bielefeld,Germany
+MGL,Moenchengladbach,Germany
+PAD,Paderborn,Germany
+DTM,Dortmund,Germany
+AGB,Augsburg,Germany
+OBF,Oberpfaffenhofen,Germany
+RBM,Straubing,Germany
+FDH,Friedrichshafen,Germany
+SZW,Parchim,Germany
+BYU,Bayreuth,Germany
+URD,Burg Feuerstein,Germany
+HOQ,Hof,Germany
+ZQW,Zweibruecken,Germany
+ZQL,Donaueschingen,Germany
+BWE,Braunschweig,Germany
+KSF,Kassel,Germany
+BRV,Bremerhaven,Germany
+EME,Emden,Germany
+WVN,Wilhelmshaven,Germany
+BMK,Borkum,Germany
+NRD,Norderney,Germany
+FLF,Flensburg,Germany
+GWT,Westerland,Germany
+KDL,Kardla,Estonia
+URE,Kuressaare,Estonia
+EPU,Parnu,Estonia
+TLL,Tallinn-ulemiste International,Estonia
+TAY,Tartu,Estonia
+ENF,Enontekio,Finland
+KEV,Halli,Finland
+HEM,Helsinki,Finland
+HEL,Helsinki,Finland
+HYV,Hyvinkaa,Finland
+KTQ,Kitee,Finland
+IVL,Ivalo,Finland
+JOE,Joensuu,Finland
+JYV,Jyvaskyla,Finland
+KAU,Kauhava,Finland
+KEM,Kemi,Finland
+KAJ,Kajaani,Finland
+KHJ,Kauhajoki,Finland
+KOK,Kruunupyy,Finland
+KAO,Kuusamo,Finland
+KTT,Kittila,Finland
+KUO,Kuopio,Finland
+QLF,Vesivehmaa,Finland
+LPP,Lappeenranta,Finland
+MHQ,Mariehamn,Finland
+MIK,Mikkeli,Finland
+OUL,Oulu,Finland
+POR,Pori,Finland
+RVN,Rovaniemi,Finland
+SVL,Savonlinna,Finland
+SOT,Sodankyla,Finland
+TMP,Tampere,Finland
+TKU,Turku,Finland
+UTI,Utti,Finland
+VAA,Vaasa,Finland
+VRK,Varkaus,Finland
+YLI,Ylivieska-raudaskyla,Finland
+BFS,Belfast,United Kingdom
+ENK,Enniskillen,United Kingdom
+BHD,Belfast,United Kingdom
+LDY,Londonderry,United Kingdom
+BHX,Birmingham,United Kingdom
+CVT,Coventry,United Kingdom
+GLO,Golouchestershire,United Kingdom
+GBA,Pailton,United Kingdom
+MAN,Manchester,United Kingdom
+NQY,Newquai,United Kingdom
+LYE,Lyneham,United Kingdom
+YEO,Yeovilton,United Kingdom
+HAW,Haverfordwest,United Kingdom
+CWL,Cardiff,United Kingdom
+SWS,Swansea,United Kingdom
+BRS,Bristol,United Kingdom
+LPL,Liverpool,United Kingdom
+LTN,London,United Kingdom
+PLH,Plymouth,United Kingdom
+BOH,Bournemouth,United Kingdom
+SOU,Southampton,United Kingdom
+QLA,Lasham,United Kingdom
+ACI,Alderney,Guernsey
+GCI,Guernsey,Guernsey
+JER,Jersey,Jersey
+ESH,Shoreham By Sea,United Kingdom
+BQH,Biggin Hill,United Kingdom
+LGW,London,United Kingdom
+LCY,London,United Kingdom
+FAB,Farnborough,United Kingdom
+BBS,Blackbushe,United Kingdom
+LHR,London,United Kingdom
+SEN,Southend,United Kingdom
+LYX,Lydd,United Kingdom
+MSE,Manston,United Kingdom
+CAX,Carlisle,United Kingdom
+BLK,Blackpool,United Kingdom
+HUY,Humberside,United Kingdom
+BWF,Barrow Island,United Kingdom
+LBA,Leeds,United Kingdom
+WRT,Warton,United Kingdom
+CEG,Hawarden,United Kingdom
+IOM,Isle Of Man,Isle of Man
+NCL,Newcastle,United Kingdom
+MME,Teesside,United Kingdom
+EMA,East Midlands,United Kingdom
+KOI,Kirkwall,United Kingdom
+LSI,Sumburgh,United Kingdom
+WIC,Wick,United Kingdom
+ABZ,Aberdeen,United Kingdom
+INV,Inverness,United Kingdom
+GLA,Glasgow,United Kingdom
+EDI,Edinburgh,United Kingdom
+ILY,Islay,United Kingdom
+PIK,Prestwick,United Kingdom
+BEB,Benbecula,United Kingdom
+SCS,Scatsta,United Kingdom
+DND,Dundee,United Kingdom
+SYY,Stornoway,United Kingdom
+TRE,Tiree,United Kingdom
+ADX,Leuchars,United Kingdom
+LMO,Lossiemouth,United Kingdom
+CBG,Cambridge,United Kingdom
+NWI,Norwich,United Kingdom
+STN,London,United Kingdom
+EXT,Exeter,United Kingdom
+FZO,Bristol,United Kingdom
+OXF,Oxford,United Kingdom
+BEX,Benson,United Kingdom
+LKZ,Lakenheath,United Kingdom
+MHZ,Mildenhall,United Kingdom
+QUY,Wyton,United Kingdom
+FFD,Fairford,United Kingdom
+BZZ,Brize Norton,United Kingdom
+ODH,Odiham,United Kingdom
+NHT,Northolt,United Kingdom
+QCY,Coningsby,United Kingdom
+BEQ,Honington,United Kingdom
+SQZ,Scampton,United Kingdom
+HRT,Linton-on-ouse,United Kingdom
+WTN,Waddington,United Kingdom
+KNF,Marham,United Kingdom
+MPN,Mount Pleasant,Falkland Islands
+AMS,Amsterdam,Netherlands
+MST,Maastricht,Netherlands
+EIN,Eindhoven,Netherlands
+GRQ,Groningen,Netherlands
+GLZ,Gilze-rijen,Netherlands
+DHR,De Kooy,Netherlands
+LEY,Lelystad,Netherlands
+LWR,Leeuwarden,Netherlands
+RTM,Rotterdam,Netherlands
+UTC,Soesterberg,Netherlands
+ENS,Enschede,Netherlands
+LID,Valkenburg,Netherlands
+WOE,Woensdrecht,Netherlands
+ORK,Cork,Ireland
+GWY,Galway,Ireland
+DUB,Dublin,Ireland
+NOC,Connaught,Ireland
+KIR,Kerry,Ireland
+SNN,Shannon,Ireland
+SXL,Sligo,Ireland
+WAT,Waterford,Ireland
+AAR,Aarhus,Denmark
+BLL,Billund,Denmark
+CPH,Copenhagen,Denmark
+EBJ,Esbjerg,Denmark
+KRP,Karup,Denmark
+BYR,Laeso,Denmark
+MRW,Maribo,Denmark
+ODE,Odense,Denmark
+RKE,Copenhagen,Denmark
+RNN,Ronne,Denmark
+SGD,Soenderborg,Denmark
+SKS,Skrydstrup,Denmark
+SQW,Skive,Denmark
+TED,Thisted,Denmark
+FAE,Vagar,Faroe Islands
+STA,Stauning,Denmark
+AAL,Aalborg,Denmark
+LUX,Luxemburg,Luxembourg
+AES,Alesund,Norway
+ANX,Andoya,Norway
+ALF,Alta,Norway
+BNN,Bronnoysund,Norway
+BOO,Bodo,Norway
+BGO,Bergen,Norway
+BJF,Batsfjord,Norway
+KRS,Kristiansand,Norway
+DLD,Geilo,Norway
+BDU,Bardufoss,Norway
+EVE,Harstad/Narvik,Norway
+VDB,Fagernes,Norway
+FRO,Floro,Norway
+OSL,Oslo,Norway
+HAU,Haugesund,Norway
+HAA,Hasvik,Norway
+KSU,Kristiansund,Norway
+KKN,Kirkenes,Norway
+FAN,Farsund,Norway
+MOL,Molde,Norway
+MJF,Mosjoen,Norway
+LKL,Lakselv,Norway
+NTB,Notodden,Norway
+OLA,Orland,Norway
+RRS,Roros,Norway
+RYG,Rygge,Norway
+LYR,Svalbard,Norway
+SKE,Skien,Norway
+SRP,Stord,Norway
+SSJ,Sandnessjoen,Norway
+TOS,Tromso,Norway
+TRF,Sandefjord,Norway
+TRD,Trondheim,Norway
+SVG,Stavanger,Norway
+GDN,Gdansk,Poland
+KRK,Krakow,Poland
+KTW,Katowice,Poland
+POZ,Poznan,Poland
+RZE,Rzeszow,Poland
+SZZ,Szczecin,Poland
+OSP,Slupsk,Poland
+WAW,Warsaw,Poland
+WRO,Wroclaw,Poland
+IEG,Zielona Gora,Poland
+RNB,Ronneby,Sweden
+GOT,Gothenborg,Sweden
+JKG,Joenkoeping,Sweden
+LDK,Lidkoping,Sweden
+GSE,Gothenborg,Sweden
+KVB,Skovde,Sweden
+THN,Trollhattan,Sweden
+KSK,Karlskoga,Sweden
+MXX,Mora,Sweden
+NYO,Stockholm,Sweden
+KID,Kristianstad,Sweden
+OSK,Oskarshamn,Sweden
+KLR,Kalkmar,Sweden
+MMX,Malmoe,Sweden
+HAD,Halmstad,Sweden
+VXO,Vaxjo,Sweden
+EVG,Sveg,Sweden
+GEV,Gallivare,Sweden
+HUV,Hudiksvall,Sweden
+KRF,Kramfors,Sweden
+LYC,Lycksele,Sweden
+SDL,Sundsvall,Sweden
+OER,Ornskoldsvik,Sweden
+KRN,Kiruna,Sweden
+SFT,Skelleftea,Sweden
+UME,Umea,Sweden
+VHM,Vilhelmina,Sweden
+AJR,Arvidsjaur,Sweden
+ORB,Orebro,Sweden
+VST,Vasteras,Sweden
+LLA,Lulea,Sweden
+ARN,Stockholm,Sweden
+BMA,Stockholm,Sweden
+BLE,Borlange,Sweden
+HLF,Hultsfred,Sweden
+GVX,Gavle,Sweden
+LPI,Linkoeping,Sweden
+NRK,Norrkoeping,Sweden
+EKT,Eskilstuna,Sweden
+VBY,Visby,Sweden
+SPM,Spangdahlem,Germany
+RMS,Ramstein,Germany
+GHF,Giebelstadt,Germany
+ZCN,Celle,Germany
+FRZ,Fritzlar,Germany
+ZNF,Hanau,Germany
+KZG,Kitzingen,Germany
+FCN,Nordholz,Germany
+GKE,Geilenkirchen,Germany
+RLG,Laage,Germany
+WBG,Schleswig,Germany
+WIE,Wiesbaden,Germany
+FEL,Fuerstenfeldbruck,Germany
+IGS,Ingolstadt,Germany
+GUT,Guetersloh,Germany
+ALJ,Alexander Bay,South Africa
+AGZ,Aggeneys,South Africa
+BIY,Bisho,South Africa
+BFN,Bloemfontein,South Africa
+CPT,Cape Town,South Africa
+DUR,Durban,South Africa
+ELS,East London,South Africa
+FCB,Ficksburg,South Africa
+GCJ,Johannesburg,South Africa
+GRJ,George,South Africa
+HRS,Harrismith,South Africa
+HDS,Hoedspruit,South Africa
+JNB,Johannesburg,South Africa
+KXE,Klerksdorp,South Africa
+KIM,Kimberley,South Africa
+KMH,Kuruman,South Africa
+KLZ,Kleinsee,South Africa
+HLA,Johannesburg,South Africa
+SDB,Langebaanweg,South Africa
+LAY,Ladysmith,South Africa
+MGH,Margate,South Africa
+LLE,Malalane,South Africa
+MZQ,Mkuze,South Africa
+NCS,Newcastle,South Africa
+OVG,Overberg,South Africa
+OUH,Oudtshoorn,South Africa
+PLZ,Port Elizabeth,South Africa
+PBZ,Plettenberg Bay,South Africa
+PHW,Phalaborwa,South Africa
+JOH,Port Saint Johns,South Africa
+PZB,Pietermaritzburg,South Africa
+NTY,Pilanesberg,South Africa
+PTG,Potgietersrus,South Africa
+PCF,Potchefstroom,South Africa
+UTW,Queenstown,South Africa
+RCB,Richard's Bay,South Africa
+ROD,Robertson,South Africa
+SBU,Springbok,South Africa
+ZEC,Secunda,South Africa
+SIS,Sishen,South Africa
+SZK,Skukuza,South Africa
+LTA,Tzaneen,South Africa
+ULD,Ulundi,South Africa
+UTN,Upington,South Africa
+UTT,Umtata,South Africa
+VRU,Vryburg,South Africa
+VIR,Durban,South Africa
+VRE,Vredendal,South Africa
+PRY,Pretoria,South Africa
+WKF,Waterkloof,South Africa
+FRW,Francistown,Botswana
+JWA,Jwaneng,Botswana
+BBK,Kasane,Botswana
+MUB,Maun,Botswana
+GBE,Gaberone,Botswana
+PKW,Selebi-phikwe,Botswana
+BZV,Brazzaville,Congo (Brazzaville)
+FTX,Owando,Congo (Kinshasa)
+OUE,Ouesso,Congo (Kinshasa)
+PNR,Pointe-noire,Congo (Brazzaville)
+MTS,Manzini,Swaziland
+BGF,Bangui,Central African Republic
+BBT,Berberati,Central African Republic
+BSG,Bata,Equatorial Guinea
+SSG,Malabo,Equatorial Guinea
+ASI,Wide Awake,Saint Helena
+MRU,Plaisance,Mauritius
+RRG,Rodriguez Island,Mauritius
+NKW,Diego Garcia Island,British Indian Ocean Territory
+TKC,Tiko,Cameroon
+DLA,Douala,Cameroon
+MVR,Maroua,Cameroon
+FOM,Foumban,Cameroon
+NGE,N'gaoundere,Cameroon
+GOU,Garoua,Cameroon
+BFX,Bafoussam,Cameroon
+BPC,Bamenda,Cameroon
+YAO,Yaounde,Cameroon
+CGJ,Kasompe,Zambia
+LVI,Livingstone,Zambia
+LUN,Lusaka,Zambia
+MFU,Mfuwe,Zambia
+MNR,Mongu,Zambia
+NLA,Ndola,Zambia
+KIW,Southdowns,Zambia
+HAH,Moroni,Comoros
+NWA,Moheli,Comoros
+AJN,Anjouan,Comoros
+DZA,Dzaoudzi,Mayotte
+RUN,St.-denis,Reunion
+ZSE,St.-pierre,Reunion
+TNR,Antananarivo,Madagascar
+ZVA,Miandrivazo,Madagascar
+SMS,Sainte Marie,Madagascar
+TMM,Toamasina,Madagascar
+MOQ,Morondava,Madagascar
+DIE,Antsiranana,Madagascar
+WMR,Mananara,Madagascar
+ZWA,Andapa,Madagascar
+AMB,Ambilobe,Madagascar
+ANM,Antalaha,Madagascar
+HVA,Analalava,Madagascar
+MJN,Mahajanga,Madagascar
+NOS,Nosy-be,Madagascar
+BPY,Besalampy,Madagascar
+WMN,Maroantsetra,Madagascar
+SVB,Sambava,Madagascar
+VOH,Vohemar,Madagascar
+WAI,Antsohihy,Madagascar
+IVA,Ampampamena,Madagascar
+FTU,Tolagnaro,Madagascar
+WFI,Fianarantsoa,Madagascar
+RVA,Farafangana,Madagascar
+WVK,Manakara,Madagascar
+MNJ,Mananjary,Madagascar
+MXM,Morombe,Madagascar
+TLE,Toliara,Madagascar
+SSY,M'banza-congo,Angola
+BUG,Benguela,Angola
+CAB,Cabinda,Angola
+NOV,Huambo,Angola
+SVP,Kuito,Angola
+LAD,Luanda,Angola
+MEG,Malanje,Angola
+SPP,Menongue,Angola
+GXG,Negage,Angola
+PBN,Porto Amboim,Angola
+VHC,Saurimo,Angola
+SZA,Soyo,Angola
+SDD,Lubango,Angola
+LUO,Luena,Angola
+UGO,Uige,Angola
+XGN,Xangongo,Angola
+OYE,Oyem,Gabon
+OKN,Okondja,Gabon
+LBQ,Lambarene,Gabon
+BMM,Bitam,Gabon
+POG,Port Gentil,Gabon
+OMB,Omboue Hospial,Gabon
+MKU,Makokou,Gabon
+LBV,Libreville,Gabon
+MVB,Franceville,Gabon
+PCP,Principe,Sao Tome and Principe
+TMS,Sao Tome,Sao Tome and Principe
+BEW,Beira,Mozambique
+INH,Inhambane,Mozambique
+VXC,Lichinga,Mozambique
+LFB,Lumbo,Mozambique
+MPM,Maputo,Mozambique
+MUD,Mueda,Mozambique
+MZB,Mocimboa Da Praia,Mozambique
+MNC,Nacala,Mozambique
+APL,Nampula,Mozambique
+POL,Pemba,Mozambique
+UEL,Quelimane,Mozambique
+TET,Tete,Mozambique
+VNX,Vilankulu,Mozambique
+DES,Desroches,Seychelles
+SEZ,Mahe,Seychelles
+PRI,Praslin,Seychelles
+AEH,Abeche,Chad
+MQQ,Moundou,Chad
+NDJ,N'djamena,Chad
+FYT,Faya-largeau,Chad
+BUQ,Bulawayo,Zimbabwe
+BFO,Chiredzi,Zimbabwe
+VFA,Victoria Falls,Zimbabwe
+HRE,Harare,Zimbabwe
+KAB,Kariba,Zimbabwe
+UTA,Mutare,Zimbabwe
+MVZ,Masvingo,Zimbabwe
+GWE,Gwert,Zimbabwe
+HWN,Hwange National Park,Zimbabwe
+BLZ,Blantyre,Malawi
+KGJ,Karonga,Malawi
+KBQ,Kasungu,Malawi
+LLW,Lilongwe,Malawi
+ZZU,Mzuzu,Malawi
+MSU,Maseru,Lesotho
+FIH,Kinshasa,Congo (Kinshasa)
+NLO,Kinshasa,Congo (Kinshasa)
+MNB,Muanda,Congo (Kinshasa)
+FDU,Bandoundu,Congo (Kinshasa)
+KKW,Kikwit,Congo (Kinshasa)
+MDK,Mbandaka,Congo (Kinshasa)
+BDT,Gbadolite,Congo (Kinshasa)
+GMA,Gemena,Congo (Kinshasa)
+KLI,Kotakoli,Congo (Kinshasa)
+LIQ,Lisala,Congo (Kinshasa)
+FKI,Kisangani,Congo (Kinshasa)
+IRP,Isiro,Congo (Kinshasa)
+BUX,Bunia,Congo (Kinshasa)
+BZU,Buta Zega,Congo (Kinshasa)
+BKY,Bukavu/kavumu,Congo (Kinshasa)
+GOM,Goma,Congo (Kinshasa)
+KND,Kindu,Congo (Kinshasa)
+FBM,Lubumashi,Congo (Kinshasa)
+KWZ,Kolwezi,Congo (Kinshasa)
+FMI,Kalemie,Congo (Kinshasa)
+KMN,Kamina Base,Congo (Kinshasa)
+KGA,Kananga,Congo (Kinshasa)
+MJM,Mbuji-mayi,Congo (Kinshasa)
+BKO,Bamako,Mali
+GAQ,Gao,Mali
+KYS,Kayes,Mali
+MZI,Mopti,Mali
+TOM,Tombouctou,Mali
+BJL,Banjul,Gambia
+FUE,Fuerteventura,Spain
+VDE,Hierro,Spain
+SPC,Santa Cruz De La Palma,Spain
+LPA,Gran Canaria,Spain
+ACE,Arrecife,Spain
+TFS,Tenerife,Spain
+TFN,Tenerife,Spain
+MLN,Melilla,Spain
+FNA,Freetown,Sierra Leone
+MLW,Monrovia,Liberia
+ROB,Monrovia,Liberia
+AGA,Agadir,Morocco
+TTA,Tan Tan,Morocco
+FEZ,Fes,Morocco
+ERH,Er-rachidia,Morocco
+MEK,Meknes,Morocco
+OUD,Oujda,Morocco
+GMD,Ben Slimane,Morocco
+RBA,Rabat,Morocco
+CMN,Casablanca,Morocco
+RAK,Marrakech,Morocco
+NNA,Kentira,Morocco
+OZZ,Ouarzazate,Morocco
+AHU,Al Hociema,Morocco
+TTU,Tetouan,Morocco
+TNG,Tanger,Morocco
+ZIG,Ziguinchor,Senegal
+CSK,Cap Skiring,Senegal
+KLC,Kaolack,Senegal
+DKR,Dakar,Senegal
+XLS,St. Louis,Senegal
+BXE,Bakel,Senegal
+KGG,Kedougou,Senegal
+TUD,Tambacounda,Senegal
+AEO,Aioun El Atrouss,Mauritania
+TIY,Tidjikja,Mauritania
+KFA,Kiffa,Mauritania
+EMN,Nema,Mauritania
+KED,Kaedi,Mauritania
+NKC,Nouakschott,Mauritania
+SEY,Selibabi,Mauritania
+ATR,Atar,Mauritania
+NDB,Nouadhibou,Mauritania
+FIG,Fira,Guinea
+FAA,Faranah,Guinea
+LEK,Labe,Guinea
+SID,Amilcar Cabral,Cape Verde
+BVC,Boa Vista,Cape Verde
+MMO,Maio,Cape Verde
+SNE,Sao Nocolau Island,Cape Verde
+VXE,Sao Vicente Island,Cape Verde
+ADD,Addis Ababa,Ethiopia
+AMH,Arba Minch,Ethiopia
+AXU,Axum,Ethiopia
+BJR,Bahar Dar,Ethiopia
+DIR,Dire Dawa,Ethiopia
+GMB,Gambella,Ethiopia
+GDQ,Gondar,Ethiopia
+JIM,Jimma,Ethiopia
+LLI,Lalibella,Ethiopia
+MQX,Makale,Ethiopia
+ASO,Asosa,Ethiopia
+BJM,Bujumbura,Burundi
+HGA,Hargeisa,Somalia
+BBO,Berbera,Somalia
+KMU,Kismayu,Somalia
+ALY,Alexandria,Egypt
+ABS,Abu Simbel,Egypt
+CAI,Cairo,Egypt
+CWE,Cairo,Egypt
+HRG,Hurghada,Egypt
+EGH,El Gorah,Egypt
+LXR,Luxor,Egypt
+MUH,Mersa-matruh,Egypt
+PSD,Port Said,Egypt
+SKV,St. Catherine,Egypt
+ASW,Aswan,Egypt
+ELT,El-tor,Egypt
+EDL,Eldoret,Kenya
+GGM,Kakamega,Kenya
+KIS,Kisumu,Kenya
+KTL,Kitale,Kenya
+LOK,Lodwar,Kenya
+LAU,Lamu,Kenya
+MBA,Mombasa,Kenya
+WIL,Nairobi,Kenya
+WJR,Wajir,Kenya
+GHT,Ghat,Libya
+AKF,Kufra,Libya
+BEN,Benghazi,Libya
+SEB,Sebha,Libya
+TIP,Tripoli,Libya
+LMQ,Marsa Brega,Libya
+HUQ,Hon,Libya
+LTD,Ghadames,Libya
+GYI,Gisenyi,Rwanda
+KGL,Kigali,Rwanda
+KME,Kamembe,Rwanda
+DOG,Dongola,Sudan
+RSS,Damazin,Sudan
+ELF,El Fasher,Sudan
+KSL,Kassala,Sudan
+KDX,Kadugli,Sudan
+EBD,El Obeid,Sudan
+JUB,Juba,South Sudan
+MAK,Malakal,Sudan
+KRT,Khartoum,Sudan
+ARK,Arusha,Tanzania
+DAR,Dar Es Salaam,Tanzania
+DOD,Dodoma,Tanzania
+IRI,Iringa,Tanzania
+JRO,Kilimanjaro,Tanzania
+LKY,Lake Manyara,Tanzania
+MYW,Mtwara,Tanzania
+MWZ,Mwanza,Tanzania
+PMA,Pemba,Tanzania
+TGT,Tanga,Tanzania
+ZNZ,Zanzibar,Tanzania
+EBB,Entebbe,Uganda
+SRT,Soroti,Uganda
+TIA,Tirana,Albania
+BOJ,Bourgas,Bulgaria
+GOZ,Gorna Orechovica,Bulgaria
+PDV,Plovdiv,Bulgaria
+SOF,Sofia,Bulgaria
+SZR,Stara Zagora,Bulgaria
+VAR,Varna,Bulgaria
+LCA,Larnaca,Cyprus
+PFO,Paphos,Cyprus
+AKT,Akrotiri,Cyprus
+DBV,Dubrovnik,Croatia
+OSI,Osijek,Croatia
+PUY,Pula,Croatia
+RJK,Rijeka,Croatia
+SPU,Split,Croatia
+ZAG,Zagreb,Croatia
+ZAD,Zadar,Croatia
+ABC,Albacete,Spain
+ALC,Alicante,Spain
+LEI,Almeria,Spain
+OVD,Aviles,Spain
+ODB,Cordoba,Spain
+BIO,Bilbao,Spain
+BCN,Barcelona,Spain
+BJZ,Badajoz,Spain
+LCG,La Coruna,Spain
+GRO,Gerona,Spain
+GRX,Granada,Spain
+IBZ,Ibiza,Spain
+XRY,Jerez,Spain
+MJV,Murcia,Spain
+MAD,Madrid,Spain
+AGP,Malaga,Spain
+MAH,Menorca,Spain
+OZP,Sevilla,Spain
+PNA,Pamplona,Spain
+REU,Reus,Spain
+ROZ,Rota,Spain
+SLM,Salamanca,Spain
+EAS,San Sebastian,Spain
+SCQ,Santiago,Spain
+LEU,Seo De Urgel,Spain
+TOJ,Madrid,Spain
+VLC,Valencia,Spain
+VLL,Valladolid,Spain
+VIT,Vitoria,Spain
+VGO,Vigo,Spain
+SDR,Santander,Spain
+ZAZ,Zaragoza,Spain
+SVQ,Sevilla,Spain
+CQF,Calais,France
+BYF,Albert,France
+LTQ,Le Tourquet,France
+XVS,Valenciennes,France
+AGF,Agen,France
+BOD,Bordeaux,France
+EGC,Bergerac,France
+CNG,Cognac,France
+PIS,Poitiers,France
+MCU,Montlucon-gueret,France
+LIG,Limoges,France
+NIT,Niort,France
+TLS,Toulouse,France
+PUF,Pau,France
+LDE,Tarbes,France
+ANG,Angouleme,France
+BVE,Brive,France
+PGX,Perigueux,France
+BIQ,Biarritz-bayonne,France
+ZAO,Cahors,France
+LBI,Albi,France
+DCM,Castres,France
+RDZ,Rodez,France
+RYN,Royan,France
+XMW,Montauban,France
+RCO,Rochefort,France
+CMR,Colmar,France
+DLE,Dole,France
+OBS,Aubenas-vals-lanas,France
+LPY,Le Puy,France
+ETZ,Metz,France
+BIA,Bastia,France
+CLY,Calvi,France
+FSC,Figari,France
+AJA,Ajaccio,France
+PRP,Propriano,France
+SOZ,Solenzara,France
+AUF,Auxerre,France
+CMF,Chambery,France
+CFE,Clermont-Ferrand,France
+BOU,Bourges,France
+QNJ,Annemasse,France
+LYS,Lyon,France
+SYT,St.-yan,France
+RNE,Roanne,France
+NCY,Annecy,France
+GNB,Grenoble,France
+VAF,Valence,France
+VHY,Vichy,France
+AUR,Aurillac,France
+CHR,Chateauroux,France
+LYN,Lyon,France
+CEQ,Cannes,France
+EBU,St-Etienne,France
+CCF,Carcassonne,France
+MRS,Marseille,France
+NCE,Nice,France
+XOG,Orange,France
+PGF,Perpignan,France
+CTT,Le Castellet,France
+MPL,Montpellier,France
+BZR,Beziers,France
+AVN,Avignon,France
+MEN,Mende,France
+BVA,Beauvais,France
+EVX,Evreux,France
+LEH,Le Havre,France
+XAB,Abbeville,France
+ORE,Orleans,France
+XCR,Chalons,France
+URO,Rouen,France
+TUF,Tours,France
+CET,Cholet,France
+LVA,Laval,France
+LBG,Paris,France
+CSF,Creil,France
+CDG,Paris,France
+TNF,Toussous-le-noble,France
+ORY,Paris,France
+POX,Pontoise,France
+VIY,Villacoublay,France
+NVS,Nevers,France
+XME,Maubeuge,France
+LIL,Lille,France
+HZB,Merville,France
+XCZ,Charleville,France
+BES,Brest,France
+CER,Cherbourg,France
+DNR,Dinard,France
+LBY,La Baule,France
+GFR,Granville,France
+DOL,Deauville,France
+LRT,Lorient,France
+EDM,La Roche-sur-yon,France
+LDV,Landivisiau,France
+CFR,Caen,France
+LME,Le Mans,France
+RNS,Rennes,France
+LAI,Lannion,France
+UIP,Quimper,France
+NTE,Nantes,France
+SBK,St.-brieuc Armor,France
+MXN,Morlaix,France
+VNE,Vannes,France
+SNR,St.-nazaire,France
+BSL,Mulhouse,France
+DIJ,Dijon,France
+MZM,Metz,France
+EPL,Epinal,France
+ENC,Nancy,France
+RHE,Reims,France
+SXB,Strasbourg,France
+TLN,Hyeres,France
+FNI,Nimes,France
+MQC,Miquelon,Saint Pierre and Miquelon
+FSP,St.-pierre,Saint Pierre and Miquelon
+PYR,Andravida,Greece
+AGQ,Agrinion,Greece
+AXD,Alexandroupolis,Greece
+VOL,Nea Anghialos,Greece
+JKH,Chios,Greece
+IOA,Ioannina,Greece
+HER,Heraklion,Greece
+KSO,Kastoria,Greece
+KIT,Kithira,Greece
+EFL,Keffallinia,Greece
+KLX,Kalamata,Greece
+KGS,Kos,Greece
+AOK,Karpathos,Greece
+CFU,Kerkyra/corfu,Greece
+KSJ,Kasos,Greece
+KVA,Kavala,Greece
+KZI,Kozani,Greece
+LRS,Leros,Greece
+LXS,Limnos,Greece
+LRA,Larissa,Greece
+JMK,Mykonos,Greece
+MJT,Mytilini,Greece
+PVK,Preveza,Greece
+RHO,Rhodos,Greece
+GPA,Patras,Greece
+CHQ,Chania,Greece
+JSI,Skiathos,Greece
+SMI,Samos,Greece
+SPJ,Sparti,Greece
+JTR,Thira,Greece
+JSH,Sitia,Greece
+SKU,Skiros,Greece
+SKG,Thessaloniki,Greece
+ZTH,Zakynthos,Greece
+BUD,Budapest,Hungary
+DEB,Debrecen,Hungary
+CRV,Crotone,Italy
+BRI,Bari,Italy
+FOG,Foggia,Italy
+TAR,Grottaglie,Italy
+LCC,Lecce,Italy
+PSR,Pescara,Italy
+BDS,Brindisi,Italy
+SUF,Lamezia,Italy
+CTA,Catania,Italy
+LMP,Lampedusa,Italy
+PNL,Pantelleria,Italy
+PMO,Palermo,Italy
+REG,Reggio Calabria,Italy
+TPS,Trapani,Italy
+NSY,Sigonella,Italy
+AHO,Alghero,Italy
+DCI,Decimomannu,Italy
+CAG,Cagliari,Italy
+OLB,Olbia,Italy
+TTB,Tortoli,Italy
+MXP,Milano,Italy
+BGY,Bergamo,Italy
+TRN,Torino,Italy
+ALL,Albenga,Italy
+GOA,Genoa,Italy
+LIN,Milan,Italy
+PMF,Parma,Italy
+CUF,Cuneo,Italy
+AVB,Aviano,Italy
+BZO,Bolzano,Italy
+BLQ,Bologna,Italy
+TSF,Treviso,Italy
+FRL,Forli,Italy
+VBS,Brescia,Italy
+TRS,Ronchi De Legionari,Italy
+RMI,Rimini,Italy
+VIC,Vicenza,Italy
+QPA,Padova,Italy
+VRN,Villafranca,Italy
+VCE,Venice,Italy
+SAY,Siena,Italy
+CIA,Rome,Italy
+FCO,Rome,Italy
+EBA,Marina Di Campo,Italy
+QLT,Latina,Italy
+NAP,Naples,Italy
+PSA,Pisa,Italy
+FLR,Florence,Italy
+GRS,Grosseto,Italy
+PEG,Perugia,Italy
+LJU,Ljubljana,Slovenia
+MBX,Maribor,Slovenia
+POW,Portoroz,Slovenia
+UHE,Kunovice,Czech Republic
+KLV,Karlovy Vary,Czech Republic
+OSR,Ostrava,Czech Republic
+PED,Pardubice,Czech Republic
+PRV,Prerov,Czech Republic
+PRG,Prague,Czech Republic
+BRQ,Brno,Czech Republic
+VOD,Vodochody,Czech Republic
+TLV,Tel-aviv,Israel
+BEV,Beer-sheba,Israel
+ETH,Elat,Israel
+EIY,Eyn-yahav,Israel
+HFA,Haifa,Israel
+RPN,Rosh Pina,Israel
+MTZ,Metzada,Israel
+VTM,Nevatim,Israel
+VDA,Ovda,Israel
+MIP,Ramon,Israel
+SDV,Tel-aviv,Israel
+MLA,Malta,Malta
+GRZ,Graz,Austria
+INN,Innsbruck,Austria
+LNZ,Linz,Austria
+SZG,Salzburg,Austria
+VIE,Vienna,Austria
+AVR,Alverca,Portugal
+SMA,Santa Maria (island),Portugal
+BGC,Braganca,Portugal
+BYJ,Beja (madeira),Portugal
+BGZ,Braga,Portugal
+CAT,Cascais,Portugal
+FLW,Flores,Portugal
+FAO,Faro,Portugal
+GRW,Graciosa Island,Portugal
+HOR,Horta,Portugal
+TER,Lajes (terceira Island),Portugal
+QLR,Monte Real,Portugal
+PDL,Ponta Delgada,Portugal
+PIX,Pico,Portugal
+PRM,Portimao,Portugal
+OPO,Porto,Portugal
+PXO,Porto Santo,Portugal
+LIS,Lisbon,Portugal
+SJZ,Sao Jorge Island,Portugal
+VRL,Vila Real,Portugal
+VSE,Viseu,Portugal
+OMO,Mostar,Bosnia and Herzegovina
+SJJ,Sarajevo,Bosnia and Herzegovina
+ARW,Arad,Romania
+BCM,Bacau,Romania
+BAY,Baia Mare,Romania
+BBU,Bucharest,Romania
+CND,Constanta,Romania
+CLJ,Cluj-napoca,Romania
+CSB,Caransebes,Romania
+CRA,Craiova,Romania
+IAS,Iasi,Romania
+OMR,Oradea,Romania
+OTP,Bucharest,Romania
+SBZ,Sibiu,Romania
+SUJ,Satu Mare,Romania
+SCV,Suceava,Romania
+TCE,Tulcea,Romania
+TGM,Tirgu Mures,Romania
+TSR,Timisoara,Romania
+GVA,Geneva,Switzerland
+SIR,Sion,Switzerland
+EML,Emmen,Switzerland
+LUG,Lugano,Switzerland
+BRN,Bern,Switzerland
+ZHI,Grenchen,Switzerland
+ZRH,Zurich,Switzerland
+ACH,Altenrhein,Switzerland
+SMV,Samedan,Switzerland
+ESB,Ankara,Turkey
+ANK,Ankara,Turkey
+ADA,Adana,Turkey
+UAB,Adana,Turkey
+AFY,Afyon,Turkey
+AYT,Antalya,Turkey
+GZT,Gaziantep,Turkey
+KYA,Konya,Turkey
+MZH,Merzifon,Turkey
+VAS,Sivas,Turkey
+MLX,Malatya,Turkey
+ASR,Kayseri,Turkey
+TJK,Tokat,Turkey
+DNZ,Denizli,Turkey
+ISL,Istanbul,Turkey
+BZI,Balikesir,Turkey
+BDM,Bandirma,Turkey
+ESK,Eskisehir,Turkey
+ADB,Izmir,Turkey
+IGL,Izmir,Turkey
+KCO,Topel,Turkey
+DLM,Dalaman,Turkey
+BXN,Bodrum,Turkey
+EZS,Elazig,Turkey
+DIY,Diyabakir,Turkey
+ERC,Erzincan,Turkey
+ERZ,Erzurum,Turkey
+TZX,Trabzon,Turkey
+VAN,Van,Turkey
+BAL,Batman,Turkey
+SXZ,Siirt,Turkey
+BZY,Saltsy,Moldova
+KIV,Chisinau,Moldova
+OHD,Ohrid,Macedonia
+SKP,Skopje,Macedonia
+GIB,Gibraltar,Gibraltar
+BEG,Belgrade,Serbia
+INI,Nis,Serbia
+TGD,Podgorica,Montenegro
+PRN,Pristina,Serbia
+TIV,Tivat,Montenegro
+BTS,Bratislava,Slovakia
+KSC,Kosice,Slovakia
+PZY,Piestany,Slovakia
+SLD,Sliac,Slovakia
+TAT,Poprad,Slovakia
+NCA,North Caicos,Turks and Caicos Islands
+PLS,Providenciales,Turks and Caicos Islands
+XSC,South Caicos,Turks and Caicos Islands
+BRX,Barahona,Dominican Republic
+CBJ,Cabo Rojo,Dominican Republic
+LRM,La Romana,Dominican Republic
+PUJ,Punta Cana,Dominican Republic
+POP,Puerto Plata,Dominican Republic
+SDQ,Santo Domingo,Dominican Republic
+STI,Santiago,Dominican Republic
+CBV,Coban,Guatemala
+GUA,Guatemala City,Guatemala
+RER,Retalhuleu,Guatemala
+GSJ,San Jose,Guatemala
+LCE,La Ceiba,Honduras
+SAP,San Pedro Sula,Honduras
+GJA,Guanaja,Honduras
+RTB,Roatan,Honduras
+TEA,Tela,Honduras
+TGU,Tegucigalpa,Honduras
+TJI,Trujillo,Honduras
+OCJ,Ocho Rios,Jamaica
+KIN,Kingston,Jamaica
+MBJ,Montego Bay,Jamaica
+POT,Port Antonio,Jamaica
+KTP,Kingston,Jamaica
+ACA,Acapulco,Mexico
+NTR,Monterrey,Mexico
+AGU,Aguascalientes,Mexico
+HUX,Huatulco,Mexico
+CVJ,Cuernavaca,Mexico
+ACN,Ciudad Acuna,Mexico
+CME,Ciudad Del Carmen,Mexico
+NCG,Nuevo Casas Grandes,Mexico
+CUL,Culiacan,Mexico
+CTM,Chetumal,Mexico
+CEN,Ciudad Obregon,Mexico
+CPE,Campeche,Mexico
+CJS,Ciudad Juarez,Mexico
+CUU,Chihuahua,Mexico
+CVM,Ciudad Victoria,Mexico
+CZM,Cozumel,Mexico
+DGO,Durango,Mexico
+TPQ,Tepic,Mexico
+ESE,Ensenada,Mexico
+GDL,Guadalajara,Mexico
+GYM,Guaymas,Mexico
+TCN,Tehuacan,Mexico
+HMO,Hermosillo,Mexico
+CLQ,Colima,Mexico
+ISJ,Isla Mujeres,Mexico
+SLW,Saltillo,Mexico
+IZT,Iztepec,Mexico
+LZC,Lazard Cardenas,Mexico
+LMM,Los Mochis,Mexico
+BJX,Del Bajio,Mexico
+LAP,La Paz,Mexico
+LTO,Loreto,Mexico
+MAM,Matamoros,Mexico
+MID,Merida,Mexico
+MXL,Mexicali,Mexico
+MLM,Morelia,Mexico
+MTT,Minatitlan,Mexico
+LOV,Monclova,Mexico
+MEX,Mexico City,Mexico
+MTY,Monterrey,Mexico
+MZT,Mazatlan,Mexico
+NOG,Nogales,Mexico
+NLD,Nuevo Laredo,Mexico
+OAX,Oaxaca,Mexico
+PAZ,Poza Rico,Mexico
+PBC,Puebla,Mexico
+PPE,Punta Penasco,Mexico
+PDS,Piedras Negras,Mexico
+UPN,Uruapan,Mexico
+PVR,Puerto Vallarta,Mexico
+PXM,Puerto Escondido,Mexico
+QRO,Queretaro,Mexico
+REX,Reynosa,Mexico
+SJD,San Jose Del Cabo,Mexico
+SFH,San Filipe,Mexico
+SLP,San Luis Potosi,Mexico
+TRC,Torreon,Mexico
+TGZ,Tuxtla Gutierrez,Mexico
+TIJ,Tijuana,Mexico
+TAM,Tampico,Mexico
+TSL,Tamuin,Mexico
+TLC,Toluca,Mexico
+TAP,Tapachula,Mexico
+CUN,Cancun,Mexico
+VSA,Villahermosa,Mexico
+VER,Vera Cruz,Mexico
+ZCL,Zacatecas,Mexico
+ZIH,Zihuatanejo,Mexico
+ZMM,Zamora,Mexico
+ZLO,Manzanillo,Mexico
+BEF,Bluefields,Nicaragua
+MGA,Managua,Nicaragua
+PUZ,Puerto Cabezas,Nicaragua
+BOC,Bocas Del Toro,Panama
+CHX,Changuinola,Panama
+DAV,David,Panama
+BLB,Howard,Panama
+PAC,Panama,Panama
+SYP,Santiago,Panama
+PTY,Panama City,Panama
+BAI,Buenos Aires,Costa Rica
+OTR,Coto 47,Costa Rica
+JAP,Chacarita,Costa Rica
+GLF,Golfito,Costa Rica
+GPL,Guapiles,Costa Rica
+LIR,Liberia,Costa Rica
+LSL,Los Chiles,Costa Rica
+LIO,Limon,Costa Rica
+NOB,Nosara Beach,Costa Rica
+SJO,San Jose,Costa Rica
+PMZ,Palmar Sur,Costa Rica
+XQP,Quepos,Costa Rica
+TOO,San Vito De Jaba,Costa Rica
+SAL,San Salvador,El Salvador
+CYA,Cayes,Haiti
+CAP,Cap Haitien,Haiti
+JAK,Jacmel,Haiti
+PAP,Port-au-prince,Haiti
+BCA,Baracoa Playa,Cuba
+BYM,Bayamo,Cuba
+AVI,Ciego De Avila,Cuba
+CCC,Cunagua,Cuba
+CFG,Cienfuegos,Cuba
+CYO,Cayo Largo del Sur,Cuba
+CMW,Camaguey,Cuba
+SCU,Santiago De Cuba,Cuba
+NBW,Guantanamo,Cuba
+GAO,Guantanamo,Cuba
+HAV,Havana,Cuba
+HOG,Holguin,Cuba
+LCL,La Coloma,Cuba
+MOA,Moa,Cuba
+MZO,Manzanillo,Cuba
+GER,Nueva Gerona,Cuba
+UPB,Baracoa Playa,Cuba
+QPD,Pinar Del Rio Norte,Cuba
+SNU,Santa Clara,Cuba
+SZJ,Siguanea,Cuba
+USS,Sancti Spiritus,Cuba
+VRA,Varadero,Cuba
+VTU,Las Tunas,Cuba
+CYB,Cayman Brac,Cayman Islands
+GCM,Georgetown,Cayman Islands
+MAY,Clarence Bain,Bahamas
+ASD,Andros Town,Bahamas
+MHH,Marsh Harbor,Bahamas
+SAQ,San Andros,Bahamas
+AXP,Spring Point,Bahamas
+TCB,Treasure Cay,Bahamas
+CCZ,Chub Cay,Bahamas
+GHC,Bullocks Harbour,Bahamas
+BIM,Alice Town,Bahamas
+GGT,Great Exuma,Bahamas
+ELH,North Eleuthera,Bahamas
+GHB,Governor's Harbor,Bahamas
+NMC,Norman's Cay,Bahamas
+RSD,Rock Sound,Bahamas
+TYM,Staniel Cay,Bahamas
+FPO,Freeport,Bahamas
+IGA,Matthew Town,Bahamas
+LGI,Dead Man's Cay,Bahamas
+SML,Stella Maris,Bahamas
+MYG,Mayaguana,Bahamas
+NAS,Nassau,Bahamas
+DCT,Duncan Town,Bahamas
+RCY,Port Nelson,Bahamas
+ZSA,Cockburn Town,Bahamas
+BZE,Belize City,Belize
+AIT,Aitutaki,Cook Islands
+RAR,Avarua,Cook Islands
+NAN,Nandi,Fiji
+SUV,Nausori,Fiji
+TBU,Tongatapu,Tonga
+VAV,Vava'u,Tonga
+TRW,Tarawa,Kiribati
+TBF,Tabiteuea North,Kiribati
+WLS,Wallis,Wallis and Futuna
+APW,Faleolo,Samoa
+PPG,Pago Pago,American Samoa
+RUR,Rurutu,French Polynesia
+TUB,Tubuai,French Polynesia
+AAA,Anaa,French Polynesia
+FGU,Fangatau,French Polynesia
+TIH,Tikehau,French Polynesia
+REA,Reao,French Polynesia
+FAV,Fakarava,French Polynesia
+XMH,Manihi,French Polynesia
+GMR,Totegegie,French Polynesia
+KKR,Kaukura Atoll,French Polynesia
+MKP,Makemo,French Polynesia
+PKP,Puka Puka,French Polynesia
+TKP,Takapoto,French Polynesia
+AXR,Arutua,French Polynesia
+MVT,Mataiva,French Polynesia
+TKX,Takaroa,French Polynesia
+NHV,Nuku Hiva,French Polynesia
+BOB,Bora Bora,French Polynesia
+RGI,Rangiroa,French Polynesia
+HUH,Huahine Island,French Polynesia
+MOZ,Moorea,French Polynesia
+HOI,Hao Island,French Polynesia
+MAU,Maupiti,French Polynesia
+RFP,Raiatea Island,French Polynesia
+VLI,Port-vila,Vanuatu
+KNQ,Kone,New Caledonia
+KOC,Koumac,New Caledonia
+LIF,Lifou,New Caledonia
+GEA,Noumea,New Caledonia
+MEE,Mare,New Caledonia
+TOU,Touho,New Caledonia
+UVE,Ouvea,New Caledonia
+NOU,Noumea,New Caledonia
+AKL,Auckland,New Zealand
+TUO,Taupo,New Zealand
+AMZ,Ardmore,New Zealand
+CHC,Christchurch,New Zealand
+CHT,Chatham Island,New Zealand
+DUD,Dunedin,New Zealand
+GIS,Gisborne,New Zealand
+GTN,Glentanner,New Zealand
+HKK,Hokitika,New Zealand
+HLZ,Hamilton,New Zealand
+KKE,Kerikeri,New Zealand
+KAT,Kaitaia,New Zealand
+ALR,Alexandra,New Zealand
+MON,Mount Cook,New Zealand
+TEU,Manapouri,New Zealand
+MRO,Masterton,New Zealand
+NPL,New Plymouth,New Zealand
+NSN,Nelson,New Zealand
+IVC,Invercargill,New Zealand
+OHA,Ohakea,New Zealand
+OAM,Oamaru,New Zealand
+PMR,Palmerston North,New Zealand
+PPQ,Paraparaumu,New Zealand
+ZQN,Queenstown International,New Zealand
+ROT,Rotorua,New Zealand
+TRG,Tauranga,New Zealand
+TIU,Timaru,New Zealand
+TWZ,Pukaki,New Zealand
+BHE,Woodbourne,New Zealand
+WKA,Wanaka,New Zealand
+WHK,Whakatane,New Zealand
+WLG,Wellington,New Zealand
+WIR,Wairoa,New Zealand
+WRE,Whangarei,New Zealand
+WSZ,Westport,New Zealand
+WAG,Wanganui,New Zealand
+HEA,Herat,Afghanistan
+JAA,Jalalabad,Afghanistan
+KBL,Kabul,Afghanistan
+KDH,Kandahar,Afghanistan
+MMZ,Maimama,Afghanistan
+MZR,Mazar-i-sharif,Afghanistan
+OAH,Shindand,Afghanistan
+UND,Kunduz,Afghanistan
+BAH,Bahrain,Bahrain
+AHB,Abha,Saudi Arabia
+HOF,Al-ahsa,Saudi Arabia
+ABT,El-baha,Saudi Arabia
+BHH,Bisha,Saudi Arabia
+DMM,Dammam,Saudi Arabia
+DHA,Dhahran,Saudi Arabia
+GIZ,Gizan,Saudi Arabia
+ELQ,Gassim,Saudi Arabia
+URY,Guriat,Saudi Arabia
+HAS,Hail,Saudi Arabia
+QJB,Jubail,Saudi Arabia
+JED,Jeddah,Saudi Arabia
+KMC,King Khalid Mil.city,Saudi Arabia
+MED,Madinah,Saudi Arabia
+EAM,Nejran,Saudi Arabia
+AQI,Hafr Al-batin,Saudi Arabia
+RAH,Rafha,Saudi Arabia
+RUH,Riyadh,Saudi Arabia
+RAE,Arar,Saudi Arabia
+SHW,Sharurah,Saudi Arabia
+SLF,Sulayel,Saudi Arabia
+TUU,Tabuk,Saudi Arabia
+TIF,Taif,Saudi Arabia
+TUI,Turaif,Saudi Arabia
+EJH,Wejh,Saudi Arabia
+YNB,Yenbo,Saudi Arabia
+ABD,Abadan,Iran
+DEF,Dezful,Iran
+AKW,Aghajari,Iran
+GCH,Gachsaran,Iran
+OMI,Omidyeh,Iran
+MRX,Bandar Mahshahr,Iran
+AWZ,Ahwaz,Iran
+AEU,Abumusa I.,Iran
+BUZ,Bushehr,Iran
+KIH,Kish Island,Iran
+BDH,Bandar Lengeh,Iran
+KHK,Khark Island,Iran
+SXI,Siri Island,Iran
+LVP,Lavan Island,Iran
+KSH,Bakhtaran,Iran
+SDG,Sanandaj,Iran
+IFH,Daran,Iran
+KKS,Kashan,Iran
+IFN,Esfahan,Iran
+RAS,Rasht,Iran
+AJK,Arak,Iran
+THR,Teheran,Iran
+GZW,Ghazvin,Iran
+BND,Bandar Abbas,Iran
+JYR,Jiroft,Iran
+KER,Kerman,Iran
+HDR,Bandar Abbas,Iran
+SYJ,Sirjan,Iran
+XBJ,Birjand,Iran
+CKT,Sarakhs,Iran
+RUD,Emam Shahr,Iran
+TCX,Tabas,Iran
+KLM,Kalaleh,Iran
+RZR,Ramsar,Iran
+FAZ,Fasa,Iran
+JAR,Jahrom,Iran
+LFM,Lamerd,Iran
+SYZ,Shiraz,Iran
+KHY,Khoy,Iran
+TBZ,Tabriz,Iran
+JWN,Zanjan,Iran
+AZD,Yazd,Iran
+ACZ,Zabol,Iran
+ZBR,Chah Bahar,Iran
+ZAH,Zahedan,Iran
+IHR,Iran Shahr,Iran
+AMM,Amman,Jordan
+ADJ,Amman,Jordan
+AQJ,Aqaba,Jordan
+OMF,Mafraq,Jordan
+KWI,Kuwait,Kuwait
+BEY,Beirut,Lebanon
+KYE,Kleiat,Lebanon
+AUH,Abu Dhabi,United Arab Emirates
+AZI,Abu Dhabi,United Arab Emirates
+DHF,Abu Dhabi,United Arab Emirates
+DXB,Dubai,United Arab Emirates
+FJR,Fujeirah,United Arab Emirates
+RKT,Ras Al Khaimah,United Arab Emirates
+SHJ,Sharjah,United Arab Emirates
+KHS,Khasab,Oman
+MSH,Masirah,Oman
+MCT,Muscat,Oman
+SLL,Salalah,Oman
+TTH,Thumrait,Oman
+BHW,Bhagtanwala,Pakistan
+LYP,Faisalabad,Pakistan
+GWD,Gwadar,Pakistan
+GIL,Gilgit,Pakistan
+JAG,Jacobsbad,Pakistan
+KHI,Karachi,Pakistan
+LHE,Lahore,Pakistan
+XJM,Mangla,Pakistan
+MFG,Muzaffarabad,Pakistan
+MWD,Mianwali,Pakistan
+MJD,Moenjodaro,Pakistan
+MUX,Multan,Pakistan
+WNS,Nawabshah,Pakistan
+PJG,Panjgur,Pakistan
+PSI,Pasni,Pakistan
+PEW,Peshawar,Pakistan
+UET,Quetta,Pakistan
+RYK,Rahim Yar Khan,Pakistan
+RAZ,Rawala Kot,Pakistan
+SKZ,Sukkur,Pakistan
+SDT,Saidu Sharif,Pakistan
+SUL,Sui,Pakistan
+BDN,Talhar,Pakistan
+WAF,Wana,Pakistan
+PZH,Zhob,Pakistan
+BSR,Basrah,Iraq
+ALP,Aleppo,Syria
+DAM,Damascus,Syria
+DEZ,Deire Zor,Syria
+LTK,Latakia,Syria
+PMS,Palmyra,Syria
+DIA,Doha,Qatar
+CIS,Canton Island,Kiribati
+ROP,Rota,Northern Mariana Islands
+SPN,Saipan,Northern Mariana Islands
+UAM,Andersen,Guam
+GUM,Agana,Guam
+TIQ,West Tinian,Northern Mariana Islands
+MAJ,Majuro,Marshall Islands
+KWA,Kwajalein,Marshall Islands
+CXI,Kiritimati,Kiribati
+MDY,Midway,Midway Islands
+TKK,Chuuk,Micronesia
+PNI,Pohnpei,Micronesia
+ROR,Babelthuap,Palau
+KSA,Kosrae,Micronesia
+YAP,Yap,Micronesia
+KNH,Kinmen,Taiwan
+TTT,Fengnin,Taiwan
+GNI,Green Island,Taiwan
+KHH,Kaohsiung,Taiwan
+CYI,Chiayi,Taiwan
+KYD,Lanyu,Taiwan
+RMQ,Taichung,Taiwan
+TNN,Tainan,Taiwan
+HSZ,Hsinchu,Taiwan
+MZG,Makung,Taiwan
+PIF,Pingtung,Taiwan
+TSA,Taipei,Taiwan
+TPE,Taipei,Taiwan
+WOT,Wang An,Taiwan
+HUN,Hualien,Taiwan
+NRT,Tokyo,Japan
+MMJ,Matsumoto,Japan
+IBR,Ibaraki,Japan
+MUS,Minami Tori Shima,Japan
+IWO,Iwojima,Japan
+SHM,Nanki-shirahama,Japan
+OBO,Obihiro,Japan
+CTS,Sapporo,Japan
+HKD,Hakodate,Japan
+MMB,Memanbetsu,Japan
+SHB,Nakashibetsu,Japan
+WKJ,Wakkanai,Japan
+IKI,Iki,Japan
+UBJ,Yamaguchi,Japan
+TSJ,Tsushima,Japan
+MBE,Monbetsu,Japan
+AKJ,Asahikawa,Japan
+OIR,Okushiri,Japan
+RIS,Rishiri Island,Japan
+KUM,Yakushima,Japan
+FUJ,Fukue,Japan
+FUK,Fukuoka,Japan
+TNE,Tanegashima,Japan
+KOJ,Kagoshima,Japan
+KMI,Miyazaki,Japan
+OIT,Oita,Japan
+KKJ,Kitakyushu,Japan
+KMJ,Kumamoto,Japan
+NGS,Nagasaki,Japan
+ASJ,Amami,Japan
+OKE,Okierabu,Japan
+TKN,Tokunoshima,Japan
+FKJ,Fukui,Japan
+QGU,Gifu,Japan
+KMQ,Kanazawa,Japan
+OKI,Oki Island,Japan
+TOY,Toyama,Japan
+HIJ,Hiroshima,Japan
+OKJ,Okayama,Japan
+IZO,Izumo,Japan
+YGJ,Miho,Japan
+KCZ,Kochi,Japan
+MYJ,Matsuyama,Japan
+ITM,Osaka,Japan
+TTJ,Tottori,Japan
+TKS,Tokushima,Japan
+TAK,Takamatsu,Japan
+AOJ,Aomori,Japan
+GAJ,Yamagata,Japan
+SDS,Sado,Japan
+HHE,Hachinoe,Japan
+HNA,Hanamaki,Japan
+AXT,Akita,Japan
+MSJ,Misawa,Japan
+SDJ,Sendai,Japan
+NJA,Atsugi,Japan
+HAC,Hachijojima,Japan
+OIM,Oshima,Japan
+HND,Tokyo,Japan
+OKO,Yokota,Japan
+KWJ,Kwangju,South Korea
+CHN,Jhunju,South Korea
+RSU,Yeosu,South Korea
+KAG,Kangnung,South Korea
+CJU,Cheju,South Korea
+CHF,Chinhae,South Korea
+PUS,Busan,South Korea
+USN,Ulsan,South Korea
+SSN,Seoul East,South Korea
+OSN,Osan,South Korea
+GMP,Seoul,South Korea
+SWU,Suwon,South Korea
+KPO,Pohang,South Korea
+TAE,Taegu,South Korea
+YEC,Yechon,South Korea
+OKA,Okinawa,Japan
+DNA,Kadena,Japan
+ISG,Ishigaki,Japan
+UEO,Kumejima,Japan
+MMD,Minami Daito,Japan
+MMY,Miyako,Japan
+KTD,Kitadaito,Japan
+SHI,Shimojishima,Japan
+TRA,Tarama,Japan
+RNJ,Yoron,Japan
+OGN,Yonaguni Jima,Japan
+MNL,Manila,Philippines
+CBO,Cotabato,Philippines
+PAG,Pagadian,Philippines
+GES,Romblon,Philippines
+ZAM,Zamboanga,Philippines
+BAG,Baguio,Philippines
+DTE,Daet,Philippines
+SJI,San Jose,Philippines
+MBO,Mamburao,Philippines
+BQA,Baler,Philippines
+TAC,Tacloban,Philippines
+BCD,Bacolod,Philippines
+DGT,Dumaguete,Philippines
+MPH,Caticlan,Philippines
+ILO,Iloilo,Philippines
+KLO,Kalibo,Philippines
+PPS,Puerto Princesa,Philippines
+EUQ,San Jose,Philippines
+COC,Concordia,Argentina
+GHU,Gualeguaychu,Argentina
+JNI,Junin,Argentina
+PRA,Parana,Argentina
+ROS,Rosario,Argentina
+SFN,Santa Fe,Argentina
+AEP,Buenos Aires,Argentina
+COR,Cordoba,Argentina
+FDO,San Fernando,Argentina
+LPG,La Plata,Argentina
+EPA,El Palomar,Argentina
+HOS,Chosmadal,Argentina
+GNR,Fuerte Gral Roca,Argentina
+MDZ,Mendoza,Argentina
+LGS,Malargue,Argentina
+AFA,San Rafael,Argentina
+CTC,Catamarca,Argentina
+SDE,Santiago Del Estero,Argentina
+IRJ,La Rioja,Argentina
+TUC,Tucuman,Argentina
+UAQ,San Juan,Argentina
+RCU,Rio Cuarto,Argentina
+VDR,Villa Dolores,Argentina
+VME,Villa Reynolds,Argentina
+LUQ,San Luis,Argentina
+CNQ,Corrientes,Argentina
+RES,Resistencia,Argentina
+FMA,Formosa,Argentina
+IGR,Iguazu Falls,Argentina
+AOL,Paso De Los Libres,Argentina
+MCS,Monte Caseros,Argentina
+PSS,Posadas,Argentina
+PRQ,Presidencia R.s.pena,Argentina
+SLA,Salta,Argentina
+JUJ,Jujuy,Argentina
+ORA,Oran,Argentina
+ELO,El Dorado,Argentina
+OYA,Goya,Argentina
+RCQ,Reconquista,Argentina
+UZU,Curuzu Cuatia,Argentina
+EHL,El Bolson,Argentina
+CRD,Comodoro Rivadavia,Argentina
+EQS,Esquel,Argentina
+REL,Trelew,Argentina
+VDM,Viedma,Argentina
+PMY,Puerto Madryn,Argentina
+PUD,Puerto Deseado,Argentina
+RGA,Rio Grande,Argentina
+RGL,Rio Gallegos,Argentina
+USH,Ushuaia,Argentina
+ULA,San Julian,Argentina
+PMQ,Perito Moreno,Argentina
+RZA,Santa Cruz,Argentina
+BHI,Bahia Blanca,Argentina
+CSZ,Colonel Suarez,Argentina
+OVR,Olavarria,Argentina
+GPO,General Pico,Argentina
+OYO,Tres Arroyos,Argentina
+MDQ,Mar Del Plata,Argentina
+NQN,Neuquen,Argentina
+PEH,Pehuajo,Argentina
+RSA,Santa Rosa,Argentina
+BRC,San Carlos De Bariloche,Argentina
+TDL,Tandil,Argentina
+VLG,Villa Gesell,Argentina
+CUT,Cutralco,Argentina
+CPC,San Martin Des Andes,Argentina
+CDJ,Conceicao Do Araguaia,Brazil
+AQA,Araracuara,Brazil
+AJU,Aracaju,Brazil
+AFL,Alta Floresta,Brazil
+ARU,Aracatuba,Brazil
+BEL,Belem,Brazil
+BGX,Bage,Brazil
+PLU,Belo Horizonte,Brazil
+BFH,Curitiba,Brazil
+BSB,Brasilia,Brazil
+BAU,Bauru,Brazil
+BVB,Boa Vista,Brazil
+BPG,Barra Do Garcas,Brazil
+CAC,Cascavel,Brazil
+CNF,Belo Horizonte,Brazil
+CGR,Campo Grande,Brazil
+XAP,Chapeco,Brazil
+CLN,Carolina,Brazil
+CCM,Criciuma,Brazil
+CAW,Campos,Brazil
+CMG,Corumba,Brazil
+CWB,Curitiba,Brazil
+CRQ,Caravelas,Brazil
+CXJ,Caxias Do Sul,Brazil
+CGB,Cuiaba,Brazil
+CZS,Cruzeiro do Sul,Brazil
+PPB,President Prudente,Brazil
+MAO,Manaus,Brazil
+JCR,Jacare-acanga,Brazil
+IGU,Foz Do Iguacu,Brazil
+FLN,Florianopolis,Brazil
+FEN,Fernando Do Noronha,Brazil
+FOR,Fortaleza,Brazil
+GIG,Rio De Janeiro,Brazil
+GJM,Guajara-mirim,Brazil
+GYN,Goiania,Brazil
+GRU,Sao Paulo,Brazil
+GUJ,Guaratingueta,Brazil
+ATM,Altamira,Brazil
+ITA,Itaituba,Brazil
+ITB,Itaituba,Brazil
+IOS,Ilheus,Brazil
+IPN,Ipatinga,Brazil
+ITR,Itumbiara,Brazil
+IMP,Imperatriz,Brazil
+JDF,Juiz De Fora,Brazil
+JPA,Joao Pessoa,Brazil
+JOI,Joinville,Brazil
+CPV,Campina Grande,Brazil
+VCP,Campinas,Brazil
+LAJ,Lajes,Brazil
+LIP,Lins,Brazil
+LDB,Londrina,Brazil
+LAZ,Bom Jesus Da Lapa,Brazil
+MAB,Maraba,Brazil
+MEU,Almeirim,Brazil
+MGF,Maringa,Brazil
+MOC,Montes Claros,Brazil
+PLL,Manaus,Brazil
+MCZ,Maceio,Brazil
+MCP,Macapa,Brazil
+MVF,Mocord,Brazil
+MNX,Manicore,Brazil
+NVT,Navegantes,Brazil
+GEL,Santo Angelo,Brazil
+NAT,Natal,Brazil
+OYK,Oioiapoque,Brazil
+POA,Porto Alegre,Brazil
+PHB,Parnaiba,Brazil
+POO,Pocos De Caldas,Brazil
+PFB,Passo Fundo,Brazil
+PET,Pelotas,Brazil
+PNZ,Petrolina,Brazil
+PNB,Porto Nacional,Brazil
+PMG,Ponta Pora,Brazil
+PVH,Porto Velho,Brazil
+RBR,Rio Branco,Brazil
+REC,Recife,Brazil
+SDU,Rio De Janeiro,Brazil
+RAO,Ribeirao Preto,Brazil
+SNZ,Rio De Janeiro,Brazil
+SJK,Sao Jose Dos Campos,Brazil
+SLZ,Sao Luis,Brazil
+CGH,Sao Paulo,Brazil
+SJP,Sao Jose Do Rio Preto,Brazil
+SSZ,Santos,Brazil
+SSA,Salvador,Brazil
+TMT,Oriximina,Brazil
+THE,Teresina,Brazil
+TFF,Tefe,Brazil
+TRQ,Tarauaca,Brazil
+TEC,Telemaco Borba,Brazil
+TBT,Tabatinga,Brazil
+TUR,Tucurui,Brazil
+SJL,Sao Gabriel,Brazil
+PAV,Paulo Alfonso,Brazil
+URG,Uruguaiana,Brazil
+UDI,Uberlandia,Brazil
+UBA,Uberaba,Brazil
+VAG,Varginha,Brazil
+BVH,Vilhena,Brazil
+VIX,Vitoria,Brazil
+QPS,Piracununga,Brazil
+ARI,Arica,Chile
+BBA,Balmaceda,Chile
+CCH,Chile Chico,Chile
+CJC,Calama,Chile
+YAI,Chillan,Chile
+PUQ,Punta Arenas,Chile
+GXQ,Coyhaique,Chile
+IQQ,Iquique,Chile
+SCL,Santiago,Chile
+ANF,Antofagasta,Chile
+WPR,Porvenir,Chile
+FFU,Futaleufu,Chile
+LSQ,Los Angeles,Chile
+WPU,Puerto Williams,Chile
+CCP,Concepcion,Chile
+IPC,Easter Island,Chile
+ZOS,Osorno,Chile
+VLR,Vallenar,Chile
+QRC,Rancagua,Chile
+TNM,Isla Rey Jorge,Antarctica
+LSC,La Serena,Chile
+PZS,Temuco,Chile
+PMC,Puerto Montt,Chile
+WCH,Chaiten,Chile
+ZAL,Valdivia,Chile
+ATF,Ambato,Ecuador
+OCC,Coca,Ecuador
+CUE,Cuenca,Ecuador
+GPS,Galapagos,Ecuador
+GYE,Guayaquil,Ecuador
+LTX,Latacunga,Ecuador
+MRR,Macara,Ecuador
+XMS,Macas,Ecuador
+MCH,Machala,Ecuador
+MEC,Manta,Ecuador
+PVO,Portoviejo,Ecuador
+UIO,Quito,Ecuador
+ETR,Santa Rosa,Ecuador
+SNC,Salinas,Ecuador
+TPC,Tarapoa,Ecuador
+TUA,Tulcan,Ecuador
+ASU,Asuncion,Paraguay
+AYO,Ayolas,Paraguay
+CIO,Conception,Paraguay
+ESG,Mariscal Estigarribia,Paraguay
+PIL,Pilar,Paraguay
+AXM,Armenia,Colombia
+PUU,Puerto Asis,Colombia
+ELB,El Banco,Colombia
+BGA,Bucaramanga,Colombia
+BOG,Bogota,Colombia
+BAQ,Barranquilla,Colombia
+BSC,Bahia Solano,Colombia
+BUN,Buenaventura,Colombia
+CUC,Cucuta,Colombia
+CTG,Cartagena,Colombia
+CLO,Cali,Colombia
+TCO,Tumaco,Colombia
+CZU,Corozal,Colombia
+EJA,Barrancabermeja,Colombia
+FLA,Florencia,Colombia
+GIR,Girardot,Colombia
+GPI,Guapi,Colombia
+IBE,Ibague,Colombia
+IPI,Ipiales,Colombia
+APO,Carepa,Colombia
+MCJ,La Mina,Colombia
+LET,Leticia,Colombia
+EOH,Medellin,Colombia
+MGN,Magangue,Colombia
+MTR,Monteria,Colombia
+MVP,Mitu,Colombia
+MZL,Manizales,Colombia
+NVA,Neiva,Colombia
+OCV,Ocana,Colombia
+OTU,Otu,Colombia
+PCR,Puerto Carreno,Colombia
+PEI,Pereira,Colombia
+PTX,Pitalito,Colombia
+PPN,Popayan,Colombia
+PSO,Pasto,Colombia
+PVA,Providencia,Colombia
+MQU,Mariquita,Colombia
+MDE,Rio Negro,Colombia
+RCH,Rio Hacha,Colombia
+SJE,San Jose Del Guaviare,Colombia
+SMR,Santa Marta,Colombia
+ADZ,San Andres Island,Colombia
+SVI,San Vincente De Caguan,Colombia
+TME,Tame,Colombia
+AUC,Arauca,Colombia
+UIB,Quibdo,Colombia
+ULQ,Tulua,Colombia
+VUP,Valledupar,Colombia
+VVC,Villavicencio,Colombia
+BJO,Bermejo,Bolivia
+CBB,Cochabamba,Bolivia
+CCA,Chapacura,Bolivia
+CIJ,Cobija,Bolivia
+LPB,La Paz,Bolivia
+ORU,Oruro,Bolivia
+POI,Potosi,Bolivia
+PSZ,Puerto Suarez,Bolivia
+SBL,Santa Ana,Bolivia
+SRE,Sucre,Bolivia
+TJA,Tarija,Bolivia
+TDD,Trinidad,Bolivia
+VLM,Villa Montes,Bolivia
+VVI,Santa Cruz,Bolivia
+BYC,Yacuiba,Bolivia
+PBM,Zandery,Suriname
+CAY,Cayenne,French Guiana
+OYP,St.-georges Oyapock,French Guiana
+AOP,Andoas,Peru
+IBP,Iberia,Peru
+PCL,Pucallpa,Peru
+CHM,Chimbote,Peru
+CIX,Chiclayo,Peru
+AYP,Ayacucho,Peru
+ANS,Andahuaylas,Peru
+ATA,Anta,Peru
+LIM,Lima,Peru
+JJI,Juanjui,Peru
+JAU,Jauja,Peru
+JUL,Juliaca,Peru
+ILQ,Ilo,Peru
+TBP,Tumbes,Peru
+YMS,Yurimaguas,Peru
+CHH,Chachapoyas,Peru
+IQT,Iquitos,Peru
+AQP,Arequipa,Peru
+TRU,Trujillo,Peru
+PIO,Pisco,Peru
+TPP,Tarapoto,Peru
+TCQ,Tacna,Peru
+PEM,Puerto Maldonado,Peru
+PIU,Piura,Peru
+TYL,Talara,Peru
+CUZ,Cuzco,Peru
+DZO,Durazno,Uruguay
+MVD,Montevideo,Uruguay
+STY,Salto,Uruguay
+AGV,Acarigua,Venezuela
+AAO,Anaco,Venezuela
+BLA,Barcelona,Venezuela
+BNS,Barinas,Venezuela
+BRM,Barquisimeto,Venezuela
+CBL,Ciudad Bolivar,Venezuela
+CXA,Caicara De Orinoco,Venezuela
+CLZ,Calabozo,Venezuela
+CAJ,Canaima,Venezuela
+VCR,Carora,Venezuela
+CUP,Carupano,Venezuela
+CZE,Coro,Venezuela
+CUM,Cumana,Venezuela
+EOR,El Dorado,Venezuela
+EOZ,Elorza,Venezuela
+GDO,Guasdualito,Venezuela
+GUI,Guiria,Venezuela
+GUQ,Guanare,Venezuela
+HGE,Higuerote,Venezuela
+ICC,Isla De Coche,Venezuela
+LSP,Paraguana,Venezuela
+LFR,La Fria,Venezuela
+MAR,Maracaibo,Venezuela
+MRD,Merida,Venezuela
+PMV,Porlamar,Venezuela
+CCS,Caracas,Venezuela
+MUN,Maturin,Venezuela
+PYH,Puerto Ayacucho,Venezuela
+PBL,Puerto Cabello,Venezuela
+SCI,San Cristobal,Venezuela
+PZO,Guayana,Venezuela
+PTM,Palmarito,Venezuela
+SVZ,San Antonio,Venezuela
+SBB,Santa Barbara,Venezuela
+SNV,Santa Ana De Uairen,Venezuela
+STD,Santo Domingo,Venezuela
+SNF,San Felipe,Venezuela
+SFD,San Fernando De Apure,Venezuela
+SOM,San Tome,Venezuela
+STB,Santa Barbara,Venezuela
+TUV,Tucupita,Venezuela
+TMO,Tumeremo,Venezuela
+VLN,Valencia,Venezuela
+VLV,Valera,Venezuela
+VDP,Valle De La Pascua,Venezuela
+LTM,Lethem,Guyana
+ANU,Antigua,Antigua and Barbuda
+BGI,Bridgetown,Barbados
+DCF,Canefield,Dominica
+DOM,Dominica,Dominica
+FDF,Fort-de-france,Martinique
+SFG,St. Martin,Guadeloupe
+PTP,Pointe-a-pitre,Guadeloupe
+GND,Point Salines,Grenada
+STT,St. Thomas,Virgin Islands
+STX,St. Croix Island,Virgin Islands
+BQN,Aguadilla,Puerto Rico
+FAJ,Fajardo,Puerto Rico
+SIG,San Juan,Puerto Rico
+MAZ,Mayaguez,Puerto Rico
+PSE,Ponce,Puerto Rico
+SJU,San Juan,Puerto Rico
+SKB,Basse Terre,Saint Kitts and Nevis
+SLU,Castries,Saint Lucia
+UVF,Hewandorra,Saint Lucia
+AUA,Oranjestad,Aruba
+BON,Kralendijk,Netherlands Antilles
+CUR,Willemstad,Netherlands Antilles
+EUX,Oranjestad,Netherlands Antilles
+SXM,Philipsburg,Netherlands Antilles
+AXA,The Valley,Anguilla
+TAB,Scarborough,Trinidad and Tobago
+POS,Port-of-spain,Trinidad and Tobago
+EIS,Tortola,British Virgin Islands
+CIW,Canouan Island,Saint Vincent and the Grenadines
+MQS,Mustique,Saint Vincent and the Grenadines
+SVD,Kingstown,Saint Vincent and the Grenadines
+ALA,Alma-ata,Kazakhstan
+BXH,Balkhash,Kazakhstan
+TSE,Tselinograd,Kazakhstan
+DMB,Dzhambul,Kazakhstan
+FRU,Bishkek,Kyrgyzstan
+OSS,Osh,Kyrgyzstan
+CIT,Chimkent,Kazakhstan
+URA,Uralsk,Kazakhstan
+PWQ,Pavlodar,Kazakhstan
+PLX,Semiplatinsk,Kazakhstan
+AKX,Aktyubinsk,Kazakhstan
+GYD,Baku,Azerbaijan
+YKS,Yakutsk,Russia
+MJZ,Mirnyj,Russia
+BQS,Blagoveschensk,Russia
+KHV,Khabarovsk,Russia
+PVS,Provideniya Bay,Russia
+GDX,Magadan,Russia
+PWE,Pevek,Russia
+PKC,Petropavlovsk,Russia
+UUS,Yuzhno-sakhalinsk,Russia
+VVO,Vladivostok,Russia
+HTA,Chita,Russia
+BTK,Bratsk,Russia
+IKT,Irkutsk,Russia
+UUD,Ulan-ude,Russia
+KBP,Kiev,Ukraine
+DOK,Donetsk,Ukraine
+DNK,Dnepropetrovsk,Ukraine
+SIP,Simferopol,Ukraine
+IEV,Kiev,Ukraine
+LWO,Lvov,Ukraine
+ODS,Odessa,Ukraine
+LED,St. Petersburg,Russia
+MMK,Murmansk,Russia
+GME,Gomel,Belarus
+VTB,Vitebsk,Belarus
+KGD,Kaliningrad,Russia
+MHP,Minsk,Belarus
+MSQ,Minsk 2,Belarus
+ABA,Abakan,Russia
+BAX,Barnaul,Russia
+KEJ,Kemorovo,Russia
+OMS,Omsk,Russia
+KRR,Krasnodar,Russia
+MCX,Makhachkala,Russia
+MRV,Mineralnye Vody,Russia
+STW,Stavropol,Russia
+ROV,Rostov,Russia
+AER,Sochi,Russia
+ASF,Astrakhan,Russia
+VOG,Volgograd,Russia
+CEK,Chelyabinsk,Russia
+MQF,Magnetiogorsk,Russia
+NJC,Nizhnevartovsk,Russia
+PEE,Perm,Russia
+SGC,Surgut,Russia
+SVX,Yekaterinburg,Russia
+ASB,Ashkhabad,Turkmenistan
+KRW,Krasnovodsk,Turkmenistan
+CRZ,Chardzhou,Turkmenistan
+DYU,Dushanbe,Tajikistan
+BHK,Bukhara,Uzbekistan
+SKD,Samarkand,Uzbekistan
+TAS,Tashkent,Uzbekistan
+BZK,Bryansk,Russia
+SVO,Moscow,Russia
+KLD,Tver,Russia
+VOZ,Voronezh,Russia
+VKO,Moscow,Russia
+SCW,Syktyvkar,Russia
+KZN,Kazan,Russia
+REN,Orenburg,Russia
+UFA,Ufa,Russia
+KUF,Samara,Russia
+AMD,Ahmedabad,India
+AKD,Akola,India
+IXU,Aurangabad,India
+BOM,Mumbai,India
+PAB,Bilaspur,India
+BHJ,Bhuj,India
+IXG,Belgaum,India
+BDQ,Baroda,India
+BHO,Bhopal,India
+BHU,Bhaunagar,India
+NMB,Daman,India
+GUX,Guna,India
+GOI,Goa,India
+IDR,Indore,India
+JLR,Jabalpur,India
+JGA,Jamnagar,India
+IXY,Kandla,India
+HJR,Khajuraho,India
+KLH,Kolhapur,India
+IXK,Keshod,India
+NAG,Nagpur,India
+ISK,Nasik Road,India
+PNQ,Pune,India
+PBD,Porbandar,India
+RAJ,Rajkot,India
+RPR,Raipur,India
+SSE,Sholapur,India
+STV,Surat,India
+UDR,Udaipur,India
+CMB,Colombo,Sri Lanka
+ACJ,Anuradhapura,Sri Lanka
+BTC,Batticaloa,Sri Lanka
+RML,Colombo,Sri Lanka
+ADP,Galoya,Sri Lanka
+JAF,Jaffna,Sri Lanka
+TRR,Trinciomalee,Sri Lanka
+KZC,Kompong Chnang,Cambodia
+PNH,Phnom-penh,Cambodia
+REP,Siem-reap,Cambodia
+TNX,Stung Treng,Cambodia
+IXV,Along,India
+IXA,Agartala,India
+AJL,Aizwal,India
+IXB,Baghdogra,India
+BBI,Bhubaneswar,India
+CCU,Kolkata,India
+COH,Cooch-behar,India
+DBD,Dhanbad,India
+GAY,Gaya,India
+IMF,Imphal,India
+IXW,Jamshedpur,India
+JRH,Jorhat,India
+IXH,Kailashahar,India
+IXS,Silchar,India
+IXI,Lilabari,India
+DIB,Mohanbari,India
+MZU,Mazuffarpur,India
+PAT,Patina,India
+IXR,Ranchi,India
+RRK,Rourkela,India
+VTZ,Vishakhapatnam,India
+ZER,Zero,India
+CXB,Cox's Bazar,Bangladesh
+CGP,Chittagong,Bangladesh
+IRD,Ishurdi,Bangladesh
+JSR,Jessore,Bangladesh
+RJH,Rajshahi,Bangladesh
+SPD,Saidpur,Bangladesh
+ZYL,Sylhet Osmani,Bangladesh
+DAC,Dhaka,Bangladesh
+HKG,Hong Kong,Hong Kong
+AGR,Agra,India
+IXD,Allahabad,India
+ATQ,Amritsar,India
+BKB,Bikaner,India
+VNS,Varanasi,India
+KUU,Kulu,India
+BUP,Bhatinda,India
+BEK,Bareilly,India
+IXC,Chandigarh,India
+KNU,Kanpur,India
+DED,Dehra Dun,India
+DEL,Delhi,India
+GWL,Gwalior,India
+HSS,Hissar,India
+JDH,Jodhpur,India
+JAI,Jaipur,India
+JSA,Jaisalmer,India
+IXJ,Jammu,India
+KTU,Kota,India
+LUH,Ludhiaha,India
+IXL,Leh,India
+LKO,Lucknow,India
+IXP,Pathankot,India
+PGH,Nainital,India
+SXR,Srinagar,India
+TNI,Satna,India
+LPQ,Luang Prabang,Laos
+PKZ,Pakse,Laos
+ZVK,Savannakhet,Laos
+NEU,Sam Neua,Laos
+VTE,Vientiane,Laos
+MFM,Macau,Macau
+BWA,Bhairawa,Nepal
+JKR,Janakpur,Nepal
+KTM,Kathmandu,Nepal
+PKR,Pokhara,Nepal
+SIF,Simara,Nepal
+BIR,Biratnagar,Nepal
+AGX,Agatti Island,India
+BLR,Bangalore,India
+BEP,Bellary,India
+VGA,Vijayawada,India
+CJB,Coimbatore,India
+COK,Kochi,India
+CCJ,Calicut,India
+CDP,Cuddapah,India
+CBD,Carnicobar,India
+BPM,Hyderabad,India
+IXM,Madurai,India
+IXE,Mangalore,India
+MAA,Madras,India
+IXZ,Port Blair,India
+PNY,Pendicherry,India
+RJA,Rajahmundry,India
+SXV,Salem,India
+TJV,Tanjore,India
+TIR,Tirupeti,India
+TRZ,Tiruchirappalli,India
+TRV,Trivandrum,India
+PBH,Thimphu,Bhutan
+MLE,Male,Maldives
+DMK,Bangkok,Thailand
+KDT,Nakhon Pathom,Thailand
+UTP,Pattaya,Thailand
+LPT,Lampang,Thailand
+PRH,Phrae,Thailand
+HHQ,Prachuap Khiri Khan,Thailand
+TKH,Nakhon Sawan,Thailand
+PHS,Phitsanulok,Thailand
+NAW,Narathiwat,Thailand
+KBV,Krabi,Thailand
+SGZ,Songkhla,Thailand
+PAN,Pattani,Thailand
+USM,Ko Samui,Thailand
+HKT,Phuket,Thailand
+UNN,Ranong,Thailand
+HDY,Hat Yai,Thailand
+TST,Trang,Thailand
+UTH,Udon Thani,Thailand
+SNO,Sakon Nakhon,Thailand
+PXR,Surin,Thailand
+LOE,Loei,Thailand
+DAD,Danang,Vietnam
+HAN,Hanoi,Vietnam
+NHA,Nhatrang,Vietnam
+HUI,Hue,Vietnam
+PQC,Phuquoc,Vietnam
+SGN,Ho Chi Minh City,Vietnam
+VBA,Ann,Burma
+NYU,Bagan,Burma
+HEH,Heho,Burma
+HOX,Hommalin,Burma
+KET,Kengtung,Burma
+KYP,Kyaukpyu,Burma
+LSH,Lashio,Burma
+MDL,Mandalay,Burma
+MGZ,Myeik,Burma
+MYT,Myitkyina,Burma
+MOE,Momeik,Burma
+MOG,Mong Hsat,Burma
+NMS,Namsang,Burma
+PAA,Hpa-an,Burma
+PBU,Putao,Burma
+PRU,Pyay,Burma
+AKY,Sittwe,Burma
+SNW,Thandwe,Burma
+THL,Tachilek,Burma
+RGN,Yangon,Burma
+UPG,Ujung Pandang,Indonesia
+BIK,Biak,Indonesia
+NBX,Nabire,Indonesia
+TIM,Timika,Indonesia
+DJJ,Jayapura,Indonesia
+WMX,Wamena,Indonesia
+MKQ,Merauke,Indonesia
+GTO,Gorontalo,Indonesia
+PLW,Palu,Indonesia
+MDC,Manado,Indonesia
+PSJ,Poso,Indonesia
+OTI,Morotai Island,Indonesia
+TTE,Ternate,Indonesia
+LUW,Luwuk,Indonesia
+AMQ,Ambon,Indonesia
+FKQ,Fak Fak,Indonesia
+KNG,Kaimana,Indonesia
+BXB,Babo,Indonesia
+MKW,Manokwari,Indonesia
+SOQ,Sorong,Indonesia
+BTU,Bintulu,Malaysia
+KCH,Kuching,Malaysia
+LMN,Limbang,Malaysia
+MUR,Marudi,Malaysia
+MYY,Miri,Malaysia
+SBW,Sibu,Malaysia
+LDU,Lahad Datu,Malaysia
+BKI,Kota Kinabalu,Malaysia
+LBU,Labuan,Malaysia
+TWU,Tawau,Malaysia
+BWN,Bandar Seri Begawan,Brunei
+PKU,Pekanbaru,Indonesia
+DUM,Dumai,Indonesia
+CGK,Jakarta,Indonesia
+GNS,Gunung Sitoli,Indonesia
+AEG,Padang Sidempuan,Indonesia
+PDG,Padang,Indonesia
+MES,Medan,Indonesia
+FLZ,Sibolga,Indonesia
+NPO,Nangapinoh,Indonesia
+KTG,Ketapang,Indonesia
+PNK,Pontianak,Indonesia
+DJB,Jambi,Indonesia
+BKS,Bengkulu,Indonesia
+PLM,Palembang,Indonesia
+RGT,Rengat,Indonesia
+LSX,Lhok Sukon,Indonesia
+BTJ,Banda Aceh,Indonesia
+AOR,Alor Setar,Malaysia
+BWH,Butterworth,Malaysia
+KBR,Kota Bahru,Malaysia
+KUA,Kuantan,Malaysia
+KTE,Kerteh,Malaysia
+IPH,Ipoh,Malaysia
+JHB,Johor Bahru,Malaysia
+KUL,Kuala Lumpur,Malaysia
+LGK,Langkawi,Malaysia
+MKZ,Malacca,Malaysia
+TGG,Kuala Terengganu,Malaysia
+PEN,Penang,Malaysia
+UAI,Suai,East Timor
+DIL,Dili,East Timor
+BCH,Baucau,East Timor
+QPG,Paya Lebar,Singapore
+TGA,Tengah,Singapore
+XSP,Singapore,Singapore
+SIN,Singapore,Singapore
+ACF,Brisbane,Australia
+ABM,Amberley,Australia
+ASP,Alice Springs,Australia
+BNE,Brisbane,Australia
+OOL,Coolangatta,Australia
+CNS,Cairns,Australia
+CTL,Charlieville,Australia
+ISA,Mount Isa,Australia
+MCY,Maroochydore,Australia
+MKY,Mackay,Australia
+PPP,Prosserpine,Australia
+ROK,Rockhampton,Australia
+TSV,Townsville,Australia
+WEI,Weipa,Australia
+AVV,Avalon,Australia
+ABX,Albury,Australia
+MEB,Melbourne,Australia
+HBA,Hobart,Australia
+LST,Launceston,Australia
+MBW,Melbourne,Australia
+MEL,Melbourne,Australia
+ADL,Adelaide,Australia
+JAD,Perth,Australia
+KTA,Karratha,Australia
+KGI,Kalgoorlie,Australia
+KNX,Kununurra,Australia
+LEA,Learmonth,Australia
+PHE,Port Hedland,Australia
+PER,Perth,Australia
+UMR,Woomera,Australia
+XCH,Christmas Island,Christmas Island
+BWU,Sydney,Australia
+CBR,Canberra,Australia
+CFS,Coff's Harbour,Australia
+CDU,Camden,Australia
+DBO,Dubbo,Australia
+NLK,Norfolk Island,Norfolk Island
+XRH,Richmond,Australia
+SYD,Sydney,Australia
+TMW,Tamworth,Australia
+WGA,Wagga Wagga,Australia
+PEK,Beijing,China
+HLD,Hailar,China
+TSN,Tianjin,China
+TYN,Taiyuan,China
+CAN,Guangzhou,China
+CSX,Changcha,China
+KWL,Guilin,China
+NNG,Nanning,China
+SZX,Shenzhen,China
+CGO,Zhengzhou,China
+WUH,Wuhan,China
+FNJ,Pyongyang,North Korea
+LHW,Lanzhou,China
+XIY,Xi'an,China
+ULN,Ulan Bator,Mongolia
+JHG,Jinghonggasa,China
+KMG,Kunming,China
+XMN,Xiamen,China
+KHN,Nanchang,China
+FOC,Fuzhou,China
+HGH,Hangzhou,China
+NGB,Ninbo,China
+NKG,Nanjing,China
+HFE,Hefei,China
+TAO,Qingdao,China
+SHA,Shanghai,China
+YNT,Yantai,China
+CKG,Chongqing,China
+KWE,Guiyang,China
+CTU,Chengdu,China
+XIC,Xichang,China
+KHG,Kashi,China
+HTN,Hotan,China
+URC,Urumqi,China
+HRB,Harbin,China
+MDG,Mudanjiang,China
+DLC,Dalian,China
+PVG,Shanghai,China
+TOD,Tioman,Malaysia
+SZB,Kuala Lumpur,Malaysia
+NTQ,Wajima,Japan
+HBE,Alexandria,Egypt
+BTI,Barter Island,United States
+LUR,Cape Lisburne,United States
+PIZ,Point Lay,United States
+ITO,Hilo,United States
+ORL,Orlando,United States
+BTT,Bettles,United States
+UTO,Indian Mountains,United States
+FYU,Fort Yukon,United States
+SVW,Sparrevohn,United States
+FRN,Fort Richardson,United States
+TLJ,Tatalina,United States
+CZF,Cape Romanzof,United States
+BED,Bedford,United States
+SNP,St. Paul Island,United States
+EHM,Cape Newenham,United States
+STG,Point Barrow,United States
+ILI,Iliamna,United States
+PTU,Port Moller,United States
+BMX,Big Mountain,United States
+OSC,Oscoda,United States
+OAR,Fort Ord,United States
+MHR,Sacramento,United States
+BYS,Fort Irwin,United States
+FSM,Fort Smith,United States
+MRI,Anchorage,United States
+GNT,Grants,United States
+PNC,Ponca City,United States
+SVN,Hunter Aaf,United States
+GFK,Grand Forks,United States
+PBF,Pine Bluff,United States
+NSE,Milton,United States
+HNM,Hana,United States
+PRC,Prescott,United States
+TTN,Trenton,United States
+BOS,Boston,United States
+SUU,Fairfield,United States
+RME,Rome,United States
+ENV,Wendover,United States
+BFM,Mobile,United States
+OAK,Oakland,United States
+OMA,Omaha,United States
+OGG,Kahului,United States
+ICT,Wichita,United States
+MCI,Kansas City,United States
+MSN,Madison,United States
+DLG,Dillingham,United States
+HRO,Harrison,United States
+PHX,Phoenix,United States
+BGR,Bangor,United States
+FXE,Fort Lauderdale,United States
+GGG,Longview,United States
+AND,Andersen,United States
+GEG,Spokane,United States
+HWO,Hollywood,United States
+SFO,San Francisco,United States
+CTB,Cutbank,United States
+ARA,Louisiana,United States
+GNV,Gainesville,United States
+MEM,Memphis,United States
+DUG,Douglas,United States
+BIG,Delta Junction,United States
+CNW,Waco,United States
+ANN,Annette Island,United States
+CAR,Caribou,United States
+LRF,Jacksonville,United States
+HUA,Redstone,United States
+POB,Fort Bragg,United States
+DHT,Dalhart,United States
+DLF,Del Rio,United States
+LAX,Los Angeles,United States
+ANB,Anniston,United States
+CLE,Cleveland,United States
+DOV,Dover,United States
+CVG,Cincinnati,United States
+FME,Fort Meade,United States
+HON,Huron,United States
+JNU,Juneau,United States
+LFT,Lafayette,United States
+EWR,Newark,United States
+BOI,Boise,United States
+INS,Indian Springs,United States
+GCK,Garden City,United States
+MOT,Minot,United States
+HHI,Wahiawa,United States
+MXF,Montgomery,United States
+DAL,Dallas,United States
+FCS,Fort Carson,United States
+HLN,Helena,United States
+NKX,Miramar,United States
+LUF,Phoenix,United States
+HHR,Hawthorne,United States
+HUL,Houlton,United States
+END,Enid,United States
+NTD,Point Mugu,United States
+EDW,Edwards Afb,United States
+LCH,Lake Charles,United States
+KOA,Kona,United States
+MYR,Myrtle Beach,United States
+NLC,Lemoore,United States
+ACK,Nantucket,United States
+FAF,Fort Eustis,United States
+HOP,Hopkinsville,United States
+DCA,Washington,United States
+NHK,Patuxent River,United States
+PSX,Palacios,United States
+BYH,Blytheville,United States
+ACY,Atlantic City,United States
+TIK,Oklahoma City,United States
+ECG,Elizabeth City,United States
+PUB,Pueblo,United States
+PQI,Presque Isle,United States
+GRF,Fort Lewis,United States
+ADQ,Kodiak,United States
+UPP,Opolu,United States
+FLL,Fort Lauderdale,United States
+INL,International Falls,United States
+SLC,Salt Lake City,United States
+CDS,Childress,United States
+BIX,Biloxi,United States
+LSF,Fort Benning,United States
+NQI,Kingsville,United States
+FRI,Fort Riley,United States
+MDT,Harrisburg,United States
+LNK,Lincoln,United States
+LAN,Lansing,United States
+MUE,Kamuela,United States
+MSS,Massena,United States
+HKY,Hickory,United States
+SPG,St. Petersburg,United States
+FMY,Fort Myers,United States
+IAH,Houston,United States
+ADW,Camp Springs,United States
+INT,Winston-salem,United States
+VCV,Victorville,United States
+CEW,Crestview,United States
+PHN,Port Huron,United States
+BFL,Bakersfield,United States
+ELP,El Paso,United States
+HRL,Harlingen,United States
+CAE,Columbia,United States
+DMA,Tucson,United States
+NPA,Pensacola,United States
+PNS,Pensacola,United States
+RDR,Red River,United States
+HOU,Houston,United States
+BFK,Buckley,United States
+ORT,Northway,United States
+PAQ,Palmer,United States
+PIT,Pittsburgh,United States
+BRW,Barrow,United States
+EFD,Houston,United States
+NUW,Whidbey Island,United States
+ALI,Alice,United States
+VAD,Valdosta,United States
+MIA,Miami,United States
+SEA,Seattle,United States
+CHA,Chattanooga,United States
+BDR,Stratford,United States
+JAN,Jackson,United States
+GLS,Galveston,United States
+LGB,Long Beach,United States
+HDH,Dillingham,United States
+IPT,Williamsport,United States
+IND,Indianapolis,United States
+SZL,Knobnoster,United States
+AKC,Akron,United States
+GWO,Greenwood,United States
+HPN,White Plains,United States
+FOK,West Hampton Beach,United States
+JBR,Jonesboro,United States
+XSD,Tonopah,United States
+LNA,West Palm Beach,United States
+NZY,San Diego,United States
+BIF,El Paso,United States
+YUM,Yuma,United States
+CNM,Carlsbad,United States
+DLH,Duluth,United States
+BET,Bethel,United States
+LOU,Louisville,United States
+FHU,Fort Huachuca,United States
+LIH,Lihue,United States
+HUF,Terre Haute,United States
+HVR,Havre,United States
+MWH,Grant County Airport,United States
+MPV,Montpelier,United States
+RIC,Richmond,United States
+SHV,Shreveport,United States
+CDV,Cordova,United States
+ORF,Norfolk,United States
+BPT,Beaumont,United States
+SAV,Savannah,United States
+HIF,Ogden,United States
+OME,Nome,United States
+PIE,St. Petersburg,United States
+MNM,Macon,United States
+CXO,Conroe,United States
+SCC,Deadhorse,United States
+SAT,San Antonio,United States
+ROC,Rochester,United States
+COF,Coco Beach,United States
+TEB,Teterboro,United States
+RCA,Rapid City,United States
+RDU,Raleigh-durham,United States
+DAY,Dayton,United States
+ENA,Kenai,United States
+MLC,Mcalester,United States
+IAG,Niagara Falls,United States
+CFD,Bryan,United States
+LIY,Wright,United States
+PHF,Newport News,United States
+ESF,Alexandria,United States
+LTS,Altus,United States
+TUS,Tucson,United States
+MIB,Minot,United States
+BAB,Marysville,United States
+IKK,Kankakee,United States
+GSB,Goldsboro,United States
+PVD,Providence,United States
+SBY,Salisbury,United States
+BUR,Burbank,United States
+DTW,Detroit,United States
+TPA,Tampa,United States
+PMB,Pembina,United States
+POE,Fort Polk,United States
+EIL,Fairbanks,United States
+HIB,Hibbing,United States
+LFK,Lufkin,United States
+MAF,Midland,United States
+GRB,Green Bay,United States
+ADM,Ardmore,United States
+WRI,Wrightstown,United States
+AGS,Bush Field,United States
+ISN,Williston,United States
+LIT,Little Rock,United States
+SWF,Newburgh,United States
+BDE,Baudette,United States
+SAC,Sacramento,United States
+HOM,Homer,United States
+TBN,Fort Leonardwood,United States
+MGE,Marietta,United States
+SKA,Spokane,United States
+HTL,Houghton Lake,United States
+PAM,Panama City,United States
+DFW,Dallas-Fort Worth,United States
+MLB,Melbourne,United States
+TCM,Tacoma,United States
+AUS,Austin,United States
+LCK,Columbus,United States
+MQT,Gwinn,United States
+TYS,Knoxville,United States
+HLR,Fort Hood,United States
+STL,St. Louis,United States
+MIV,Millville,United States
+SPS,Wichita Falls,United States
+LUK,Cincinnati,United States
+ATL,Atlanta,United States
+MER,Merced,United States
+MCC,Sacramento,United States
+GRR,Grand Rapids,United States
+INK,Wink,United States
+FAT,Fresno,United States
+VRB,Vero Beach,United States
+IPL,Imperial,United States
+BNA,Nashville,United States
+LRD,Laredo,United States
+EDF,Anchorage,United States
+OTZ,Kotzebue,United States
+AOO,Altoona,United States
+DYS,Abilene,United States
+ELD,El Dorado,United States
+LGA,New York,United States
+TLH,Tallahassee,United States
+DPA,West Chicago,United States
+ACT,Waco,United States
+AUG,Augusta,United States
+NIP,Jacksonville,United States
+MKL,Jackson,United States
+MKK,Molokai,United States
+FTK,Fort Knox,United States
+SJT,San Angelo,United States
+CXL,Calexico,United States
+CIC,Chico,United States
+BTV,Burlington,United States
+JAX,Jacksonville,United States
+DRO,Durango,United States
+IAD,Washington,United States
+CLL,College Station,United States
+SFF,Spokane,United States
+MKE,Milwaukee,United States
+ABI,Abilene,United States
+COU,Columbia,United States
+PDX,Portland,United States
+TNT,Miami,United States
+PBI,West Palm Beach,United States
+FTW,Fort Worth,United States
+OGS,Ogdensburg,United States
+FMH,Falmouth,United States
+BFI,Seattle,United States
+SKF,San Antonio,United States
+HNL,Honolulu,United States
+DSM,Des Moines,United States
+EWN,New Bern,United States
+SAN,San Diego,United States
+MLU,Monroe,United States
+SSC,Sumter,United States
+ONT,Ontario,United States
+GVT,Greenvile,United States
+ROW,Roswell,United States
+DET,Detroit,United States
+BRO,Brownsville,United States
+DHN,Dothan,United States
+WWD,Wildwood,United States
+NFL,Fallon,United States
+MTC,Mount Clemens,United States
+FMN,Farmington,United States
+CRP,Corpus Christi,United States
+SYR,Syracuse,United States
+NQX,Key West,United States
+MDW,Chicago,United States
+SJC,San Jose,United States
+HOB,Hobbs,United States
+PNE,Philadelphia,United States
+DEN,Denver,United States
+PHL,Philadelphia,United States
+SUX,Sioux City,United States
+MCN,Macon,United States
+TCS,Truth Or Consequences,United States
+PMD,Palmdale,United States
+RND,San Antonio,United States
+NJK,El Centro,United States
+CMH,Columbus,United States
+FYV,Fayetteville,United States
+FSI,Fort Sill,United States
+FFO,Dayton,United States
+GAL,Galena,United States
+MWL,Mineral Wells,United States
+IAB,Wichita,United States
+NBG,New Orleans,United States
+BFT,Beaufort,United States
+TXK,Texarkana,United States
+PBG,Plattsburgh,United States
+APG,Aberdeen,United States
+TCC,Tucumcari,United States
+ANC,Anchorage,United States
+GRK,Killeen,United States
+BLI,Bellingham,United States
+NQA,Millington,United States
+EKN,Elkins,United States
+HFD,Hartford,United States
+SFZ,Smithfield,United States
+MOB,Mobile,United States
+NUQ,Mountain View,United States
+SAF,Santa Fe,United States
+BKH,Barking Sands,United States
+DRI,Deridder,United States
+BSF,Bradshaw Field,United States
+OLS,Nogales,United States
+MCF,Tampa,United States
+BLV,Belleville,United States
+OPF,Miami,United States
+DRT,Del Rio,United States
+RSW,Fort Myers,United States
+AKN,King Salmon,United States
+MUI,Muir,United States
+JHM,Lahania-kapalua,United States
+JFK,New York,United States
+HST,Homestead,United States
+RAL,Riverside,United States
+FLV,Fort Leavenworth,United States
+WAL,Wallops Island,United States
+HMN,Alamogordo,United States
+NXX,Willow Grove,United States
+CYS,Cheyenne,United States
+SCK,Stockton,United States
+CHS,Charleston,United States
+RNO,Reno,United States
+KTN,Ketchikan,United States
+YIP,Detroit,United States
+VBG,Lompoc,United States
+BHM,Birmingham,United States
+NEL,Lakehurst,United States
+SYA,Shemya,United States
+LSV,Las Vegas,United States
+RIV,Riverside,United States
+MOD,Modesto,United States
+SMF,Sacramento,United States
+UGN,Chicago,United States
+COS,Colorado Springs,United States
+BUF,Buffalo,United States
+SKY,Sandusky,United States
+PAE,Everett,United States
+MUO,Mountain Home,United States
+CDC,Cedar City,United States
+BDL,Windsor Locks,United States
+MFE,Mcallen,United States
+NGU,Norfolk,United States
+CEF,Chicopee Falls,United States
+LBB,Lubbock,United States
+ORD,Chicago,United States
+BCT,Boca Raton,United States
+FAI,Fairbanks,United States
+CVS,Clovis,United States
+NGF,Kaneohe Bay,United States
+OFF,Omaha,United States
+GKN,Gulkana,United States
+ART,Watertown,United States
+PSP,Palm Springs,United States
+AMA,Amarillo,United States
+FOD,Fort Dodge,United States
+BAD,Shreveport,United States
+FOE,Topeka,United States
+COT,Cotulla,United States
+ILM,Wilmington,United States
+BTR,Baton Rouge,United States
+TYR,Tyler,United States
+BWI,Baltimore,United States
+HBR,Hobart,United States
+LNY,Lanai,United States
+AEX,Alexandria,United States
+WSD,White Sands,United States
+CDB,Cold Bay,United States
+TUL,Tulsa,United States
+SIT,Sitka,United States
+ISP,Islip,United States
+MSP,Minneapolis,United States
+ILG,Wilmington,United States
+DUT,Unalaska,United States
+MSY,New Orleans,United States
+PWM,Portland,United States
+OKC,Oklahoma City,United States
+ALB,Albany,United States
+VDZ,Valdez,United States
+LFI,Hampton,United States
+SNA,Santa Ana,United States
+CBM,Colombus,United States
+TMB,Kendall-tamiami,United States
+NTU,Oceana,United States
+GUS,Peru,United States
+CPR,Casper,United States
+VPS,Valparaiso,United States
+SEM,Selma,United States
+EYW,Key West,United States
+CLT,Charlotte,United States
+LAS,Las Vegas,United States
+MCO,Orlando,United States
+FLO,Florence,United States
+GTF,Great Falls,United States
+YNG,Youngstown,United States
+FBK,Fort Wainwright,United States
+WRB,Macon,United States
+BKK,Bangkok,Thailand
+NAH,Naha,Indonesia
+MXB,Masamba,Indonesia
+SQR,Soroako,Indonesia
+TTR,Makale,Indonesia
+KDI,Kendari,Indonesia
+SBG,Sabang,Indonesia
+TSY,Tasikmalaya,Indonesia
+MLG,Malang,Indonesia
+BDO,Bandung,Indonesia
+CBN,Cirebon,Indonesia
+JOG,Yogyakarta,Indonesia
+CXP,Cilacap,Indonesia
+PCB,Jakarta,Indonesia
+SRG,Semarang,Indonesia
+BTH,Batam,Indonesia
+TJQ,Tanjung Pandan,Indonesia
+PGK,Pangkal Pinang,Indonesia
+TNJ,Tanjung Pinang,Indonesia
+SIQ,Singkep,Indonesia
+BDJ,Banjarmasin,Indonesia
+BTW,Batu Licin,Indonesia
+PKN,Pangkalan Bun,Indonesia
+PKY,Palangkaraya,Indonesia
+MOF,Maumere,Indonesia
+ENE,Ende,Indonesia
+RTG,Ruteng,Indonesia
+KOE,Kupang,Indonesia
+LBJ,Labuhan Bajo,Indonesia
+BPN,Balikpapan,Indonesia
+TRK,Taraken,Indonesia
+SRI,Samarinda,Indonesia
+TSX,Tanjung Santan,Indonesia
+AMI,Mataram,Indonesia
+BMU,Bima,Indonesia
+WGP,Waingapu,Indonesia
+SUB,Surabaya,Indonesia
+SOC,Solo City,Indonesia
+ICN,Seoul,South Korea
+CNX,Chiang Mai,Thailand
+CEI,Chiang Rai,Thailand
+NST,Nakhon Si Thammarat,Thailand
+NAK,Nakhon Ratchasima,Thailand
+KOP,Nakhon Phanom,Thailand
+UBP,Ubon Ratchathani,Thailand
+KKC,Khon Kaen,Thailand
+THS,Sukhothai,Thailand
+DPS,Denpasar,Indonesia
+ATH,Athens,Greece
+NGO,Nagoya,Japan
+UKB,Kobe,Japan
+PUW,Pullman,United States
+LWS,Lewiston,United States
+ELM,Elmira,United States
+ITH,Ithaca,United States
+MRY,Monterey,United States
+SBA,Santa Barbara,United States
+DAB,Daytona Beach,United States
+LPX,Liepaja,Latvia
+RIX,Riga,Latvia
+SQQ,Siauliai,Lithuania
+HLJ,Barysiai,Lithuania
+KUN,Kaunas,Lithuania
+PLQ,Palanga,Lithuania
+VNO,Vilnius,Lithuania
+PNV,Panevezys,Lithuania
+EVN,Yerevan,Armenia
+LWN,Gyumri,Armenia
+ASA,Assab,Eritrea
+ASM,Asmara,Eritrea
+MSW,Massawa,Eritrea
+GZA,Gaza,Palestine
+BUS,Batumi,Georgia
+KUT,Kutaisi,Georgia
+TBS,Tbilisi,Georgia
+RIY,Mukalla,Yemen
+TAI,Taiz,Yemen
+HOD,Hodeidah,Yemen
+ADE,Aden,Yemen
+AXK,Ataq,Yemen
+AAY,Al Ghaidah Intl,Yemen
+SAH,Sanaa,Yemen
+BHN,Beihan,Yemen
+SCT,Socotra,Yemen
+FMM,Memmingen,Germany
+NAV,Nevsehir,Turkey
+EZE,Buenos Aires,Argentina
+EBL,Erbil,Iraq
+EMD,Emerald,Australia
+HEW,Athens,Greece
+KIX,Osaka,Japan
+JRB,New York,United States
+TAG,Tagbilaran,Philippines
+JAV,Ilulissat,Greenland
+JCH,Qasigiannguit,Greenland
+JEG,Aasiaat,Greenland
+PMI,Palma de Mallorca,Spain
+DRW,Darwin,Australia
+URT,Surat Thani,Thailand
+TKA,Talkeetna,United States
+GZM,Gozo,Malta
+HVN,New Haven,United States
+AVL,Asheville,United States
+GSO,Greensboro,United States
+FSD,Sioux Falls,United States
+AYQ,Uluru,Australia
+MHT,Manchester NH,United States
+APF,Naples,United States
+RDN,Redang,Malaysia
+SDF,Louisville,United States
+CHO,Charlottesville VA,United States
+ROA,Roanoke VA,United States
+LEX,Lexington KY,United States
+EVV,Evansville,United States
+ABQ,Albuquerque,United States
+BZN,Bozeman,United States
+BIL,Billings,United States
+BTM,Butte,United States
+TVC,Traverse City,United States
+FRS,Flores,Guatemala
+BHB,Bar Harbor,United States
+RKD,Rockland,United States
+JAC,Jacksn Hole,United States
+RFD,Rockford,United States
+DME,Moscow,Russia
+SYX,Sanya,China
+MFN,Milford Sound,New Zealand
+LJG,Lijiang,China
+GSP,Greenville,United States
+BMI,Bloomington,United States
+GPT,Gulfport,United States
+AZO,Kalamazoo,United States
+TOL,Toledo,United States
+FWA,Fort Wayne,United States
+DEC,Decatur,United States
+CID,Cedar Rapids,United States
+LSE,La Crosse,United States
+CWA,Wassau,United States
+PIA,Peoria,United States
+ATW,Appleton,United States
+RST,Rochester,United States
+CMI,Champaign,United States
+MHK,Manhattan,United States
+KGC,Kingscote,Australia
+HVB,Hervey Bay,Australia
+DLU,Dali,China
+MZV,Mulu,Malaysia
+SSH,Sharm El Sheikh,Egypt
+FKL,Franklin,United States
+NBO,Nairobi,Kenya
+SEU,Seronera,Tanzania
+FTE,El Calafate,Argentina
+ARM,Armidale,Australia
+GJT,Grand Junction,United States
+SGU,Saint George,United States
+DWH,Houston,United States
+SRQ,Sarasota,United States
+BDA,Bermuda,Bermuda
+VNY,Van Nuys,United States
+MLI,Moline,United States
+PFN,Panama City,United States
+HIR,Honiara,Solomon Islands
+PPT,Papeete,French Polynesia
+INU,Nauru,Nauru
+FUN,Funafuti,Tuvalu
+OVB,Novosibirsk,Russia
+XKH,Phon Savan,Laos
+BIS,Bismarck,United States
+TEX,Telluride,United States
+HGN,Mae Hong Son,Thailand
+RAP,Rapid City,United States
+CLD,Carlsbad,United States
+FNT,Flint,United States
+DVO,Davao,Philippines
+FNC,Funchal,Portugal
+STM,Santarem,Brazil
+KOS,Sihanoukville,Cambodia
+YOA,Ekati,Canada
+NPE,NAPIER,New Zealand
+LEV,Levuka,Fiji
+LXA,Lhasa,China
+RDD,Redding,United States
+EUG,Eugene,United States
+IDA,Idaho Falls,United States
+MFR,Medford,United States
+KBZ,Kaikoura,New Zealand
+RDM,Redmond-Bend,United States
+PCN,Picton,New Zealand
+WDH,Windhoek,Namibia
+YWH,Victoria,Canada
+TNA,Jinan,China
+CZX,Changzhou,China
+YBP,Yibin,China
+TJM,Tyumen,Russia
+CAK,Akron,United States
+HSV,Huntsville,United States
+PKB,PARKERSBURG,United States
+MGM,MONTGOMERY,United States
+TRI,BRISTOL,United States
+PAH,PADUCAH,United States
+JIB,Djibouti,Djibouti
+HAK,Haikou,China
+MFA,Mafia Island,Tanzania
+PGA,Page,United States
+UII,Utila,Honduras
+FCA,Kalispell,United States
+MBS,Saginaw,United States
+BGM,Binghamton,United States
+BGW,Baghdad,Iraq
+NNT,Nan,Thailand
+ROI,Roi Et,Thailand
+BFV,Buri Ram,Thailand
+TDX,Trat,Thailand
+BLH,Blythe,United States
+IQA,Al Asad,Iraq
+TQD,Al Taqaddum,Iraq
+XQC,Al Bakr,Iraq
+CRK,Angeles City,Philippines
+SDK,Sandakan,Malaysia
+LXG,Luang Namtha,Laos
+ODY,Muang Xay,Laos
+SHE,Shenyang,China
+DOY,Dongying,China
+MNI,Geralds,Montserrat
+PSG,Petersburg,United States
+LYA,Luoyang,China
+XUZ,Xuzhou,China
+MWQ,Magwe,Burma
+KHM,Khamti,Burma
+DLI,Dalat,Vietnam
+VDH,Dong Hoi,Vietnam
+VKG,Rach Gia,Vietnam
+CAH,Ca Mau,Vietnam
+VCL,Chu Lai,Vietnam
+TBB,Tuy Hoa,Vietnam
+PYY,Pai,Thailand
+BWK,Brac,Croatia
+NSI,Yaounde,Cameroon
+CKY,Conakry,Guinea
+AAH,Aachen,Germany
+FKB,Karlsruhe/Baden-Baden,Germany
+SFB,Sanford,United States
+JST,Johnstown,United States
+LUA,Lukla,Nepal
+BHP,Bhojpur,Nepal
+LDN,Lamidanda,Nepal
+JMO,Jomsom,Nepal
+NGX,Manang,Nepal
+PPL,Phaplu,Nepal
+RUM,Rumjatar,Nepal
+DNP,Dang,Nepal
+RUK,Rukumkot,Nepal
+JUM,Jumla,Nepal
+TPJ,Taplejung,Nepal
+TMI,Tumling Tar,Nepal
+SKH,Surkhet,Nepal
+IMK,Simikot,Nepal
+DOP,Dolpa,Nepal
+BJH,Bajhang,Nepal
+DHI,Dhangarhi,Nepal
+MWX,Muan,South Korea
+JTY,Astypalaia,Greece
+JIK,Ikaria,Greece
+JKL,Kalymnos,Greece
+MLO,Milos,Greece
+JNX,Cyclades Islands,Greece
+PAS,Paros,Greece
+KZS,Kastelorizo,Greece
+RMF,Marsa Alam,Egypt
+NRN,Weeze,Germany
+USU,Busuanga,Philippines
+BXU,Butuan,Philippines
+DPL,Dipolog,Philippines
+LAO,Laoag,Philippines
+LGP,Legazpi,Philippines
+OZC,Ozamis,Philippines
+CEB,Cebu,Philippines
+NOD,Norden,Germany
+JUI,Juist,Germany
+BPS,Porto Seguro,Brazil
+QIG,Iguatu,Brazil
+PMW,Palmas,Brazil
+CLV,Caldas Novas,Brazil
+MSO,Missoula,United States
+BKQ,Blackall,Australia
+BDB,Bundaberg,Australia
+GCN,Grand Canyon,United States
+SGR,Sugar Land,United States
+APA,Denver,United States
+CVN,Clovis,United States
+FST,Fort Stockton,United States
+LVS,Las Vegas,United States
+IWS,Houston,United States
+LRU,Las Cruces,United States
+BKD,Breckenridge,United States
+TPL,Temple,United States
+OZA,Ozona,United States
+KDM,Kaadedhdhoo,Maldives
+LAK,Aklavik,Canada
+YWJ,Deline,Canada
+ZFN,Tulita,Canada
+YGH,Fort Good Hope,Canada
+TAH,Tanna,Vanuatu
+YPC,Paulatuk,Canada
+SRZ,Santa Cruz,Bolivia
+SAB,Saba,Netherlands Antilles
+EGE,Vail,United States
+SKN,Stokmarknes,Norway
+CGF,Richmond Heights,United States
+MFD,Mansfield,United States
+CSG,Columbus,United States
+LAW,Lawton,United States
+FNL,Fort Collins,United States
+FLG,Flagstaff,United States
+TVL,South Lake Tahoe,United States
+TWF,Twin Falls,United States
+MVY,Vineyard Haven MA,United States
+CON,Concord NH,United States
+GON,Groton CT,United States
+STC,Saint Cloud,United States
+BPE,Bagan,Burma
+GTR,Columbus Mississippi,United States
+GOJ,Nizhniy Novgorod,Russia
+HQM,Hoquiam,United States
+ERI,Erie,United States
+HYA,Barnstable,United States
+SPR,San Pedro,Belize
+SDX,Sedona,United States
+MGW,Morgantown,United States
+CRW,Charleston,United States
+AVP,Scranton,United States
+BJI,Bemidji,United States
+THG,Biloela,Australia
+FGI,Apia,Samoa
+BNK,Ballina Byron Bay,Australia
+FAR,Fargo,United States
+MKC,Kansas City,United States
+RBE,Ratanakiri,Cambodia
+GCC,Gillette,United States
+TOF,Tomsk,Russia
+NZJ,Santa Ana,United States
+PHY,Phetchabun,Thailand
+CJM,Chumphon,Thailand
+JZH,Jiuzhaigou,China
+SWA,Shantou,China
+GEO,Georgetown,Guyana
+AGT,Ciudad del Este,Paraguay
+OGL,Georgetown,Guyana
+KAI,Kaieteur,Guyana
+DNH,Dunhuang,China
+AOI,Ancona,Italy
+TCP,Taba,Egypt
+LYB,Little Cayman,Cayman Islands
+BJV,Bodrum,Turkey
+TBJ,Tabarka,Tunisia
+SAW,Istanbul,Turkey
+SCE,State College Pennsylvania,United States
+BME,Broome,Australia
+NTL,Newcastle,Australia
+KLU,Klagenfurt,Austria
+HFT,Hammerfest,Norway
+HVG,Honningsvag,Norway
+MEH,Mehamn,Norway
+VDS,Vadsø,Norway
+IKA,Tehran,Iran
+MHD,Mashhad,Iran
+UIK,Ust Ilimsk,Russia
+MEI,Meridian,United States
+SPI,Springfield,United States
+CEZ,Cortez,United States
+HDN,Hayden,United States
+GUP,Gallup,United States
+LBL,Liberal,United States
+LAA,Lamar,United States
+GLD,Goodland,United States
+COD,Cody,United States
+HOV,Orsta-Volda,Norway
+ISC,ST MARY\'S,United Kingdom
+SGF,Springfield,United States
+NVK,Narvik,Norway
+BVG,Berlevag,Norway
+FBU,Oslo,Norway
+NSK,Norilsk,Russia
+AAQ,Anapa,Russia
+JLN,Joplin,United States
+ABE,Allentown,United States
+XNA,Bentonville,United States
+GUW,Atyrau,Kazakhstan
+KZO,Kzyl-Orda,Kazakhstan
+SBN,South Bend,United States
+BKA,Moscow,Russia
+ARH,Arkhangelsk,Russia
+RTW,Saratov,Russia
+NUX,Novy Urengoy,Russia
+NOJ,Noyabrsk,Russia
+SCO,Aktau,Kazakhstan
+UCT,Ukhta,Russia
+USK,Usinsk,Russia
+PEX,Pechora,Russia
+NNM,Naryan-Mar,Russia
+PKV,Pskov,Russia
+KGP,Kogalym,Russia
+KJA,Krasnoyarsk,Russia
+KGF,Karaganda,Kazakhstan
+URJ,Uraj,Russia
+IWA,Ivanovo,Russia
+CGQ,Changchun,China
+KIJ,Niigata,Japan
+JON,Johnston Island,Johnston Atoll
+SMD,Fort Wayne IN,United States
+ACV,Arcata CA,United States
+OAJ,Jacksonville NC,United States
+TCL,Tuscaloosa AL,United States
+DBQ,Dubuque IA,United States
+HHP,Hong Kong,Hong Kong
+ATD,Atoifi,Solomon Islands
+AKS,Auki,Solomon Islands
+BAS,Ballalae,Solomon Islands
+FRE,Fera Island,Solomon Islands
+MBU,Mbambanakira,Solomon Islands
+IRA,Kirakira,Solomon Islands
+SCZ,Santa Cruz/Graciosa Bay/Luova,Solomon Islands
+MUA,Munda,Solomon Islands
+GZO,Gizo,Solomon Islands
+MNY,Stirling Island,Solomon Islands
+RNL,Rennell Island,Solomon Islands
+RUS,Marau,Solomon Islands
+VAO,Suavanao,Solomon Islands
+KGE,Kagau Island,Solomon Islands
+RBV,Ramata,Solomon Islands
+BUA,Buka Island,Papua New Guinea
+CMU,Kundiawa,Papua New Guinea
+DAU,Daru,Papua New Guinea
+GUR,Gurney,Papua New Guinea
+PNP,Girua,Papua New Guinea
+HKN,Hoskins,Papua New Guinea
+UNG,Kiunga,Papua New Guinea
+KRI,Kikori,Papua New Guinea
+KMA,Kerema,Papua New Guinea
+KVG,Kavieng,Papua New Guinea
+MDU,Mendi,Papua New Guinea
+MAS,Momote,Papua New Guinea
+MXH,Moro,Papua New Guinea
+MIS,Misima Island,Papua New Guinea
+TIZ,Tari,Papua New Guinea
+TBG,Tabubil,Papua New Guinea
+RAB,Tokua,Papua New Guinea
+VAI,Vanimo,Papua New Guinea
+WBM,Wapenamanda,Papua New Guinea
+LLU,Alluitsup Paa,Greenland
+CNP,Neerlerit Inaat,Greenland
+JFR,Paamiut,Greenland
+JGO,Qeqertarsuaq Airport,Greenland
+JJU,Qaqortoq,Greenland
+JSU,Maniitsoq,Greenland
+JNN,Nanortalik,Greenland
+JNS,Narsaq,Greenland
+NAQ,Qaanaaq,Greenland
+JHS,Sisimiut,Greenland
+JUV,Upernavik,Greenland
+JQA,Uummannaq,Greenland
+GRY,Grímsey,Iceland
+THO,Thorshofn,Iceland
+VPN,Vopnafjörður,Iceland
+YWS,Whistler,Canada
+YAA,Anahim Lake,Canada
+YWM,Williams Harbour,Canada
+YFX,St. Lewis,Canada
+YHA,Port Hope Simpson,Canada
+YRG,Rigolet,Canada
+YCK,Colville Lake,Canada
+YLE,Whatì,Canada
+SUR,Summer Beaver,Canada
+YAX,Angling Lake,Canada
+WNN,Wunnumin Lake,Canada
+YNO,North Spirit Lake,Canada
+XBE,Bearskin Lake,Canada
+KIF,Kingfisher Lake,Canada
+YOG,Ogoki Post,Canada
+YHP,Poplar Hill,Canada
+YKU,Chisasibi,Canada
+ZTB,Tête-à-la-Baleine,Canada
+ZLT,La Tabatière,Canada
+YAC,Cat Lake,Canada
+YAG,Fort Frances,Canada
+XKS,Kasabonika,Canada
+YKG,Kangirsuk,Canada
+YAT,Attawapiskat,Canada
+YBE,Uranium City,Canada
+YBX,Lourdes-De-Blanc-Sablon,Canada
+YRF,Cartwright,Canada
+YCS,Chesterfield Inlet,Canada
+YDP,Nain,Canada
+YER,Fort Severn,Canada
+YFA,Fort Albany,Canada
+YFH,Fort Hope,Canada
+YMN,Makkovik,Canada
+YGB,Texada,Canada
+YGO,Gods Lake Narrows,Canada
+YGT,Igloolik,Canada
+YGW,Kuujjuarapik,Canada
+YGX,Gillam,Canada
+YGZ,Grise Fiord,Canada
+YQC,Quaqtaq,Canada
+CXH,Vancouver,Canada
+YNS,Nemiscau,Canada
+YHO,Hopedale,Canada
+YHR,Chevery,Canada
+YIK,Ivujivik,Canada
+YIV,Island Lake,Canada
+AKV,Akulivik,Canada
+YKQ,Waskaganish,Canada
+YPJ,Aupaluk,Canada
+YLC,Kimmirut,Canada
+YLH,Lansdowne House,Canada
+XGR,Kangiqsualujjuaq,Canada
+YMH,Mary's Harbour,Canada
+YMT,Chibougamau,Canada
+YUD,Umiujaq,Canada
+YNC,Wemindji,Canada
+YNE,Norway House,Canada
+YNL,Points North Landing,Canada
+YOH,Oxford House,Canada
+YPH,Inukjuak,Canada
+YPM,Pikangikum,Canada
+YPO,Peawanuck,Canada
+YPW,Powell River,Canada
+YQD,The Pas,Canada
+YQN,Nakina,Canada
+YRA,Gamètì,Canada
+YRL,Red Lake,Canada
+YSF,Stony Rapids,Canada
+YSK,Sanikiluaq,Canada
+YST,St. Theresa Point,Canada
+YTL,Big Trout Lake,Canada
+YVZ,Deer Lake,Canada
+YWP,Webequie,Canada
+YXN,Whale Cove,Canada
+YZG,Salluit,Canada
+ZAC,York Landing,Canada
+ILF,Ilford,Canada
+ZBF,Bathurst,Canada
+ZEM,Eastmain River,Canada
+ZFD,Fond-Du-Lac,Canada
+ZGI,Gods River,Canada
+ZJN,Swan River,Canada
+ZKE,Kashechewan,Canada
+MSA,Muskrat Dam,Canada
+ZMT,Masset,Canada
+ZPB,Sachigo Lake,Canada
+ZRJ,Round Lake,Canada
+ZSJ,Sandy Lake,Canada
+ZTM,Shamattawa,Canada
+ZUM,Churchill Falls,Canada
+ZWL,Wollaston Lake,Canada
+BLJ,Batna,Algeria
+CBH,Béchar,Algeria
+BMW,Bordj Badji Mokhtar,Algeria
+ELU,Guemar,Algeria
+KMS,Kumasi,Ghana
+HDF,Heringsdorf,Germany
+HEI,Büsum,Germany
+HGL,Helgoland,Germany
+SJY,Seinäjoki / Ilmajoki,Finland
+NQT,Nottingham,United Kingdom
+DSA,"Doncaster, Sheffield",United Kingdom
+CAL,Campbeltown,United Kingdom
+EOI,Eday,United Kingdom
+FIE,Fair Isle,United Kingdom
+NRL,North Ronaldsay,United Kingdom
+PPW,Papa Westray,United Kingdom
+SOY,Stronsay,United Kingdom
+NDY,Sanday,United Kingdom
+LWK,Lerwick,United Kingdom
+WRY,Westray,United Kingdom
+LEQ,Land's End,United Kingdom
+PZE,Penzance,United Kingdom
+VLY,Angelsey,United Kingdom
+BRR,Barra,United Kingdom
+CFN,Dongloe,Ireland
+CNL,Sindal,Denmark
+LKN,Leknes,Norway
+OSY,Namsos,Norway
+MQN,Mo i Rana,Norway
+RVK,Rørvik,Norway
+RET,Røst,Norway
+SDN,Sandane,Norway
+SOG,Sogndal,Norway
+SVJ,Svolvær,Norway
+SOJ,Sorkjosen,Norway
+VAW,Vardø,Norway
+VRY,Værøy,Norway
+BZG,Bydgoszcz,Poland
+LCJ,Lodz,Poland
+OSD,Östersund,Sweden
+HFS,Hagfors,Sweden
+KSD,Karlstad,Sweden
+TYF,Torsby,Sweden
+AGH,Ängelholm,Sweden
+SQO,Mohed,Sweden
+HMV,Hemavan,Sweden
+VNT,Ventspils,Latvia
+QRA,Johannesburg,South Africa
+MQP,Mpumalanga,South Africa
+AAM,Malamala,South Africa
+MBD,Mafeking,South Africa
+GNZ,Ghanzi,Botswana
+ORP,Orapa,Botswana
+SWX,Shakawe,Botswana
+TLD,Tuli Lodge,Botswana
+DIS,Loubomo,Congo (Brazzaville)
+CIP,Chipata,Zambia
+YVA,Moroni,Comoros
+WAQ,Antsalova,Madagascar
+JVA,Ankavandra,Madagascar
+BMD,Belo sur Tsiribihina,Madagascar
+MXT,Maintirano,Madagascar
+TVA,Morafenobe,Madagascar
+WTA,Tambohorano,Madagascar
+WTS,Tsiroanomandidy,Madagascar
+WAM,Ambatondrazaka,Madagascar
+WPB,Port Bergé,Madagascar
+DWB,Soalala,Madagascar
+WMP,Mampikony,Madagascar
+WMA,Mandritsara,Madagascar
+MJA,Manja,Madagascar
+CBT,Catumbela,Angola
+DUE,Dundo,Angola
+VPE,Ondjiva,Angola
+MSZ,Mocamedes,Angola
+KOU,Koulamoutou,Gabon
+MJL,Mouila,Gabon
+TCH,Tchibanga,Gabon
+VPY,Chimoio,Mozambique
+SRH,Sarh,Chad
+CMK,Club Makokola,Malawi
+LUD,Luderitz,Namibia
+OND,Ondangwa,Namibia
+OMD,Oranjemund,Namibia
+SWP,Swakopmund,Namibia
+ERS,Windhoek,Namibia
+BOA,Boma,Congo (Kinshasa)
+MAT,Matadi,Congo (Kinshasa)
+INO,Inongo,Congo (Kinshasa)
+NIO,Nioki,Congo (Kinshasa)
+KRZ,Kiri,Congo (Kinshasa)
+BSU,Basankusu,Congo (Kinshasa)
+TSH,Tshikapa,Congo (Kinshasa)
+LJA,Lodja,Congo (Kinshasa)
+PFR,Ilebo,Congo (Kinshasa)
+OUK,Outer Skerries,United Kingdom
+GMZ,La Gomera,Spain
+BTE,Bonthe,Sierra Leone
+KBS,Bo,Sierra Leone
+KEN,Kenema,Sierra Leone
+OXB,Bissau,Guinea-Bissau
+SMW,Smara,Western Sahara
+VIL,Dakhla,Western Sahara
+ESU,Essadouira,Morocco
+EUN,El Aaiún,Western Sahara
+NDR,El Aroui,Morocco
+RAI,"Praia, Santiago Island",Cape Verde
+SFL,"Sao Filipe, Fogo Island",Cape Verde
+BCO,Baco,Ethiopia
+BEI,Beica,Ethiopia
+DSE,Dessie,Ethiopia
+DEM,Dembidollo,Ethiopia
+GDE,Gode,Ethiopia
+GOR,Gore,Ethiopia
+ABK,Kabri Dehar,Ethiopia
+MTF,Mizan Teferi,Ethiopia
+TIE,Tippi,Ethiopia
+ALU,Alula,Somalia
+BSA,Bosaso,Somalia
+MGQ,Mogadishu,Somalia
+GLK,Galcaio,Somalia
+BUO,Burao,Somalia
+AAC,El Arish,Egypt
+ATZ,Asyut,Egypt
+ASV,Amboseli National Park,Kenya
+LKG,Lokichoggio,Kenya
+MYD,Malindi,Kenya
+NYK,Nanyuki,Kenya
+SRX,Sirt,Libya
+TOB,Tobruk,Libya
+MJI,Tripoli,Libya
+LAQ,Al Bayda',Libya
+ATB,Atbara,Sudan
+UYL,Nyala,Sudan
+PZU,Port Sudan,Sudan
+BKZ,Bukoba,Tanzania
+TKQ,Kigoma,Tanzania
+LDI,Lindi,Tanzania
+MUZ,Musoma,Tanzania
+SHY,Shinyanga,Tanzania
+TBO,Tabora,Tanzania
+RUA,Arua,Uganda
+ULU,Gulu,Uganda
+DIU,Diu,India
+ABR,Aberdeen,United States
+ABY,Albany,United States
+AHN,Athens,United States
+ALM,Alamogordo,United States
+ALO,Waterloo,United States
+ALW,Walla Walla,United States
+APN,Alpena,United States
+ATY,Watertown,United States
+BFD,Bradford,United States
+BFF,Scottsbluff,United States
+BKW,Beckley,United States
+BQK,Brunswick,United States
+BRL,Burlington,United States
+CEC,Crescent City,United States
+CGI,Cape Girardeau,United States
+CIU,Sault Ste Marie,United States
+CKB,Clarksburg,United States
+CLM,Port Angeles,United States
+CMX,Hancock,United States
+DDC,Dodge City,United States
+DUJ,Du Bois,United States
+EAU,Eau Claire,United States
+EKO,Elko,United States
+EWB,New Bedford,United States
+FAY,Fayetteville,United States
+GGW,Glasgow,United States
+GRI,Grand Island,United States
+HOT,Hot Springs,United States
+HTS,Huntington,United States
+KIO,Kili Island,Marshall Islands
+IRK,Kirksville,United States
+JMS,Jamestown,United States
+LAR,Laramie,United States
+LBE,Latrobe,United States
+LBF,North Platte,United States
+LEB,Lebanon,United States
+LMT,Klamath Falls,United States
+LNS,Lancaster,United States
+LWT,Lewistown,United States
+LYH,Lynchburg,United States
+MKG,Muskegon,United States
+MLS,Miles City,United States
+MSL,Muscle Shoals,United States
+OTH,North Bend,United States
+OWB,Owensboro,United States
+PIB,Hattiesburg/Laurel,United States
+PIH,Pocatello,United States
+PIR,Pierre,United States
+PLN,Pellston,United States
+PSM,Portsmouth,United States
+RDG,Reading,United States
+RHI,Rhinelander,United States
+RKS,Rock Springs,United States
+RUT,Rutland,United States
+SBP,San Luis Obispo,United States
+SHR,Sheridan,United States
+SLK,Saranac Lake,United States
+SLN,Salina,United States
+SMX,Santa Maria,United States
+TUP,Tupelo,United States
+UIN,Quincy,United States
+VCT,Victoria,United States
+VLD,Valdosta,United States
+WRL,Worland,United States
+YKM,Yakima,United States
+ECN,Nicosia,Cyprus
+RJL,Logroño-Agoncillo,Spain
+IDY,Île d'Yeu,France
+ANE,Angers/Marcé,France
+LTT,La Môle,France
+JSY,Syros Island,Greece
+PEV,Pécs-Pogány,Hungary
+SOB,Sármellék,Hungary
+AOT,Aosta,Italy
+QSR,Salerno,Italy
+CVU,Corvo,Portugal
+BNX,Banja Luka,Bosnia and Herzegovina
+USQ,Usak,Turkey
+KSY,Kars,Turkey
+SFQ,Sanliurfa,Turkey
+KCM,Kahramanmaras,Turkey
+AJI,Agri,Turkey
+ADF,Adiyaman,Turkey
+ISE,Isparta,Turkey
+EDO,Balikesir Korfez,Turkey
+SZF,Samsun,Turkey
+ILZ,Žilina,Slovakia
+GDT,Cockburn Town,Turks and Caicos Islands
+MDS,Middle Caicos,Turks and Caicos Islands
+SLX,Salt Cay,Turks and Caicos Islands
+AZS,Samana,Dominican Republic
+JBQ,La Isabela,Dominican Republic
+PBR,Puerto Barrios,Guatemala
+AAZ,Quezaltenango,Guatemala
+UTK,Utirik Island,Marshall Islands
+AHS,Ahuas,Honduras
+PEU,Puerto Lempira,Honduras
+MIJ,Mili Island,Marshall Islands
+CYW,Celaya,Mexico
+CUA,Ciudad Constitución,Mexico
+GUB,Guerrero Negro,Mexico
+JAL,Jalapa,Mexico
+CTD,Chitré,Panama
+ONX,Colón,Panama
+JQE,Jaqué,Panama
+PLP,La Palma,Panama
+TTQ,Roxana,Costa Rica
+BCL,Pococi,Costa Rica
+PBP,Nandayure,Costa Rica
+PJM,Puerto Jimenez,Costa Rica
+SYQ,San Jose,Costa Rica
+JEE,Jeremie,Haiti
+PAX,Port-de-Paix,Haiti
+TND,Trinidad,Cuba
+COX,Andros,Bahamas
+ATC,Arthur's Town,Bahamas
+TBI,Cat Island,Bahamas
+CRI,Colonel Hill,Bahamas
+PID,Nassau,Bahamas
+AIU,Atiu Island,Cook Islands
+MGS,Mangaia Island,Cook Islands
+MHX,Manihiki Island,Cook Islands
+MUK,Mauke Island,Cook Islands
+MOI,Mitiaro Island,Cook Islands
+PYE,Penrhyn Island,Cook Islands
+ICI,Cicia,Fiji
+PTF,Malolo Lailai Island,Fiji
+KDV,Vunisea,Fiji
+MNF,Mana Island,Fiji
+MFJ,Moala,Fiji
+NGI,Ngau,Fiji
+LKB,Lakeba Island,Fiji
+LBS,Lambasa,Fiji
+TVU,Matei,Fiji
+KXF,Koro Island,Fiji
+RTA,Rotuma,Fiji
+SVU,Savusavu,Fiji
+EUA,Eua Island,Tonga
+HPA,Lifuka,Tonga
+NFO,"Angaha, Niuafo'ou Island",Tonga
+NTT,Niuatoputapu,Tonga
+VBV,Vanua Balavu,Fiji
+IUE,Alofi,Niue
+FUT,Futuna Island,Wallis and Futuna
+MXS,Savaii Island,Samoa
+APK,Apataki,French Polynesia
+AHE,Ahe,French Polynesia
+AUQ,Hiva-oa,French Polynesia
+UAP,Ua Pou,French Polynesia
+UAH,Ua Huka,French Polynesia
+MTV,Ablow,Vanuatu
+SLH,Sola,Vanuatu
+TOH,Loh/Linua,Vanuatu
+EAE,Sangafa,Vanuatu
+CCV,Craig Cove,Vanuatu
+LOD,Longana,Vanuatu
+SSR,Pentecost Island,Vanuatu
+PBJ,Paama Island,Vanuatu
+LPM,Lamap,Vanuatu
+LNB,Lamen Bay,Vanuatu
+MWF,Maewo Island,Vanuatu
+LNE,Lonorore,Vanuatu
+NUS,Norsup,Vanuatu
+ZGU,Gaua Island,Vanuatu
+RCL,Redcliffe,Vanuatu
+SON,Santo,Vanuatu
+TGH,Tongoa Island,Vanuatu
+ULB,Ambryn Island,Vanuatu
+VLS,Valesdir,Vanuatu
+SWJ,Malekula Island,Vanuatu
+OLJ,Olpoi,Vanuatu
+AUY,Anelghowhat,Vanuatu
+AWD,Aniwa,Vanuatu
+DLY,Dillon's Bay,Vanuatu
+FTA,Futuna Island,Vanuatu
+IPA,Ipota,Vanuatu
+TGJ,Tiga,New Caledonia
+BMY,Waala,New Caledonia
+ILP,Île des Pins,New Caledonia
+FBD,Faizabad,Afghanistan
+AJF,Al-Jawf,Saudi Arabia
+WAE,Wadi-al-dawasir,Saudi Arabia
+KHD,Khorram Abad,Iran
+BXR,Bam,Iran
+RJN,Rafsanjan,Iran
+BJB,Bojnourd,Iran
+AFZ,Sabzevar,Iran
+NSH,Noshahr,Iran
+SRY,Dasht-e-naz,Iran
+LRR,Lar,Iran
+ADU,Ardabil,Iran
+OMH,Uromiyeh,Iran
+AAN,Al Ain,United Arab Emirates
+BNP,Bannu,Pakistan
+BHV,Bahawalpur,Pakistan
+CJL,Chitral,Pakistan
+DBA,Dalbandin,Pakistan
+DEA,Dera Ghazi Khan,Pakistan
+DSK,Dera Ismael Khan,Pakistan
+JIW,Jiwani,Pakistan
+HDD,Hyderabad,Pakistan
+KDD,Khuzdar,Pakistan
+ORW,Ormara Raik,Pakistan
+PAJ,Parachinar,Pakistan
+KDU,Skardu,Pakistan
+SYW,Sehwan Sharif,Pakistan
+TUK,Turbat,Pakistan
+ISU,Sulaymaniyah,Iraq
+KAC,Kamishly,Syria
+GXF,Sayun Intl,Yemen
+ADK,Adak Island,United States
+GST,Gustavus,United States
+SGY,Skagway,United States
+HCR,Holy Cross,United States
+HNS,Haines,United States
+KLG,Kalskag,United States
+MCG,Mcgrath,United States
+MOU,Mountain Village,United States
+ANI,Aniak,United States
+VAK,Chevak,United States
+WRG,Wrangell,United States
+OPU,Balimo,Papua New Guinea
+VMU,Baimuru,Papua New Guinea
+LUP,Molokai,United States
+ENT,Eniwetok Atoll,Marshall Islands
+LZN,Matsu Islands,Taiwan
+HCN,Hengchun,Taiwan
+MFK,Matsu Islands,Taiwan
+KUH,Kushiro,Japan
+OKD,Sapporo,Japan
+HSG,Saga,Japan
+NKM,Nagoya,Japan
+IWJ,Iwami,Japan
+FKS,Fukushima,Japan
+ONJ,Odate Noshiro,Japan
+SYO,Shonai,Japan
+MYE,Miyakejima,Japan
+KUV,Kunsan,South Korea
+MPK,Mokpo,South Korea
+WJU,Wonju,South Korea
+YNY,Sokcho / Gangneung,South Korea
+HIN,Sacheon,South Korea
+CJJ,Chongju,South Korea
+SFS,Olongapo City,Philippines
+CYU,Cuyo,Philippines
+CGM,Camiguin,Philippines
+JOL,Jolo,Philippines
+TWT,Sanga Sanga,Philippines
+SUG,Sangley Point,Philippines
+TDG,Tandag,Philippines
+WNP,Naga,Philippines
+BSO,Basco,Philippines
+SFE,San Fernando,Philippines
+TUG,Tuguegarao,Philippines
+VRC,Virac,Philippines
+CYP,Calbayog City,Philippines
+CRM,Catarman,Philippines
+MBT,Masbate,Philippines
+RXS,Roxas City,Philippines
+TTG,Tartagal,Argentina
+LHS,Las Heras,Argentina
+OES,San Antonio Oeste,Argentina
+ING,El Calafate,Argentina
+GGS,Gobernador Gregores,Argentina
+SST,Santa Teresita,Argentina
+NEC,Necochea,Argentina
+JDO,Juazeiro Do Norte,Brazil
+LEC,Lençóis,Brazil
+MEA,Macaé,Brazil
+MII,Marília,Brazil
+VDC,Vitória Da Conquista,Brazil
+RIA,Santa Maria,Brazil
+TOW,Toledo,Brazil
+ESR,El Salvador,Chile
+ZPC,Pucon,Chile
+SOD,Sorocaba,Brazil
+SCY,San Cristóbal,Ecuador
+LOH,La Toma (Catamayo),Ecuador
+ESM,Esmeraldas,Ecuador
+PSY,Stanley,Falkland Islands
+CRC,Cartago,Colombia
+LQM,Puerto Leguízamo,Colombia
+LPD,La Pedrera,Colombia
+NQU,Nuquí,Colombia
+PDA,Puerto Inírida,Colombia
+EYP,Yopal,Colombia
+GYA,Guayaramerín,Bolivia
+PUR,Puerto Rico/Manuripi,Bolivia
+RIB,Riberalta,Bolivia
+REY,Reyes,Bolivia
+SRJ,San Borja,Bolivia
+ORG,Paramaribo,Suriname
+MVS,Mucuri,Brazil
+CJA,Cajamarca,Peru
+HUU,Huánuco,Peru
+NZC,Nazca,Peru
+SRA,Santa Rosa,Brazil
+MYC,Maracay,Venezuela
+VIG,El Vigía,Venezuela
+JPR,Ji-Paraná,Brazil
+BBQ,Codrington,Antigua and Barbuda
+DSD,Grande Anse,Guadeloupe
+BBR,Basse Terre,Guadeloupe
+SFC,St-François,Guadeloupe
+GBJ,Grand Bourg,Guadeloupe
+NEV,Charlestown,Saint Kitts and Nevis
+VIJ,Spanish Town,British Virgin Islands
+BQU,Bequia,Saint Vincent and the Grenadines
+UNI,Union Island,Saint Vincent and the Grenadines
+KOV,Kokshetau,Kazakhstan
+PPK,Petropavlosk,Kazakhstan
+DZN,Zhezkazgan,Kazakhstan
+UKK,Ust Kamenogorsk,Kazakhstan
+KSN,Kostanay,Kazakhstan
+KVD,Ganja,Azerbaijan
+NAJ,Nakhchivan,Azerbaijan
+NER,Neryungri,Russia
+PYJ,Yakutia,Russia
+CKH,Chokurdah,Russia
+CYX,Cherskiy,Russia
+IKS,Tiksi,Russia
+KXK,Komsomolsk-on-Amur,Russia
+DYR,Anadyr,Russia
+OHO,Okhotsk,Russia
+UJE,Ujae Atoll,Marshall Islands
+MPW,Mariupol International,Ukraine
+VSG,Lugansk,Ukraine
+OZH,Zaporozhye,Ukraine
+KWG,Krivoy Rog,Ukraine
+HRK,Kharkov,Ukraine
+IFO,Ivano-Frankivsk,Ukraine
+CWC,Chernovtsk,Ukraine
+RWN,Rivne,Ukraine
+UDJ,Uzhgorod,Ukraine
+CSH,Solovetsky Islands,Russia
+CEE,Cherepovets,Russia
+AMV,Amderma,Russia
+KSZ,Kotlas,Russia
+PES,Petrozavodsk,Russia
+GNA,Hrodna,Belarus
+MVQ,Mogilev,Belarus
+EIE,Yeniseysk,Russia
+KYZ,Kyzyl,Russia
+NOZ,Novokuznetsk,Russia
+HTG,Khatanga,Russia
+IAA,Igarka,Russia
+NAL,Nalchik,Russia
+OGZ,Beslan,Russia
+ESL,Elista,Russia
+WKK,Aleknagik,United States
+BLF,Bluefield,United States
+GLH,Greenville,United States
+PSC,Pasco,United States
+KQA,Akutan,United States
+LPS,Lopez,United States
+SLY,Salekhard,Russia
+HMA,Khanty-Mansiysk,Russia
+NYA,Nyagan,Russia
+OVS,Sovetskiy,Russia
+IJK,Izhevsk,Russia
+KVX,Kirov,Russia
+NYM,Nadym,Russia
+RAT,Raduzhnyi,Russia
+NFG,Nefteyugansk,Russia
+KRO,Kurgan,Russia
+LBD,Khudzhand,Tajikistan
+AZN,Andizhan,Uzbekistan
+FEG,Fergana,Uzbekistan
+NMA,Namangan,Uzbekistan
+NCU,Nukus,Uzbekistan
+UGC,Urgench,Uzbekistan
+KSQ,Khanabad,Uzbekistan
+TMJ,Termez,Uzbekistan
+RYB,Rybinsk,Russia
+EGO,Belgorod,Russia
+URS,Kursk,Russia
+LPK,Lipetsk,Russia
+VKT,Vorkuta,Russia
+UUA,Bugulma,Russia
+JOK,Yoshkar-Ola,Russia
+CSY,Cheboksary,Russia
+ULY,Ulyanovsk,Russia
+OSW,Orsk,Russia
+PEZ,Penza,Russia
+SKX,Saransk,Russia
+BWO,Balakovo,Russia
+HBX,Hubli,India
+KCT,Koggala,Sri Lanka
+WRZ,Wirawila,Sri Lanka
+BBM,Battambang,Cambodia
+SHL,Shillong,India
+GAU,Guwahati,India
+DMU,Dimapur,India
+TEZ,Tezpur,India
+BZL,Barisal,Bangladesh
+HOE,Huay Xai,Laos
+BHR,Bharatpur,Nepal
+BDP,Chandragarhi,Nepal
+MEY,Meghauli,Nepal
+KEP,Nepalgunj,Nepal
+GAN,Gan Island,Maldives
+HAQ,Haa Dhaalu Atoll,Maldives
+KDO,Laamu Atoll,Maldives
+MAQ,Tak,Thailand
+BMV,Buonmethuot,Vietnam
+HPH,Haiphong,Vietnam
+CXR,Nha Trang,Vietnam
+VCS,Conson,Vietnam
+VCA,Can Tho,Vietnam
+DIN,Dienbienphu,Vietnam
+UIH,Phucat,Vietnam
+PXU,Pleiku,Vietnam
+VII,Vinh,Vietnam
+BMO,Banmaw,Burma
+TVY,Dawei,Burma
+KAW,Kawthoung,Burma
+LIW,Loikaw,Burma
+MNU,Mawlamyine,Burma
+BSX,Pathein,Burma
+PKK,Pakhokku,Burma
+SWQ,Sumbawa Island,Indonesia
+TMC,Waikabubak-Sumba Island,Indonesia
+BUI,Bokondini-Papua Island,Indonesia
+SEH,Senggeh-Papua Island,Indonesia
+TJS,Tanjung Selor-Borneo Island,Indonesia
+DTD,Datadawai-Borneo Island,Indonesia
+BEJ,Tanjung Redep-Borneo Island,Indonesia
+TJG,Tanjung-Borneo Island,Indonesia
+SMQ,Sampit-Borneo Island,Indonesia
+LUV,Langgur-Kei Islands,Indonesia
+ARD,Alor Island,Indonesia
+BLG,Belaga,Malaysia
+LGL,Long Datih,Malaysia
+ODN,Long Seridan,Malaysia
+MKM,Mukah,Malaysia
+BKM,Bakalalan,Malaysia
+LWY,Lawas,Malaysia
+BBN,Bario,Malaysia
+TMG,Tomanggong,Malaysia
+KUD,Kudat,Malaysia
+TKG,Bandar Lampung-Sumatra Island,Indonesia
+HLP,Jakarta,Indonesia
+NTX,Ranai-Natuna Besar Island,Indonesia
+PSU,Putussibau-Borneo Island,Indonesia
+SQG,Sintang-Borneo Island,Indonesia
+PDO,Talang Gudang-Sumatra Island,Indonesia
+LSW,Lhok Seumawe-Sumatra Island,Indonesia
+PKG,Pangkor Island,Malaysia
+LBW,Long Bawan-Borneo Island,Indonesia
+NNX,Nunukan-Nunukan Island,Indonesia
+LPU,Long Apung-Borneo Island,Indonesia
+ALH,Albany,Australia
+GYL,Argyle,Australia
+AUU,Aurukun,Australia
+BCI,Barcaldine,Australia
+BDD,Badu Island,Australia
+BVI,Birdsville,Australia
+BHQ,Broken Hill,Australia
+HTI,Hamilton Island,Australia
+BEU,Bedourie,Australia
+BRK,Bourke,Australia
+BUC,Burketown,Australia
+GIC,Boigu,Australia
+OKY,Oakey,Australia
+BQL,Boulia,Australia
+BHS,Bathurst,Australia
+BLT,Blackwater,Australia
+CVQ,Carnarvon,Australia
+CAZ,Cobar,Australia
+CPD,Coober Pedy,Australia
+CNC,Coconut Island,Australia
+CNJ,Cloncurry,Australia
+CED,Ceduna,Australia
+CTN,Cooktown,Australia
+CMA,Cunnamulla,Australia
+CNB,Coonamble,Australia
+CUQ,Coen,Australia
+OOM,Cooma,Australia
+DMD,Doomadgee,Australia
+NLF,Darnley Island,Australia
+DPO,Devonport,Australia
+ELC,Elcho Island,Australia
+EPR,Esperance,Australia
+FLS,Flinders Island,Australia
+GET,Geraldton,Australia
+GLT,Gladstone,Australia
+GTE,Groote Eylandt,Australia
+GFF,Griffith,Australia
+HID,Horn Island,Australia
+HOK,Hooker Creek,Australia
+MHU,Mount Hotham,Australia
+HGD,Hughenden,Australia
+JCK,Julia Creek,Australia
+KAX,Kalbarri,Australia
+KNS,King Island,Australia
+KFG,Kalkgurung,Australia
+KRB,Karumba,Australia
+KWM,Kowanyama,Australia
+KUG,Kubin,Australia
+LNO,Leonora,Australia
+LEL,Lake Evella,Australia
+LDH,Lord Howe Island,Australia
+IRG,Lockhart River,Australia
+LSY,Lismore,Australia
+LHG,Lightning Ridge,Australia
+LRE,Longreach,Australia
+LER,Leinster,Australia
+LVO,Laverton,Australia
+UBB,Mabuiag Island,Australia
+MKR,Meekatharra,Australia
+MIM,Merimbula,Australia
+MGT,Milingimbi,Australia
+MNG,Maningrida,Australia
+MCV,McArthur River Mine,Australia
+MQL,Mildura,Australia
+MMG,Mount Magnet,Australia
+MRZ,Moree,Australia
+MOV,Moranbah,Australia
+MYA,Moruya,Australia
+MGB,Mount Gambier,Australia
+ONG,Mornington Island,Australia
+MYI,Murray Island,Australia
+MBH,Maryborough,Australia
+NRA,Narrandera,Australia
+NAA,Narrabri,Australia
+NTN,Normanton,Australia
+ZNE,Newman,Australia
+OLP,Olympic Dam,Australia
+PUG,Argyle,Australia
+PMK,Palm Island,Australia
+PBO,Paraburdoo,Australia
+CCK,Cocos Keeling Island,Cocos (Keeling) Islands
+GOV,Gove,Australia
+PKE,Parkes,Australia
+PLO,Port Lincoln,Australia
+EDR,Pormpuraaw,Australia
+PQQ,Port Macquarie,Australia
+PTJ,Portland,Australia
+ULP,Quilpie,Australia
+RAM,Ramingining,Australia
+RMA,Roma,Australia
+SGO,St George,Australia
+MJK,Shark Bay,Australia
+SBR,Saibai Island,Australia
+SRN,Strahan,Australia
+XTG,Thargomindah,Australia
+TCA,Tennant Creek,Australia
+VCD,Victoria River Downs,Australia
+SYU,Sue Islet,Australia
+WNR,Windorah,Australia
+WYA,Whyalla,Australia
+WUN,Wiluna,Australia
+WOL,Wollongong,Australia
+WIN,Winton,Australia
+BWT,Burnie,Australia
+OKR,Yorke Island,Australia
+XMY,Yam Island,Australia
+NAY,Beijing,China
+CIF,Chifeng,China
+CIH,Changzhi,China
+DAT,Datong,China
+HET,Hohhot,China
+BAV,Baotou,China
+SJW,Shijiazhuang,China
+TGO,Tongliao,China
+HLH,Ulanhot,China
+XIL,Xilinhot,China
+BHY,Beihai,China
+CGD,Changde,China
+DYG,Dayong,China
+MXZ,Meixian,China
+ZUH,Zhuhai,China
+LZH,Liuzhou,China
+ZHA,Zhanjiang,China
+ENH,Enshi,China
+NNY,Nanyang,China
+XFN,Xiangfan,China
+YIH,Yichang,China
+AKA,Ankang,China
+GOQ,Golmud,China
+HZG,Hanzhong,China
+IQN,Qingyang,China
+XNN,Xining,China
+ENY,Yan'an,China
+UYN,Yulin,China
+AVK,Arvaikheer,Mongolia
+LTI,Altai,Mongolia
+BYN,Bayankhongor,Mongolia
+DLZ,Dalanzadgad,Mongolia
+HVD,Khovd,Mongolia
+MXV,Muren,Mongolia
+DIG,Shangri-La,China
+LUM,Luxi,China
+SYM,Simao,China
+ZAT,Zhaotong,China
+KOW,Ganzhou,China
+JDZ,Jingdezhen,China
+JIU,Jiujiang,China
+JUZ,Quzhou,China
+LYG,Lianyungang,China
+HYN,Huangyan,China
+LYI,Linyi,China
+JJN,Quanzhou,China
+TXN,Huangshan,China
+WEF,Weifang,China
+WEH,Weihai,China
+WUX,Wuxi,China
+WUS,Wuyishan,China
+WNZ,Wenzhou,China
+YNZ,Yancheng,China
+YIW,Yiwu,China
+HSN,Zhoushan,China
+BPX,Bangda,China
+DAX,Dazhou,China
+GYS,Guangyuan,China
+LZO,Luzhou,China
+MIG,Mianyang,China
+NAO,Nanchong,China
+LZY,Nyingchi,China
+WXN,Wanxian,China
+AKU,Aksu,China
+IQM,Qiemo,China
+KCA,Kuqa,China
+KRL,Korla,China
+KRY,Karamay,China
+YIN,Yining,China
+HEK,Heihe,China
+JMU,Jiamusi,China
+JNZ,Jinzhou,China
+NDG,Qiqihar,China
+YNJ,Yanji,China
+WKL,Waikoloa Village,United States
+WME,Mount Keith,Australia
+LRV,Los Roques,Venezuela
+IOR,Inis Mor,Ireland
+NNR,Indreabhan,Ireland
+GTI,Ruegen,Germany
+EZV,Berezovo,Russia
+ORH,Worcester,United States
+AQG,Anqing,China
+SHP,Qinhuangdao,China
+YCU,Yuncheng,China
+JGN,Jiayuguan,China
+DDG,Dandong,China
+DSN,Dongsheng,China
+PZI,Panzhihua,China
+PWT,Bremerton,United States
+SPW,Spencer,United States
+JEF,Jefferson City,United States
+UNT,Unst,United Kingdom
+PVC,Provincetown,United States
+SBH,Gustavia,France
+KMW,Kostroma,Russia
+SUI,Sukhumi,Georgia
+TBW,Tambow,Russia
+OBN,North Connel,United Kingdom
+ERM,Erechim,Brazil
+CVF,Courcheval,France
+FUL,Fullerton,United States
+USA,Concord,United States
+NVI,Navoi,Uzbekistan
+QSF,Setif,Algeria
+LRH,La Rochelle,France
+SUN,Hailey,United States
+MCW,Mason City,United States
+AZA,Mesa,United States
+XAU,Saul,French Guiana
+AKP,Anaktuvuk Pass,United States
+ANV,Anvik,United States
+ATK,Atqasuk,United States
+GAM,Gambell,United States
+HPB,Hooper Bay,United States
+KAL,Kaltag,United States
+KSM,St Mary's,United States
+KVL,Kivalina,United States
+MYU,Mekoryuk,United States
+RBY,Ruby,United States
+SHH,Shishmaref,United States
+SVA,Savoonga,United States
+WTK,Noatak,United States
+OMC,Ormoc City,Philippines
+YPX,Puvirnituq,Canada
+YTQ,Tasiujaq,Canada
+ARC,Arctic Village,United States
+QOW,Imo,Nigeria
+FON,La Fortuna/San Carlos,Costa Rica
+TMU,Nicoya,Costa Rica
+CYZ,Cauayan,Philippines
+KVK,Apatity,Russia
+GVR,Governador Valadares,Brazil
+KPC,Port Clarence,United States
+PJA,Pajala,Sweden
+QBC,Bella Coola,Canada
+HGR,Hagerstown,United States
+ACR,Araracuara,Colombia
+GOP,Gorakhpur,India
+SDP,Sand Point,United States
+HMI,Hami,China
+WUZ,Wuzhou,China
+TBH,Romblon,Philippines
+ACP,Maragheh,Iran
+GBT,Gorgan,Iran
+IIL,Ilam,Iran
+PFQ,Parsabad,Iran
+TCG,Tacheng,China
+MQM,Mardin,Turkey
+AFS,Zarafshan,Uzbekistan
+DRG,Deering,United States
+LEN,Leon,Spain
+RGS,Burgos,Spain
+EGM,Sege,Solomon Islands
+CQD,Shahre Kord,Iran
+DHM,Kangra,India
+NDC,Nanded,India
+SLV,Shimla,India
+IGG,Igiugig,United States
+KNW,New Stuyahok,United States
+KVC,King Cove,United States
+PTH,Port Heiden,United States
+TOG,Togiak Village,United States
+EGN,Geneina,Sudan
+LKH,Long Akah,Malaysia
+WLH,Walaha,Vanuatu
+CHG,Chaoyang,China
+UAS,Samburu South,Kenya
+BHG,Brus Laguna,Honduras
+YVB,Bonaventure,Canada
+SKT,Sialkot,Pakistan
+PDP,Punta del Este,Uruguay
+WVB,Walvis Bay,Namibia
+MPA,Mpacha,Namibia
+AOE,Eskissehir,Turkey
+CKZ,Canakkale,Turkey
+MSR,Mus,Turkey
+NOP,Sinop,Turkey
+TEQ,Çorlu,Turkey
+YEI,Yenisehir,Turkey
+LSS,Les Saintes,Guadeloupe
+KMV,Kalemyo,Myanmar
+VQS,Vieques Island,Puerto Rico
+YIF,St-Augustin,Canada
+HDM,Hamadan,Iran
+MRQ,Gasan,Philippines
+GFN,Grafton,Australia
+OAG,Orange,Australia
+TRO,Taree,Australia
+COQ,Choibalsan,Mongolia
+HOH,Hohenems,Austria
+ESC,Escanaba,United States
+YAK,Yakutat,United States
+GUL,Goulburn,Australia
+CES,Cessnock,Australia
+NSO,Scone,Australia
+DGE,Mudgee,Australia
+MTL,Maitland,Australia
+CPX,Culebra Island,Puerto Rico
+MWA,Marion,United States
+OCN,Fraser Island,Australia
+KIK,Kirkuk,Iraq
+XJD,Doha,Qatar
+GBZ,Claris,New Zealand
+IMT,Iron Mountain,United States
+AET,Allakaket,United States
+MGC,Michigan City,United States
+SWD,Seward,United States
+GRM,Grand Marais,United States
+AUW,Wausau,United States
+MYP,Mary,Turkmenistan
+MVA,Myvatn,Iceland
+QSA,Sabadell,Spain
+WSY,Airlie Beach,Australia
+MIE,Muncie,United States
+LAF,Lafayette,United States
+VGT,Las Vegas,United States
+ENW,Kenosha,United States
+MTJ,Montrose CO,United States
+RIW,Riverton WY,United States
+PDT,Pendleton,United States
+LYM,Lympne,United Kingdom
+PKH,Porto Heli,Greece
+KTR,Katherine,Australia
+NOA,Nowra,Australia
+UCK,Lutsk,Ukraine
+CEJ,Chernigov,Ukraine
+BQT,Brest,Belarus
+OSH,Oshkosh,United States
+AGE,Wangerooge,Germany
+BXG,Bendigo,Australia
+EAT,Wenatchee,United States
+ARE,Arecibo,Puerto Rico
+RIN,Ringi Cove,Solomon Islands
+KCK,Kirensk,Russia
+UKX,Ust-Kut,Russia
+RMT,Rimatara,French Polynesia
+QLS,Lausanne,Switzerland
+ZJI,Locarno,Switzerland
+QNC,Neuchatel,Switzerland
+TGK,Taganrog,Russia
+GDZ,Gelendzhik,Russia
+ZIA,Ramenskoe,Russia
+IAR,Yaroslavl,Russia
+OHE,Mohe County,China
+JNG,Jining,China
+DRK,Puntarenas,Costa Rica
+AAT,Altay,China
+TZL,Null,Bosnia and Herzegovina
+FWH,Dallas,United States
+NYT,Naypyidaw,Burma
+VBP,Bokepyin,Burma
+NZH,Manzhouli,China
+WUA,Wuhai,China
+GYY,Gary,United States
+BRD,Brainerd,United States
+LWB,Lewisburg,United States
+PGV,Greenville,United States
+CYF,Chefornak,United States
+OXR,Oxnard,United States
+BKG,Branson,United States
+TEN,Tongren,China
+JGS,Jian,China
+NIU,Niau,French Polynesia
+SCH,Scotia NY,United States
+NBC,Nizhnekamsk,Russia
+QRW,Osubi,Nigeria
+IAO,Siargao,Philippines
+LGO,Langeoog,Germany
+NLP,Nelspruit,South Africa
+CKC,Cherkassy,Ukraine
+UST,St. Augustine Airport,United States
+NLV,Nikolayev,Ukraine
+RHP,Ramechhap,Nepal
+STS,Santa Rosa,United States
+ISM,Kissimmee,United States
+LCQ,Lake City,United States
+LGU,Logan,United States
+BMC,Brigham City,United States
+ASE,Aspen,United States
+ULV,Ulyanovsk,Russia
+ERV,Kerrville,United States
+GED,Georgetown,United States
+ZSW,Prince Rupert,Canada
+GBD,Great Bend,United States
+HYS,Hays,United States
+SUS,Null,United States
+LYU,Ely,United States
+GPZ,Grand Rapids MN,United States
+TVF,Thief River Falls,United States
+EGV,Eagle River,United States
+ARV,Minocqua - Woodruff,United States
+YBV,Berens River,Canada
+AVX,Catalina Island,United States
+MHV,Mojave,United States
+ZIN,Interlaken,Switzerland
+INQ,Inisheer,Ireland
+SWT,Strezhevoy,Russia
+HUT,Hutchinson,United States
+OAI,Kabul,Afghanistan
+AKH,Al Kharj,Saudi Arabia
+STJ,Rosecrans,United States
+VOK,Camp Douglas,United States
+GUC,Gunnison,United States
+SIA,Xi\'AN,China
+TOA,Torrance,United States
+MBL,Manistee,United States
+PGD,Punta Gorda,United States
+WFK,Frenchville,United States
+JHW,Jamestown,United States
+YTM,Mont-Tremblant,Canada
+SME,Somerset,United States
+SHD,Weyers Cave,United States
+DVL,Devils Lake,United States
+DIK,Dickinson,United States
+SDY,Sidney,United States
+CDR,Chadron,United States
+AIA,Alliance,United States
+MCK,McCook,United States
+MTH,Marathon,United States
+GDV,Glendive,United States
+OLF,Wolf Point,United States
+WYS,West Yellowstone,United States
+ALS,Alamosa,United States
+CNY,Moab,United States
+ELY,Ely,United States
+VEL,Vernal,United States
+RUI,Ruidoso,United States
+SOW,Show Low,United States
+MYL,McCall,United States
+SMN,Salmon,United States
+MMH,Mammoth Lakes,United States
+FRD,Friday Harbor,United States
+ESD,Eastsound,United States
+AST,Astoria,United States
+ONP,Newport,United States
+EMK,Emmonak,United States
+UNK,Unalakleet,United States
+UUK,Kuparuk,United States
+SHX,Shageluk,United States
+CHU,Chuathbaluk,United States
+NUI,Nuiqsut,United States
+EEK,Eek,United States
+KUK,Kasigluk,United States
+KWT,Kwethluk,United States
+KWK,Kwigillingok,United States
+MLL,Marshall,United States
+RSH,Russian Mission,United States
+KGK,Koliganek,United States
+KMO,Manokotak,United States
+CIK,Chalkyitsik,United States
+EAA,Eagle,United States
+HUS,Hughes,United States
+HSL,Huslia,United States
+NUL,Nulato,United States
+VEE,Venetie,United States
+WBQ,Beaver,United States
+CEM,Central,United States
+SHG,Shungnak,United States
+IYK,Inyokern,United States
+VIS,Visalia,United States
+MCE,Merced,United States
+CYR,Colonia,Uruguay
+CPQ,Campinas,Brazil
+GYR,Goodyear,United States
+TWB,Toowoomba,Australia
+BBL,Ballera,Australia
+AYK,Arkalyk,Kazakhstan
+AGN,Angoon,United States
+ELV,Elfin Cove,United States
+FNR,Funter Bay,United States
+HNH,Hoonah,United States
+MTM,Metakatla,United States
+HYG,Hydaburg,United States
+EGX,Egegik,United States
+KPV,Perryville,United States
+PIP,Pilot Point,United States
+WSN,South Naknek,United States
+AKK,Akhiok,United States
+KYK,Karluk,United States
+KLN,Larsen Bay,United States
+ABL,Ambler,United States
+BKC,Buckland,United States
+IAN,Kiana,United States
+OBU,Kobuk,United States
+ORV,Noorvik,United States
+WLK,Selawik,United States
+KTS,Brevig Mission,United States
+ELI,Elim,United States
+GLV,Golovin,United States
+TLA,Teller,United States
+WAA,Wales,United States
+WMO,White Mountain,United States
+KKA,Koyuk,United States
+SMK,St. Michael,United States
+SKK,Shaktoolik,United States
+TNC,Tin City,United States
+AKB,Atka,United States
+IKO,Nikolski,United States
+CYT,Yakataga,United States
+AUK,Alakanuk,United States
+KPN,Kipnuk,United States
+KFP,False Pass,United States
+NLG,Nelson Lagoon,United States
+PML,Cold Bay,United States
+KLW,Klawock,United States
+KWN,Quinhagak,United States
+KOT,Kotlik,United States
+KYU,Koyukuk,United States
+SCM,Scammon Bay,United States
+NNL,Nondalton,United States
+KKH,Kongiganak,United States
+NIB,Nikolai,United States
+AKI,Akiak,United States
+AIN,Wainwright,United States
+APZ,ZAPALA,Argentina
+RDS,Rincon de los Sauces,Argentina
+PNT,Puerto Natales,Chile
+SGV,Sierra Grande,Argentina
+IGB,Ingeniero Jacobacci,Argentina
+NCN,Chenega,United States
+TKJ,Tok,United States
+IRC,Circle,United States
+SLQ,Sleetmute,United States
+LMA,Lake Minchumina,United States
+MLY,Manley Hot Springs,United States
+YNP,Natuashish,Canada
+YSO,Postville,Canada
+YWB,Kangiqsujuaq,Canada
+YTF,Alma,Canada
+YGV,Havre-Saint-Pierre,Canada
+YXK,Rimouski,Canada
+XTL,Tadoule Lake,Canada
+XLB,Lac Brochet,Canada
+XSI,South Indian Lake,Canada
+YBT,Brochet,Canada
+ZGR,Little Grand Rapids,Canada
+YCR,Cross Lake,Canada
+YRS,Red Sucker Lake,Canada
+YOP,Rainbow Lake,Canada
+YBY,Bonnyville,Canada
+ZNA,Nanaimo,Canada
+YGG,Ganges,Canada
+YDT,Boundary Bay,Canada
+YLY,Langley Township,Canada
+YFJ,Wekweeti,Canada
+RNI,Corn Island,Nicaragua
+BZA,Bonanza,Nicaragua
+RFS,Rosita,Nicaragua
+SIU,Siuna,Nicaragua
+WSP,Waspam,Nicaragua
+NCR,San Carlos,Nicaragua
+PLD,Carrillo,Costa Rica
+COZ,Constanza,Dominican Republic
+NEG,Negril,Jamaica
+NRR,Ceiba,Puerto Rico
+SPB,Charlotte Amalie,Virgin Islands
+ARR,Alto Rio Senguer,Argentina
+JSM,Jose de San Martin,Argentina
+UYU,Uyuni,Bolivia
+RBQ,Rerrenabaque,Bolivia
+ABF,Abaiang Atoll,Kiribati
+ABN,Albina,Suriname
+DRJ,Drietabbetje,Suriname
+MOJ,Moengo,Suriname
+ICK,Nieuw Nickerie,Suriname
+OEM,Paloemeu,Suriname
+SMZ,Stoelmans Eiland,Suriname
+TOT,Totness,Suriname
+AGI,Wageningen,Suriname
+ORJ,Orinduik,Guyana
+NAI,Annai,Guyana
+IMB,Imbaimadai,Guyana
+KAR,Kamarang,Guyana
+USI,Mabaruma,Guyana
+MHA,Mahdia,Guyana
+PJC,Pedro Juan Caballero,Paraguay
+ACD,Acandi,Colombia
+RVE,Saravena,Colombia
+BQJ,Batagay,Russia
+VGZ,Villa Garzon,Colombia
+EBG,El Bagre,Colombia
+CAQ,Caucasia,Colombia
+COG,Condoto,Colombia
+TLU,Tolu,Colombia
+CFB,Cabo Frio,Brazil
+OPS,Sinop,Brazil
+GRP,Gurupi,Brazil
+CMP,Santana do Araguaia,Brazil
+BVS,Breves,Brazil
+SFK,Soure,Brazil
+PIN,Parintins,Brazil
+BRA,Barreiras,Brazil
+STZ,Santa Terezinha,Brazil
+MQH,Minacu,Brazil
+AUX,Araguaina,Brazil
+NVP,Novo Aripuana,Brazil
+FRC,Franca,Brazil
+DOU,Dourados,Brazil
+LBR,Labrea,Brazil
+ROO,Rondonopolis,Brazil
+GPB,Guarapuava,Brazil
+JCB,Joacaba,Brazil
+RVD,Rio Verde,Brazil
+AAX,Araxa,Brazil
+MBZ,Maues,Brazil
+RBB,Borba,Brazil
+CIZ,Coari,Brazil
+BAZ,Barcelos,Brazil
+DMT,Diamantino,Brazil
+GNM,Guanambi,Brazil
+QDJ,Djelfa,Algeria
+NZA,Nzagi,Angola
+LBZ,Lucapa,Angola
+KNP,Kapanda,Angola
+AMC,Am Timan,Chad
+GSQ,Sharq Al-Owainat,Egypt
+MRB,Martinsburg,United States
+AWA,Awasa,Ethiopia
+JIJ,Jijiga,Ethiopia
+MKS,Mekane Selam,Ethiopia
+DBM,Debre Marqos,Ethiopia
+DBT,Debre Tabor,Ethiopia
+QHR,Debre Zeyit,Ethiopia
+GOB,Goba,Ethiopia
+MYB,Mayumba,Gabon
+MRE,Masai Mara,Kenya
+JJM,Meru National Park,Kenya
+RBX,Rumbek,Sudan
+CPA,Greenville,Liberia
+IHC,Inhaca,Mozambique
+MAX,Matam,Senegal
+BDI,Bird Island,Seychelles
+WHF,Wadi Halfa,Sudan
+NBE,Enfidha,Tunisia
+HTY,Hatay,Turkey
+RVV,Raivavae,French Polynesia
+FUO,Foshan,China
+HUZ,Huizhou,China
+ILD,Lleida,Spain
+BIU,Bildudalur,Iceland
+GJR,Gjogur,Iceland
+SAK,Saudarkrokur,Iceland
+IIA,Inishmaan,Ireland
+ULG,Olgii,Mongolia
+KQT,Kurgan Tyube,Tajikistan
+VGD,Vologda,Russia
+ONK,Olenyok,Russia
+SYS,Saskylakh,Russia
+LDG,Arkhangelsk,Russia
+HSK,Huesca,Spain
+CQM,Ciudad Real,Spain
+NJF,Najaf,Iraq
+CSA,Colonsay,United Kingdom
+RKH,Rock Hill,United States
+AGC,Pittsburgh,United States
+VQQ,Jacksonville,United States
+FTY,Atlanta,United States
+TII,Tarin Kowt,Afghanistan
+ZAJ,Zaranj,Afghanistan
+CCN,Chaghcharan,Afghanistan
+FUG,Fuyang,China
+LCX,Longyan,China
+BSD,Baoshan,China
+ACX,Xingyi,China
+HZH,Liping,China
+OSU,Columbus,United States
+ADS,Addison,United States
+DSI,Destin,United States
+KHE,Kherson,Ukraine
+SZS,Stewart Island,New Zealand
+HJJ,Zhijiang,China
+YQI,Yarmouth,Canada
+ISO,Kinston,United States
+FFA,Kill Devil Hills,United States
+LNJ,Lincang,China
+CKS,Parauapebas,Brazil
+MWK,Anambas Islands,Indonesia
+PGU,Khalije Fars,Iran
+YES,Yasuj,Iran
+OSM,Mosul,Iraq
+TJH,Toyooka,Japan
+AXJ,Amakusa,Japan
+KKX,Kikai,Japan
+AGJ,Aguni,Japan
+ULZ,Uliastai,Mongolia
+UGA,Bulgan,Mongolia
+ULO,Ulaangom,Mongolia
+LBX,Lubang,Philippines
+TJU,Kulyab,Tajikistan
+CMJ,Cimei,Taiwan
+TAZ,Dasoguz,Turkmenistan
+BWB,Barrow Island,Australia
+DRB,Derby,Australia
+WGE,Walgett,Australia
+BRT,Bathurst Island,Australia
+DKI,Dunk Island,Australia
+LZR,Lizard Island,Australia
+HLT,Hamilton,Australia
+HCQ,Halls Creek,Australia
+FIZ,Fitzroy Crossing,Australia
+RVT,Ravensthorpe,Australia
+PVU,Provo,United States
+SBS,Steamboat Springs,United States
+DTA,Delta,United States
+PUC,Price,United States
+LAM,Los Alamos,United States
+HII,Lake Havasu City,United States
+INW,Winslow,United States
+DGL,Douglas,United States
+MZK,Marakei,Kiribati
+AEA,Abemama,Kiribati
+AAK,Buariki,Kiribati
+KUC,Kuria,Kiribati
+AIS,Arorae,Kiribati
+TMN,Tamana,Kiribati
+BEZ,Beru Island,Kiribati
+NIG,Nikunau,Kiribati
+BBG,Butaritari,Kiribati
+MTK,Makin,Kiribati
+MNK,Maiana,Kiribati
+NON,Nonouti,Kiribati
+TSU,Tabiteuea,Kiribati
+WTZ,Whitianga,New Zealand
+KTF,Takaka,New Zealand
+AFT,Afutara,Solomon Islands
+RNA,Ulawa,Solomon Islands
+CHY,Choiseul Bay,Solomon Islands
+NNB,Santa Ana,Solomon Islands
+XYA,Yandina,Solomon Islands
+BPF,Batuna,Solomon Islands
+BOW,Bartow,United States
+FTI,Fiti\'uta,American Samoa
+LVK,Livermore,United States
+RMY,Mariposa,United States
+GFY,Grootfontein,Namibia
+NDU,Rundu,Namibia
+TRM,Palm Springs,United States
+SMO,Santa Monica,United States
+UDD,Palm Springs,United States
+SCF,Scottsdale,United States
+OLM,Olympia,United States
+RIL,Rifle,United States
+SAA,SARATOGA,United States
+PDK,Atlanta,United States
+BMG,Bloomington,United States
+SUA,Stuart,United States
+MMU,Morristown,United States
+APC,Napa,United States
+SDM,San Diego,United States
+VNC,Venice,United States
+PHK,Pahokee,United States
+ECP,Panama City,United States
+SBD,San Bernardino,United States
+VAL,Valenca,Brazil
+CAU,Caruaru,Brazil
+AWK,Wake island,Wake Island
+QNV,Nova Iguacu,Brazil
+SQL,San Carlos,United States
+RWI,Rocky Mount,United States
+SXQ,Soldotna,United States
+SEE,El Cajon,United States
+PHA,Phan Rang,Vietnam
+SQH,Son-La,Vietnam
+TKF,Truckee,United States
+FRJ,Frejus,France
+GEX,Geelong,Australia
+LVM,Livingston-Montana,United States
+GMV,Monument Valley,United States
+JRA,New York,United States
+LAL,Lakeland,United States
+SYH,Syangboche,Nepal
+RBK,Murrieta-Temecula,United States
+FNU,Oristano,Italy
+MYQ,Mysore,India
+MGY,Dayton,United States
+FDY,Findley,United States
+PEA,Penneshaw,Australia
+EMP,Kempten,Germany
+HYC,Wycombe,United Kingdom
+BBP,Bembridge,United Kingdom
+SPF,Spearfish-South Dakota,United States
+QYD,Gdynia,Poland
+OLV,Olive Branch,United States
+KNA,Vina del Mar,Chile
+ONQ,Zonguldak,Turkey
+BJC,Broomfield-CO,United States
+SLE,Salem,United States
+UTM,Tunica,United States
+ZKB,Kasaba Bay,Zambia
+LND,Lindau,Germany
+MWC,Milwaukee,United States
+JVL,Janesville,United States
+LZU,Lawrenceville,United States
+BWG,Bowling Green,United States
+RVS,Tulsa,United States
+NHD,Minhad AB,United Arab Emirates
+KGO,Kirovograd,Ukraine
+DBB,Dabaa City,Egypt
+BCE,Bryce Canyon,United States
+CKL,Shchyolkovo,Russia
+TCZ,Tengchong,China
+UKS,Sevastopol,Ukraine
+OAZ,Camp Bastion,Afghanistan
+JCI,Olathe,United States
+ESN,Easton,United States
+HMR,Hamar,Norway
+MYV,Yuba City,United States
+DUC,Duncan,United States
+UVA,Uvalde,United States
+LOT,Lockport,United States
+CCR,Concord,United States
+OCA,Ocean Reef Club Airport,United States
+YUS,Yushu,China
+HIA,Huai An,China
+YOO,Oshawa,Canada
+LHA,Lahr,Germany
+NYW,Monywa,Burma
+ATO,Athens,United States
+SGH,Springfield,United States
+HEX,Santo Domingo,Dominican Republic
+CDA,Cooinda,Australia
+JAB,Jabiru,Australia
+HGS,Freetown,Sierra Leone
+TOP,Topeka,United States
+MQY,Smyrna,United States
+UOS,Sewanee,United States
+NGQ,Shiquanhe,China
+CSO,Cochstedt,Germany
+PWK,Chicago-Wheeling,United States
+KLS,Kelso,United States
+ZTA,Tureia,French Polynesia
+PUE,Puerto Obaldia,Panama
+KHC,Kerch,Ukraine
+UKA,Ukunda,Kenya
+ILN,Wilmington,United States
+AVW,Tucson,United States
+CGZ,Casa Grande,United States
+BXK,Buckeye,United States
+MMI,Athens,United States
+STK,Sterling,United States
+RWL,Rawlins,United States
+CDW,Caldwell,United States
+AIZ,Kaiser Lake Ozark,United States
+TVI,Thomasville,United States
+HSH,Henderson,United States
+GML,Kiev,Ukraine
+TMA,Tifton,United States
+RDO,RADOM,Poland
+DVT,Phoenix ,United States
+YRV,Revelstoke,Canada
+FRG,Farmingdale,United States
+ZHY,Zhongwei,China
+MCL,McKinley Park,United States
+PPC,Prospect Creek,United States
+KHW,Khwai River,Botswana
+TXG,Taichung,Taiwan
+HLG,Wheeling,United States
+XYE,Ye,Burma
+DWC,Dubai,United Arab Emirates
+RKP,Rockport,United States
+MVV,Verdun,France
+MFX,Ajaccio,France
+AEB,Baise,China
+OKF,Okaukuejo,Namibia
+OKU,Mokuti Lodge,Namibia
+KOQ,Koethen,Germany
+PSH,Sankt Peter-Ording,Germany
+TTD,Troutdale,United States
+HIO,Hillsboro,United States
+KHT,Khost,Afghanistan
+NMT,Naypyidaw,Burma
+BNO,Burns,United States
+PRZ,Prineville,United States
+RBL,Red Bluff,United States
+NOT,Novato,United States
+LKV,Lakeview,United States
+OTK,Tillamook,United States
+ONO,Ontario,United States
+DLS,The Dalles,United States
+GAI,Gaithersburg,United States
+OAS,Sharona,Afghanistan
+YTA,Pembroke,Canada
+TSB,Tsumeb,Namibia
+YSD,Suffield,Canada
+BNU,BLUMENAU,Brazil
+YCC,Cornwall,Canada
+IZA,Juiz de Fora,Brazil
+MVL,Morrisville,United States
+RBD,Dallas,United States
+BXY,Baikonur,Kazakhstan
+WST,Washington County,United States
+BID,Block Island,United States
+NME,Nightmute,United States
+OOK,Toksook Bay,United States
+OBY,Ittoqqortoormiit,Greenland
+VIN,Vinnitsa,Ukraine
+BGE,Bainbridge,United States
+ZGS,La Romaine,Canada
+ZKG,Kegaska,Canada
+YBI,Black Tickle,Canada
+WHP,Los Angeles,United States
+MAE,Madera,United States
+YZZ,Trail,Canada
+YAB,Arctic Bay,Canada
+GSI,Grand-Santi,French Guiana
+MPY,Maripasoula,French Guiana
+LDX,Saint-Laurent-du-Maroni,French Guiana
+KJI,Burqin,China
+CPB,Capurgana,Colombia
+HMB,Sohag,Egypt
+RVY,Rivera,Uruguay
+POJ,Patos de Minas,Brazil
+JTC,Bauru,Brazil
+OIA,Ourilandia do Norte,Brazil
+RDC,Redencao,Brazil
+SXX,Sao Felix do Xingu,Brazil
+BYO,Bointo,Brazil
+SXO,Sao Felix do Araguaia,Brazil
+CFC,Cacador,Brazil
+CAF,Carauari,Brazil
+ERN,Eirunepe,Brazil
+CCI,Concordia,Brazil
+FBE,Francisco Beltrao,Brazil
+CFO,Confresa,Brazil
+AAF,Apalachicola,United States
+UMU,Umuarama,Brazil
+DTI,Diamantina,Brazil
+FBA,Fonte Boa,Brazil
+OLC,Sao Paulo de Olivenca,Brazil
+HUW,Humaita,Brazil
+IRZ,Santa Isabel do Rio Negro,Brazil
+ORX,Oriximina,Brazil
+UNA,Una,Brazil
+TEF,Telfer,Australia
+GZP,Alanya,Turkey
+OAA,Shank,Afghanistan
+FPR,Fort Pierce,United States
+PYM,Plymouth,United States
+NCO,North Kingstown,United States
+OWD,Norwood,United States
+BAF,Westfield,United States
+MGJ,Montgomery,United States
+HAR,Harrisburg,United States
+DXR,Danbury,United States
+ASH,Nashua,United States
+LWM,Lawrence,United States
+OXC,Oxford,United States
+RMG,Rome,United States
+GAD,Gadsden,United States
+WDR,Winder,United States
+DNN,Dalton,United States
+LGC,LaGrange,United States
+PIM,Pine Mountain,United States
+GVL,Gainesville,United States
+PHD,New Philadelpha,United States
+HHH,Hilton Head Island,United States
+DNL,Augusta,United States
+MRN,Morganton,United States
+PVL,Pikeville,United States
+TOC,Toccoa,United States
+PLV,Poltava,Ukraine
+WUU,Wau,Sudan
+HUE,Humera,Ethiopia
+OYL,Moyale,Kenya
+OZG,Zagora,Morocco
+WYE,Yengema,Sierra Leone
+GBK,Gbangbatok,Sierra Leone
+THX,Turukhansk,Russia
+TGP,Bor,Russia
+AFW,Fort Worth,United States
+RMK,Renmark,Australia
+LGH,Leigh Creek,Australia
+RTS,Rottnest Island,Australia
+FOS,Forrest,Australia
+KEW,Keewaywin,Canada
+YSP,Marathon,Canada
+YHF,Hearst,Canada
+YHN,Hornepayne,Canada
+YKX,Kirkland Lake,Canada
+YMG,Manitouwadge,Canada
+YXZ,Wawa,Canada
+YEM,Manitowaning,Canada
+LWC,Lawrence,United States
+PPM,Pompano Beach,United States
+XMC,Mallacoota,Australia
+ULH,Al-Ula,Saudi Arabia
+YUE,Yuendumu ,Australia
+LOP,Praya,Indonesia
+ZMH,108 Mile Ranch,Canada
+HDG,Handan,China
+LOZ,London,United States
+FBG,Fredericksburg,United States
+WMI,Warsaw,Poland
+JXA,Jixi,China
+JDG,Seogwipo,South Korea
+YGM,Gimli,Canada
+EYK,Beloyarsky,Russia
+RAC,Racine,United States
+RZP,Taytay,Philippines
+RKZ,Shigatse,China
+TIW,Tacoma,United States
+GUF,Gulf Shores,United States
+IBB,Isabela,Ecuador
+HMJ,Khmeinitskiy,Ukraine
+HIW,Hiroshima,Japan
+KYI,Yalata,Australia
+HZL,Hazleton,United States
+CBE,Cumberland,United States
+WYN,Wyndham,Australia
+YBO,Bob Quinn Lake,Canada
+KLF,Kaluga,Russia
+LNR,Lone Rock,United States
+JOT,Joliet,United States
+VYS,Peru,United States
+JXN,Jackson,United States
+BBX,Philadelphia,United States
+OBE,Okeechobee,United States
+SEF,Sebring,United States
+AVO,Avon Park,United States
+GIF,Winter Haven,United States
+ZPH,Zephyrhills,United States
+OCF,Ocala,United States
+AIK,Aiken,United States
+CDN,Camden,United States
+LBT,Lumberton,United States
+SOP,Pinehurst-Southern Pines,United States
+SVH,Statesville,United States
+LHV,Lock Haven,United States
+BKL,Cleveland,United States
+DKK,Dunkirk,United States
+LLY,Mount Holly,United States
+LDJ,Linden,United States
+ANQ,Angola,United States
+CLW,Clearwater,United States
+CGX,Chicago,United States
+CRE,North Myrtle Beach,United States
+BXO,Buochs,Switzerland
+WBW,Wilkes-Barre,United States
+LNN,Willoughby,United States
+UMD,Uummannaq,Greenland
+RLK,Bayannur,China
+FFT,Frankfort,United States
+LEW,Lewiston,United States
+MRK,Marco Island Airport,United States
+DRE,Drummond Island,United States
+GDW,Gladwin,United States
+MFI,Marshfield,United States
+ISW,Wisconsin Rapids,United States
+CWI,Clinton,United States
+BVY,Beverly,United States
+OSF,Moscow,Russia
+YRQ,Trois Rivieres,Canada
+POF,Poplar Bluff,United States
+EOK,Keokuk,United States
+PSL,Perth,United Kingdom
+STP,St. Paul,United States
+SOO,Soderhamn,Sweden
+VNA,Saravane,Laos
+DKS,Dikson,Russia
+BYT,Bantry,Ireland
+ADY,Alldays,South Africa
+HAO,Hamilton,United States
+GAS,Garissa,Kenya
+HOA,Hola,Kenya
+KEY,Kericho,Kenya
+ILU,Kilaguni,Kenya
+ATJ,Antsirabe,Madagascar
+OVA,Bekily,Madagascar
+UTS,Ust-Tsylma,Russia
+RGK,Gorno-Altaysk,Russia
+FLD,Fond du Lac,United States
+STE,Stevens Point,United States
+MQJ,Honuu,Russia
+PEF,Peenemunde,Germany
+CJN,Nusawiru,Indonesia
+GQQ,Galion,United States
+TPN,Tiputini,Ecuador
+PTZ,Pastaza,Ecuador
+CKV,Clarksville,United States
+LPC,Lompoc,United States
+CTH,Coatesville,United States
+BST,Lashkar Gah,Afghanistan
+LLK,Lankaran,Azerbaijan
+GBB,Qabala,Azerbaijan
+ZTU,Zaqatala,Azerbaijan
+LKP,Lake Placid,United States
+KDY,Khandyga,Russia
+GYG,Yakutsk,Russia
+JIQ,Qianjiang,China
+AOH,Lima,United States
+DSO,Hamhung,North Korea
+SSI,Brunswick,United States
+BFP,Beaver Falls,United States
+GGE,Georgetown,United States
+HDI,Cleveland,United States
+RNT,Renton,United States
+POC,La Verne,United States
+CTY,Cross City,United States
+CEU,Clemson,United States
+BEC,Wichita,United States
+QFO,Duxford,United Kingdom
+SNY,Sidney,United States
+GKL,Great Keppel Island,Australia
+RPB,Roper Bar,Australia
+IFL,Innisfail,Australia
+JRF,Kapolei,United States
+BIN,Bamyan,Afghanistan
+NBS,Baishan,China
+RGO,Chongjin,North Korea
+MOO,Moomba,Australia
+LUZ,Lublin,Poland
+ECA,East Tawas,United States
+VAM,Maamigili,Maldives
+LLF,Yongzhou,China
+LSZ,Mali Losinj,Croatia
+ONS,Onslow,Australia
+TDR,Theodore,Australia
+WBU,Boulder,United States
+BBJ,Birburg,Germany
+PAO,Palo Alto,United States
+USR,Ust-Nera,Russia
+MSC,Mesa,United States
+YTY,Yangzhou,China
+PTK,Pontiac,United States
+KSI,Kissidougou,Guinea
+EEN,Keene,United States
+THQ,Tianshui,China
+VRO,Kawama,Cuba
+GKK,Kooddoo,Maldives
+RCS,Rochester,United Kingdom
+RHD,Rio Hondo,Argentina
+KMP,Keetmanshoop,Namibia
+KGT,Kangding,China
+VUS,Veliky Ustyug,Russia
+IOW,Iowa City,United States
+TLQ,Turpan,China
+ANP,Annapolis,United States
+FXO,Cuamba,Mozambique
+ODO,Bodaibo,Russia
+ZTR,Zhytomyr,Ukraine
+HRI,Mattala,Sri Lanka
+PEQ,Pecos,United States
+HBG,Hattiesburg,United States
+QCJ,Botucatu,Brazil
+QSC,Sao Carlos,Brazil
+YKN,Yankton,United States
+XSB,Sir Bani Yas Island,United Arab Emirates
+ZBM,Bromont,Canada
+KTI,Kratie,Cambodia
+GYU,Guyuan,China
+CNI,Changhai,China
+KRH,Redhill,United Kingdom
+JGD,Jiagedaqi District,China
+CCL,Chinchilla,Australia
+HWD,Hayward,United States
+MZP,Motueka,New Zealand
+JHQ,Shute Harbour,Australia
+ARB,Ann Arbor,United States
+SHT,Shepparton,Australia
+TEM,Temora,Australia
+GAH,Gayndah,Australia
+WIO,Wilcannia,Australia
+BFJ,Bijie,China
+ULK,Lensk,Russia
+KVR,Kavalerovo,Russia
+IGD,Igdir,Turkey
+GNY,Sanliurfa,Turkey
+KZR,Kutahya,Turkey
+VLU,Velikiye Luki,Russia
+BEO,Lake Macquarie,Australia
+BMP,Brampton Island,Australia
+NGZ,Alameda,United States
+YCN,Cochrane,Canada
+BJP,Braganca Paulista,Brazil
+BQB,Brusselton,Australia
+SEK,Srednekolymsk,Russia
+IVR,Inverell,Australia
+GLI,Glen Innes,Australia
+IMM,Immokalee ,United States
+TQQ,Sulawesi Tenggara,Indonesia
+YIC,Yichun,China
+PTB,Petersburg,United States
+SBM,Sheboygan,United States
+KFE,Cloudbreak,Australia
+BJU,Bajura,Nepal
+MZJ,Marana,United States
+SAD,Safford,United States
+SLJ,Solomon,Australia
+KJP,Kerama,Japan
+EKB,Ekibastuz,Kazakhstan
+SIK,Sikeston,United States
+TTI,Tetiaroa,French Polynesia
+GFL,Queensbury,United States
+MTN,Baltimore,United States
+FRY,Fryeburg,United States
+NEW,New Orleans,United States
+COE,Coeur d'Alene,United States
+BMT,Beaumont,United States
+DNV,Danville,United States
+COJ,Coonabarabran,Australia
+TIX,Titusville,United States
+BZH,Bumi Hills,Zimbabwe
+UAR,Bouarfa,Morocco
+NYE,NYERI,Kenya
+AAP,Houston,United States
+FCM,Eden Prairie,United States
+LIX,Likoma Island,Malawi
+OJC,Olathe,United States
+GIU,Sigiriya,Sri Lanka
+EUM,Neumuenster,Germany
+TKT,Tak,Thailand
+YLK,Barrie-Orillia,Canada
+YCM,Saint Catherines,Canada
+YPD,Parry Sound,Canada
+MNZ,Manassas,United States
+LJN,Angleton,United States
+BGG,Bingol,Turkey
+KFS,Kastamonu,Turkey
+LLV,Lvliang,China
+DCY,Daocheng,China
+GXH,Xiahe city,China
+CIY,Comiso,Italy
+KVM,Markovo,Russia
+ZKP,Zyryanka,Russia
+UMS,Ust-Maya,Russia
+ADH,Aldan,Russia
+OLZ,Olekminsk,Russia
+NLT,Xinyuan,China
+PTA,Port alsworth,United States
+BOR,Belfort,France
+OBC,Obock,Djibouti
+TDJ,Tadjoura,Djibouti
+AQB,Santa Cruz des Quiche,Guatemala
+NOR,Nordfjordur,Iceland
+BTZ,Bursa,Turkey
+WAR,Waris-Papua Island,Indonesia
+EWK,Newton,United States
+BSJ,Bairnsdale,Australia
+TZR,Columbus,United States
+FBR,Fort Bridger,United States
+CLS,Chehalis,United States
+EVW,Evanston,United States
+EUF,Eufala,United States
+MEO,Manteo,United States
+AUO,Auburn,United States
+DBN,Dublin,United States
+PUK,Pukarua,French Polynesia
+CVO,Corvallis,United States
+PXH,Prominent Hill,Australia
+CWT,Chatsworth,Australia
+OGD,Ogden,United States
+AKO,Akron,United States
+SHN,Shelton,United States
+WNA,Napakiak,United States
+PKA,Napaskiak,United States
+YBW,Bedwell Harbour,Canada
+WSO,Washabo,Suriname
+WKR,Walker's Cay,Bahamas
+GFO,Bartica,Guyana
+DYL,Doylestown,United States
+TGI,Tingo Maria,Peru
+TJL,Tres Lagoas,Brazil
+YZY,Zhangye,China
+OAL,Cacoal,Brazil
+OCW,Washington,United States
+MHC,Castro,Chile
+SWO,Stillwater,United States
+OKM,Okmulgee,United States
+CUH,Cushing,United States
+CSM,Clinton,United States
+WLD,Winfield,United States
+PWA,Oklahoma City,United States
+DTN,Shreveport,United States
+SEP,Stephenville,United States
+ADT,Ada,United States
+IRB,Iraan,United States
+YEL,ELLIOT LAKE,Canada
+IKB,North Wilkesboro,United States
+DAN,Danville,United States
+ERG,Yerbogachen,Russia
+HCW,Cheraw,United States
+BEM,Beni Mellal,Morocco
+NKT,Cizre,Turkey
+SUY,Suntar,Russia
+OUZ,Zouerat,Mauritania
+ABB,Asaba,Nigeria
+QUO,Uyo,Nigeria
+KAA,Kasama,Zambia
+SGX,Songea,Tanzania
+JUH,Chizhou,China
+AOG,Anshan,China
+DQA,Daqing,China
+ZYI,Zunyi,China
+LDS,Yinchun,China
+AVA,Anshun,China
+KSS,Sikasso,Mali
+WTB,Toowoomba,Australia
+TNH,Tonghua,China
+SZV,Suzhou,China
+LII,Mulia,Indonesia
+NTI,Bintuni,Indonesia
+WSR,Wasior,Indonesia
+DTB,Siborong-Borong,Indonesia
+MEQ,Nagan Raya,Indonesia
+BUW,Bau-Bau,Indonesia
+KAZ,Kao,Indonesia
+MNA,Melonguane,Indonesia
+SGQ,Sanggata,Indonesia
+BUU,Muara Bungo,Indonesia
+ILA,Illaga,Indonesia
+OKL,Oksibil,Indonesia
+KOX,Kokonau,Indonesia
+CMQ,Clermont,Australia
+WMB,Warrnambool,Australia
+RCM,Richmond,Australia
+DCN,Derby,Australia
+KNO,Medan,Indonesia
+AMN,Kamloops,Canada
+HMY,Seosan,South Korea
+EMT,El Monte,United States
+FAH,Farah,Afghanistan
+IXT,Pasighat,India
+KRQ,Kramatorsk,Ukraine
+QKX,Kautokeino,Norway
+SSF,Stinson,United States
+JAS,Jasper,United States
+MRF,Marfa,United States
+ALE,Alpine,United States
+BQE,Bubaque,Guinea-Bissau
+CZA,Chichen Itza,Mexico
+BUY,Bunbury,Australia
+CCB,Upland,United States
+EKI,Elkhart,United States
+CUB,Columbia,United States
+GDC,Greenville,United States
+HVS,Hartsville,United States
+SZT,San Cristobal de las Casas,Mexico
+DU9,Dunnville,Canada
+RIH,Rio Hato,Panama
+LEE,Leesburg,United States
+PPY,Pouso Alegre,Brazil
+DIQ,Divinopolis,Brazil
+EIK,Eysk,Russia
+ERD,Berdyansk,Ukraine
+BWX,Banyuwangi,Indonesia
+ERL,Erenhot,China
+CNO,Chino,United States
+HTR,Taketomi,Japan
+BWW,Cayo Santa Maria,Cuba
+PRB,Paso Robles,United States
+PKX,Beijing,China
+HAF,Half Moon Bay,United States
+HCJ,Hechi,China
+WJF,Lancaster,United States
+CJF,Coondewanna,Australia
+GUZ,Guarapari,Brazil
+UBT,Ubatuba,Brazil
+BOX,Borroloola,Australia
+QUG,Goodwood,United Kingdom
+TNW,Tena,Ecuador
+FYJ,Fuyuan,China
+PZL,Phinda,South Africa
+LPF,Liupanshui,China
+KJH,Kaili,China
+HPG,Shennongjia,China
+ZQZ,Zhangjiakou,China
+YIE,Arxan,China
+HNY,Hengyang,China
+AHJ,Ngawa,China
+WOS,Wonsan,North Korea
+IGT,Magas,Russia
+ASN,Talladega,United States
+GMU,Greenville,United States
+NGD,Anegada,British Virgin Islands
+TOI,Troy,United States
+ETS,Enterprise,United States
+EFG,Efogi,Papua New Guinea
+KGW,Kagi,Papua New Guinea
+NDN,Nadunumu,Papua New Guinea
+BNM,Bodinumu,Papua New Guinea
+ALX,Alexander City,United States
+PKT,Wadeye,Australia
+GPN,Pirlangimpi,Australia
+DOH,Doha,Qatar
+HZP,Wood Buffalo,Canada
+HDE,Holdredge,United States
+PTT,Pratt,United States
+LXN,Lexington,United States
+CBF,Council Bluffs,United States
+OKK,Kokomo,United States
+GBG,Galesburg,United States
+GUY,Guymon,United States
+IDP,Independence,United States
+BBC,Bay City,United States
+PRX,Paris,United States
+CFV,Coffeyville,United States
+GXY,Greeley,United States
+OEL,Oakley,United States
+FET,Fremont,United States
+LGD,La Grande,United States
+SZY,Szczytno-Szymany,Poland
+MPO,Mount Pocono,United States
+UKT,Quakertown,United States
+YBA,Banff,Canada
+BNG,Banning,United States
+OFK,Norfolk  Nebraska,United States
+TFL,Teofilo Otoni,Brazil
+TPF,Tampa,United States
+BZC,Buzios,Brazil
+ITP,Itaperuna,Brazil
+REZ,Resende,Brazil
+KBN,Kabinda,Congo (Kinshasa)
+IKL,Ikela,Congo (Kinshasa)
+AIR,Aripuana,Brazil
+JRN,Juruena,Brazil
+JIA,Juina,Brazil
+VLP,Vila Rica,Brazil
+JUA,Juara,Brazil
+CCX,Caceres,Brazil
+TGQ,Tangara da Serra,Brazil
+CQA,Canarana,Brazil
+MTG,Vila Bela da Santissima Trindade ,Brazil
+BMB,Bumba,Congo (Kinshasa)
+APQ,Arapiraca,Brazil
+FLB,Floriano,Brazil
+PCS,Picos,Brazil
+BNC,Beni,Congo (Kinshasa)
+BNB,Boende,Congo (Kinshasa)
+MTP,Montauk,United States
+VPZ,Valparaiso IN,United States
+DRV,DHARAVANDHOO,Maldives
+SXK,Saumlaki,Indonesia
+MLZ,Melo,Uruguay
+PDU,Paysandu,Uruguay
+ATI,Artigas ,Uruguay
+HSM,Horsham,Australia
+SWH,Swan Hill,Australia
+TTL,Turtle Island,Fiji
+KWB,Karimunjawa,Indonesia
+KOO,Kongolo,Congo (Kinshasa)
+AOU,Attopeu,Laos
+SQX,Sao Miguel do Oeste,Brazil
+LDM,Ludington,United States
+RHV,San Jose,United States
+OHS,Sohar,Oman
+KCF,Kadanwari,Pakistan
+RZS,Sindh,Pakistan
+TMF,Thimarafushi,Maldives
+IFU,Ifuru,Maldives
+KZF,Kieta,Papua New Guinea
+OGU,Ordu-Giresun,Turkey
+YKO,Hakkari,Turkey
+BUT,Jakar,Bhutan
+TLI,Toli-Toli,Indonesia
+TQL,Tarko-Sale,Russia
+JIC,Jinchuan,China
+BPL,Bole,China
+FYN,Fuyun,China
+ACS,Achinsk,Russia
+LFQ,LINFEN,China
+YJP,Hinton,Canada
+WVI,Watsonville,United States
+GLU,Gelephu,Bhutan
+HLI,Hollister,United States
+DLK,Dulkaninna,Australia
+YBS,Musselwhite Mine,Canada
+RIZ,Rizhao,China
+SQJ,Sanming,China
+XTO,Taroom,Australia
+YSE,Squamish,Canada
+YAH,La Grande-4,Canada
+YAL,Alert Bay,Canada
+YCE,Centralia,Canada
+YCQ,Chetwynd,Canada
+XRR,Ross River,Canada
+YDO,Dolbeau-St-Félicien,Canada
+YEY,Amos,Canada
+YHE,Hope,Canada
+YHT,Haines Junction,Canada
+YDG,Digby,Canada
+YJF,Fort Liard,Canada
+YKJ,Key Lake,Canada
+YLR,Leaf Rapids,Canada
+YME,Matane,Canada
+YML,Charlevoix,Canada
+YOS,Owen Sound,Canada
+YPS,Port Hawkesbury,Canada
+YQS,St Thomas,Canada
+YRO,Ottawa,Canada
+YSH,Smiths Falls,Canada
+YSL,St Leonard,Canada
+YVE,Vernon,Canada
+YXQ,Beaver Creek,Canada
+YSN,Salmon Arm,Canada
+KES,Kelsey,Canada
+XPK,Pukatawagan,Canada
+ZGF,Grand Forks,Canada
+ZJG,Jenpeg,Canada
+YTD,Thicket Portage,Canada
+PIW,Pikwitonei,Canada
+XPP,Poplar River,Canada
+WPC,Pincher Creek,Canada
+ZST,Stewart,Canada
+ZUC,Ignace,Canada
+FNB,Neubrandenburg,Germany
+FSS,Kinloss,United Kingdom
+BXP,Biała Podlaska,Poland
+DGP,Daugavpils,Latvia
+LMR,Lime Acres,South Africa
+SXN,Sowa,Botswana
+NDD,Sumbe,Angola
+MAI,Mangochi,Malawi
+ADI,Arandis,Namibia
+MWE,Merowe,Sudan
+ALN,Alton/St Louis,United States
+AXN,Alexandria,United States
+CLU,Columbus,United States
+BBD,Brady,United States
+BIH,Bishop,United States
+BKE,Baker City,United States
+BPI,Big Piney,United States
+WMH,Mountain Home,United States
+BTL,Battle Creek,United States
+BYI,Burley,United States
+CCY,Charles City,United States
+CNU,Chanute,United States
+CRG,Jacksonville,United States
+CSV,Crossville,United States
+DAA,Fort Belvoir,United States
+DAG,Daggett,United States
+DMN,Deming,United States
+DRA,Mercury,United States
+EED,Needles,United States
+EGI,Crestview,United States
+EKA,Eureka,United States
+HYR,Hayward,United States
+JCT,Junction,United States
+LOL,Lovelock,United States
+MBG,Mobridge,United States
+MCB,Mc Comb,United States
+MDH,Carbondale/Murphysboro,United States
+MMT,Eastover,United States
+NHZ,Brunswick,United States
+NRB,Mayport,United States
+OGB,Orangeburg,United States
+OTM,Ottumwa,United States
+OZR,Fort Rucker/Ozark,United States
+PWY,Pinedale,United States
+POU,Poughkeepsie,United States
+RSL,Russell,United States
+RWF,Redwood Falls,United States
+SNS,Salinas,United States
+TPH,Tonopah,United States
+UKI,Ukiah,United States
+UOX,Oxford,United States
+HTV,Huntsville,United States
+VTN,Valentine,United States
+WMC,Winnemucca,United States
+WWR,Woodward,United States
+ZZV,Zanesville,United States
+ECV,Madrid,Spain
+CDT,Castellón de la Plana,Spain
+TEV,Teruel,Spain
+QLP,Sarzana (SP),Italy
+BJY,Batajnica,Serbia
+RUV,Rubelsanto,Guatemala
+XPL,Comayagua,Honduras
+UPL,Upala,Costa Rica
+QSN,San Nicolás,Cuba
+SNJ,Pinar Del Rio,Cuba
+DWD,nan,Saudi Arabia
+KMX,nan,Saudi Arabia
+XXN,Riyadh,Saudi Arabia
+KNR,Kangan,Iran
+PYK,Karaj,Iran
+XIJ,Ahmed Al Jaber AB,Kuwait
+ATG,Kamra,Pakistan
+SGI,Sargodha,Pakistan
+RQW,Qayyarah,Iraq
+ENN,Nenana,United States
+WWA,Wasilla,United States
+IWK,Iwakuni,Japan
+IEJ,Ie,Japan
+AAV,Surallah,Philippines
+BPH,nan,Philippines
+MXI,nan,Philippines
+BAT,Barretos,Brazil
+QHP,Taubaté,Brazil
+TOQ,Tocopilla,Chile
+CNR,Chañaral,Chile
+TLX,Talca,Chile
+ZIC,Victoria,Chile
+TTC,Taltal,Chile
+API,Apiay,Colombia
+CVE,Coveñas,Colombia
+PAL,La Dorada,Colombia
+PZA,Paz De Ariporo,Colombia
+TQS,Tres Esquinas,Colombia
+RIJ,Rioja,Peru
+JAE,Jaén,Peru
+IKU,Tamchy,Kyrgyzstan
+VYI,Vilyuisk,Russia
+BGN,nan,Russia
+GVN,Sovetskaya Gavan,Russia
+NLI,Nikolayevsk-na-Amure Airport,Russia
+VLK,nan,Russia
+INA,Inta,Russia
+ZIX,Zhigansk,Russia
+RTC,nan,India
+HIM,Polonnaruwa Town,Sri Lanka
+RDP,Durgapur,India
+PUT,Puttaparthi,India
+LNX,Smolensk,Russia
+ABH,Alpha,Australia
+ARY,nan,Australia
+BLN,nan,Australia
+BZD,nan,Australia
+BWQ,nan,Australia
+CVC,nan,Australia
+CWW,nan,Australia
+CYG,nan,Australia
+CMD,nan,Australia
+DRN,nan,Australia
+DNQ,Deniliquin,Australia
+DYA,nan,Australia
+ECH,nan,Australia
+FRB,Forbes,Australia
+GUH,nan,Australia
+HXX,nan,Australia
+HTU,nan,Australia
+KRA,nan,Australia
+KPS,nan,Australia
+KGY,nan,Australia
+TGN,Morwell,Australia
+MRG,nan,Australia
+RPM,nan,Australia
+QRM,nan,Australia
+PPI,nan,Australia
+SIO,nan,Australia
+SNB,nan,Australia
+SWC,nan,Australia
+TYB,nan,Australia
+TUM,nan,Australia
+WGT,nan,Australia
+WKB,nan,Australia
+QRR,nan,Australia
+SXE,Sale,Australia
+WWY,West Wyalong,Australia
+NGA,nan,Australia
+LHK,Guanghua,China
+WDS,Shiyan,China
+HTT,Mengnai,China
+UUN,nan,Mongolia
+BFU,Bengbu,China
+RUG,Rugao,China
+WHU,Wuhu,China
+SXJ,Shanshan,China
+YKH,Yingkou,China
+BQG,Bogorodskoe,Russia
+HYD,Hyderabad,India
+PKO,Parakou,Benin
+KDC,Kandi,Benin
+HMG,Hermannsburg,Australia
+BIB,Baidoa,Somalia
+KCS,Petermann,Australia
+BMR,Baltrum,Germany
+MVW,Skagit,United States
+GOO,Goondiwindi,Australia
+APT,Jasper,United States
+DCU,Decatur,United States
+GLW,Glasgow,United States
+DKV,Docker River,Australia
+RNZ,Rensselaer,United States
+SBT,Sabetta,Russia
+AXF,Alxa Left Banner,China
+NIS,Simberi Island,Papua New Guinea
+BUL,Bulolo,Papua New Guinea
+TBR,Statesboro,United States
+AMT,Amata,Australia
+EDD,Erldunda,Australia
+FIK,Finke,Australia
+JJG,Jaguaruna,Brazil
+WKI,Hwange,Zimbabwe
+KLJ,Klaipeda,Lithuania
+ETB,WEST BEND,United States
+GLR,GAYLORD,United States
+AID,ANDERSON,United States
+QND,Novi Sad,Serbia
+GUU,Grundarfjordur,Iceland
+PCD,Prairie du Chien,United States
+OTJ,Otjiwarongo,Namibia
+TSM,Taos,United States
+RTN,Raton,United States
+PPA,Pampa,United States
+FLP,Flippin,United States
+BGD,Borger,United States
+HLE,Longwood,United Kingdom
+BNJ,Sankt-Augustin,Germany
+NGK,Nogliki,Russia
+SQA,Santa Ynez,United States
+HXD,Haixi,China
+BAR,Qionghai,China
+ZBO,Bowen,Australia
+UCB,Wulanchabu,China
+KEO,Odienne,Cote d'Ivoire
+GII,Siguiri,Guinea
+NZE,Nzerekore,Guinea
+OCM,Brockman,Australia
+WGN,Shaoyang,China
+TXF,Teixeira de Freitas,Brazil
+SPA,Spartangurg,United States
+BJW,Bajawa,Indonesia
+NBN,San Antonio de Pale,Equatorial Guinea
+OLL,Oyo,Congo (Brazzaville)
+PPF,Parsons,United States
+PCQ,Phongsaly,Laos
+AYS,Waycross,United States
+DSS,Diass,Senegal
+PMH,Portsmouth,United States
+NAC,Naracoorte,Australia
+PGZ,Ponta Grossa,Brazil
+PQM,Palenque,Mexico
+CUD,Caloundra,Australia
+CLP,Clarks Point,United States
+JOJ,Doris Lake,Canada
+ECI,Tola,Nicaragua
+QGQ,Attu,Greenland
+QPW,Kangaatsiaq,Greenland
+QJE,Kitsissuarsuit,Greenland
+XIQ,Ilimanaq,Greenland
+QQT,Qeqertaq,Greenland
+QJI,Ikamiut,Greenland
+QFG,Eqalugaarsuit,Greenland
+QRY,Ikerasaarsuk,Greenland
+NPR,Novo Progresso,Brazil
+SMT,Sorriso,Brazil
+ENO,Encarnacion,Paraguay
+UZR,Urzhar,Kazakhstan
+NYR,Nyurba,Russia
+SUK,Batagay-Alyta,Russia
+UKG,Ust-Kuyga,Russia
+VHV,Verkhnevilyuysk,Russia
+DEE,Yuzhno-Kurilsk,Russia
+EKS,Shakhtyorsk,Russia
+TLK,Talakan,Russia
+RDB,Red Dog,United States
+ION,Impfondo,Congo (Brazzaville)
+EBH,El Bayadh,Algeria
+ZIS,Zintan,Libya
+MYZ,Monkey Bay,Malawi
+BCU,Bauchi,Nigeria
+GMO,Gombe,Nigeria
+KDA,Kolda,Senegal
+SHO,Manzini,Swaziland
+KIY,Kilwa Masoko,Tanzania
+QSI,Moshi,Tanzania
+MNS,Mansa,Zambia
+GZI,Ghazni,Afghanistan
+DBC,Baicheng,China
+LNL,Longnan,China
+SQD,Shangrao,China
+YSQ,Songyuan,China
+JSJ,Jiansanjiang,China
+WMT,Zunyi,China
+LLB,Libo,China
+CDE,Chengde,China
+DTU,Wudalianchi,China
+EJN,Ejin Banner,China
+RHT,Alxa Right Banner,China
+HUO,Holingol,China
+GMQ,Golog,China
+QSZ,Yarkant,China
+TEI,Tezu,India
+CWJ,Cangyuan,China
+JMJ,Lancang Lahu,China
+NLH,Ninglang,China
+PBQ,Pimenta Bueno,Brazil
+WUT,Xinzhou,China
+NZL,Zhalantun,China
+AIP,Adampur,India
+VDY,Toranagallu,India
+SAG,Shirdi,India
+PYB,Jeypore,India
+SUP,Sumenep,Indonesia
+RKO,Sipora,Indonesia
+PPR,Pasir Pangaraian,Indonesia
+TJB,Tanjung Balai Karimun,Indonesia
+KRC,Kerinci Regency,Indonesia
+NRE,Buru Island,Indonesia
+NAM,Namlea,Indonesia
+DOB,Dobo,Indonesia
+SQN,Sanana,Indonesia
+AYW,Ayawasi,Indonesia
+BYQ,Bunyu,Indonesia
+UOL,Buol,Indonesia
+RAQ,Raha,Indonesia
+JSK,Jask,Iran
+ZBY,Sainyabuli,Laos
+BGL,Baglung,Nepal
+RJB,Rajbiraj,Nepal
+DQM,Duqm,Oman
+CKI,Croker Island,Australia
+BYP,Barimunya,Australia
+LUC,Laucala,Fiji
+YAS,Yasawa Island,Fiji
+WIK,Waiheke Island,New Zealand
+DEX,Dekai,Indonesia
+NAU,Napuka,French Polynesia
+FAC,Faaite,French Polynesia
+NUK,Nukutavake,French Polynesia
+VHZ,Vahitahi,French Polynesia
+HHZ,Hikueru,French Polynesia
+RRR,Raroia,French Polynesia
+KHZ,Kauehi,French Polynesia
+TKV,Tatakoto,French Polynesia
+TDS,Sasereme,Papua New Guinea
+TMH,Boven Digoel,Indonesia
+NKB,Noonkanbah,Australia
+AEI,Algeciras,Spain
+KSE,Kasese,Uganda
+NCJ,Sunchales,Argentina
+IST,Istanbul,Turkey
+SOV,Seldovia,United States
+YSG,Lutselk'e,Canada
+DWA,Dwangwa,Malawi
+HGI,Higleig,South Sudan
+KQH,Ajmer,India
+CNN,Kannur,India
+ZCO,Temuco,Chile
+ASS,Arathusa,South Africa
+VDI,Vidalia,United States
+ISB,Islamabad,Pakistan
+MHE,Mitchell,United States
+GIT,Geita,Tanzania
+GID,Gitega,Burundi
+RMU,Murcia,Spain
+CQS,COSTA MARQUES,Brazil
+ZXT,Baku,Azerbaijan
+JAM,Yambol,Bulgaria
+YUA,Yuanmou,China
+XEN,nan,China
+GEC,Geçitkale,Cyprus
+MBI,Mbeya,Tanzania
+UGU,Sugapa-Papua Island,Indonesia
+ETM,Eilat,Israel
+MNH,Al Masna'ah,Oman
+CGY,Cagayan de Oro City,Philippines
+CPO,Copiapo,Chile
