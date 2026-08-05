@@ -42,7 +42,7 @@ jobs:
         env:
           VILLIERS_RSS_URL: ${{ secrets.VILLIERS_RSS_URL }}
         run: |
-          python scripts/update_site_data.py --rss
+          python scripts/update_site.py --rss
 
       - name: Generate global airport catalogue
         run: |
