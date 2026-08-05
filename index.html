@@ -41,7 +41,7 @@
             font-size: 16px; border-radius: 8px; outline: none; transition: border-color 0.3s ease;
         }
         input:focus { border-color: #666; }
-        input:disabled { opacity: 0.5; } /* אפקט עמעום בזמן טעינת הנתונים */
+        input:disabled { opacity: 0.5; }
 
         .btn-save {
             background-color: var(--accent-color); color: #000000; border: none; padding: 18px;
@@ -63,27 +63,26 @@
 
     <div class="form-container">
         <div class="input-group">
-            <label for="origin">Departure (City or Country)</label>
-            <input type="text" id="origin" placeholder="Loading global airports..." list="hubs" autocomplete="off" disabled>
+            <label for="origin">Departure (City, Country & Code)</label>
+            <input type="text" id="origin" placeholder="Loading airports database..." list="hubs" autocomplete="off" disabled>
         </div>
 
         <div class="input-group">
-            <label for="destination">Arrival (City or Country)</label>
-            <input type="text" id="destination" placeholder="Loading global airports..." list="hubs" autocomplete="off" disabled>
+            <label for="destination">Arrival (City, Country & Code)</label>
+            <input type="text" id="destination" placeholder="Loading airports database..." list="hubs" autocomplete="off" disabled>
         </div>
 
         <button class="btn-save" id="save-btn" onclick="sendDataToBot()" disabled>Sync Preferences</button>
         <div class="note">Data is securely transmitted to your ONYX node.</div>
     </div>
 
-    <!-- הרשימה תתמלא אוטומטית על ידי הקוד למטה -->
     <datalist id="hubs"></datalist>
 
     <script>
         let tg = window.Telegram.WebApp;
         tg.expand(); 
 
-        // משיכת ה-CSV ישירות מאותה תיקייה בשרת הגיטהאב
+        // טעינת ה-CSV שכולל את קודי שדות התעופה
         fetch('airports_global.csv')
             .then(response => response.text())
             .then(data => {
@@ -94,42 +93,40 @@
                 let countries = new Set();
                 let airports = new Set();
                 
-                // מתחילים מ-1 כדי לדלג על שורת הכותרות ב-CSV
                 for (let i = 1; i < lines.length; i++) {
                     let line = lines[i].trim();
                     if (!line) continue;
                     
                     let parts = line.split(',');
                     if (parts.length >= 3) {
-                        // חילוץ המידע עם הגנה מפני פסיקים מיותרים ומרכאות
+                        let code = parts[0].replace(/"/g, '').trim(); // קוד 3 אותיות (IATA)
                         let country = parts[parts.length - 1].replace(/"/g, '').trim();
-                        // חיבור שאר החלקים האמצעיים יחד כדי לא לאבד ערים שיש בהן פסיק בשם
                         let city = parts.slice(1, parts.length - 1).join(',').replace(/"/g, '').trim();
                         
                         countries.add(country);
-                        // הפורמט שמתאים בול ללוגיקת הפייתון שלך
-                        airports.add(`${city}, ${country}`);
+                        
+                        // הפורמט החדש שכולל עיר, מדינה וקוד שדה תעופה בסוגריים
+                        if (code && code.length === 3) {
+                            airports.add(`${city}, ${country} (${code})`);
+                        }
                     }
                 }
                 
-                // הזרקת המדינות ל-HTML
                 Array.from(countries).sort().forEach(c => {
                     optionsHTML += `<option value="Anywhere in ${c}"></option>\n`;
                 });
                 
-                // הזרקת הערים ל-HTML
                 Array.from(airports).sort().forEach(a => {
                     optionsHTML += `<option value="${a}"></option>\n`;
                 });
                 
                 datalist.innerHTML = optionsHTML;
                 
-                // שחרור הנעילה של השדות לאחר שהכל נטען
                 document.getElementById('origin').disabled = false;
-                document.getElementById('origin').placeholder = "e.g. London, Anywhere in Italy";
+                document.getElementById('origin').placeholder = "e.g. Nice, France (NCE)";
                 
                 document.getElementById('destination').disabled = false;
-                document.getElementById('destination').placeholder = "e.g. Nice, Anywhere";
+                document.getElementById('destination').placeholder = "e.g. London, United Kingdom (LHR)";
                 
                 document.getElementById('save-btn').disabled = false;
             })
