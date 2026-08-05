@@ -2,157 +2,651 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Set your Preferences</title>
-    
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    
-    <style>
-        :root {
-            --bg-color: #0a0a0a;
-            --text-color: #f0f0f0;
-            --accent-color: #ffffff;
-            --input-bg: #1a1a1a;
-            --border-color: #333333;
-        }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 30px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
 
-        .header { text-align: center; margin-bottom: 40px; width: 100%; }
-        .logo { font-size: 28px; font-weight: 300; letter-spacing: 12px; margin-bottom: 10px; color: var(--accent-color); }
-        .subtitle { font-size: 12px; color: #888; letter-spacing: 1px; text-transform: uppercase; }
+    <meta
+        name="description"
+        content="Browse current private jet Empty Leg opportunities and receive personalised Telegram alerts with ONYX Radar."
+    >
 
-        .form-container { width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 25px; }
-        .input-group { display: flex; flex-direction: column; gap: 8px; }
+    <meta
+        name="referrer"
+        content="strict-origin-when-cross-origin"
+    >
 
-        label { font-size: 11px; color: #aaa; text-transform: uppercase; letter-spacing: 1.5px; padding-left: 5px; }
-        input {
-            width: 100%; box-sizing: border-box; background-color: var(--input-bg);
-            border: 1px solid var(--border-color); color: var(--text-color); padding: 16px;
-            font-size: 16px; border-radius: 8px; outline: none; transition: border-color 0.3s ease;
-        }
-        input:focus { border-color: #666; }
-        input:disabled { opacity: 0.5; }
+    <meta
+        http-equiv="Content-Security-Policy"
+        content="
+            default-src 'self';
+            script-src 'self';
+            style-src 'self';
+            img-src 'self' data:;
+            connect-src 'self';
+            font-src 'self';
+            object-src 'none';
+            base-uri 'self';
+            form-action 'none';
+            upgrade-insecure-requests;
+        "
+    >
 
-        .btn-save {
-            background-color: var(--accent-color); color: #000000; border: none; padding: 18px;
-            font-size: 14px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
-            border-radius: 8px; cursor: pointer; margin-top: 20px; transition: opacity 0.2s ease;
-        }
-        .btn-save:active { opacity: 0.8; }
-        .btn-save:disabled { background-color: #555; cursor: not-allowed; }
+    <title>ONYX Radar | Premium Empty Leg Flight Finder</title>
 
-        .note { font-size: 11px; color: #555; text-align: center; margin-top: 20px; }
-    </style>
+    <link
+        rel="icon"
+        href="assets/onyx-logo.png"
+        type="image/png"
+    >
+
+    <link
+        rel="stylesheet"
+        href="assets/styles.css"
+    >
+
+    <script
+        src="assets/app.js"
+        defer
+    ></script>
 </head>
+
 <body>
+    <a class="skip-link" href="#main-content">
+        Skip to flight search
+    </a>
 
-    <div class="header">
-        <div class="logo">ONYX</div>
-        <div class="subtitle">Flight Intelligence</div>
-    </div>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a
+                class="brand"
+                href="./"
+                aria-label="ONYX Radar home"
+            >
+                <img
+                    class="brand-logo"
+                    src="assets/onyx-logo.png"
+                    alt="ONYX Premium Flight Finder"
+                    width="92"
+                    height="92"
+                >
 
-    <div class="form-container">
-        <div class="input-group">
-            <label for="origin">Departure (City, Country & Code)</label>
-            <input type="text" id="origin" placeholder="Loading airports database..." list="hubs" autocomplete="off" disabled>
+                <div class="brand-copy">
+                    <span class="brand-name">
+                        ONYX Radar
+                    </span>
+
+                    <span class="brand-tagline">
+                        Premium Empty Leg Intelligence
+                    </span>
+                </div>
+            </a>
+
+            <nav
+                class="main-navigation"
+                aria-label="Main navigation"
+            >
+                <a href="#flights">
+                    Flights
+                </a>
+
+                <a href="#telegram-alerts">
+                    Telegram Alerts
+                </a>
+
+                <a href="#affiliate-notice">
+                    Disclosure
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero">
+            <div class="hero-glow" aria-hidden="true"></div>
+
+            <div class="container hero-content">
+                <p class="eyebrow">
+                    Live private aviation opportunities
+                </p>
+
+                <h1>
+                    Discover Current
+                    <span>Empty Leg Flights</span>
+                </h1>
+
+                <p class="hero-description">
+                    Explore current private jet Empty Leg
+                    opportunities, refine the results by route,
+                    date, aircraft and capacity, and receive
+                    personalised alerts directly in Telegram.
+                </p>
+
+                <div class="hero-actions">
+                    <a
+                        class="button button-primary"
+                        href="#flights"
+                    >
+                        Explore Flights
+                    </a>
+
+                    <a
+                        class="button button-telegram"
+                        href="https://t.me/OnyxAirRadar_bot?start=all"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Get All Telegram Alerts
+                    </a>
+                </div>
+
+                <div
+                    class="hero-statistics"
+                    aria-label="Current flight statistics"
+                >
+                    <div class="statistic">
+                        <span
+                            class="statistic-value"
+                            id="hero-flight-count"
+                        >
+                            —
+                        </span>
+
+                        <span class="statistic-label">
+                            Current Flights
+                        </span>
+                    </div>
+
+                    <div class="statistic">
+                        <span
+                            class="statistic-value"
+                            id="hero-country-count"
+                        >
+                            —
+                        </span>
+
+                        <span class="statistic-label">
+                            Countries
+                        </span>
+                    </div>
+
+                    <div class="statistic">
+                        <span class="statistic-value">
+                            Live
+                        </span>
+
+                        <span class="statistic-label">
+                            RSS Availability
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="affiliate-strip"
+            id="affiliate-notice"
+            aria-labelledby="affiliate-heading"
+        >
+            <div class="container">
+                <h2
+                    id="affiliate-heading"
+                    class="visually-hidden"
+                >
+                    Affiliate disclosure
+                </h2>
+
+                <p>
+                    <strong>
+                        Independent Affiliate Disclosure:
+                    </strong>
+
+                    ONYX Radar is an independent affiliate
+                    participating in the Villiers affiliate
+                    programme. ONYX Radar may receive a
+                    commission from qualifying bookings made
+                    through links on this website, at no
+                    additional cost to you.
+                </p>
+
+                <a href="affiliate-disclosure.html">
+                    Read the full disclosure
+                </a>
+            </div>
+        </section>
+
+        <section
+            class="flight-search"
+            id="flights"
+            aria-labelledby="flights-heading"
+        >
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">
+                            Current opportunities
+                        </p>
+
+                        <h2 id="flights-heading">
+                            Find Your Flight
+                        </h2>
+
+                        <p>
+                            Choose a broad country search or a
+                            specific airport. Filters are applied
+                            instantly in your browser.
+                        </p>
+                    </div>
+
+                    <div class="update-information">
+                        <span>Last data update</span>
+
+                        <strong id="last-updated">
+                            Loading…
+                        </strong>
+                    </div>
+                </div>
+
+                <form
+                    class="filter-panel"
+                    id="flight-filters"
+                    aria-label="Flight filters"
+                >
+                    <div class="filter-grid">
+                        <div class="form-field form-field-wide">
+                            <label for="origin-filter">
+                                Origin
+                            </label>
+
+                            <select id="origin-filter">
+                                <option value="all">
+                                    All origins
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-field form-field-wide">
+                            <label for="destination-filter">
+                                Destination
+                            </label>
+
+                            <select id="destination-filter">
+                                <option value="all">
+                                    All destinations
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="date-from">
+                                Departure from
+                            </label>
+
+                            <input
+                                id="date-from"
+                                type="date"
+                            >
+                        </div>
+
+                        <div class="form-field">
+                            <label for="date-to">
+                                Departure until
+                            </label>
+
+                            <input
+                                id="date-to"
+                                type="date"
+                            >
+                        </div>
+
+                        <div class="form-field">
+                            <label for="minimum-seats">
+                                Minimum seats
+                            </label>
+
+                            <input
+                                id="minimum-seats"
+                                type="number"
+                                min="1"
+                                max="100"
+                                inputmode="numeric"
+                                placeholder="Any"
+                            >
+                        </div>
+
+                        <div class="form-field">
+                            <label for="aircraft-filter">
+                                Aircraft
+                            </label>
+
+                            <select id="aircraft-filter">
+                                <option value="all">
+                                    All aircraft
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="currency-filter">
+                                Currency
+                            </label>
+
+                            <select id="currency-filter">
+                                <option value="all">
+                                    All currencies
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="maximum-price">
+                                Maximum listed price
+                            </label>
+
+                            <input
+                                id="maximum-price"
+                                type="number"
+                                min="0"
+                                step="1"
+                                inputmode="decimal"
+                                placeholder="Select currency first"
+                                disabled
+                            >
+                        </div>
+
+                        <div class="form-field">
+                            <label for="sort-filter">
+                                Sort results
+                            </label>
+
+                            <select id="sort-filter">
+                                <option value="date-asc">
+                                    Departure: soonest
+                                </option>
+
+                                <option value="date-desc">
+                                    Departure: latest
+                                </option>
+
+                                <option value="price-asc">
+                                    Listed price: low to high
+                                </option>
+
+                                <option value="price-desc">
+                                    Listed price: high to low
+                                </option>
+
+                                <option value="seats-desc">
+                                    Seats: high to low
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="filter-actions">
+                        <button
+                            class="button button-secondary"
+                            id="clear-filters"
+                            type="button"
+                        >
+                            Clear Filters
+                        </button>
+
+                        <a
+                            class="button button-telegram"
+                            id="filtered-telegram-link"
+                            href="https://t.me/OnyxAirRadar_bot?start=all"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            Get Telegram Alerts for This Route
+                        </a>
+                    </div>
+
+                    <p class="filter-note">
+                        Telegram route alerts use the selected
+                        origin and destination. Date, price,
+                        capacity and aircraft filters are not
+                        included in the Telegram subscription.
+                    </p>
+                </form>
+
+                <div class="results-toolbar">
+                    <p
+                        id="results-status"
+                        role="status"
+                        aria-live="polite"
+                    >
+                        Loading current flights…
+                    </p>
+                </div>
+
+                <div
+                    class="loading-state"
+                    id="loading-state"
+                    aria-live="polite"
+                >
+                    <span
+                        class="loading-spinner"
+                        aria-hidden="true"
+                    ></span>
+
+                    <p>
+                        Loading current Empty Leg opportunities…
+                    </p>
+                </div>
+
+                <div
+                    class="error-state"
+                    id="error-state"
+                    hidden
+                >
+                    <h3>
+                        Flight data is temporarily unavailable
+                    </h3>
+
+                    <p id="error-message">
+                        Please try again shortly.
+                    </p>
+
+                    <button
+                        class="button button-secondary"
+                        id="retry-loading"
+                        type="button"
+                    >
+                        Try Again
+                    </button>
+                </div>
+
+                <div
+                    class="empty-state"
+                    id="empty-state"
+                    hidden
+                >
+                    <h3>
+                        No matching flights
+                    </h3>
+
+                    <p>
+                        Try broadening the route, date, aircraft
+                        or price filters.
+                    </p>
+
+                    <button
+                        class="button button-secondary"
+                        id="empty-clear-filters"
+                        type="button"
+                    >
+                        Clear Filters
+                    </button>
+                </div>
+
+                <div
+                    class="flight-grid"
+                    id="flight-grid"
+                    aria-label="Current Empty Leg flights"
+                ></div>
+            </div>
+        </section>
+
+        <section
+            class="telegram-section"
+            id="telegram-alerts"
+            aria-labelledby="telegram-heading"
+        >
+            <div class="container telegram-layout">
+                <div>
+                    <p class="eyebrow">
+                        Route intelligence
+                    </p>
+
+                    <h2 id="telegram-heading">
+                        Take ONYX Radar With You
+                    </h2>
+
+                    <p>
+                        Receive all current Empty Leg opportunities,
+                        or select an origin and destination above
+                        to receive only flights relevant to your
+                        preferred route.
+                    </p>
+
+                    <ul class="feature-list">
+                        <li>
+                            Route-specific Telegram alerts
+                        </li>
+
+                        <li>
+                            Country or airport-level preferences
+                        </li>
+
+                        <li>
+                            Direct affiliate booking links
+                        </li>
+
+                        <li>
+                            Stop alerts at any time from the bot
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="telegram-card">
+                    <span class="telegram-icon" aria-hidden="true">
+                        ✈
+                    </span>
+
+                    <h3>
+                        Subscribe to All Flights
+                    </h3>
+
+                    <p>
+                        You can refine your preferences later
+                        through the ONYX Telegram menu.
+                    </p>
+
+                    <a
+                        class="button button-telegram button-full"
+                        href="https://t.me/OnyxAirRadar_bot?start=all"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Open ONYX Radar in Telegram
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="responsibility-section">
+            <div class="container">
+                <h2>
+                    Important Flight Information
+                </h2>
+
+                <p>
+                    Flight details, aircraft, schedules,
+                    availability and listed prices are supplied
+                    by Villiers and may change or be withdrawn
+                    without notice. Confirm all final details,
+                    applicable fees and booking terms directly
+                    with Villiers before booking.
+                </p>
+
+                <p>
+                    ONYX Radar is not Villiers, an employee or
+                    official representative of Villiers, an
+                    aircraft operator, an air carrier or a party
+                    to any flight booking. Flights are operated
+                    by licensed third-party air carriers.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-layout">
+            <div class="footer-brand">
+                <img
+                    src="assets/onyx-logo.png"
+                    alt=""
+                    width="70"
+                    height="70"
+                >
+
+                <div>
+                    <strong>ONYX Radar</strong>
+
+                    <span>
+                        Premium Empty Leg Intelligence
+                    </span>
+                </div>
+            </div>
+
+            <nav
+                class="footer-navigation"
+                aria-label="Legal navigation"
+            >
+                <a href="privacy.html">
+                    Privacy
+                </a>
+
+                <a href="cookies.html">
+                    Cookies
+                </a>
+
+                <a href="terms.html">
+                    Terms
+                </a>
+
+                <a href="affiliate-disclosure.html">
+                    Affiliate Disclosure
+                </a>
+
+                <a href="accessibility.html">
+                    Accessibility
+                </a>
+            </nav>
         </div>
 
-        <div class="input-group">
-            <label for="destination">Arrival (City, Country & Code)</label>
-            <input type="text" id="destination" placeholder="Loading airports database..." list="hubs" autocomplete="off" disabled>
+        <div class="container footer-bottom">
+            <p>
+                © <span id="current-year"></span>
+                ONYX Radar. All rights reserved.
+            </p>
+
+            <p>
+                ONYX Radar is an independent Villiers affiliate.
+                Villiers is a trademark of Villiers Jets Limited.
+            </p>
         </div>
+    </footer>
 
-        <button class="btn-save" id="save-btn" onclick="sendDataToBot()" disabled>Sync Preferences</button>
-        <div class="note">Data is securely transmitted to your ONYX node.</div>
-    </div>
-
-    <datalist id="hubs"></datalist>
-
-    <script>
-        let tg = window.Telegram.WebApp;
-        tg.expand(); 
-
-        // טעינת ה-CSV שכולל את קודי שדות התעופה
-        fetch('airports_global.csv')
-            .then(response => response.text())
-            .then(data => {
-                const lines = data.split('\n');
-                const datalist = document.getElementById('hubs');
-                
-                let optionsHTML = '<option value="Anywhere (Global)"></option>\n';
-                let countries = new Set();
-                let airports = new Set();
-                
-                for (let i = 1; i < lines.length; i++) {
-                    let line = lines[i].trim();
-                    if (!line) continue;
-                    
-                    let parts = line.split(',');
-                    if (parts.length >= 3) {
-                        let code = parts[0].replace(/"/g, '').trim(); // קוד 3 אותיות (IATA)
-                        let country = parts[parts.length - 1].replace(/"/g, '').trim();
-                        let city = parts.slice(1, parts.length - 1).join(',').replace(/"/g, '').trim();
-                        
-                        countries.add(country);
-                        
-                        // הפורמט החדש שכולל עיר, מדינה וקוד שדה תעופה בסוגריים
-                        if (code && code.length === 3) {
-                            airports.add(`${city}, ${country} (${code})`);
-                        }
-                    }
-                }
-                
-                Array.from(countries).sort().forEach(c => {
-                    optionsHTML += `<option value="Anywhere in ${c}"></option>\n`;
-                });
-                
-                Array.from(airports).sort().forEach(a => {
-                    optionsHTML += `<option value="${a}"></option>\n`;
-                });
-                
-                datalist.innerHTML = optionsHTML;
-                
-                document.getElementById('origin').disabled = false;
-                document.getElementById('origin').placeholder = "e.g. Nice, France (NCE)";
-                
-                document.getElementById('destination').disabled = false;
-                document.getElementById('destination').placeholder = "e.g. London, United Kingdom (LHR)";
-                
-                document.getElementById('save-btn').disabled = false;
-            })
-            .catch(error => {
-                console.error('Error loading airports CSV:', error);
-                document.getElementById('origin').placeholder = "Error loading data";
-                document.getElementById('destination').placeholder = "Error loading data";
-            });
-
-        function sendDataToBot() {
-            let origin = document.getElementById("origin").value.trim();
-            let destination = document.getElementById("destination").value.trim();
-
-            if (origin === "" || destination === "") {
-                tg.showAlert("Please fill in both Departure and Arrival locations.");
-                return;
-            }
-
-            let data = {
-                origin: origin,
-                destination: destination
-            };
-
-            tg.sendData(JSON.stringify(data));
-            tg.close();
-        }
-    </script>
+    <noscript>
+        <div class="noscript-notice">
+            JavaScript is required to load and filter current
+            flight opportunities.
+        </div>
+    </noscript>
 </body>
 </html>

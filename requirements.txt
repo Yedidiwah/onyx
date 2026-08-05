@@ -1,0 +1,6 @@
+airportsdata
+feedparser
+pycountry
+python-dateutil
+python-dotenv
+requests
