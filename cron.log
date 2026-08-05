@@ -83,3 +83,67 @@ remote: This repository moved. Please use the new location:
 remote:   https://github.com/Yedidiwah/onyx.git        
 To https://github.com/yedidiwah/onyx.git
    bd27d84..48604e6  main -> main
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28291 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 98 פריטים בפיד.
+
+טיסה ראשונה לדוגמה:
+מוצא: KACY / ACY - Atlantic City International Airport
+יעד: KTEB / TEB - Teterboro Airport
+תאריך מקורי: 05 August 2026
+תאריך ISO: 2026-08-05
+שעת יציאה: 12:00
+מחיר: $8,600
+מחיר מנורמל: 8600 USD
+מטוס: Cessna Citation X
+מושבים: 12
+סטטוס שינוי: unchanged
+
+שם הפיד: Villiers Empty Legs - Affiliate ADHUHR
+טיסות פעילות בפיד: 98
+כל הטיסות שנשמרו בהיסטוריה: 98
+שינויים בהרצה הנוכחית: 0
+
+פירוט שינויים:
+  חדשות: 0
+  עודכנו: 0
+  חזרו לפיד: 0
+  ללא שינוי: 98
+  נעלמו מהפיד: 0
+
+קבצים שנוצרו:
+  טיסות פעילות: /root/onyx/exports/villiers_empty_legs_current_2026-08-05_23-17-02.csv
+  כל ההיסטוריה: /root/onyx/exports/villiers_empty_legs_all_2026-08-05_23-17-02.csv
+  שינויים בלבד: /root/onyx/exports/villiers_empty_legs_changes_2026-08-05_23-17-02.csv
+  קובץ מצב: /root/onyx/data/villiers_state.json
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Saved 98 flights.
+Output: /root/onyx/data/flights.json
+[3/4] Creating global airports.json...
+Loading global airport database...
+Prepared 28291 airports in 234 countries.
+Airport catalogue saved to: /root/onyx/data/airports.json
+[4/4] Sending current flights to Telegram...
+Connected to Telegram bot: @OnyxAirRadar_bot (bot ID: 8816902667)
+Reading flights from: /root/onyx/exports/villiers_empty_legs_current_2026-08-05_23-17-02.csv
+Loaded 98 active Empty Leg flights.
+Processing 2 users.
+Sent 1 of 1 flights in 1 messages to yedidya (1049883799)
+Sent 98 of 98 flights in 15 messages to Yedidya (7445310755)
+
+Telegram processing complete.
+Users who received flights: 2
+Users with delivery errors: 0
+Total flight entries delivered: 99
+==================================================
+ONYX Radar update completed successfully.
+==================================================
