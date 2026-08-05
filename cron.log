@@ -73,3 +73,13 @@ Total flight entries delivered: 99
 ==================================================
 ONYX Radar update completed successfully.
 ==================================================
+[main 48604e6] Auto-update flights data and telegram alerts from server
+ 8 files changed, 1353 insertions(+), 395 deletions(-)
+ create mode 100644 exports/villiers_empty_legs_all_2026-08-05_22-47-01.csv
+ create mode 100644 exports/villiers_empty_legs_changes_2026-08-05_22-47-01.csv
+ create mode 100644 exports/villiers_empty_legs_current_2026-08-05_22-47-01.csv
+ create mode 100644 vlisten.py
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Yedidiwah/onyx.git        
+To https://github.com/yedidiwah/onyx.git
+   bd27d84..48604e6  main -> main
