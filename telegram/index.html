@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover"
+    >
+
+    <meta
+        name="description"
+        content="Configure ONYX Radar Telegram route preferences."
+    >
+
+    <meta
+        name="referrer"
+        content="no-referrer"
+    >
+
+    <meta
+        http-equiv="Content-Security-Policy"
+        content="
+            default-src 'self';
+            script-src 'self' https://telegram.org;
+            style-src 'self';
+            img-src 'self' data:;
+            connect-src 'self';
+            font-src 'self';
+            object-src 'none';
+            base-uri 'self';
+            form-action 'none';
+        "
+    >
+
+    <title>ONYX Radar | Telegram Preferences</title>
+
+    <link
+        rel="icon"
+        href="../assets/onyx-logo.png"
+        type="image/png"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+    <script
+        src="https://telegram.org/js/telegram-web-app.js"
+    ></script>
+
+    <script
+        src="app.js"
+        defer
+    ></script>
+</head>
+
+<body>
+    <main class="app">
+        <header class="app-header">
+            <img
+                class="logo"
+                src="../assets/onyx-logo.png"
+                alt="ONYX Premium Flight Finder"
+                width="140"
+                height="140"
+            >
+
+            <p class="eyebrow">
+                Telegram Route Intelligence
+            </p>
+
+            <h1>
+                Set Your Alert Route
+            </h1>
+
+            <p class="introduction">
+                Select any country or airport worldwide.
+                Your route does not need to have an active
+                flight today.
+            </p>
+        </header>
+
+        <div
+            class="status"
+            id="status"
+            role="status"
+            aria-live="polite"
+            data-type="loading"
+        >
+            Loading the global airport catalogue…
+        </div>
+
+        <section class="preferences-card">
+            <fieldset class="route-fieldset">
+                <legend>
+                    Origin
+                </legend>
+
+                <label for="origin-mode">
+                    Search type
+                </label>
+
+                <select
+                    id="origin-mode"
+                    disabled
+                >
+                    <option value="all">
+                        All origins
+                    </option>
+
+                    <option value="country">
+                        Anywhere in a country
+                    </option>
+
+                    <option value="airport">
+                        Specific airport
+                    </option>
+                </select>
+
+                <div
+                    class="mode-panel"
+                    id="origin-country-panel"
+                    hidden
+                >
+                    <label for="origin-country">
+                        Origin country
+                    </label>
+
+                    <select id="origin-country">
+                        <option value="">
+                            Select a country
+                        </option>
+                    </select>
+                </div>
+
+                <div
+                    class="mode-panel"
+                    id="origin-airport-panel"
+                    hidden
+                >
+                    <label for="origin-airport-search">
+                        Search origin airport
+                    </label>
+
+                    <input
+                        id="origin-airport-search"
+                        type="search"
+                        inputmode="search"
+                        autocomplete="off"
+                        placeholder="City, airport, IATA or ICAO"
+                        aria-controls="origin-airport-results"
+                        aria-expanded="false"
+                    >
+
+                    <div
+                        class="airport-results"
+                        id="origin-airport-results"
+                        role="listbox"
+                        hidden
+                    ></div>
+
+                    <div
+                        class="selected-airport"
+                        id="origin-selected-airport"
+                        hidden
+                    ></div>
+                </div>
+            </fieldset>
+
+            <div
+                class="route-arrow"
+                aria-hidden="true"
+            >
+                ↓
+            </div>
+
+            <fieldset class="route-fieldset">
+                <legend>
+                    Destination
+                </legend>
+
+                <label for="destination-mode">
+                    Search type
+                </label>
+
+                <select
+                    id="destination-mode"
+                    disabled
+                >
+                    <option value="all">
+                        All destinations
+                    </option>
+
+                    <option value="country">
+                        Anywhere in a country
+                    </option>
+
+                    <option value="airport">
+                        Specific airport
+                    </option>
+                </select>
+
+                <div
+                    class="mode-panel"
+                    id="destination-country-panel"
+                    hidden
+                >
+                    <label for="destination-country">
+                        Destination country
+                    </label>
+
+                    <select id="destination-country">
+                        <option value="">
+                            Select a country
+                        </option>
+                    </select>
+                </div>
+
+                <div
+                    class="mode-panel"
+                    id="destination-airport-panel"
+                    hidden
+                >
+                    <label for="destination-airport-search">
+                        Search destination airport
+                    </label>
+
+                    <input
+                        id="destination-airport-search"
+                        type="search"
+                        inputmode="search"
+                        autocomplete="off"
+                        placeholder="City, airport, IATA or ICAO"
+                        aria-controls="destination-airport-results"
+                        aria-expanded="false"
+                    >
+
+                    <div
+                        class="airport-results"
+                        id="destination-airport-results"
+                        role="listbox"
+                        hidden
+                    ></div>
+
+                    <div
+                        class="selected-airport"
+                        id="destination-selected-airport"
+                        hidden
+                    ></div>
+                </div>
+            </fieldset>
+
+            <section
+                class="alert-summary"
+                aria-labelledby="summary-heading"
+            >
+                <h2 id="summary-heading">
+                    Alert Summary
+                </h2>
+
+                <div class="summary-route">
+                    <div>
+                        <span>Origin</span>
+                        <strong id="summary-origin">
+                            All origins
+                        </strong>
+                    </div>
+
+                    <b aria-hidden="true">
+                        →
+                    </b>
+
+                    <div>
+                        <span>Destination</span>
+                        <strong id="summary-destination">
+                            All destinations
+                        </strong>
+                    </div>
+                </div>
+
+                <p id="summary-description">
+                    You will receive all current Empty Leg
+                    opportunities.
+                </p>
+            </section>
+
+            <button
+                class="save-button"
+                id="save-button"
+                type="button"
+                disabled
+            >
+                Save Telegram Preferences
+            </button>
+
+            <div
+                class="external-notice"
+                id="external-notice"
+                hidden
+            >
+                <p>
+                    Open this page through the ONYX Radar
+                    Telegram bot to save preferences.
+                </p>
+
+                <a
+                    href="https://t.me/OnyxAirRadar_bot"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Open ONYX Radar
+                </a>
+            </div>
+        </section>
+
+        <p class="privacy-note">
+            ONYX Radar stores your Telegram Chat ID,
+            first name and route preferences only for
+            delivering requested alerts. Use “Stop Alerts”
+            in the bot to unsubscribe.
+        </p>
+
+        <footer>
+            <p>
+                ONYX Radar is an independent Villiers affiliate.
+            </p>
+        </footer>
+    </main>
+</body>
+</html>
