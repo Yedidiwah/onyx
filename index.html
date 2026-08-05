@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>ONYX Preferences</title>
     
-    <!-- החיבור הרשמי ל-API של טלגרם מיני-אפס -->
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     
     <style>
@@ -28,92 +27,31 @@
             align-items: center;
         }
 
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            width: 100%;
-        }
+        .header { text-align: center; margin-bottom: 40px; width: 100%; }
+        .logo { font-size: 28px; font-weight: 300; letter-spacing: 12px; margin-bottom: 10px; color: var(--accent-color); }
+        .subtitle { font-size: 12px; color: #888; letter-spacing: 1px; text-transform: uppercase; }
 
-        .logo {
-            font-size: 28px;
-            font-weight: 300;
-            letter-spacing: 12px;
-            margin-bottom: 10px;
-            color: var(--accent-color);
-        }
+        .form-container { width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 25px; }
+        .input-group { display: flex; flex-direction: column; gap: 8px; }
 
-        .subtitle {
-            font-size: 12px;
-            color: #888;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-
-        .form-container {
-            width: 100%;
-            max-width: 400px;
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-        }
-
-        .input-group {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        label {
-            font-size: 11px;
-            color: #aaa;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            padding-left: 5px;
-        }
-
+        label { font-size: 11px; color: #aaa; text-transform: uppercase; letter-spacing: 1.5px; padding-left: 5px; }
         input {
-            width: 100%;
-            box-sizing: border-box;
-            background-color: var(--input-bg);
-            border: 1px solid var(--border-color);
-            color: var(--text-color);
-            padding: 16px;
-            font-size: 16px;
-            border-radius: 8px;
-            outline: none;
-            transition: border-color 0.3s ease;
+            width: 100%; box-sizing: border-box; background-color: var(--input-bg);
+            border: 1px solid var(--border-color); color: var(--text-color); padding: 16px;
+            font-size: 16px; border-radius: 8px; outline: none; transition: border-color 0.3s ease;
         }
+        input:focus { border-color: #666; }
+        input:disabled { opacity: 0.5; } /* אפקט עמעום בזמן טעינת הנתונים */
 
-        input:focus {
-            border-color: #666;
-        }
-
-        /* עיצוב כפתור השמירה */
         .btn-save {
-            background-color: var(--accent-color);
-            color: #000000;
-            border: none;
-            padding: 18px;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            border-radius: 8px;
-            cursor: pointer;
-            margin-top: 20px;
-            transition: opacity 0.2s ease;
+            background-color: var(--accent-color); color: #000000; border: none; padding: 18px;
+            font-size: 14px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+            border-radius: 8px; cursor: pointer; margin-top: 20px; transition: opacity 0.2s ease;
         }
+        .btn-save:active { opacity: 0.8; }
+        .btn-save:disabled { background-color: #555; cursor: not-allowed; }
 
-        .btn-save:active {
-            opacity: 0.8;
-        }
-
-        .note {
-            font-size: 11px;
-            color: #555;
-            text-align: center;
-            margin-top: 20px;
-        }
+        .note { font-size: 11px; color: #555; text-align: center; margin-top: 20px; }
     </style>
 </head>
 <body>
@@ -126,38 +64,80 @@
     <div class="form-container">
         <div class="input-group">
             <label for="origin">Departure (City or Country)</label>
-            <!-- שימוש ב-datalist נותן חוויית השלמה אוטומטית יוקרתית בלי לכתוב המון קוד -->
-            <input type="text" id="origin" placeholder="e.g. London, Paris, Anytime" list="hubs" autocomplete="off">
+            <input type="text" id="origin" placeholder="Loading global airports..." list="hubs" autocomplete="off" disabled>
         </div>
 
         <div class="input-group">
             <label for="destination">Arrival (City or Country)</label>
-            <input type="text" id="destination" placeholder="e.g. Nice, Milan, Anywhere" list="hubs" autocomplete="off">
+            <input type="text" id="destination" placeholder="Loading global airports..." list="hubs" autocomplete="off" disabled>
         </div>
 
-        <button class="btn-save" onclick="sendDataToBot()">Sync Preferences</button>
+        <button class="btn-save" id="save-btn" onclick="sendDataToBot()" disabled>Sync Preferences</button>
         <div class="note">Data is securely transmitted to your ONYX node.</div>
     </div>
 
-    <!-- רשימת יעדים נפוצים להשלמה אוטומטית -->
-    <datalist id="hubs">
-        <option value="Anywhere (Global)"></option>
-        <option value="Anywhere in Europe"></option>
-        <option value="London, United Kingdom"></option>
-        <option value="Paris, France"></option>
-        <option value="Nice, France"></option>
-        <option value="Geneva, Switzerland"></option>
-        <option value="Milan, Italy"></option>
-        <option value="Ibiza, Spain"></option>
-        <option value="Dubai, United Arab Emirates"></option>
-        <option value="Zurich, Switzerland"></option>
-        <option value="Rome, Italy"></option>
-    </datalist>
+    <!-- הרשימה תתמלא אוטומטית על ידי הקוד למטה -->
+    <datalist id="hubs"></datalist>
 
     <script>
-        // אתחול האפליקציה מול טלגרם
         let tg = window.Telegram.WebApp;
-        tg.expand(); // פותח את החלון לגובה מלא של המסך
+        tg.expand(); 
+
+        // משיכת ה-CSV ישירות מאותה תיקייה בשרת הגיטהאב
+        fetch('airports_global.csv')
+            .then(response => response.text())
+            .then(data => {
+                const lines = data.split('\n');
+                const datalist = document.getElementById('hubs');
+                
+                let optionsHTML = '<option value="Anywhere (Global)"></option>\n';
+                let countries = new Set();
+                let airports = new Set();
+                
+                // מתחילים מ-1 כדי לדלג על שורת הכותרות ב-CSV
+                for (let i = 1; i < lines.length; i++) {
+                    let line = lines[i].trim();
+                    if (!line) continue;
+                    
+                    let parts = line.split(',');
+                    if (parts.length >= 3) {
+                        // חילוץ המידע עם הגנה מפני פסיקים מיותרים ומרכאות
+                        let country = parts[parts.length - 1].replace(/"/g, '').trim();
+                        // חיבור שאר החלקים האמצעיים יחד כדי לא לאבד ערים שיש בהן פסיק בשם
+                        let city = parts.slice(1, parts.length - 1).join(',').replace(/"/g, '').trim();
+                        
+                        countries.add(country);
+                        // הפורמט שמתאים בול ללוגיקת הפייתון שלך
+                        airports.add(`${city}, ${country}`);
+                    }
+                }
+                
+                // הזרקת המדינות ל-HTML
+                Array.from(countries).sort().forEach(c => {
+                    optionsHTML += `<option value="Anywhere in ${c}"></option>\n`;
+                });
+                
+                // הזרקת הערים ל-HTML
+                Array.from(airports).sort().forEach(a => {
+                    optionsHTML += `<option value="${a}"></option>\n`;
+                });
+                
+                datalist.innerHTML = optionsHTML;
+                
+                // שחרור הנעילה של השדות לאחר שהכל נטען
+                document.getElementById('origin').disabled = false;
+                document.getElementById('origin').placeholder = "e.g. London, Anywhere in Italy";
+                
+                document.getElementById('destination').disabled = false;
+                document.getElementById('destination').placeholder = "e.g. Nice, Anywhere";
+                
+                document.getElementById('save-btn').disabled = false;
+            })
+            .catch(error => {
+                console.error('Error loading airports CSV:', error);
+                document.getElementById('origin').placeholder = "Error loading data";
+                document.getElementById('destination').placeholder = "Error loading data";
+            });
 
         function sendDataToBot() {
             let origin = document.getElementById("origin").value.trim();
@@ -168,16 +148,12 @@
                 return;
             }
 
-            // אריזת הנתונים לפורמט JSON
             let data = {
                 origin: origin,
                 destination: destination
             };
 
-            // השליחה השקטה לבוט (מפעיל את פונקציית ה-handle_webapp_data בפייתון)
             tg.sendData(JSON.stringify(data));
-            
-            // סגירת החלון הקופץ חזרה לשיחה בטלגרם
             tg.close();
         }
     </script>
