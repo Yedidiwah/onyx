@@ -2,3 +2,10 @@ Downloading Villiers RSS...
 Saved 98 flights.
 Output: /root/onyx/data/flights.json
 python: can't open file '/root/onyx/telegram/vtelegram.py': [Errno 2] No such file or directory
+[main c09e4bc] Auto-update flights data from server
+ 2 files changed, 103 insertions(+), 99 deletions(-)
+ create mode 100644 cron.log
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Yedidiwah/onyx.git        
+To https://github.com/yedidiwah/onyx.git
+   4f34b55..c09e4bc  main -> main
