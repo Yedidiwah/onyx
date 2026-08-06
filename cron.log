@@ -512,3 +512,76 @@ Total flight entries delivered: 70
 ==================================================
 ONYX Radar update completed successfully.
 ==================================================
+[main 51e49bf] Auto-update flights data and telegram alerts from server
+ 7 files changed, 453 insertions(+), 210 deletions(-)
+ create mode 100644 exports/villiers_empty_legs_all_2026-08-06_01-47-01.csv
+ create mode 100644 exports/villiers_empty_legs_changes_2026-08-06_01-47-01.csv
+ create mode 100644 exports/villiers_empty_legs_current_2026-08-06_01-47-01.csv
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Yedidiwah/onyx.git        
+To https://github.com/yedidiwah/onyx.git
+   54a0c12..51e49bf  main -> main
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28291 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 69 פריטים בפיד.
+
+טיסה ראשונה לדוגמה:
+מוצא: KIWS / IWS - West Houston Airport
+יעד: KSBM / SBM - Sheboygan County Memorial International Airport
+תאריך מקורי: 06 August 2026
+תאריך ISO: 2026-08-06
+שעת יציאה: 12:00
+מחיר: $8,385
+מחיר מנורמל: 8385 USD
+מטוס: Pilatus PC 12 NG
+מושבים: 7
+סטטוס שינוי: unchanged
+
+שם הפיד: Villiers Empty Legs - Affiliate ADHUHR
+טיסות פעילות בפיד: 69
+כל הטיסות שנשמרו בהיסטוריה: 98
+שינויים בהרצה הנוכחית: 0
+
+פירוט שינויים:
+  חדשות: 0
+  עודכנו: 0
+  חזרו לפיד: 0
+  ללא שינוי: 69
+  נעלמו מהפיד: 0
+
+קבצים שנוצרו:
+  טיסות פעילות: /root/onyx/exports/villiers_empty_legs_current_2026-08-06_02-17-01.csv
+  כל ההיסטוריה: /root/onyx/exports/villiers_empty_legs_all_2026-08-06_02-17-01.csv
+  שינויים בלבד: /root/onyx/exports/villiers_empty_legs_changes_2026-08-06_02-17-01.csv
+  קובץ מצב: /root/onyx/data/villiers_state.json
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Saved 69 flights.
+Output: /root/onyx/data/flights.json
+[3/4] Creating global airports.json...
+Loading global airport database...
+Prepared 28291 airports in 234 countries.
+Airport catalogue saved to: /root/onyx/data/airports.json
+[4/4] Sending current flights to Telegram...
+Connected to Telegram bot: @OnyxAirRadar_bot (bot ID: 8816902667)
+Reading flights from: /root/onyx/exports/villiers_empty_legs_current_2026-08-06_02-17-01.csv
+Loaded 69 active Empty Leg flights.
+Processing 2 users.
+Sent 1 of 1 flights in 1 messages to yedidya (1049883799)
+Sent 69 of 69 flights in 10 messages to Yedidya (7445310755)
+
+Telegram processing complete.
+Users who received flights: 2
+Users with delivery errors: 0
+Total flight entries delivered: 70
+==================================================
+ONYX Radar update completed successfully.
+==================================================
