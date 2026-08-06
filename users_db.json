@@ -1,20 +1,22 @@
 {
     "1049883799": {
         "first_name": "yedidya",
-        "origin": "Farnborough, United Kingdom (FAB)",
-        "destination": "Paris, France (LBG)",
+        "origin": "Anywhere in United Kingdom",
+        "destination": "Anywhere in France",
         "status": "free",
         "last_sent_timestamp": 1786022225.121593,
-        "frequency_hours": 1,
+        "frequency_hours": 3,
         "registered_at": "2026-08-06T10:12:23+00:00",
-        "preferences_updated_at": ""
+        "preferences_updated_at": "2026-08-06T14:32:26+00:00"
     },
     "7445310755": {
         "first_name": "Yedidya",
-        "origin": "Not set",
-        "destination": "Not set",
+        "origin": "Anywhere in United States",
+        "destination": "Anywhere in Costa Rica",
         "status": "free",
         "registered_at": "2026-08-05T19:38:24+00:00",
-        "preferences_updated_at": ""
+        "preferences_updated_at": "2026-08-06T14:35:15+00:00",
+        "frequency_hours": 3,
+        "last_sent_timestamp": 1786027624.6820872
     }
 }
