@@ -928,7 +928,7 @@ async function loadAirportCatalogue() {
     } catch (error) {
         console.error(error);
 
-        state.loading = true;
+        state.loading = false; // תוקן ל-false כדי לא לנעול את הכפתור
 
         setStatus(
             "The global airport catalogue "
@@ -956,7 +956,9 @@ function bindEvents() {
 
         controls[side].search.addEventListener(
             "input",
-            () => handleAirportInput(side)
+            () => {
+                handleAirportInput(side);
+            }
         );
 
         controls[side].search.addEventListener(
