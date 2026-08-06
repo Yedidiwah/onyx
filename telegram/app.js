@@ -169,13 +169,10 @@ function initializeTelegram() {
             "#070809"
         );
 
-        state.telegramAvailable = Boolean(
-            telegram.initData
-        );
+        // תוקן: הסרנו את בדיקת ה-initData כדי לתמוך בכפתורי Reply Keyboard של טלגרם
+        state.telegramAvailable = true;
 
-        controls.externalNotice.hidden = (
-            state.telegramAvailable
-        );
+        controls.externalNotice.hidden = true;
 
     } catch (error) {
         console.error(error);
@@ -819,11 +816,11 @@ function savePreferences() {
         return;
     }
 
-	const payload = {
-       	    origin: state.route.origin.preference,
-       	    destination: state.route.destination.preference,
-            frequency_hours: controls.frequency ? (parseInt(controls.frequency.value, 10) || 1) : 1,
-   	};
+    const payload = {
+        origin: state.route.origin.preference,
+        destination: state.route.destination.preference,
+        frequency_hours: controls.frequency ? (parseInt(controls.frequency.value, 10) || 1) : 1,
+    };
 
     state.sending = true;
     updateSaveButton();
