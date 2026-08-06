@@ -819,13 +819,11 @@ function savePreferences() {
         return;
     }
 
-    const payload = {
-        origin: state.route.origin.preference,
-        destination: (
-            state.route.destination.preference
-        ),
-        frequency_hours: parseInt(controls.frequency.value, 10) || 1,
-    };
+	const payload = {
+       	    origin: state.route.origin.preference,
+       	    destination: state.route.destination.preference,
+            frequency_hours: controls.frequency ? (parseInt(controls.frequency.value, 10) || 1) : 1,
+   	};
 
     state.sending = true;
     updateSaveButton();
