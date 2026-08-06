@@ -39,7 +39,7 @@ if not BOT_TOKEN:
 DB_FILE = BASE_DIRECTORY / "users_db.json"
 
 WEBAPP_URL = (
-    "https://yedidiwah.github.io/onyx/"
+    "https://yedidiwah.github.io/onyx/telegram"
 )
 
 bot = telebot.TeleBot(BOT_TOKEN)
