@@ -2,350 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, viewport-fit=cover"
-    >
-
-    <meta
-        name="description"
-        content="Configure ONYX Radar Telegram route preferences."
-    >
-
-    <meta
-        name="referrer"
-        content="no-referrer"
-    >
-
-    <meta
-        http-equiv="Content-Security-Policy"
-        content="
-            default-src 'self';
-            script-src 'self' https://telegram.org;
-            script-src 'self';
-            style-src 'self' 'unsafe-inline';
-            img-src 'self' data:;
-            connect-src 'self';
-            font-src 'self';
-            object-src 'none';
-            base-uri 'self';
-            form-action 'none';
-            upgrade-insecure-requests;
-        "
-    >
-
-    <title>ONYX Radar | Telegram Preferences</title>
-
-    <link
-        rel="icon"
-        href="../assets/onyx-logo.png"
-        type="image/png"
-    >
-
-    <link
-        rel="stylesheet"
-        href="styles.css"
-    >
-
-    <script
-        src="https://telegram.org/js/telegram-web-app.js"
-    ></script>
-
-    <script
-        src="app.js"
-        defer
-    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://telegram.org; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests;">
+    <title>ONYX Radar Preferences</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
-
 <body>
-    <main class="app">
-        <header class="app-header">
-            <img
-                class="logo"
-                src="../assets/onyx-logo.png"
-                alt="ONYX Premium Flight Finder"
-                width="140"
-                height="140"
-            >
+    <div id="external-notice" hidden>
+        Please open this page from the ONYX Telegram bot.
+    </div>
 
-            <p class="eyebrow">
-                Telegram Route Intelligence
-            </p>
+    <div id="status">Loading...</div>
 
-            <h1>
-                Set Your Alert Route
-            </h1>
+    <!-- Origin Section -->
+    <div class="section">
+        <label for="origin-mode">Origin Mode</label>
+        <select id="origin-mode">
+            <option value="all">All origins</option>
+            <option value="country">Country</option>
+            <option value="airport">Airport</option>
+        </select>
 
-            <p class="introduction">
-                Select any country or airport worldwide.
-                Your route does not need to have an active
-                flight today.
-            </p>
-        </header>
-
-        <div
-            class="status"
-            id="status"
-            role="status"
-            aria-live="polite"
-            data-type="loading"
-        >
-            Loading the global airport catalogue…
+        <div id="origin-country-panel" hidden>
+            <select id="origin-country"></select>
         </div>
 
-        <section class="preferences-card">
-            <fieldset class="route-fieldset">
-                <legend>
-                    Origin
-                </legend>
+        <div id="origin-airport-panel" hidden>
+            <input type="text" id="origin-airport-search" placeholder="Search origin airport...">
+            <div id="origin-airport-results" hidden></div>
+            <div id="origin-selected-airport" hidden></div>
+        </div>
+    </div>
 
-                <label for="origin-mode">
-                    Search type
-                </label>
+    <!-- Destination Section -->
+    <div class="section">
+        <label for="destination-mode">Destination Mode</label>
+        <select id="destination-mode">
+            <option value="all">All destinations</option>
+            <option value="country">Country</option>
+            <option value="airport">Airport</option>
+        </select>
 
-                <select
-                    id="origin-mode"
-                    disabled
-                >
-                    <option value="all">
-                        All origins
-                    </option>
+        <div id="destination-country-panel" hidden>
+            <select id="destination-country"></select>
+        </div>
 
-                    <option value="country">
-                        Anywhere in a country
-                    </option>
+        <div id="destination-airport-panel" hidden>
+            <input type="text" id="destination-airport-search" placeholder="Search destination airport...">
+            <div id="destination-airport-results" hidden></div>
+            <div id="destination-selected-airport" hidden></div>
+        </div>
+    </div>
 
-                    <option value="airport">
-                        Specific airport
-                    </option>
-                </select>
+    <!-- Frequency Section (Optional / Optional fallback) -->
+    <div class="section">
+        <label for="update-frequency">Alert Frequency</label>
+        <select id="update-frequency">
+            <option value="1">Every 1 hour</option>
+            <option value="3">Every 3 hours</option>
+            <option value="6">Every 6 hours</option>
+            <option value="12">Every 12 hours</option>
+            <option value="24">Every 24 hours</option>
+        </select>
+    </div>
 
-                <div
-                    class="mode-panel"
-                    id="origin-country-panel"
-                    hidden
-                >
-                    <label for="origin-country">
-                        Origin country
-                    </label>
+    <!-- Summary -->
+    <div id="summary">
+        <span id="summary-origin"></span> -> <span id="summary-destination"></span>
+        <p id="summary-description"></p>
+    </div>
 
-                    <select id="origin-country">
-                        <option value="">
-                            Select a country
-                        </option>
-                    </select>
-                </div>
+    <button type="button" id="save-button">SAVE TELEGRAM PREFERENCES</button>
 
-                <div
-                    class="mode-panel"
-                    id="origin-airport-panel"
-                    hidden
-                >
-                    <label for="origin-airport-search">
-                        Search origin airport
-                    </label>
-
-                    <input
-                        id="origin-airport-search"
-                        type="search"
-                        inputmode="search"
-                        autocomplete="off"
-                        placeholder="City, airport, IATA or ICAO"
-                        aria-controls="origin-airport-results"
-                        aria-expanded="false"
-                    >
-
-                    <div
-                        class="airport-results"
-                        id="origin-airport-results"
-                        role="listbox"
-                        hidden
-                    ></div>
-
-                    <div
-                        class="selected-airport"
-                        id="origin-selected-airport"
-                        hidden
-                    ></div>
-                </div>
-            </fieldset>
-
-            <div
-                class="route-arrow"
-                aria-hidden="true"
-            >
-                ↓
-            </div>
-
-            <fieldset class="route-fieldset">
-                <legend>
-                    Destination
-                </legend>
-
-                <label for="destination-mode">
-                    Search type
-                </label>
-
-                <select
-                    id="destination-mode"
-                    disabled
-                >
-                    <option value="all">
-                        All destinations
-                    </option>
-
-                    <option value="country">
-                        Anywhere in a country
-                    </option>
-
-                    <option value="airport">
-                        Specific airport
-                    </option>
-                </select>
-
-                <div
-                    class="mode-panel"
-                    id="destination-country-panel"
-                    hidden
-                >
-                    <label for="destination-country">
-                        Destination country
-                    </label>
-
-                    <select id="destination-country">
-                        <option value="">
-                            Select a country
-                        </option>
-                    </select>
-                </div>
-
-                <div
-                    class="mode-panel"
-                    id="destination-airport-panel"
-                    hidden
-                >
-                    <label for="destination-airport-search">
-                        Search destination airport
-                    </label>
-
-                    <input
-                        id="destination-airport-search"
-                        type="search"
-                        inputmode="search"
-                        autocomplete="off"
-                        placeholder="City, airport, IATA or ICAO"
-                        aria-controls="destination-airport-results"
-                        aria-expanded="false"
-                    >
-
-                    <div
-                        class="airport-results"
-                        id="destination-airport-results"
-                        role="listbox"
-                        hidden
-                    ></div>
-
-                    <div
-                        class="selected-airport"
-                        id="destination-selected-airport"
-                        hidden
-                    ></div>
-                </div>
-            </fieldset>
-
-<fieldset class="route-fieldset" style="margin-top: 20px;">
-                <legend>
-                    Alert Frequency
-                </legend>
-
-                <label for="update-frequency">
-                    How often should we notify you?
-                </label>
-
-                <select id="update-frequency">
-                    <option value="1">Every hour (Every 1 hours)</option>
-                    <option value="6">Every hour (Every 6 hours)</option>
-                    <option value="12">Twice a day (Every 12 hours)</option>
-                    <option value="24">Once a day (Every 24 hours)</option>
-                </select>
-            </fieldset>
-
-            <section
-                class="alert-summary"
-                aria-labelledby="summary-heading"
-            >
-                <h2 id="summary-heading">
-                    Alert Summary
-                </h2>
-
-                <div class="summary-route">
-                    <div>
-                        <span>Origin</span>
-                        <strong id="summary-origin">
-                            All origins
-                        </strong>
-                    </div>
-
-                    <b aria-hidden="true">
-                        →
-                    </b>
-
-                    <div>
-                        <span>Destination</span>
-                        <strong id="summary-destination">
-                            All destinations
-                        </strong>
-                    </div>
-                </div>
-
-                <p id="summary-description">
-                    You will receive all current Empty Leg
-                    opportunities.
-                </p>
-            </section>
-
-            <button
-                class="save-button"
-                id="save-button"
-                type="button"
-                disabled
-            >
-                Save Telegram Preferences
-            </button>
-
-            <div
-                class="external-notice"
-                id="external-notice"
-                hidden
-            >
-                <p>
-                    Open this page through the ONYX Radar
-                    Telegram bot to save preferences.
-                </p>
-
-                <a
-                    href="https://t.me/OnyxAirRadar_bot"
-                    target="_blank"
-                    rel="noopener"
-                >
-                    Open ONYX Radar
-                </a>
-            </div>
-        </section>
-
-        <p class="privacy-note">
-            ONYX Radar stores your Telegram Chat ID,
-            first name and route preferences only for
-            delivering requested alerts. Use “Stop Alerts”
-            in the bot to unsubscribe.
-        </p>
-
-        <footer>
-            <p>
-                ONYX Radar is an independent Villiers affiliate.
-            </p>
-        </footer>
-    </main>
+    <script src="assets/app.js"></script>
 </body>
 </html>
