@@ -22,14 +22,15 @@
         http-equiv="Content-Security-Policy"
         content="
             default-src 'self';
-            script-src 'self' https://telegram.org;
-            style-src 'self';
+            script-src 'self';
+            style-src 'self' 'unsafe-inline';
             img-src 'self' data:;
             connect-src 'self';
             font-src 'self';
             object-src 'none';
             base-uri 'self';
             form-action 'none';
+            upgrade-insecure-requests;
         "
     >
 
