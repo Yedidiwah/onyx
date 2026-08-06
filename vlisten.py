@@ -39,7 +39,7 @@ if not BOT_TOKEN:
 DB_FILE = BASE_DIRECTORY / "users_db.json"
 
 WEBAPP_URL = (
-    "https://yedidiwah.github.io/onyx/telegram"
+    "https://yedidiwah.github.io/onyx/telegram?v=2.0"
 )
 
 bot = telebot.TeleBot(BOT_TOKEN)
@@ -160,45 +160,25 @@ def ensure_user(db, message):
 
     if chat_id not in db:
         db[chat_id] = {
-            "first_name": first_name,
+	    "first_name": first_name,
             "origin": "Not set",
             "destination": "Not set",
+            "frequency_hours": 1,
+            "last_sent_timestamp": 0,
             "status": "free",
             "registered_at": utc_now(),
             "preferences_updated_at": "",
         }
 
     else:
-        db[chat_id]["first_name"] = (
-            first_name
-        )
-
-        db[chat_id].setdefault(
-            "origin",
-            "Not set",
-        )
-
-        db[chat_id].setdefault(
-            "destination",
-            "Not set",
-        )
-
-        # Retained only for compatibility.
-        # It does not affect alerts.
-        db[chat_id].setdefault(
-            "status",
-            "free",
-        )
-
-        db[chat_id].setdefault(
-            "registered_at",
-            utc_now(),
-        )
-
-        db[chat_id].setdefault(
-            "preferences_updated_at",
-            "",
-        )
+	db[chat_id]["first_name"] = first_name
+        db[chat_id].setdefault("origin", "Not set")
+        db[chat_id].setdefault("destination", "Not set")
+        db[chat_id].setdefault("frequency_hours", 1)
+        db[chat_id].setdefault("last_sent_timestamp", 0)
+        db[chat_id].setdefault("status", "free")
+        db[chat_id].setdefault("registered_at", utc_now())
+        db[chat_id].setdefault("preferences_updated_at", "")
 
     return chat_id
 
@@ -458,11 +438,15 @@ def handle_webapp_data(message):
             )
         ).strip()
 
+	frequency_hours = preferences.get("frequency_hours", 1)
+
         if not origin:
             origin = "Not set"
 
         if not destination:
             destination = "Not set"
+
+
 
         db = load_db()
 
@@ -471,14 +455,10 @@ def handle_webapp_data(message):
             message,
         )
 
-        db[chat_id]["origin"] = origin
-        db[chat_id]["destination"] = (
-            destination
-        )
-
-        db[chat_id][
-            "preferences_updated_at"
-        ] = utc_now()
+	db[chat_id]["origin"] = origin
+        db[chat_id]["destination"] = destination
+        db[chat_id]["frequency_hours"] = frequency_hours
+        db[chat_id]["preferences_updated_at"] = utc_now()
 
         save_db(db)
 

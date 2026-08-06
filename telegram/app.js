@@ -57,6 +57,9 @@ const controls = {
         "#summary-description"
     ),
 
+    frequency: document.querySelector(
+        "#update-frequency"
+
     origin: {
         mode: document.querySelector(
             "#origin-mode"
@@ -820,6 +823,7 @@ function savePreferences() {
         destination: (
             state.route.destination.preference
         ),
+	frequency_hours: parseInt(controls.frequency.value, 10) || 1,
     };
 
     state.sending = true;

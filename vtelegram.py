@@ -130,6 +130,12 @@ def load_users():
         )
         return {}
 
+	def save_users(users):
+    try:
+        with USERS_DB.open("w", encoding="utf-8") as file:
+            json.dump(users, file, ensure_ascii=False, indent=4)
+    except Exception as error:
+        print(f"Failed to save users database: {error}")
 
 def get_latest_flights_csv():
     """
@@ -1310,31 +1316,37 @@ def process_all_alerts():
         f"Processing {len(users)} users."
     )
 
-    total_flights_sent = 0
+total_flights_sent = 0
     successful_users = 0
     failed_users = 0
+    
+    current_time = time.time()
+    db_updated = False
 
-    for (
-        chat_id,
-        preferences,
-    ) in users.items():
-        sent_count, failed = (
-            send_user_flights(
-                chat_id,
-                preferences,
-                flights,
-            )
-        )
+    for chat_id, preferences in users.items():
+        frequency_hours = preferences.get("frequency_hours", 1)
+        last_sent = preferences.get("last_sent_timestamp", 0)
+        
+        hours_since_last_send = (current_time - last_sent) / 3600.0
+        
+        if hours_since_last_send < frequency_hours:
+            print(f"Skipping {chat_id} (Frequency: {frequency_hours}h, hours passed: {hours_since_last_send:.2f}h)")
+            continue
 
-        total_flights_sent += (
-            sent_count
-        )
+        sent_count, failed = send_user_flights(chat_id, preferences, flights)
+        total_flights_sent += sent_count
 
         if sent_count > 0:
             successful_users += 1
+            preferences["last_sent_timestamp"] = current_time
+            db_updated = True
 
-        if failed:
+if failed:
             failed_users += 1
+
+    if db_updated:
+        save_users(users)
+        print("Users database updated with new timestamps.")
 
     print()
     print(
