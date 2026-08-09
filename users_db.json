@@ -4,7 +4,7 @@
         "origin": "Anywhere in United Kingdom",
         "destination": "Anywhere in France",
         "status": "free",
-        "last_sent_timestamp": 1786270624.845199,
+        "last_sent_timestamp": 1786281425.150846,
         "frequency_hours": 3,
         "registered_at": "2026-08-06T10:12:23+00:00",
         "preferences_updated_at": "2026-08-06T14:32:26+00:00"
@@ -15,8 +15,8 @@
         "destination": "Anywhere in Costa Rica",
         "status": "free",
         "registered_at": "2026-08-05T19:38:24+00:00",
-        "preferences_updated_at": "2026-08-06T14:35:15+00:00",
-        "frequency_hours": 3,
-        "last_sent_timestamp": 1786243624.9499502
+        "preferences_updated_at": "2026-08-09T13:00:06+00:00",
+        "frequency_hours": 6,
+        "last_sent_timestamp": 1786281425.150846
     }
 }
