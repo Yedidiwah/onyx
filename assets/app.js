@@ -1,1067 +1,671 @@
-"use strict";
+/* ==========================================================================
+   ONYX Radar - Premium Stylesheet
+   ========================================================================== */
 
-const TELEGRAM_BOT_USERNAME = "OnyxAirRadar_bot";
-const FLIGHTS_DATA_URL = "data/flights.json";
-
-const state = {
-    flights: [],
-    filteredFlights: [],
-    metadata: {},
-};
-
-const elements = {
-    origin: document.querySelector("#origin-filter"),
-    destination: document.querySelector("#destination-filter"),
-    dateFrom: document.querySelector("#date-from"),
-    dateTo: document.querySelector("#date-to"),
-    minimumSeats: document.querySelector("#minimum-seats"),
-    aircraft: document.querySelector("#aircraft-filter"),
-    currency: document.querySelector("#currency-filter"),
-    maximumPrice: document.querySelector("#maximum-price"),
-    sort: document.querySelector("#sort-filter"),
-
-    clearFilters: document.querySelector("#clear-filters"),
-    emptyClearFilters: document.querySelector(
-        "#empty-clear-filters"
-    ),
-
-    telegramLink: document.querySelector(
-        "#filtered-telegram-link"
-    ),
-
-    flightGrid: document.querySelector("#flight-grid"),
-    loadingState: document.querySelector("#loading-state"),
-    errorState: document.querySelector("#error-state"),
-    errorMessage: document.querySelector("#error-message"),
-    emptyState: document.querySelector("#empty-state"),
-    retryLoading: document.querySelector("#retry-loading"),
-
-    resultsStatus: document.querySelector("#results-status"),
-    lastUpdated: document.querySelector("#last-updated"),
-
-    heroFlightCount: document.querySelector(
-        "#hero-flight-count"
-    ),
-
-    heroCountryCount: document.querySelector(
-        "#hero-country-count"
-    ),
-
-    currentYear: document.querySelector("#current-year"),
-};
-
-const countryDisplayNames = (
-    typeof Intl.DisplayNames === "function"
-        ? new Intl.DisplayNames(
-            ["en"],
-            { type: "region" }
-        )
-        : null
-);
-
-
-function escapeHtml(value) {
-    return String(value ?? "")
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
+:root {
+    --primary-color: #d4af37; /* Onyx Gold */
+    --primary-hover: #b5952f;
+    --bg-dark: #0a0a0a;
+    --bg-panel: #141414;
+    --bg-card: #1c1c1c;
+    --text-main: #f5f5f5;
+    --text-muted: #888888;
+    --border-color: #2a2a2a;
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-
-function normalize(value) {
-    return String(value ?? "")
-        .trim()
-        .toLocaleLowerCase("en");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: var(--font-family);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
 
-function countryName(countryCode) {
-    const code = String(countryCode ?? "")
-        .trim()
-        .toUpperCase();
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
-    if (!code) {
-        return "";
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--primary-hover);
+}
+
+/* ==========================================================================
+   Header & Navigation
+   ========================================================================== */
+
+.site-header {
+    background-color: rgba(10, 10, 10, 0.95);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.brand-logo {
+    border-radius: 50%;
+}
+
+.brand-copy {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text-main);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.brand-tagline {
+    font-size: 0.8rem;
+    color: var(--primary-color);
+}
+
+.main-navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.main-navigation a {
+    color: var(--text-main);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.main-navigation a:hover {
+    color: var(--primary-color);
+}
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+
+.hero {
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+    background: radial-gradient(circle at center, #1a1a1a 0%, var(--bg-dark) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.eyebrow {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.hero h1 span {
+    display: block;
+    font-weight: 700;
+}
+
+.hero-description {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+    font-size: 0.95rem;
+}
+
+.button-primary {
+    background-color: var(--primary-color);
+    color: var(--bg-dark);
+}
+
+.button-primary:hover {
+    background-color: var(--primary-hover);
+    color: var(--bg-dark);
+    transform: translateY(-2px);
+}
+
+.button-secondary {
+    background-color: transparent;
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+}
+
+.button-secondary:hover {
+    border-color: var(--text-muted);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.button-telegram {
+    background-color: #229ED9; /* Telegram Blue */
+    color: white;
+}
+
+.button-telegram:hover {
+    background-color: #1c88ba;
+    color: white;
+}
+
+.button-full {
+    width: 100%;
+}
+
+/* ==========================================================================
+   Statistics
+   ========================================================================== */
+
+.hero-statistics {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-top: 1px solid var(--border-color);
+    padding-top: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.statistic {
+    display: flex;
+    flex-direction: column;
+}
+
+.statistic-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.statistic-label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ==========================================================================
+   Affiliate Strip
+   ========================================================================== */
+
+.affiliate-strip {
+    background-color: var(--bg-panel);
+    padding: 15px 0;
+    font-size: 0.85rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.affiliate-strip p {
+    color: var(--text-muted);
+    margin-bottom: 5px;
+}
+
+/* ==========================================================================
+   Flight Search Layout (Desktop Grid & Sticky Sidebar)
+   ========================================================================== */
+
+.flight-search {
+    padding: 60px 0;
+}
+
+.section-heading {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.section-heading h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.update-information {
+    text-align: right;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.update-information strong {
+    display: block;
+    color: var(--primary-color);
+}
+
+/* Banners and Map Placeholders */
+.desktop-banner-wrapper { display: none; margin-bottom: 30px; text-align: center; }
+.mobile-banner-wrapper { display: block; margin-bottom: 20px; text-align: center; }
+#flight-map-container { display: none; width: 100%; height: 350px; background: var(--bg-card); border-radius: 8px; border: 1px solid var(--border-color); margin-bottom: 20px; }
+
+/* Grid Layout for Desktop */
+@media (min-width: 992px) {
+    .desktop-banner-wrapper { display: block; }
+    .mobile-banner-wrapper { display: none; }
+    
+    .flight-search .container {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        grid-template-rows: auto auto 1fr;
+        gap: 0 40px;
     }
 
-    try {
-        if (countryDisplayNames && code.length === 2) {
-            return countryDisplayNames.of(code) || code;
-        }
-    } catch {
-        return code;
+    .section-heading, .desktop-banner-wrapper {
+        grid-column: 1 / -1;
     }
 
-    return code;
-}
-
-
-function parseNumber(value) {
-    const normalized = String(value ?? "")
-        .replace(/[^\d.-]/g, "");
-
-    const parsed = Number.parseFloat(normalized);
-
-    return Number.isFinite(parsed)
-        ? parsed
-        : null;
-}
-
-
-function parseInteger(value) {
-    const parsed = Number.parseInt(
-        String(value ?? ""),
-        10
-    );
-
-    return Number.isFinite(parsed)
-        ? parsed
-        : null;
-}
-
-
-function safeExternalUrl(value) {
-    try {
-        const url = new URL(String(value ?? ""));
-
-        if (
-            url.protocol === "https:"
-            || url.protocol === "http:"
-        ) {
-            return url.href;
-        }
-    } catch {
-        return "";
+    .filter-panel {
+        grid-column: 1;
+        grid-row: 3;
+        position: sticky;
+        top: 100px; /* offset for sticky header */
+        align-self: start;
+        background: var(--bg-panel);
+        padding: 25px;
+        border-radius: 8px;
+        border: 1px solid var(--border-color);
+        max-height: calc(100vh - 120px);
+        overflow-y: auto;
     }
 
-    return "";
-}
-
-
-function airportCode(flight, side) {
-    return (
-        String(flight[`${side}_iata`] ?? "").trim()
-        || String(flight[`${side}_icao`] ?? "").trim()
-        || "—"
-    ).toUpperCase();
-}
-
-
-function airportLongCode(flight, side) {
-    const iata = String(
-        flight[`${side}_iata`] ?? ""
-    ).trim().toUpperCase();
-
-    const icao = String(
-        flight[`${side}_icao`] ?? ""
-    ).trim().toUpperCase();
-
-    return iata || icao;
-}
-
-
-function airportLabel(flight, side) {
-    const city = String(
-        flight[`${side}_city`] ?? ""
-    ).trim();
-
-    const airportName = String(
-        flight[`${side}_airport_name`] ?? ""
-    ).trim();
-
-    const raw = String(
-        flight[`${side}_airport_raw`] ?? ""
-    ).trim();
-
-    const country = countryName(
-        flight[`${side}_country`]
-    );
-
-    const iata = String(
-        flight[`${side}_iata`] ?? ""
-    ).trim().toUpperCase();
-
-    const icao = String(
-        flight[`${side}_icao`] ?? ""
-    ).trim().toUpperCase();
-
-    const location = city || airportName || raw || "Unknown";
-    const codes = [...new Set([iata, icao].filter(Boolean))];
-
-    const locationWithCountry = country
-        ? `${location}, ${country}`
-        : location;
-
-    return codes.length
-        ? `${locationWithCountry} (${codes.join(" / ")})`
-        : locationWithCountry;
-}
-
-
-function createAirportOptions(side) {
-    const countries = new Map();
-    const airports = new Map();
-
-    for (const flight of state.flights) {
-        const countryCode = String(
-            flight[`${side}_country`] ?? ""
-        ).trim().toUpperCase();
-
-        if (countryCode) {
-            countries.set(
-                countryCode,
-                countryName(countryCode)
-            );
-        }
-
-        const code = airportLongCode(flight, side);
-
-        if (code) {
-            airports.set(
-                code,
-                airportLabel(flight, side)
-            );
-        }
-    }
-
-    const select = elements[side];
-    const currentValue = select.value;
-
-    select.innerHTML = "";
-
-    const allOption = document.createElement("option");
-    allOption.value = "all";
-    allOption.textContent = (
-        side === "origin"
-            ? "All origins"
-            : "All destinations"
-    );
-
-    select.append(allOption);
-
-    const countryGroup = document.createElement("optgroup");
-    countryGroup.label = "Countries";
-
-    [...countries.entries()]
-        .sort((a, b) => a[1].localeCompare(b[1]))
-        .forEach(([code, name]) => {
-            const option = document.createElement("option");
-
-            option.value = `country:${code}`;
-            option.textContent = `Anywhere in ${name}`;
-
-            countryGroup.append(option);
-        });
-
-    select.append(countryGroup);
-
-    const airportGroup = document.createElement("optgroup");
-    airportGroup.label = "Specific airports";
-
-    [...airports.entries()]
-        .sort((a, b) => a[1].localeCompare(b[1]))
-        .forEach(([code, label]) => {
-            const option = document.createElement("option");
-
-            option.value = `airport:${code}`;
-            option.textContent = label;
-
-            airportGroup.append(option);
-        });
-
-    select.append(airportGroup);
-
-    if (
-        [...select.options].some(
-            option => option.value === currentValue
-        )
-    ) {
-        select.value = currentValue;
-    }
-}
-
-
-function createAircraftOptions() {
-    const aircraft = new Set();
-
-    for (const flight of state.flights) {
-        const aircraftType = String(
-            flight.aircraft_type ?? ""
-        ).trim();
-
-        if (aircraftType) {
-            aircraft.add(aircraftType);
-        }
-    }
-
-    elements.aircraft.innerHTML = (
-        '<option value="all">All aircraft</option>'
-    );
-
-    [...aircraft]
-        .sort((a, b) => a.localeCompare(b))
-        .forEach(aircraftType => {
-            const option = document.createElement("option");
-
-            option.value = aircraftType;
-            option.textContent = aircraftType;
-
-            elements.aircraft.append(option);
-        });
-}
-
-
-function createCurrencyOptions() {
-    const currencies = new Set();
-
-    for (const flight of state.flights) {
-        const currency = String(
-            flight.price_currency ?? ""
-        ).trim().toUpperCase();
-
-        if (currency) {
-            currencies.add(currency);
-        }
-    }
-
-    elements.currency.innerHTML = (
-        '<option value="all">All currencies</option>'
-    );
-
-    [...currencies]
-        .sort()
-        .forEach(currency => {
-            const option = document.createElement("option");
-
-            option.value = currency;
-            option.textContent = currency;
-
-            elements.currency.append(option);
-        });
-}
-
-
-function matchesRouteSelection(flight, side, selection) {
-    if (!selection || selection === "all") {
-        return true;
-    }
-
-    const [type, rawValue] = selection.split(":");
-    const value = String(rawValue ?? "").toUpperCase();
-
-    if (type === "country") {
-        return String(
-            flight[`${side}_country`] ?? ""
-        ).toUpperCase() === value;
-    }
-
-    if (type === "airport") {
-        const iata = String(
-            flight[`${side}_iata`] ?? ""
-        ).toUpperCase();
-
-        const icao = String(
-            flight[`${side}_icao`] ?? ""
-        ).toUpperCase();
-
-        return iata === value || icao === value;
-    }
-
-    return true;
-}
-
-
-function filterFlights() {
-    const origin = elements.origin.value;
-    const destination = elements.destination.value;
-    const dateFrom = elements.dateFrom.value;
-    const dateTo = elements.dateTo.value;
-
-    const minimumSeats = parseInteger(
-        elements.minimumSeats.value
-    );
-
-    const aircraft = elements.aircraft.value;
-    const currency = elements.currency.value;
-
-    const maximumPrice = parseNumber(
-        elements.maximumPrice.value
-    );
-
-    state.filteredFlights = state.flights.filter(
-        flight => {
-            if (
-                !matchesRouteSelection(
-                    flight,
-                    "origin",
-                    origin
-                )
-            ) {
-                return false;
-            }
-
-            if (
-                !matchesRouteSelection(
-                    flight,
-                    "destination",
-                    destination
-                )
-            ) {
-                return false;
-            }
-
-            const departureDate = String(
-                flight.departure_date_iso ?? ""
-            );
-
-            if (
-                dateFrom
-                && departureDate
-                && departureDate < dateFrom
-            ) {
-                return false;
-            }
-
-            if (
-                dateTo
-                && departureDate
-                && departureDate > dateTo
-            ) {
-                return false;
-            }
-
-            const seats = parseInteger(
-                flight.seats_available
-            );
-
-            if (
-                minimumSeats !== null
-                && (
-                    seats === null
-                    || seats < minimumSeats
-                )
-            ) {
-                return false;
-            }
-
-            if (
-                aircraft !== "all"
-                && normalize(flight.aircraft_type)
-                    !== normalize(aircraft)
-            ) {
-                return false;
-            }
-
-            const flightCurrency = String(
-                flight.price_currency ?? ""
-            ).toUpperCase();
-
-            if (
-                currency !== "all"
-                && flightCurrency !== currency
-            ) {
-                return false;
-            }
-
-            if (
-                maximumPrice !== null
-                && currency !== "all"
-            ) {
-                const amount = parseNumber(
-                    flight.price_amount
-                );
-
-                if (
-                    amount === null
-                    || amount > maximumPrice
-                ) {
-                    return false;
-                }
-            }
-
-            return true;
-        }
-    );
-
-    sortFlights();
-    renderFlights();
-    updateTelegramLink();
-}
-
-
-function sortFlights() {
-    const sortValue = elements.sort.value;
-
-    const dateKey = flight => (
-        `${flight.departure_date_iso ?? "9999-12-31"}`
-        + `T${flight.departure_time || "23:59"}`
-    );
-
-    state.filteredFlights.sort((a, b) => {
-        if (sortValue === "date-desc") {
-            return dateKey(b).localeCompare(dateKey(a));
-        }
-
-        if (sortValue === "price-asc") {
-            return (
-                (parseNumber(a.price_amount) ?? Infinity)
-                - (parseNumber(b.price_amount) ?? Infinity)
-            );
-        }
-
-        if (sortValue === "price-desc") {
-            return (
-                (parseNumber(b.price_amount) ?? -Infinity)
-                - (parseNumber(a.price_amount) ?? -Infinity)
-            );
-        }
-
-        if (sortValue === "seats-desc") {
-            return (
-                (parseInteger(b.seats_available) ?? -1)
-                - (parseInteger(a.seats_available) ?? -1)
-            );
-        }
-
-        return dateKey(a).localeCompare(dateKey(b));
-    });
-}
-
-
-function flightCardTemplate(flight) {
-    const originCode = escapeHtml(
-        airportCode(flight, "origin")
-    );
-
-    const destinationCode = escapeHtml(
-        airportCode(flight, "destination")
-    );
-
-    const originCity = escapeHtml(
-        flight.origin_city
-        || flight.origin_airport_name
-        || "Unknown origin"
-    );
-
-    const destinationCity = escapeHtml(
-        flight.destination_city
-        || flight.destination_airport_name
-        || "Unknown destination"
-    );
-
-    const originCountry = escapeHtml(
-        countryName(flight.origin_country)
-    );
-
-    const destinationCountry = escapeHtml(
-        countryName(flight.destination_country)
-    );
-
-    const date = escapeHtml(
-        flight.departure_date_raw
-        || flight.departure_date_iso
-        || "Not specified"
-    );
-
-    const departureTime = escapeHtml(
-        flight.departure_time || "Not specified"
-    );
-
-    const arrivalTime = escapeHtml(
-        flight.arrival_time || "Not specified"
-    );
-
-    const aircraft = escapeHtml(
-        flight.aircraft_type || "Not specified"
-    );
-
-    const duration = escapeHtml(
-        flight.flight_duration || "Not specified"
-    );
-
-    const seats = escapeHtml(
-        flight.seats_available || "Not specified"
-    );
-
-    const price = escapeHtml(
-        flight.price_raw || "Request price"
-    );
-
-    const originIcao = escapeHtml(
-        flight.origin_icao || "Not specified"
-    );
-
-    const destinationIcao = escapeHtml(
-        flight.destination_icao || "Not specified"
-    );
-
-    const bookingLink = safeExternalUrl(
-        flight.booking_link
-        || flight.tracking_link
-        || flight.rss_link
-    );
-
-    const bookingButton = bookingLink
-        ? `
-            <a
-                class="button button-primary"
-                href="${escapeHtml(bookingLink)}"
-                target="_blank"
-                rel="sponsored noopener"
-            >
-                View and Book
-            </a>
-        `
-        : `
-            <span
-                class="button button-secondary"
-                aria-disabled="true"
-            >
-                Booking Link Unavailable
-            </span>
-        `;
-
-    return `
-        <article class="flight-card">
-            <span class="flight-card-badge">
-                Empty Leg
-            </span>
-
-            <div class="flight-route">
-                <div class="flight-location">
-                    <span class="flight-code">
-                        ${originCode}
-                    </span>
-
-                    <span class="flight-city">
-                        ${originCity}
-                    </span>
-
-                    <span class="flight-country">
-                        ${originCountry}
-                    </span>
-                </div>
-
-                <span
-                    class="route-arrow"
-                    aria-hidden="true"
-                >
-                    →
-                </span>
-
-                <div class="flight-location">
-                    <span class="flight-code">
-                        ${destinationCode}
-                    </span>
-
-                    <span class="flight-city">
-                        ${destinationCity}
-                    </span>
-
-                    <span class="flight-country">
-                        ${destinationCountry}
-                    </span>
-                </div>
-            </div>
-
-            <div class="flight-primary-details">
-                <div class="detail-box">
-                    <span>Departure</span>
-                    <strong>${date}</strong>
-                </div>
-
-                <div class="detail-box">
-                    <span>Time</span>
-                    <strong>${departureTime}</strong>
-                </div>
-
-                <div class="detail-box">
-                    <span>Aircraft</span>
-                    <strong>${aircraft}</strong>
-                </div>
-
-                <div class="detail-box">
-                    <span>Seats</span>
-                    <strong>${seats}</strong>
-                </div>
-            </div>
-
-            <div class="flight-price">
-                <div>
-                    <span class="flight-price-label">
-                        Listed price
-                    </span>
-
-                    <strong class="flight-price-value">
-                        ${price}
-                    </strong>
-                </div>
-            </div>
-
-            <details class="flight-details">
-                <summary>
-                    View full flight details
-                </summary>
-
-                <div class="extended-details">
-                    <div class="extended-detail">
-                        <span>Origin ICAO</span>
-                        <strong>${originIcao}</strong>
-                    </div>
-
-                    <div class="extended-detail">
-                        <span>Destination ICAO</span>
-                        <strong>${destinationIcao}</strong>
-                    </div>
-
-                    <div class="extended-detail">
-                        <span>Arrival</span>
-                        <strong>${arrivalTime}</strong>
-                    </div>
-
-                    <div class="extended-detail">
-                        <span>Estimated duration</span>
-                        <strong>${duration}</strong>
-                    </div>
-
-                    <div class="extended-detail">
-                        <span>Seats available</span>
-                        <strong>${seats}</strong>
-                    </div>
-                </div>
-            </details>
-
-            <div class="flight-booking">
-                ${bookingButton}
-
-                <p class="flight-disclaimer">
-                    Affiliate booking link. Details and
-                    availability must be confirmed with Villiers.
-                </p>
-            </div>
-        </article>
-    `;
-}
-
-
-function renderFlights() {
-    const flights = state.filteredFlights;
-
-    elements.flightGrid.innerHTML = "";
-
-    elements.emptyState.hidden = flights.length !== 0;
-    elements.flightGrid.hidden = flights.length === 0;
-
-    elements.resultsStatus.textContent = (
-        `${flights.length} of ${state.flights.length} `
-        + (
-            flights.length === 1
-                ? "flight matches"
-                : "flights match"
-        )
-        + " your current filters."
-    );
-
-    if (!flights.length) {
-        return;
-    }
-
-    elements.flightGrid.innerHTML = flights
-        .map(flightCardTemplate)
-        .join("");
-}
-
-
-function telegramSelectionPart(side, selection) {
-    if (!selection || selection === "all") {
-        return "";
-    }
-
-    const [type, rawValue] = selection.split(":");
-    const value = String(rawValue ?? "")
-        .replace(/[^A-Za-z0-9]/g, "")
-        .toUpperCase();
-
-    if (!value) {
-        return "";
-    }
-
-    const sidePrefix = (
-        side === "origin"
-            ? "o"
-            : "d"
-    );
-
-    if (type === "country") {
-        return `${sidePrefix}-c${value}`;
-    }
-
-    if (type === "airport") {
-        return `${sidePrefix}-a${value}`;
-    }
-
-    return "";
-}
-
-
-function updateTelegramLink() {
-    const parts = [
-        telegramSelectionPart(
-            "origin",
-            elements.origin.value
-        ),
-
-        telegramSelectionPart(
-            "destination",
-            elements.destination.value
-        ),
-    ].filter(Boolean);
-
-    const payload = parts.length
-        ? parts.join("_")
-        : "all";
-
-    elements.telegramLink.href = (
-        `https://t.me/${TELEGRAM_BOT_USERNAME}`
-        + `?start=${encodeURIComponent(payload)}`
-    );
-}
-
-
-function clearFilters() {
-    elements.origin.value = "all";
-    elements.destination.value = "all";
-    elements.dateFrom.value = "";
-    elements.dateTo.value = "";
-    elements.minimumSeats.value = "";
-    elements.aircraft.value = "all";
-    elements.currency.value = "all";
-    elements.maximumPrice.value = "";
-    elements.maximumPrice.disabled = true;
-    elements.sort.value = "date-asc";
-
-    filterFlights();
-}
-
-
-function bindEvents() {
-    const filterElements = [
-        elements.origin,
-        elements.destination,
-        elements.dateFrom,
-        elements.dateTo,
-        elements.minimumSeats,
-        elements.aircraft,
-        elements.currency,
-        elements.maximumPrice,
-        elements.sort,
-    ];
-
-    for (const element of filterElements) {
-        element.addEventListener(
-            "input",
-            filterFlights
-        );
-
-        element.addEventListener(
-            "change",
-            filterFlights
-        );
-    }
-
-    elements.currency.addEventListener(
-        "change",
-        () => {
-            const hasCurrency = (
-                elements.currency.value !== "all"
-            );
-
-            elements.maximumPrice.disabled = !hasCurrency;
-
-            if (!hasCurrency) {
-                elements.maximumPrice.value = "";
-            }
-
-            filterFlights();
-        }
-    );
-
-    elements.clearFilters.addEventListener(
-        "click",
-        clearFilters
-    );
-
-    elements.emptyClearFilters.addEventListener(
-        "click",
-        clearFilters
-    );
-
-    elements.retryLoading.addEventListener(
-        "click",
-        loadFlights
-    );
-}
-
-
-function updateStatistics() {
-    const countries = new Set();
-
-    for (const flight of state.flights) {
-        if (flight.origin_country) {
-            countries.add(
-                String(flight.origin_country).toUpperCase()
-            );
-        }
-
-        if (flight.destination_country) {
-            countries.add(
-                String(flight.destination_country).toUpperCase()
-            );
-        }
-    }
-
-    elements.heroFlightCount.textContent = (
-        String(state.flights.length)
-    );
-
-    elements.heroCountryCount.textContent = (
-        String(countries.size)
-    );
-}
-
-
-function updateMetadata() {
-    const generatedAt = (
-        state.metadata.generated_at
-        || state.metadata.updated_at
-        || ""
-    );
-
-    if (!generatedAt) {
-        elements.lastUpdated.textContent = (
-            "Not provided"
-        );
-        return;
-    }
-
-    const date = new Date(generatedAt);
-
-    if (Number.isNaN(date.getTime())) {
-        elements.lastUpdated.textContent = (
-            generatedAt
-        );
-        return;
-    }
-
-    elements.lastUpdated.textContent = (
-        new Intl.DateTimeFormat(
-            "en",
-            {
-                dateStyle: "medium",
-                timeStyle: "short",
-            }
-        ).format(date)
-    );
-}
-
-
-async function loadFlights() {
-    elements.loadingState.hidden = false;
-    elements.errorState.hidden = true;
-    elements.emptyState.hidden = true;
-    elements.flightGrid.hidden = true;
-
-    try {
-        const response = await fetch(
-            `${FLIGHTS_DATA_URL}?v=${Date.now()}`,
-            {
-                cache: "no-store",
-                credentials: "same-origin",
-            }
-        );
-
-        if (!response.ok) {
-            throw new Error(
-                `Flight data request returned `
-                + `${response.status}.`
-            );
-        }
-
-        const payload = await response.json();
-
-        const flights = Array.isArray(payload)
-            ? payload
-            : payload.flights;
-
-        if (!Array.isArray(flights)) {
-            throw new Error(
-                "The flight data format is invalid."
-            );
-        }
-
-        state.flights = flights.filter(
-            flight => {
-                const status = normalize(
-                    flight.status || "active"
-                );
-
-                return !status || status === "active";
-            }
-        );
-
-        state.metadata = Array.isArray(payload)
-            ? {}
-            : payload;
-
-        createAirportOptions("origin");
-        createAirportOptions("destination");
-        createAircraftOptions();
-        createCurrencyOptions();
-
-        updateStatistics();
-        updateMetadata();
-
-        state.filteredFlights = [
-            ...state.flights
-        ];
-
-        filterFlights();
-
-        elements.loadingState.hidden = true;
-        elements.errorState.hidden = true;
-
-    } catch (error) {
-        console.error(error);
-
-        elements.loadingState.hidden = true;
-        elements.flightGrid.hidden = true;
-        elements.emptyState.hidden = true;
-        elements.errorState.hidden = false;
-
-        elements.errorMessage.textContent = (
-            error instanceof Error
-                ? error.message
-                : "Please try again shortly."
-        );
-
-        elements.resultsStatus.textContent = (
-            "Flight data could not be loaded."
-        );
+    /* Custom Scrollbar for the sticky filter */
+    .filter-panel::-webkit-scrollbar { width: 6px; }
+    .filter-panel::-webkit-scrollbar-track { background: var(--bg-dark); }
+    .filter-panel::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 3px; }
+
+    .results-toolbar, .loading-state, .error-state, .empty-state, .flight-grid, #flight-map-container {
+        grid-column: 2;
     }
 }
 
+/* ==========================================================================
+   Filter Forms & Mobile Toggle
+   ========================================================================== */
 
-function initialize() {
-    elements.currentYear.textContent = (
-        String(new Date().getFullYear())
-    );
-
-    bindEvents();
-    updateTelegramLink();
-    loadFlights();
+.mobile-filter-toggle {
+    display: none;
 }
 
+.filter-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
 
-initialize();
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field label {
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+    color: var(--text-muted);
+}
+
+.form-field input,
+.form-field select {
+    padding: 10px 12px;
+    background-color: var(--bg-dark);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+.form-field input:focus,
+.form-field select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.filter-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.filter-note {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 15px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .mobile-filter-toggle {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        background: var(--bg-panel);
+        color: var(--primary-color);
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .filter-panel {
+        display: none; /* JS will toggle this */
+        background: var(--bg-panel);
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid var(--border-color);
+        margin-bottom: 30px;
+    }
+    
+    .filter-panel.is-open {
+        display: block;
+    }
+}
+
+/* ==========================================================================
+   Compact Flight Cards
+   ========================================================================== */
+
+.results-toolbar {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.flight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 15px;
+}
+
+.flight-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 15px;
+    transition: transform 0.2s, border-color 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.flight-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.flight-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed var(--border-color);
+}
+
+.aircraft-type {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+}
+
+.seats-badge {
+    background: rgba(255,255,255,0.1);
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+}
+
+.flight-route {
+    margin-bottom: 12px;
+}
+
+.route-point {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.route-point strong {
+    color: var(--text-main);
+    display: block;
+}
+
+.flight-meta {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+
+.flight-price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: auto;
+    color: var(--text-main);
+}
+
+.flight-card .button {
+    margin-top: 15px;
+    padding: 8px;
+    font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   States & Layouts
+   ========================================================================== */
+
+.loading-state, .error-state, .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    background: var(--bg-panel);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.loading-spinner {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(212, 175, 55, 0.3);
+    border-radius: 50%;
+    border-top-color: var(--primary-color);
+    animation: spin 1s ease-in-out infinite;
+    margin-bottom: 15px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ==========================================================================
+   Telegram Section
+   ========================================================================== */
+
+.telegram-section {
+    padding: 80px 0;
+    background-color: var(--bg-panel);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.telegram-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+@media (min-width: 768px) {
+    .telegram-layout {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}
+
+.feature-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.feature-list li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    color: var(--text-muted);
+}
+
+.feature-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+}
+
+.telegram-card {
+    background-color: var(--bg-card);
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+
+.telegram-icon {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 15px;
+    color: #229ED9;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.responsibility-section {
+    padding: 60px 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+.site-footer {
+    background-color: var(--bg-panel);
+    padding: 40px 0 20px;
+    border-top: 1px solid var(--border-color);
+}
+
+.footer-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .footer-layout {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-brand strong {
+    display: block;
+    color: var(--text-main);
+}
+
+.footer-brand span {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.footer-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 25px;
+    font-size: 0.9rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+}
