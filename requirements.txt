@@ -4,3 +4,5 @@ pycountry
 python-dateutil
 python-dotenv
 requests
+tweepy
+python-dotenv
