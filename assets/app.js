@@ -1065,6 +1065,7 @@ function initialize() {
 
 
 initialize();
+setupOnyxExtras();
 
 // ==========================================
 // ONYX Radar - Premium UI Extras & Live Map
