@@ -18,13 +18,13 @@
         content="strict-origin-when-cross-origin"
     >
 
-    <meta
+<meta
         http-equiv="Content-Security-Policy"
         content="
             default-src 'self';
             script-src 'self';
-            style-src 'self';
-            img-src 'self' data:;
+            style-src 'self' 'unsafe-inline';
+            img-src 'self' data: https://assets.villiers.ai;
             connect-src 'self';
             font-src 'self';
             object-src 'none';
