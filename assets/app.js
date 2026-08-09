@@ -1067,7 +1067,7 @@ function initialize() {
 initialize();
 
 // ==========================================
-// ONYX Radar - Premium UI Extras (Bulletproof Version)
+// ONYX Radar - Premium UI Extras & Live Map
 // ==========================================
 function setupOnyxExtras() {
     // 1. Mobile Filter Toggle
@@ -1117,7 +1117,7 @@ function setupOnyxExtras() {
         });
     }
 
-    // 3. Static Villiers Banners Injection (Safe HTML Method)
+    // 3. Static Villiers Banners Injection
     function injectStaticBanner(container, imgUrl, altText) {
         if (!container) return;
         container.innerHTML = `
@@ -1136,7 +1136,7 @@ function setupOnyxExtras() {
         injectStaticBanner(desktopWrapper, 'https://assets.villiers.ai/banners/billboard-970x250.jpg', 'Villiers Private Jet Charter');
     }
 
-    // Testimonial Banner
+    // Testimonial Banner (באזור הטלגרם למטה)
     const telegramCard = document.querySelector('.telegram-card');
     if (telegramCard) {
         const testimonialWrapper = document.createElement('div');
@@ -1153,7 +1153,59 @@ function setupOnyxExtras() {
         resultsToolbar.parentNode.insertBefore(mobileWrapper, resultsToolbar);
         injectStaticBanner(mobileWrapper, 'https://assets.villiers.ai/banners/large-mobile-banner-320x100.jpg', 'Fly Better - Luxury Travel');
     }
+
+    // 4. Live Map Container Injection (טעינת Leaflet למפה אינטראקטיבית)
+    if (searchSection && !document.getElementById('flight-map-container')) {
+        const mapContainer = document.createElement('div');
+        mapContainer.id = 'flight-map-container';
+        mapContainer.style.display = 'block'; // הצגת המפה
+        // הוספת סגנונות בסיסיים למפה
+        mapContainer.style.cssText = `
+            width: 100%; height: 320px; background: #1c1c1c; 
+            border-radius: 8px; border: 1px solid #2a2a2a; 
+            margin-bottom: 30px; display: block; z-index: 10;
+        `;
+        
+        // טעינת ספריות העיצוב והקוד של המפה (Leaflet) מהרשת
+        if (!document.getElementById('leaflet-css')) {
+            const leafletCss = document.createElement('link');
+            leafletCss.id = 'leaflet-css';
+            leafletCss.rel = 'stylesheet';
+            leafletCss.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+            document.head.appendChild(leafletCss);
+        }
+
+        if (!window.L) {
+            const leafletScript = document.createElement('script');
+            leafletScript.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+            leafletScript.onload = () => initOnyxMap(mapContainer);
+            document.head.appendChild(leafletScript);
+        } else {
+            initOnyxMap(mapContainer);
+        }
+
+        // מיקום המפה מעל רשימת התוצאות
+        const resultsToolbarEl = document.querySelector('.results-toolbar');
+        if (resultsToolbarEl) {
+            resultsToolbarEl.parentNode.insertBefore(mapContainer, resultsToolbarEl);
+        }
+    }
 }
 
-// הפעלת הפונקציה מיד
+// פונקציית אתחול המפה
+function initOnyxMap(container) {
+    if (window.onyxMapInstance) return;
+    try {
+        const map = L.map(container, { zoomControl: false }).setView([48.8566, 2.3522], 4); // ממרכז על אירופה
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            attribution: '© ONYX Radar',
+            maxZoom: 18
+        }).addTo(map);
+        window.onyxMapInstance = map;
+    } catch (e) {
+        console.error("Map init error:", e);
+    }
+}
+
+// הפעלה
 setupOnyxExtras();
