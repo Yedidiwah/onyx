@@ -59,6 +59,7 @@ const controls = {
 
     frequency: document.querySelector(
         "#update-frequency"
+    ),
 
     origin: {
         mode: document.querySelector(
@@ -168,13 +169,10 @@ function initializeTelegram() {
             "#070809"
         );
 
-        state.telegramAvailable = Boolean(
-            telegram.initData
-        );
+        // תוקן: הסרנו את בדיקת ה-initData כדי לתמוך בכפתורי Reply Keyboard של טלגרם
+        state.telegramAvailable = true;
 
-        controls.externalNotice.hidden = (
-            state.telegramAvailable
-        );
+        controls.externalNotice.hidden = true;
 
     } catch (error) {
         console.error(error);
@@ -820,10 +818,8 @@ function savePreferences() {
 
     const payload = {
         origin: state.route.origin.preference,
-        destination: (
-            state.route.destination.preference
-        ),
-	frequency_hours: parseInt(controls.frequency.value, 10) || 1,
+        destination: state.route.destination.preference,
+        frequency_hours: controls.frequency ? (parseInt(controls.frequency.value, 10) || 1) : 1,
     };
 
     state.sending = true;
@@ -927,7 +923,7 @@ async function loadAirportCatalogue() {
     } catch (error) {
         console.error(error);
 
-        state.loading = true;
+        state.loading = false; // תוקן ל-false כדי לא לנעול את הכפתור
 
         setStatus(
             "The global airport catalogue "
@@ -955,7 +951,9 @@ function bindEvents() {
 
         controls[side].search.addEventListener(
             "input",
-            () => handleAirportInput(side)
+            () => {
+                handleAirportInput(side);
+            }
         );
 
         controls[side].search.addEventListener(

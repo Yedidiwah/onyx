@@ -130,7 +130,7 @@ def load_users():
         )
         return {}
 
-	def save_users(users):
+def save_users(users):
     try:
         with USERS_DB.open("w", encoding="utf-8") as file:
             json.dump(users, file, ensure_ascii=False, indent=4)
@@ -1316,7 +1316,7 @@ def process_all_alerts():
         f"Processing {len(users)} users."
     )
 
-total_flights_sent = 0
+    total_flights_sent = 0
     successful_users = 0
     failed_users = 0
     
@@ -1341,7 +1341,7 @@ total_flights_sent = 0
             preferences["last_sent_timestamp"] = current_time
             db_updated = True
 
-if failed:
+        if failed:
             failed_users += 1
 
     if db_updated:

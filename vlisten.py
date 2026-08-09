@@ -39,7 +39,7 @@ if not BOT_TOKEN:
 DB_FILE = BASE_DIRECTORY / "users_db.json"
 
 WEBAPP_URL = (
-    "https://yedidiwah.github.io/onyx/telegram?v=2.0"
+    "https://yedidiwah.github.io/onyx/telegram/index.html?v=2.2"
 )
 
 bot = telebot.TeleBot(BOT_TOKEN)
@@ -160,7 +160,7 @@ def ensure_user(db, message):
 
     if chat_id not in db:
         db[chat_id] = {
-	    "first_name": first_name,
+            "first_name": first_name,
             "origin": "Not set",
             "destination": "Not set",
             "frequency_hours": 1,
@@ -171,7 +171,7 @@ def ensure_user(db, message):
         }
 
     else:
-	db[chat_id]["first_name"] = first_name
+        db[chat_id]["first_name"] = first_name
         db[chat_id].setdefault("origin", "Not set")
         db[chat_id].setdefault("destination", "Not set")
         db[chat_id].setdefault("frequency_hours", 1)
@@ -258,6 +258,11 @@ def send_welcome(message):
         "Not set",
     )
 
+    current_frequency = db[chat_id].get(
+        "frequency_hours",
+        1,
+    )
+
     welcome_text = (
         f"Welcome to <b>ONYX</b>, "
         f"{safe_name}. 🛩\n\n"
@@ -280,7 +285,9 @@ def send_welcome(message):
             f"🛫 <b>Current origin:</b> "
             f"{html.escape(str(current_origin))}\n"
             f"🛬 <b>Current destination:</b> "
-            f"{html.escape(str(current_destination))}"
+            f"{html.escape(str(current_destination))}\n"
+            f"⏱️ <b>Alert Frequency:</b> "
+            f"Every {current_frequency} hour(s)"
         )
 
     bot.send_message(
@@ -372,11 +379,20 @@ def show_preferences(message):
         )
     )
 
+    frequency = html.escape(
+        str(
+            user.get(
+                "frequency_hours",
+                1,
+            )
+        )
+    )
+
     text = (
         "✈️ <b>Your Current Preferences</b>\n\n"
         f"🛫 <b>Origin:</b> {origin}\n"
-        f"🛬 <b>Destination:</b> "
-        f"{destination}\n\n"
+        f"🛬 <b>Destination:</b> {destination}\n"
+        f"⏱️ <b>Alert Frequency:</b> Every {frequency} hour(s)\n\n"
         "If both preferences are not set, "
         "you will receive all current flights."
     )
@@ -398,7 +414,7 @@ def show_preferences(message):
 )
 def handle_webapp_data(message):
     """
-    Receives origin and destination from the
+    Receives origin, destination and frequency from the
     Telegram Mini App.
     """
 
@@ -438,15 +454,21 @@ def handle_webapp_data(message):
             )
         ).strip()
 
-	frequency_hours = preferences.get("frequency_hours", 1)
+        try:
+            frequency_hours = int(
+                preferences.get(
+                    "frequency_hours",
+                    1,
+                )
+            )
+        except (TypeError, ValueError):
+            frequency_hours = 1
 
         if not origin:
             origin = "Not set"
 
         if not destination:
             destination = "Not set"
-
-
 
         db = load_db()
 
@@ -455,7 +477,7 @@ def handle_webapp_data(message):
             message,
         )
 
-	db[chat_id]["origin"] = origin
+        db[chat_id]["origin"] = origin
         db[chat_id]["destination"] = destination
         db[chat_id]["frequency_hours"] = frequency_hours
         db[chat_id]["preferences_updated_at"] = utc_now()
@@ -476,7 +498,9 @@ def handle_webapp_data(message):
             f"🛫 <b>Origin:</b> "
             f"{safe_origin}\n"
             f"🛬 <b>Destination:</b> "
-            f"{safe_destination}\n\n"
+            f"{safe_destination}\n"
+            f"⏱️ <b>Alert Frequency:</b> "
+            f"Every {frequency_hours} hour(s)\n\n"
         )
 
         if (
@@ -520,7 +544,8 @@ def handle_webapp_data(message):
             f"Preferences updated for "
             f"{get_first_name(message)} "
             f"({chat_id}): "
-            f"{origin} -> {destination}"
+            f"{origin} -> {destination} "
+            f"(every {frequency_hours}h)"
         )
 
     except json.JSONDecodeError as error:
