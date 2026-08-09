@@ -13861,3 +13861,214 @@ Total flight entries delivered: 1
 ==================================================
 ONYX Radar update completed successfully.
 ==================================================
+[main c0786e8] Auto-update flights data and telegram alerts from server
+ 143 files changed, 31478 insertions(+), 305 deletions(-)
+ create mode 100644 exports/villiers_empty_legs_all_2026-08-09_16-17-02.csv
+ create mode 100644 exports/villiers_empty_legs_changes_2026-08-09_16-17-02.csv
+ create mode 100644 exports/villiers_empty_legs_current_2026-08-09_16-17-02.csv
+ create mode 100644 scripts/x_auto_post.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib-3.3.1.dist-info/INSTALLER
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib-3.3.1.dist-info/METADATA
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib-3.3.1.dist-info/RECORD
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib-3.3.1.dist-info/WHEEL
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib-3.3.1.dist-info/licenses/LICENSE
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib-3.3.1.dist-info/top_level.txt
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/common.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/endpoints/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/endpoints/access_token.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/endpoints/authorization.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/endpoints/base.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/endpoints/pre_configured.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/endpoints/request_token.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/endpoints/resource.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/endpoints/signature_only.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/errors.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/parameters.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/request_validator.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/signature.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth1/rfc5849/utils.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/clients/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/clients/backend_application.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/clients/base.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/clients/legacy_application.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/clients/mobile_application.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/clients/service_application.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/clients/web_application.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/endpoints/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/endpoints/authorization.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/endpoints/base.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/endpoints/introspect.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/endpoints/metadata.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/endpoints/pre_configured.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/endpoints/resource.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/endpoints/revocation.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/endpoints/token.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/errors.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/grant_types/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/grant_types/authorization_code.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/grant_types/base.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/grant_types/client_credentials.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/grant_types/implicit.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/grant_types/refresh_token.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/grant_types/resource_owner_password_credentials.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/parameters.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/request_validator.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/tokens.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc6749/utils.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc8628/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc8628/clients/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc8628/clients/device.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc8628/endpoints/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc8628/endpoints/device_authorization.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc8628/endpoints/pre_configured.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc8628/errors.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc8628/grant_types/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc8628/grant_types/device_code.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/oauth2/rfc8628/request_validator.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/endpoints/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/endpoints/pre_configured.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/endpoints/userinfo.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/exceptions.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/grant_types/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/grant_types/authorization_code.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/grant_types/base.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/grant_types/dispatchers.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/grant_types/hybrid.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/grant_types/implicit.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/grant_types/refresh_token.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/request_validator.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/openid/connect/core/tokens.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/signals.py
+ create mode 100644 venv/lib/python3.12/site-packages/oauthlib/uri_validate.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib-2.0.0.dist-info/INSTALLER
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib-2.0.0.dist-info/LICENSE
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib-2.0.0.dist-info/METADATA
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib-2.0.0.dist-info/RECORD
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib-2.0.0.dist-info/WHEEL
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib-2.0.0.dist-info/top_level.txt
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/compliance_fixes/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/compliance_fixes/douban.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/compliance_fixes/ebay.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/compliance_fixes/facebook.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/compliance_fixes/fitbit.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/compliance_fixes/instagram.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/compliance_fixes/mailchimp.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/compliance_fixes/plentymarkets.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/compliance_fixes/slack.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/compliance_fixes/weibo.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/oauth1_auth.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/oauth1_session.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/oauth2_auth.py
+ create mode 100644 venv/lib/python3.12/site-packages/requests_oauthlib/oauth2_session.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy-4.17.0.dist-info/INSTALLER
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy-4.17.0.dist-info/METADATA
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy-4.17.0.dist-info/RECORD
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy-4.17.0.dist-info/REQUESTED
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy-4.17.0.dist-info/WHEEL
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy-4.17.0.dist-info/licenses/LICENSE
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/api.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/asynchronous/__init__.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/asynchronous/client.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/asynchronous/pagination.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/asynchronous/streaming.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/auth.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/cache.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/client.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/cursor.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/direct_message_event.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/errors.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/list.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/media.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/mixins.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/models.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/pagination.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/parsers.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/place.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/poll.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/space.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/streaming.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/tweet.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/user.py
+ create mode 100644 venv/lib/python3.12/site-packages/tweepy/utils.py
+To https://github.com/yedidiwah/onyx.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/yedidiwah/onyx.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28291 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+
+טיסה ראשונה לדוגמה:
+מוצא: CYFJ / YTM - La Macaza / Mont-Tremblant International Inc Airport
+יעד: KTEB / TEB - Teterboro Airport
+תאריך מקורי: 09 August 2026
+תאריך ISO: 2026-08-09
+שעת יציאה: 12:00
+מחיר: $10,750
+מחיר מנורמל: 10750 USD
+מטוס: Citation X
+מושבים: 12
+סטטוס שינוי: unchanged
+
+שם הפיד: Villiers Empty Legs - Affiliate ADHUHR
+טיסות פעילות בפיד: 100
+כל הטיסות שנשמרו בהיסטוריה: 208
+שינויים בהרצה הנוכחית: 8
+
+פירוט שינויים:
+  חדשות: 4
+  עודכנו: 0
+  חזרו לפיד: 0
+  ללא שינוי: 96
+  נעלמו מהפיד: 4
+
+קבצים שנוצרו:
+  טיסות פעילות: /root/onyx/exports/villiers_empty_legs_current_2026-08-09_16-47-01.csv
+  כל ההיסטוריה: /root/onyx/exports/villiers_empty_legs_all_2026-08-09_16-47-01.csv
+  שינויים בלבד: /root/onyx/exports/villiers_empty_legs_changes_2026-08-09_16-47-01.csv
+  קובץ מצב: /root/onyx/data/villiers_state.json
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Saved 100 flights.
+Output: /root/onyx/data/flights.json
+[3/4] Creating global airports.json...
+Loading global airport database...
+Prepared 28291 airports in 234 countries.
+Airport catalogue saved to: /root/onyx/data/airports.json
+[4/4] Sending current flights to Telegram...
+Connected to Telegram bot: @OnyxAirRadar_bot (bot ID: 8816902667)
+Reading flights from: /root/onyx/exports/villiers_empty_legs_current_2026-08-09_16-47-01.csv
+Loaded 100 active Empty Leg flights.
+Processing 2 users.
+Skipping 1049883799 (Frequency: 3h, hours passed: 0.50h)
+Skipping 7445310755 (Frequency: 6h, hours passed: 3.50h)
+
+Telegram processing complete.
+Users who received flights: 0
+Users with delivery errors: 0
+Total flight entries delivered: 0
+==================================================
+ONYX Radar update completed successfully.
+==================================================
