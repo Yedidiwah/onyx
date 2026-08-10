@@ -13,7 +13,7 @@ load_dotenv()
 AIRTABLE_API_KEY = os.getenv("AIRTABLE_API_KEY")
 AIRTABLE_BASE_ID = os.getenv("AIRTABLE_BASE_ID")
 AIRTABLE_TABLE_NAME = "Empty_Legs" # ודא שזה שם הטבלה שלך
-TELEGRAM_CREAT_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CREAT_BOT_TOKEN = os.getenv("TELEGRAM_CREAT_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 def get_best_deal(json_path="data/flights.json"):
@@ -70,33 +70,21 @@ def save_to_airtable(deal_data, tweet_text):
         print(f"❌ Failed to save to Airtable: {response.text}")
 
 def generate_video_with_remotion(deal_data):
-    """
-    קורא לפקודת שורת-הפקודה של Remotion כדי לרנדר וידאו מקומית.
-    ההנחה היא שיש פרויקט Remotion בתיקייה בשם 'video-generator'.
-    """
-    print("🎬 Starting Remotion video rendering...")
+    print("🎬 Starting Remotion video rendering via Node script...")
     output_path = "output_deal.mp4"
-    
-    # העברת המשתנים ל-Remotion בתור JSON Props
+
     props = {
-        "origin": deal_data.get("origin_city"),
-        "destination": deal_data.get("destination_city"),
-        "price": deal_data.get("price_raw"),
-        "date": deal_data.get("departure_date_raw"),
-        "passengers": deal_data.get("seats_available")
+        "titleToReplace": f"{deal_data.get('origin_iata')} ➡️ {deal_data.get('destination_iata')}",
+        "subTitleToReplace": f"Price: {deal_data.get('price_raw')} | Seats: {deal_data.get('seats_available')}"
     }
-    
+
     try:
-        # הפעלת Remotion דרך npx מקומי
-        subprocess.run([
-            "npx", "remotion", "render", 
-            "HelloWorld", # השם של קומפוננטת הוידאו שלך ב-Remotion
-            output_path, 
-            "--props", json.dumps(props)
-        ], check=True, cwd="./video-generator") # נתיב לתיקיית פרויקט הוידאו
-        
+        # הפעלת סקריפט הרנדור המקומי שיצרנו בתוך תיקיית הוידאו
+        cmd = f"node render.js '{json.dumps(props)}'"
+        subprocess.run(cmd, shell=True, check=True, cwd="./video-generator")
+
         print(f"✅ Video successfully generated at {output_path}")
-        return f"./video-generator/{output_path}"
+        return output_path
     except Exception as e:
         print(f"❌ Video generation failed: {e}")
         return None
