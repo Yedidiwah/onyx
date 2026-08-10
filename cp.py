@@ -70,19 +70,19 @@ def save_to_airtable(deal_data, tweet_text):
         print(f"❌ Failed to save to Airtable: {response.text}")
 
 def generate_video_with_remotion(deal_data):
-    print("🎬 Starting Remotion video rendering via Node script...")
+    print("🎬 Starting Remotion video rendering via npm script...")
     output_path = "output_deal.mp4"
-
+    
     props = {
         "titleToReplace": f"{deal_data.get('origin_iata')} ➡️ {deal_data.get('destination_iata')}",
         "subTitleToReplace": f"Price: {deal_data.get('price_raw')} | Seats: {deal_data.get('seats_available')}"
     }
-
+    
     try:
-        # הפעלת סקריפט הרנדור המקומי שיצרנו בתוך תיקיית הוידאו
-        cmd = f"node render.js '{json.dumps(props)}'"
+        # שימוש ב-npm run מריץ את הבינארי המקומי בלי שגיאות נתיבים
+        cmd = f"npm run render-deal -- --props='{json.dumps(props)}'"
         subprocess.run(cmd, shell=True, check=True, cwd="./video-generator")
-
+        
         print(f"✅ Video successfully generated at {output_path}")
         return output_path
     except Exception as e:
@@ -90,21 +90,21 @@ def generate_video_with_remotion(deal_data):
         return None
 
 def send_to_telegram(video_path, caption):
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+    if not TELEGRAM_CREAT_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         print("⚠️ Skipping Telegram: Missing credentials.")
         return
 
     print("📤 Sending video and text to Telegram...")
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendVideo"
-    
+    url = f"https://api.telegram.org/bot{TELEGRAM_CREAT_BOT_TOKEN}/sendVideo"
+
     try:
         with open(video_path, 'rb') as video_file:
             files = {'video': video_file}
             data = {'chat_id': TELEGRAM_CHAT_ID, 'caption': caption}
             response = requests.post(url, data=data, files=files)
-            
+
             if response.status_code == 200:
-                print("✅ Successfully sent to Telegram!")
+                print("✅ Successfully sent video to Telegram!")
             else:
                 print(f"❌ Failed to send to Telegram: {response.text}")
     except Exception as e:
@@ -116,6 +116,8 @@ def process_empty_leg():
     if not best_deal:
         print(status)
         return
+        
+    origin_city = best_deal.get("origin_city", best_deal.get("origin_airport_name", "Unknown"))
         
     # חילוץ נתוני הטיסה
     origin_city = best_deal.get("origin_city", best_deal.get("origin_airport_name", "Unknown"))
