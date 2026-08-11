@@ -72,7 +72,7 @@ def generate_video_with_remotion(deal_data):
         "music": music
     }
     try:
-        cmd = f"npm run render-deal -- --props='{json.dumps(props)}' --frames=0-539"
+        cmd = f"npm run render-deal -- --props='{json.dumps(props)}' --frames=0-539 --image-format=jpeg --concurrency=1"
         subprocess.run(cmd, shell=True, check=True, cwd="./video-generator")
         return output_path
     except Exception as e:
