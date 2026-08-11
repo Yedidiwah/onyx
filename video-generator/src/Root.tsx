@@ -13,7 +13,7 @@ export const RemotionRoot: React.FC = () => {
         // npx remotion render HelloWorld
         id="HelloWorld"
         component={HelloWorld}
-        durationInFrames={450}
+        durationInFrames={540}
         fps={30}
         width={1920}
         height={1080}

@@ -3,6 +3,7 @@ import os
 import subprocess
 import requests
 import sys
+import random
 from dotenv import load_dotenv
 
 # ==========================================
@@ -31,7 +32,6 @@ def get_all_flights(json_path="data/flights.json"):
 
 def save_to_airtable(deal_data, tweet_text):
     if not AIRTABLE_API_KEY or not AIRTABLE_BASE_ID:
-        print("⚠️ Skipping Airtable: Missing credentials.")
         return
 
     url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{AIRTABLE_TABLE_NAME}"
@@ -48,20 +48,26 @@ def save_to_airtable(deal_data, tweet_text):
             "Status": "Generated via Script"
         }
     }
-
     requests.post(url, json=payload, headers=headers)
 
 def generate_video_with_remotion(deal_data):
     print("🎬 Starting Remotion video rendering via npm script...")
     output_path = "output_deal.mp4"
 
+    part1_idx = random.randint(1, 6)
+    part2_idx = random.randint(1, 6)
+    part3_idx = random.randint(1, 7) 
+
     props = {
         "titleToReplace": f"{deal_data.get('origin_iata')} ➡️ {deal_data.get('destination_iata')}",
-        "subTitleToReplace": f"Price: {deal_data.get('price_raw')} | Seats: {deal_data.get('seats_available')}"
+        "subTitleToReplace": f"Price: {deal_data.get('price_raw')} | Seats: {deal_data.get('seats_available')}",
+        "video1": f"part1_{part1_idx}.mp4",
+        "video2": f"part2_{part2_idx}.mp4",
+        "video3": f"part3_{part3_idx}.mp4"
     }
 
     try:
-        cmd = f"npm run render-deal -- --props='{json.dumps(props)}'"
+        cmd = f"npm run render-deal -- --props='{json.dumps(props)}' --frames=0-539"
         subprocess.run(cmd, shell=True, check=True, cwd="./video-generator")
         return output_path
     except Exception as e:
@@ -95,7 +101,6 @@ def process_empty_leg():
     print("🔍 הטיסות הזמינות (3 בשורה - בחר מספר מהסוגריים המרובעים):")
     print("="*85)
     
-    # הדפסה של 3 טיסות בשורה
     for i in range(0, len(flights), 3):
         line_str = ""
         for j in range(3):
@@ -104,16 +109,13 @@ def process_empty_leg():
                 idx = i + j + 1
                 origin = f.get('origin_iata', '???').upper()
                 dest = f.get('destination_iata', '???').upper()
-                
-                # קיצור תאריך ומחיר לחיסכון במקום
                 date_full = str(f.get('departure_date_raw', 'TBD'))
                 date_short = date_full[:6].replace(' ', '') if len(date_full) >= 6 else date_full
                 price = str(f.get('price_raw', '???')).replace(' ', '')
                 seats = f.get('seats_available', '?')
                 
-                # עיצוב נקי וקומפקטי לכל עמודה
                 flight_str = f"[{idx:02d}] {origin}-{dest} {date_short} {price} ({seats}s)"
-                line_str += f"{flight_str:<28}" # ריווח אחיד
+                line_str += f"{flight_str:<28}"
         print(line_str)
         
     print("="*85)
