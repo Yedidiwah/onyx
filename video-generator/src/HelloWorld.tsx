@@ -1,4 +1,4 @@
-import { AbsoluteFill, useCurrentFrame, useVideoConfig, spring, OffthreadVideo, staticFile } from "remotion";
+import { AbsoluteFill, useCurrentFrame, useVideoConfig, spring, OffthreadVideo, staticFile, Series } from "remotion";
 import React from "react";
 
 export const HelloWorld: React.FC<{
@@ -17,30 +17,42 @@ export const HelloWorld: React.FC<{
     return (
         <AbsoluteFill className="bg-black text-white font-sans">
             
-            <OffthreadVideo
-                src={staticFile("bg.mp4")} 
-                style={{
-                    position: "absolute",
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                }}
-                muted
-                loop
-            />
+            <AbsoluteFill>
+                <Series>
+                    <Series.Sequence durationInFrames={150}>
+                        <OffthreadVideo
+                            src={staticFile("part1_1.mp4")} 
+                            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                            muted
+                        />
+                    </Series.Sequence>
+                    <Series.Sequence durationInFrames={150}>
+                        <OffthreadVideo
+                            src={staticFile("part2_1.mp4")} 
+                            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                            muted
+                        />
+                    </Series.Sequence>
+                    <Series.Sequence durationInFrames={150}>
+                        <OffthreadVideo
+                            src={staticFile("part3_1.mp4")} 
+                            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                            muted
+                        />
+                    </Series.Sequence>
+                </Series>
+            </AbsoluteFill>
             
-            <AbsoluteFill className="bg-black/50" />
+            <AbsoluteFill className="bg-black/40" />
 
             <AbsoluteFill className="flex flex-col items-center justify-center p-10">
                 <div 
                     style={{ opacity: titleOpacity, transform: `translateY(${titleY}px)` }} 
                     className="flex flex-col items-center mb-16"
                 >
-                    {/* הוגדל מ-3xl ל-5xl */}
                     <div className="text-5xl font-semibold mb-6 text-gray-300 tracking-[0.3em] uppercase bg-white/10 px-8 py-3 rounded-full border border-white/20 shadow-lg backdrop-blur-sm">
                         ✈️ VIP Empty Leg
                     </div>
-                    {/* הוגדל לממדי ענק: text-[12rem] (בערך 190 פיקסלים) */}
                     <h2 className="text-[12rem] font-black text-white drop-shadow-[0_15px_25px_rgba(0,0,0,0.9)] leading-none mb-4">
                         {titleToReplace}
                     </h2>
@@ -50,7 +62,6 @@ export const HelloWorld: React.FC<{
                     style={{ opacity: subOpacity, transform: `scale(${subScale})` }}
                     className="bg-black/50 backdrop-blur-md border border-white/20 px-16 py-8 rounded-[3rem] shadow-2xl mt-4"
                 >
-                    {/* הוגדל מ-6xl ל-8xl */}
                     <p className="text-8xl font-medium text-emerald-400 drop-shadow-md">
                         {subTitleToReplace}
                     </p>
