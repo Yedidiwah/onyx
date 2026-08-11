@@ -5,6 +5,9 @@ import requests
 import sys
 import random
 from dotenv import load_dotenv
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaFileUpload
 
 # ==========================================
 # 1. CONFIGURATION
@@ -14,18 +17,19 @@ TELEGRAM_CREAT_BOT_TOKEN = os.getenv("TELEGRAM_CREAT_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 MAKE_WEBHOOK_URL = "https://hook.eu1.make.com/mvudpjo9r7pdbfaqkydj66wwuc2939jq"
 HISTORY_FILE = "history.json"
+DRIVE_FOLDER_ID = "1aS1o1e_MD-sWoMCGhFLDirtQDaSmRCF1"
 
 # ==========================================
 # 2. DATA HANDLING FUNCTIONS
 # ==========================================
 def get_all_flights(json_path="data/flights.json"):
     if not os.path.exists(json_path):
-        return None, f"[!] Error: Data file not found at {json_path}"
+        return None, f"[!] Error: Data file not found"
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     flights = data if isinstance(data, list) else data.get("flights", [])
     if not flights:
-        return None, "[!] No active flights found in the data."
+        return None, "[!] No active flights found."
     return flights, "Success"
 
 def get_smart_random_combo():
@@ -76,25 +80,31 @@ def generate_video_with_remotion(deal_data):
         return None
 
 # ==========================================
-# 4. UPLOAD TO TEMP CLOUD & SEND TO MAKE
+# 4. UPLOAD TO GOOGLE DRIVE & SEND TO MAKE
 # ==========================================
-def upload_and_get_link(video_path):
-    print("[*] Uploading video to temp cloud to get a direct link...")
+def upload_to_google_drive(video_path):
+    print("[*] Uploading video to Google Drive...")
     try:
-        with open(video_path, 'rb') as f:
-            res = requests.post("https://tmpfiles.org/api/v1/upload", files={'file': f})
-        if res.status_code == 200:
-            data = res.json()
-            # מחלצים את הלינק המקורי והופכים אותו ללינק הורדה ישיר (dl)
-            original_url = data.get('data', {}).get('url', '')
-            direct_url = original_url.replace('tmpfiles.org/', 'tmpfiles.org/dl/')
-            print(f"[+] Upload successful! Direct Link: {direct_url}")
-            return direct_url
-        else:
-            print(f"[!] Cloud upload failed. Status: {res.status_code}")
-            return None
+        creds = service_account.Credentials.from_service_account_file('service_account.json', scopes=['https://www.googleapis.com/auth/drive'])
+        service = build('drive', 'v3', credentials=creds)
+
+        file_metadata = {'name': os.path.basename(video_path), 'parents': [DRIVE_FOLDER_ID]}
+        media = MediaFileUpload(video_path, mimetype='video/mp4', resumable=True)
+        
+        print("    -> Uploading (this may take a minute)...")
+        file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
+        file_id = file.get('id')
+        
+        print("    -> Setting public permissions so Instagram can read it...")
+        service.permissions().create(fileId=file_id, body={'type': 'anyone', 'role': 'reader'}).execute()
+        
+        file = service.files().get(fileId=file_id, fields='webContentLink').execute()
+        link = file.get('webContentLink')
+        
+        print(f"[+] Drive Upload successful! Link: {link}")
+        return link
     except Exception as e:
-        print(f"[!] Error uploading to cloud: {e}")
+        print(f"[!] Error uploading to Drive: {e}")
         return None
 
 def send_to_make_webhook(video_url, deal_data, caption):
@@ -105,7 +115,7 @@ def send_to_make_webhook(video_url, deal_data, caption):
         'destination': deal_data.get('destination_iata', 'TBD'),
         'price': deal_data.get('price_raw', 'TBD'),
         'date': deal_data.get('departure_date_raw', 'TBD'),
-        'video_url': video_url # <--- אנחנו שולחים טקסט (לינק) במקום קובץ!
+        'video_url': video_url
     }
     try:
         response = requests.post(MAKE_WEBHOOK_URL, json=data)
@@ -185,8 +195,8 @@ def process_empty_leg():
     video_path = generate_video_with_remotion(selected_deal)
     
     if video_path and os.path.exists(video_path):
-        # 2. Upload to Cloud & get link
-        video_url = upload_and_get_link(video_path)
+        # 2. Upload to Google Drive & get direct link
+        video_url = upload_to_google_drive(video_path)
         
         if video_url:
             # 3. Send link to Make.com Webhook
