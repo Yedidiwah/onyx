@@ -1,4 +1,4 @@
-import { AbsoluteFill, useCurrentFrame, useVideoConfig, spring, OffthreadVideo, staticFile, Series } from "remotion";
+import { AbsoluteFill, useCurrentFrame, useVideoConfig, spring, Video, staticFile, Series } from "remotion";
 import React from "react";
 
 export const HelloWorld: React.FC<{
@@ -20,21 +20,21 @@ export const HelloWorld: React.FC<{
             <AbsoluteFill>
                 <Series>
                     <Series.Sequence durationInFrames={150}>
-                        <OffthreadVideo
+                        <Video
                             src={staticFile("part1_1.mp4")} 
                             style={{ width: "100%", height: "100%", objectFit: "cover" }}
                             muted
                         />
                     </Series.Sequence>
                     <Series.Sequence durationInFrames={150}>
-                        <OffthreadVideo
+                        <Video
                             src={staticFile("part2_1.mp4")} 
                             style={{ width: "100%", height: "100%", objectFit: "cover" }}
                             muted
                         />
                     </Series.Sequence>
                     <Series.Sequence durationInFrames={150}>
-                        <OffthreadVideo
+                        <Video
                             src={staticFile("part3_1.mp4")} 
                             style={{ width: "100%", height: "100%", objectFit: "cover" }}
                             muted
