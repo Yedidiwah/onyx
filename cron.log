@@ -25019,3 +25019,81 @@ Total flight entries delivered: 0
 ==================================================
 ONYX Radar update completed successfully.
 ==================================================
+[main 398e67c] Auto-update flights data and telegram alerts from server
+ 7 files changed, 608 insertions(+), 234 deletions(-)
+ create mode 100644 exports/villiers_empty_legs_all_2026-08-12_05-47-01.csv
+ create mode 100644 exports/villiers_empty_legs_changes_2026-08-12_05-47-01.csv
+ create mode 100644 exports/villiers_empty_legs_current_2026-08-12_05-47-01.csv
+To https://github.com/yedidiwah/onyx.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/yedidiwah/onyx.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28291 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 77 פריטים בפיד.
+
+טיסה ראשונה לדוגמה:
+מוצא: KHDN / HDN - Yampa Valley Airport
+יעד: KTEX / TEX - Telluride Regional Airport
+תאריך מקורי: 12 August 2026
+תאריך ISO: 2026-08-12
+שעת יציאה: 12:00
+מחיר: $2,795
+מחיר מנורמל: 2795 USD
+מטוס: Cessna Citation Ultra
+מושבים: 7
+סטטוס שינוי: unchanged
+
+שם הפיד: Villiers Empty Legs - Affiliate ADHUHR
+טיסות פעילות בפיד: 77
+כל הטיסות שנשמרו בהיסטוריה: 217
+שינויים בהרצה הנוכחית: 0
+
+פירוט שינויים:
+  חדשות: 0
+  עודכנו: 0
+  חזרו לפיד: 0
+  ללא שינוי: 77
+  נעלמו מהפיד: 0
+
+קבצים שנוצרו:
+  טיסות פעילות: /root/onyx/exports/villiers_empty_legs_current_2026-08-12_06-17-02.csv
+  כל ההיסטוריה: /root/onyx/exports/villiers_empty_legs_all_2026-08-12_06-17-02.csv
+  שינויים בלבד: /root/onyx/exports/villiers_empty_legs_changes_2026-08-12_06-17-02.csv
+  קובץ מצב: /root/onyx/data/villiers_state.json
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Saved 77 flights.
+Output: /root/onyx/data/flights.json
+[3/4] Creating global airports.json...
+Loading global airport database...
+Prepared 28291 airports in 234 countries.
+Airport catalogue saved to: /root/onyx/data/airports.json
+[4/4] Sending current flights to Telegram...
+Connected to Telegram bot: @OnyxAirRadar_bot (bot ID: 8816902667)
+Reading flights from: /root/onyx/exports/villiers_empty_legs_current_2026-08-12_06-17-02.csv
+Loaded 77 active Empty Leg flights.
+Processing 2 users.
+Sent 1 of 1 flights in 1 messages to yedidya (1049883799)
+Skipping 7445310755 (Frequency: 6h, hours passed: 2.50h)
+Users database updated with new timestamps.
+
+Telegram processing complete.
+Users who received flights: 1
+Users with delivery errors: 0
+Total flight entries delivered: 1
+==================================================
+ONYX Radar update completed successfully.
+==================================================
