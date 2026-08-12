@@ -73,7 +73,8 @@ def generate_video_with_remotion(deal_data):
         "music": music
     }
     try:
-        cmd = f"npm run render-deal -- /mnt/volume_fra1_1786451349368/output_deal.mp4 --props='{json.dumps(props)}' --frames=0-539 --image-format=jpeg --concurrency=1"
+        # npm workarround
+        cmd = f"npx remotion render HelloWorld {output_path} --props='{json.dumps(props)}' --frames=0-539 --image-format=jpeg --concurrency=1"
         subprocess.run(cmd, shell=True, check=True, cwd="./video-generator")
         return output_path
     except Exception as e:
