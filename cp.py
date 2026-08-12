@@ -47,7 +47,7 @@ def get_smart_random_combo():
         p2 = random.randint(1, 6)
         p3 = random.randint(1, 7)
         music = random.choice(music_options)
-        combo_str = f"{p1}-{p2}-{p3}-{music}"
+        combo_str = f"{p1}-{p2}-{p3}-{music}" # <--- השורה החסרה
         
         if combo_str not in history[-50:]:
             history.append(combo_str)
@@ -59,9 +59,10 @@ def get_smart_random_combo():
 # ==========================================
 # 3. VIDEO GENERATION
 # ==========================================
+
 def generate_video_with_remotion(deal_data):
     print("[*] Starting Remotion video rendering...")
-    output_path = "output_deal.mp4"
+    output_path = "/mnt/volume_fra1_1786451349368/output_deal.mp4"
     p1, p2, p3, music = get_smart_random_combo()
     props = {
         "titleToReplace": f"{deal_data.get('origin_iata')} ➡️ {deal_data.get('destination_iata')}",
@@ -72,7 +73,7 @@ def generate_video_with_remotion(deal_data):
         "music": music
     }
     try:
-        cmd = f"npm run render-deal -- --props='{json.dumps(props)}' --frames=0-539 --image-format=jpeg --concurrency=1"
+        cmd = f"npm run render-deal -- /mnt/volume_fra1_1786451349368/output_deal.mp4 --props='{json.dumps(props)}' --frames=0-539 --image-format=jpeg --concurrency=1"
         subprocess.run(cmd, shell=True, check=True, cwd="./video-generator")
         return output_path
     except Exception as e:
@@ -90,17 +91,17 @@ def upload_to_google_drive(video_path):
 
         file_metadata = {'name': os.path.basename(video_path), 'parents': [DRIVE_FOLDER_ID]}
         media = MediaFileUpload(video_path, mimetype='video/mp4', resumable=True)
-        
+
         print("    -> Uploading (this may take a minute)...")
         file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
         file_id = file.get('id')
-        
+
         print("    -> Setting public permissions so Instagram can read it...")
         service.permissions().create(fileId=file_id, body={'type': 'anyone', 'role': 'reader'}).execute()
-        
+
         file = service.files().get(fileId=file_id, fields='webContentLink').execute()
         link = file.get('webContentLink')
-        
+
         print(f"[+] Drive Upload successful! Link: {link}")
         return link
     except Exception as e:
@@ -138,10 +139,11 @@ def send_to_telegram(video_path, caption):
         print(f"[!] Error sending to Telegram: {e}")
 
 def clean_server(video_path):
-    print("[*] Cleaning up temporary files to save server disk space...")
+    print("[*] Cleaning up temporary files and Chrome cache...")
     if video_path and os.path.exists(video_path):
         os.remove(video_path)
-    os.system("rm -rf /tmp/remotion*")
+    # clean data
+    os.system("rm -rf /mnt/volume_fra1_1786451349368/tmp/*")
     print("[+] Server is clean and ready for the next video!\n")
 
 # ==========================================
@@ -169,7 +171,7 @@ def process_empty_leg():
         choice = int(input("\nEnter the flight number you want to generate: "))
     except ValueError:
         sys.exit()
-        
+
     selected_deal = flights[choice - 1]
     print(f"\n[*] Processing flight from {selected_deal.get('origin_iata')} to {selected_deal.get('destination_iata')}...")
 
@@ -193,20 +195,21 @@ def process_empty_leg():
 
     # 1. Generate Video
     video_path = generate_video_with_remotion(selected_deal)
-    
+
     if video_path and os.path.exists(video_path):
         # 2. Upload to Google Drive & get direct link
         video_url = upload_to_google_drive(video_path)
-        
+
         if video_url:
             # 3. Send link to Make.com Webhook
             send_to_make_webhook(video_url, selected_deal, tweet_text)
-            
+
         # 4. Send physical file to Telegram (Backup)
         send_to_telegram(video_path, tweet_text)
-        
+
         # 5. Clean up Server
         clean_server(video_path)
 
 if __name__ == "__main__":
     process_empty_leg()
+
