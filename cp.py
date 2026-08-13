@@ -6,6 +6,11 @@ import sys
 import random
 from dotenv import load_dotenv
 
+# ייבוא ספריות גוגל דרייב
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaFileUpload
+
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
@@ -76,22 +81,31 @@ def generate_video_with_remotion(deal_data):
         return None
 
 # ==========================================
-# 4. UPLOAD TO CDN & SEND TO MAKE
+# 4. UPLOAD TO GOOGLE DRIVE & SEND TO MAKE
 # ==========================================
-def upload_to_cdn(video_path):
-    print("[*] Uploading video to stable CDN (envs.sh)...")
+def upload_to_google_drive(video_path):
+    print("[*] Uploading to Google Drive (Enterprise Mode)...")
     try:
-        with open(video_path, 'rb') as f:
-            res = requests.post("https://envs.sh", files={"file": f})
-        if res.status_code == 200:
-            link = res.text.strip()
-            print(f"[+] CDN Upload successful! Direct Link: {link}")
-            return link
-        else:
-            print(f"[!] CDN upload failed. Status: {res.status_code}")
-            return None
+        creds = service_account.Credentials.from_service_account_file('service_account.json', scopes=['https://www.googleapis.com/auth/drive'])
+        service = build('drive', 'v3', credentials=creds)
+
+        file_metadata = {'name': os.path.basename(video_path)}
+        media = MediaFileUpload(video_path, mimetype='video/mp4', resumable=True)
+
+        print("    -> Uploading...")
+        file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
+        file_id = file.get('id')
+
+        print("    -> Setting public permissions...")
+        service.permissions().create(fileId=file_id, body={'type': 'anyone', 'role': 'reader'}).execute()
+
+        file = service.files().get(fileId=file_id, fields='webContentLink').execute()
+        link = file.get('webContentLink')
+
+        print(f"[+] Drive Upload successful! Link: {link}")
+        return link
     except Exception as e:
-        print(f"[!] Error uploading to CDN: {e}")
+        print(f"[!] Error uploading to Drive: {e}")
         return None
 
 def send_to_make_webhook(video_url, deal_data, caption):
@@ -169,8 +183,8 @@ def process_empty_leg():
     seats = selected_deal.get("seats_available", "N/A")
     price_raw = selected_deal.get("price_raw", "Request Price")
     
-    # שליפת הלינק לטיסה (אם קיים) או חזרה לדף הבית
-    deal_link = selected_deal.get("url", selected_deal.get("link", "https://flywithonyx.com"))
+    # חיפוש הלינק במספר שדות שונים, גיבוי לעמוד הבית של Onyx אם חסר
+    deal_link = selected_deal.get("url", selected_deal.get("link", selected_deal.get("deep_link", "https://flywithonyx.com")))
 
     tweet_text = f"""🚨 VIP EMPTY LEG DEAL 🚨
 🛫 {origin_city} ({origin_code}) ➡️ 🛬 {dest_city} ({dest_code})
@@ -179,7 +193,6 @@ def process_empty_leg():
 💰 {price_raw} (Total Aircraft)
 
 🔗 Book this flight: {deal_link}
-🌐 https://flywithonyx.com
 
 #PrivateJet #EmptyLegs #LuxuryTravel"""
 
@@ -187,8 +200,8 @@ def process_empty_leg():
     video_path = generate_video_with_remotion(selected_deal)
 
     if video_path and os.path.exists(video_path):
-        # 2. Upload to Cloud CDN
-        video_url = upload_to_cdn(video_path)
+        # 2. Upload to Google Drive
+        video_url = upload_to_google_drive(video_path)
 
         if video_url:
             # 3. Send link to Make.com Webhook
