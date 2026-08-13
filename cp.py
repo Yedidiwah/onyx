@@ -85,6 +85,23 @@ def generate_video_with_remotion(deal_data):
 # 4. UPLOAD TO CDN & SEND TO MAKE
 # ==========================================
 def upload_to_cdn(video_path):
+    print("[*] Uploading video to fast CDN (0x0.st)...")
+    try:
+        with open(video_path, 'rb') as f:
+            # שירות אחסון המיועד למפתחים ולשרתי ענן, תומך בעד 512 מגה
+            res = requests.post("https://0x0.st", files={"file": f})
+        if res.status_code == 200:
+            link = res.text.strip()
+            print(f"[+] CDN Upload successful! Direct Link: {link}")
+            return link
+        else:
+            print(f"[!] CDN upload failed. Status: {res.status_code}")
+            return None
+    except Exception as e:
+        print(f"[!] Error uploading to CDN: {e}")
+        return None
+
+def upload_to_cdn(video_path):
     print("[*] Uploading video to fast CDN (Catbox)...")
     try:
         with open(video_path, 'rb') as f:
