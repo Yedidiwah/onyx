@@ -82,31 +82,26 @@ def generate_video_with_remotion(deal_data):
         return None
 
 # ==========================================
-# 4. UPLOAD TO GOOGLE DRIVE & SEND TO MAKE
+# 4. UPLOAD TO CDN & SEND TO MAKE
 # ==========================================
-def upload_to_google_drive(video_path):
-    print("[*] Uploading video to Google Drive...")
+def upload_to_cdn(video_path):
+    print("[*] Uploading video to fast CDN (Catbox)...")
     try:
-        creds = service_account.Credentials.from_service_account_file('service_account.json', scopes=['https://www.googleapis.com/auth/drive'])
-        service = build('drive', 'v3', credentials=creds)
-
-        file_metadata = {'name': os.path.basename(video_path), 'parents': [DRIVE_FOLDER_ID]}
-        media = MediaFileUpload(video_path, mimetype='video/mp4', resumable=True)
-
-        print("    -> Uploading (this may take a minute)...")
-        file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
-        file_id = file.get('id')
-
-        print("    -> Setting public permissions so Instagram can read it...")
-        service.permissions().create(fileId=file_id, body={'type': 'anyone', 'role': 'reader'}).execute()
-
-        file = service.files().get(fileId=file_id, fields='webContentLink').execute()
-        link = file.get('webContentLink')
-
-        print(f"[+] Drive Upload successful! Link: {link}")
-        return link
+        with open(video_path, 'rb') as f:
+            res = requests.post(
+                "https://catbox.moe/user/api.php", 
+                data={"reqtype": "fileupload"}, 
+                files={"fileToUpload": f}
+            )
+        if res.status_code == 200:
+            link = res.text.strip()
+            print(f"[+] CDN Upload successful! Direct Link: {link}")
+            return link
+        else:
+            print(f"[!] CDN upload failed. Status: {res.status_code}")
+            return None
     except Exception as e:
-        print(f"[!] Error uploading to Drive: {e}")
+        print(f"[!] Error uploading to CDN: {e}")
         return None
 
 def send_to_make_webhook(video_url, deal_data, caption):
@@ -193,7 +188,22 @@ def process_empty_leg():
 
 🔗 Link in bio to book!
 #PrivateJet #EmptyLegs #LuxuryTravel"""
+# 1. Generate Video
+    video_path = generate_video_with_remotion(selected_deal)
 
+    if video_path and os.path.exists(video_path):
+        # 2. Upload to Cloud CDN & get direct link
+        video_url = upload_to_cdn(video_path)
+
+        if video_url:
+            # 3. Send link to Make.com Webhook
+            send_to_make_webhook(video_url, selected_deal, tweet_text)
+            
+        # 4. Send physical file to Telegram (Backup)
+        send_to_telegram(video_path, tweet_text)
+
+        # 5. Clean up Server
+        clean_server(video_path)
     # 1. Generate Video
     video_path = generate_video_with_remotion(selected_deal)
 
