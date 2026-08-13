@@ -76,40 +76,58 @@ def generate_video_with_remotion(deal_data):
         return None
 
 # ==========================================
-# 4. SEND DIRECTLY TO MAKE & TELEGRAM
+# 4. TELEGRAM CDN & MAKE.COM
 # ==========================================
-def send_to_make_webhook_directly(video_path, deal_data, caption):
-    print("[*] Sending data AND the physical video file DIRECTLY to Make.com Webhook...")
+def upload_to_telegram_and_get_url(video_path, caption):
+    if not TELEGRAM_CREAT_BOT_TOKEN or not TELEGRAM_CHAT_ID: 
+        print("[!] Telegram credentials missing.")
+        return None
+        
+    print("[*] Uploading video to Telegram (acting as our private CDN)...")
+    url = f"https://api.telegram.org/bot{TELEGRAM_CREAT_BOT_TOKEN}/sendVideo"
+    try:
+        with open(video_path, 'rb') as f:
+            response = requests.post(url, data={'chat_id': TELEGRAM_CHAT_ID, 'caption': caption}, files={'video': f})
+        
+        res_data = response.json()
+        if res_data.get("ok"):
+            print("[+] Successfully sent video to Telegram!")
+            # חילוץ מזהה הקובץ מההודעה שנשלחה
+            file_id = res_data['result']['video']['file_id']
+            
+            # בקשה משרתי טלגרם לייצר לינק הורדה ישיר
+            get_file_url = f"https://api.telegram.org/bot{TELEGRAM_CREAT_BOT_TOKEN}/getFile?file_id={file_id}"
+            file_res = requests.get(get_file_url).json()
+            
+            if file_res.get("ok"):
+                file_path = file_res['result']['file_path']
+                direct_url = f"https://api.telegram.org/file/bot{TELEGRAM_CREAT_BOT_TOKEN}/{file_path}"
+                print(f"[+] Telegram Direct Video Link generated successfully!")
+                return direct_url
+        else:
+            print(f"[!] Telegram upload failed: {res_data}")
+    except Exception as e:
+        print(f"[!] Error with Telegram: {e}")
+    return None
+
+def send_to_make_webhook(video_url, deal_data, caption):
+    print("[*] Sending data and VIDEO LINK to Make.com Webhook...")
     data = {
         'caption': caption,
         'origin': deal_data.get('origin_iata', 'TBD'),
         'destination': deal_data.get('destination_iata', 'TBD'),
         'price': deal_data.get('price_raw', 'TBD'),
-        'date': deal_data.get('departure_date_raw', 'TBD')
+        'date': deal_data.get('departure_date_raw', 'TBD'),
+        'video_url': video_url
     }
     try:
-        # הקסם: שולחים את הקובץ עצמו לתוך Make במקום לינק!
-        with open(video_path, 'rb') as f:
-            files = {'video_file': (os.path.basename(video_path), f, 'video/mp4')}
-            response = requests.post(MAKE_WEBHOOK_URL, data=data, files=files)
-            
+        response = requests.post(MAKE_WEBHOOK_URL, json=data)
         if response.status_code == 200:
-            print("[+] Successfully sent all data and the physical file to Make.com!")
+            print("[+] Successfully sent all data to Make.com!")
         else:
             print(f"[!] Make.com Webhook responded with status: {response.status_code}")
     except Exception as e:
         print(f"[!] Error sending to Make.com Webhook: {e}")
-
-def send_to_telegram(video_path, caption):
-    if not TELEGRAM_CREAT_BOT_TOKEN or not TELEGRAM_CHAT_ID: return
-    print("[*] Sending video and caption to Telegram for backup...")
-    url = f"https://api.telegram.org/bot{TELEGRAM_CREAT_BOT_TOKEN}/sendVideo"
-    try:
-        with open(video_path, 'rb') as f:
-            requests.post(url, data={'chat_id': TELEGRAM_CHAT_ID, 'caption': caption}, files={'video': f})
-            print("[+] Successfully sent video to Telegram!")
-    except Exception as e:
-        print(f"[!] Error sending to Telegram: {e}")
 
 def clean_server(video_path):
     print("[*] Cleaning up temporary files and Chrome cache...")
@@ -168,13 +186,18 @@ def process_empty_leg():
 
 #PrivateJet #EmptyLegs #LuxuryTravel"""
 
+    # 1. Generate Video
     video_path = generate_video_with_remotion(selected_deal)
 
     if video_path and os.path.exists(video_path):
-        # במקום להעלות לשרת צד שלישי, זורקים את הקובץ ישר למערכת של Make!
-        send_to_make_webhook_directly(video_path, selected_deal, tweet_text)
-        
-        send_to_telegram(video_path, tweet_text)
+        # 2. שולח לטלגרם ומחלץ משם לינק הורדה ישיר
+        video_url = upload_to_telegram_and_get_url(video_path, tweet_text)
+
+        if video_url:
+            # 3. שולח רק את הלינק ל-Make (מה שימנע את שגיאת 413)
+            send_to_make_webhook(video_url, selected_deal, tweet_text)
+
+        # 4. מנקה את השרת
         clean_server(video_path)
 
 if __name__ == "__main__":
