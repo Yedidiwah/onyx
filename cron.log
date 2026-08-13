@@ -28264,3 +28264,80 @@ Total flight entries delivered: 0
 ==================================================
 ONYX Radar update completed successfully.
 ==================================================
+[main 17816fb] Auto-update flights data and telegram alerts from server
+ 7 files changed, 631 insertions(+), 246 deletions(-)
+ create mode 100644 exports/villiers_empty_legs_all_2026-08-13_02-47-01.csv
+ create mode 100644 exports/villiers_empty_legs_changes_2026-08-13_02-47-01.csv
+ create mode 100644 exports/villiers_empty_legs_current_2026-08-13_02-47-01.csv
+To https://github.com/yedidiwah/onyx.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/yedidiwah/onyx.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28291 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 81 פריטים בפיד.
+
+טיסה ראשונה לדוגמה:
+מוצא: LKKB / ללא IATA - Kbely Air Base
+יעד: LEIB / IBZ - Ibiza Airport
+תאריך מקורי: 13 August 2026
+תאריך ISO: 2026-08-13
+שעת יציאה: 07:30
+מחיר: €10,750
+מחיר מנורמל: 10750 EUR
+מטוס: Cessna Citation Sovereign
+מושבים: 9
+סטטוס שינוי: unchanged
+
+שם הפיד: Villiers Empty Legs - Affiliate ADHUHR
+טיסות פעילות בפיד: 81
+כל הטיסות שנשמרו בהיסטוריה: 224
+שינויים בהרצה הנוכחית: 0
+
+פירוט שינויים:
+  חדשות: 0
+  עודכנו: 0
+  חזרו לפיד: 0
+  ללא שינוי: 81
+  נעלמו מהפיד: 0
+
+קבצים שנוצרו:
+  טיסות פעילות: /root/onyx/exports/villiers_empty_legs_current_2026-08-13_03-17-02.csv
+  כל ההיסטוריה: /root/onyx/exports/villiers_empty_legs_all_2026-08-13_03-17-02.csv
+  שינויים בלבד: /root/onyx/exports/villiers_empty_legs_changes_2026-08-13_03-17-02.csv
+  קובץ מצב: /root/onyx/data/villiers_state.json
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Saved 81 flights.
+Output: /root/onyx/data/flights.json
+[3/4] Creating global airports.json...
+Loading global airport database...
+Prepared 28291 airports in 234 countries.
+Airport catalogue saved to: /root/onyx/data/airports.json
+[4/4] Sending current flights to Telegram...
+Connected to Telegram bot: @OnyxAirRadar_bot (bot ID: 8816902667)
+Reading flights from: /root/onyx/exports/villiers_empty_legs_current_2026-08-13_03-17-02.csv
+Loaded 81 active Empty Leg flights.
+Processing 2 users.
+Skipping 1049883799 (Frequency: 3h, hours passed: 1.50h)
+Skipping 7445310755 (Frequency: 6h, hours passed: 5.00h)
+
+Telegram processing complete.
+Users who received flights: 0
+Users with delivery errors: 0
+Total flight entries delivered: 0
+==================================================
+ONYX Radar update completed successfully.
+==================================================
