@@ -6,11 +6,6 @@ import sys
 import random
 from dotenv import load_dotenv
 
-# ייבוא ספריות גוגל דרייב
-from google.oauth2 import service_account
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
-
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
@@ -81,47 +76,25 @@ def generate_video_with_remotion(deal_data):
         return None
 
 # ==========================================
-# 4. UPLOAD TO GOOGLE DRIVE & SEND TO MAKE
+# 4. SEND DIRECTLY TO MAKE & TELEGRAM
 # ==========================================
-def upload_to_google_drive(video_path):
-    print("[*] Uploading to Google Drive (Enterprise Mode)...")
-    try:
-        creds = service_account.Credentials.from_service_account_file('service_account.json', scopes=['https://www.googleapis.com/auth/drive'])
-        service = build('drive', 'v3', credentials=creds)
-
-        file_metadata = {'name': os.path.basename(video_path)}
-        media = MediaFileUpload(video_path, mimetype='video/mp4', resumable=True)
-
-        print("    -> Uploading...")
-        file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
-        file_id = file.get('id')
-
-        print("    -> Setting public permissions...")
-        service.permissions().create(fileId=file_id, body={'type': 'anyone', 'role': 'reader'}).execute()
-
-        file = service.files().get(fileId=file_id, fields='webContentLink').execute()
-        link = file.get('webContentLink')
-
-        print(f"[+] Drive Upload successful! Link: {link}")
-        return link
-    except Exception as e:
-        print(f"[!] Error uploading to Drive: {e}")
-        return None
-
-def send_to_make_webhook(video_url, deal_data, caption):
-    print("[*] Sending data and VIDEO LINK to Make.com Webhook...")
+def send_to_make_webhook_directly(video_path, deal_data, caption):
+    print("[*] Sending data AND the physical video file DIRECTLY to Make.com Webhook...")
     data = {
         'caption': caption,
         'origin': deal_data.get('origin_iata', 'TBD'),
         'destination': deal_data.get('destination_iata', 'TBD'),
         'price': deal_data.get('price_raw', 'TBD'),
-        'date': deal_data.get('departure_date_raw', 'TBD'),
-        'video_url': video_url
+        'date': deal_data.get('departure_date_raw', 'TBD')
     }
     try:
-        response = requests.post(MAKE_WEBHOOK_URL, json=data)
+        # הקסם: שולחים את הקובץ עצמו לתוך Make במקום לינק!
+        with open(video_path, 'rb') as f:
+            files = {'video_file': (os.path.basename(video_path), f, 'video/mp4')}
+            response = requests.post(MAKE_WEBHOOK_URL, data=data, files=files)
+            
         if response.status_code == 200:
-            print("[+] Successfully sent all data to Make.com!")
+            print("[+] Successfully sent all data and the physical file to Make.com!")
         else:
             print(f"[!] Make.com Webhook responded with status: {response.status_code}")
     except Exception as e:
@@ -183,7 +156,6 @@ def process_empty_leg():
     seats = selected_deal.get("seats_available", "N/A")
     price_raw = selected_deal.get("price_raw", "Request Price")
     
-    # חיפוש הלינק במספר שדות שונים, גיבוי לעמוד הבית של Onyx אם חסר
     deal_link = selected_deal.get("url", selected_deal.get("link", selected_deal.get("deep_link", "https://flywithonyx.com")))
 
     tweet_text = f"""🚨 VIP EMPTY LEG DEAL 🚨
@@ -196,21 +168,13 @@ def process_empty_leg():
 
 #PrivateJet #EmptyLegs #LuxuryTravel"""
 
-    # 1. Generate Video
     video_path = generate_video_with_remotion(selected_deal)
 
     if video_path and os.path.exists(video_path):
-        # 2. Upload to Google Drive
-        video_url = upload_to_google_drive(video_path)
-
-        if video_url:
-            # 3. Send link to Make.com Webhook
-            send_to_make_webhook(video_url, selected_deal, tweet_text)
-
-        # 4. Send physical file to Telegram (Backup)
+        # במקום להעלות לשרת צד שלישי, זורקים את הקובץ ישר למערכת של Make!
+        send_to_make_webhook_directly(video_path, selected_deal, tweet_text)
+        
         send_to_telegram(video_path, tweet_text)
-
-        # 5. Clean up Server
         clean_server(video_path)
 
 if __name__ == "__main__":
