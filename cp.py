@@ -5,9 +5,6 @@ import requests
 import sys
 import random
 from dotenv import load_dotenv
-from google.oauth2 import service_account
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
 
 # ==========================================
 # 1. CONFIGURATION
@@ -17,7 +14,7 @@ TELEGRAM_CREAT_BOT_TOKEN = os.getenv("TELEGRAM_CREAT_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 MAKE_WEBHOOK_URL = "https://hook.eu1.make.com/mvudpjo9r7pdbfaqkydj66wwuc2939jq"
 HISTORY_FILE = "history.json"
-DRIVE_FOLDER_ID = "1aS1o1e_MD-sWoMCGhFLDirtQDaSmRCF1"
+OUTPUT_VIDEO_PATH = "/mnt/volume_fra1_1786451349368/output_deal.mp4"
 
 # ==========================================
 # 2. DATA HANDLING FUNCTIONS
@@ -47,7 +44,7 @@ def get_smart_random_combo():
         p2 = random.randint(1, 6)
         p3 = random.randint(1, 7)
         music = random.choice(music_options)
-        combo_str = f"{p1}-{p2}-{p3}-{music}" # <--- השורה החסרה
+        combo_str = f"{p1}-{p2}-{p3}-{music}"
         
         if combo_str not in history[-50:]:
             history.append(combo_str)
@@ -59,10 +56,8 @@ def get_smart_random_combo():
 # ==========================================
 # 3. VIDEO GENERATION
 # ==========================================
-
 def generate_video_with_remotion(deal_data):
     print("[*] Starting Remotion video rendering...")
-    output_path = "/mnt/volume_fra1_1786451349368/output_deal.mp4"
     p1, p2, p3, music = get_smart_random_combo()
     props = {
         "titleToReplace": f"{deal_data.get('origin_iata')} ➡️ {deal_data.get('destination_iata')}",
@@ -73,10 +68,9 @@ def generate_video_with_remotion(deal_data):
         "music": music
     }
     try:
-        # npm workarround
-        cmd = f"npx remotion render HelloWorld {output_path} --props='{json.dumps(props)}' --frames=0-539 --image-format=jpeg --concurrency=1"
+        cmd = f"npx remotion render HelloWorld {OUTPUT_VIDEO_PATH} --props='{json.dumps(props)}' --frames=0-539 --image-format=jpeg --concurrency=1"
         subprocess.run(cmd, shell=True, check=True, cwd="./video-generator")
-        return output_path
+        return OUTPUT_VIDEO_PATH
     except Exception as e:
         print(f"[!] Video generation failed: {e}")
         return None
@@ -88,28 +82,7 @@ def upload_to_cdn(video_path):
     print("[*] Uploading video to fast CDN (0x0.st)...")
     try:
         with open(video_path, 'rb') as f:
-            # שירות אחסון המיועד למפתחים ולשרתי ענן, תומך בעד 512 מגה
             res = requests.post("https://0x0.st", files={"file": f})
-        if res.status_code == 200:
-            link = res.text.strip()
-            print(f"[+] CDN Upload successful! Direct Link: {link}")
-            return link
-        else:
-            print(f"[!] CDN upload failed. Status: {res.status_code}")
-            return None
-    except Exception as e:
-        print(f"[!] Error uploading to CDN: {e}")
-        return None
-
-def upload_to_cdn(video_path):
-    print("[*] Uploading video to fast CDN (Catbox)...")
-    try:
-        with open(video_path, 'rb') as f:
-            res = requests.post(
-                "https://catbox.moe/user/api.php", 
-                data={"reqtype": "fileupload"}, 
-                files={"fileToUpload": f}
-            )
         if res.status_code == 200:
             link = res.text.strip()
             print(f"[+] CDN Upload successful! Direct Link: {link}")
@@ -155,7 +128,6 @@ def clean_server(video_path):
     print("[*] Cleaning up temporary files and Chrome cache...")
     if video_path and os.path.exists(video_path):
         os.remove(video_path)
-    # clean data
     os.system("rm -rf /mnt/volume_fra1_1786451349368/tmp/*")
     print("[+] Server is clean and ready for the next video!\n")
 
@@ -196,6 +168,9 @@ def process_empty_leg():
     aircraft = selected_deal.get("aircraft_type", "Private Jet")
     seats = selected_deal.get("seats_available", "N/A")
     price_raw = selected_deal.get("price_raw", "Request Price")
+    
+    # שליפת הלינק לטיסה (אם קיים) או חזרה לדף הבית
+    deal_link = selected_deal.get("url", selected_deal.get("link", "https://flywithonyx.com"))
 
     tweet_text = f"""🚨 VIP EMPTY LEG DEAL 🚨
 🛫 {origin_city} ({origin_code}) ➡️ 🛬 {dest_city} ({dest_code})
@@ -203,30 +178,17 @@ def process_empty_leg():
 🛩️ {aircraft} | 💺 {seats} Seats
 💰 {price_raw} (Total Aircraft)
 
-🔗 Link in bio to book!
+🔗 Book this flight: {deal_link}
+🌐 https://flywithonyx.com
+
 #PrivateJet #EmptyLegs #LuxuryTravel"""
-# 1. Generate Video
-    video_path = generate_video_with_remotion(selected_deal)
 
-    if video_path and os.path.exists(video_path):
-        # 2. Upload to Cloud CDN & get direct link
-        video_url = upload_to_cdn(video_path)
-
-        if video_url:
-            # 3. Send link to Make.com Webhook
-            send_to_make_webhook(video_url, selected_deal, tweet_text)
-            
-        # 4. Send physical file to Telegram (Backup)
-        send_to_telegram(video_path, tweet_text)
-
-        # 5. Clean up Server
-        clean_server(video_path)
     # 1. Generate Video
     video_path = generate_video_with_remotion(selected_deal)
 
     if video_path and os.path.exists(video_path):
-        # 2. Upload to Google Drive & get direct link
-        video_url = upload_to_google_drive(video_path)
+        # 2. Upload to Cloud CDN
+        video_url = upload_to_cdn(video_path)
 
         if video_url:
             # 3. Send link to Make.com Webhook
@@ -240,4 +202,3 @@ def process_empty_leg():
 
 if __name__ == "__main__":
     process_empty_leg()
-
