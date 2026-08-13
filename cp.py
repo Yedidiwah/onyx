@@ -174,7 +174,7 @@ def process_empty_leg():
     seats = selected_deal.get("seats_available", "N/A")
     price_raw = selected_deal.get("price_raw", "Request Price")
     
-    deal_link = selected_deal.get("url", selected_deal.get("link", selected_deal.get("deep_link", "https://flywithonyx.com")))
+    deal_link = selected_deal.get("source_id", "https://flywithonyx.com")
 
     tweet_text = f"""🚨 VIP EMPTY LEG DEAL 🚨
 🛫 {origin_city} ({origin_code}) ➡️ 🛬 {dest_city} ({dest_code})
