@@ -42168,3 +42168,125 @@ Total flight entries delivered: 0
 ==================================================
 ONYX Radar update completed successfully.
 ==================================================
+[main bdecd94] Auto-update flights data and telegram alerts from server
+ 54 files changed, 665 insertions(+), 3711 deletions(-)
+ create mode 100644 exports/villiers_empty_legs_all_2026-08-16_20-47-01.csv
+ create mode 100644 exports/villiers_empty_legs_changes_2026-08-16_20-47-01.csv
+ create mode 100644 exports/villiers_empty_legs_current_2026-08-16_20-47-01.csv
+ delete mode 100644 video-generator/.gitignore
+ delete mode 100644 video-generator/.prettierrc
+ delete mode 100644 video-generator/README.md
+ delete mode 100644 video-generator/eslint.config.mjs
+ delete mode 100644 video-generator/package.json
+ delete mode 100644 video-generator/public/bg.mp4
+ delete mode 100644 video-generator/public/m1.mp3
+ delete mode 100644 video-generator/public/m2.mp3
+ delete mode 100644 video-generator/public/m4.mp3
+ delete mode 100644 video-generator/public/m5.mp3
+ delete mode 100644 video-generator/public/onyx-logo.png
+ delete mode 100644 video-generator/public/part1_1.mp4
+ delete mode 100644 video-generator/public/part1_2.mp4
+ delete mode 100644 video-generator/public/part1_3.mp4
+ delete mode 100644 video-generator/public/part1_4.mp4
+ delete mode 100644 video-generator/public/part1_5.mp4
+ delete mode 100644 video-generator/public/part1_6.mp4
+ delete mode 100644 video-generator/public/part2_1.mp4
+ delete mode 100644 video-generator/public/part2_2.mp4
+ delete mode 100644 video-generator/public/part2_3.mp4
+ delete mode 100644 video-generator/public/part2_4.mp4
+ delete mode 100644 video-generator/public/part2_5.mp4
+ delete mode 100644 video-generator/public/part2_6.mp4
+ delete mode 100644 video-generator/public/part3_1.mp4
+ delete mode 100644 video-generator/public/part3_2.mp4
+ delete mode 100644 video-generator/public/part3_3.mp4
+ delete mode 100644 video-generator/public/part3_4.mp4
+ delete mode 100644 video-generator/public/part3_5.mp4
+ delete mode 100644 video-generator/public/part3_6.mp4
+ delete mode 100644 video-generator/public/part3_7.mp4
+ delete mode 100644 video-generator/public/test.mp4
+ delete mode 100644 video-generator/remotion.config.ts
+ delete mode 100644 video-generator/render.js
+ delete mode 100644 video-generator/src/HelloWorld.tsx
+ delete mode 100644 video-generator/src/HelloWorld/Arc.tsx
+ delete mode 100644 video-generator/src/HelloWorld/Atom.tsx
+ delete mode 100644 video-generator/src/HelloWorld/Logo.tsx
+ delete mode 100644 video-generator/src/HelloWorld/Subtitle.tsx
+ delete mode 100644 video-generator/src/HelloWorld/Title.tsx
+ delete mode 100644 video-generator/src/HelloWorld/constants.ts
+ delete mode 100644 video-generator/src/Root.tsx
+ delete mode 100644 video-generator/src/index.css
+ delete mode 100644 video-generator/src/index.ts
+ delete mode 100644 video-generator/tsconfig.json
+ delete mode 100644 video-generator/yarn.lock
+To https://github.com/yedidiwah/onyx.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/yedidiwah/onyx.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28291 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 82 פריטים בפיד.
+
+טיסה ראשונה לדוגמה:
+מוצא: KAUS / AUS - Austin-Bergstrom International Airport
+יעד: KDAL / DAL - Dallas Love Field
+תאריך מקורי: 16 August 2026
+תאריך ISO: 2026-08-16
+שעת יציאה: 12:00
+מחיר: $2,473
+מחיר מנורמל: 2473 USD
+מטוס: Private Jet
+מושבים: 7
+סטטוס שינוי: unchanged
+
+שם הפיד: Villiers Empty Legs - Affiliate ADHUHR
+טיסות פעילות בפיד: 82
+כל הטיסות שנשמרו בהיסטוריה: 252
+שינויים בהרצה הנוכחית: 0
+
+פירוט שינויים:
+  חדשות: 0
+  עודכנו: 0
+  חזרו לפיד: 0
+  ללא שינוי: 82
+  נעלמו מהפיד: 0
+
+קבצים שנוצרו:
+  טיסות פעילות: /root/onyx/exports/villiers_empty_legs_current_2026-08-16_21-17-03.csv
+  כל ההיסטוריה: /root/onyx/exports/villiers_empty_legs_all_2026-08-16_21-17-03.csv
+  שינויים בלבד: /root/onyx/exports/villiers_empty_legs_changes_2026-08-16_21-17-03.csv
+  קובץ מצב: /root/onyx/data/villiers_state.json
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Saved 82 flights.
+Output: /root/onyx/data/flights.json
+[3/4] Creating global airports.json...
+Loading global airport database...
+Prepared 28291 airports in 234 countries.
+Airport catalogue saved to: /root/onyx/data/airports.json
+[4/4] Sending current flights to Telegram...
+Connected to Telegram bot: @OnyxAirRadar_bot (bot ID: 8816902667)
+Reading flights from: /root/onyx/exports/villiers_empty_legs_current_2026-08-16_21-17-03.csv
+Loaded 82 active Empty Leg flights.
+Processing 2 users.
+Skipping 1049883799 (Frequency: 3h, hours passed: 1.00h)
+Skipping 7445310755 (Frequency: 6h, hours passed: 2.00h)
+
+Telegram processing complete.
+Users who received flights: 0
+Users with delivery errors: 0
+Total flight entries delivered: 0
+==================================================
+ONYX Radar update completed successfully.
+==================================================
