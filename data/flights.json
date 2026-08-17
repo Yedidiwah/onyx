@@ -1,420 +1,12 @@
 {
-  "generated_at": "2026-08-16T23:47:04+00:00",
+  "generated_at": "2026-08-17T00:17:03+00:00",
   "source": "Villiers Empty Legs - Affiliate ADHUHR",
   "provider": "Villiers Jets Limited",
   "publisher": "ONYX Radar",
-  "flight_count": 82,
+  "flight_count": 70,
   "affiliate_disclosure": "ONYX Radar is an independent affiliate participating in the Villiers affiliate programme and may receive a commission from qualifying bookings.",
   "data_notice": "Flight details, schedules, availability and listed prices are supplied by Villiers and may change without notice.",
   "flights": [
-    {
-      "source_id": "https://villiers.ai/empty-legs/kaus-kdal-aircraft-2026-08-16-7c9d6984?id=ADHUHR",
-      "status": "active",
-      "title": "Private Jet | Austin Bergstrom International Airport → Dallas Love Field | $2,473",
-      "description": "",
-      "aircraft_type": "Private Jet",
-      "origin_airport_raw": "KAUS - Austin Bergstrom International Airport",
-      "origin_icao": "KAUS",
-      "origin_iata": "AUS",
-      "origin_airport_name": "Austin-Bergstrom International Airport",
-      "origin_city": "Austin",
-      "origin_country": "US",
-      "destination_airport_raw": "KDAL - Dallas Love Field",
-      "destination_icao": "KDAL",
-      "destination_iata": "DAL",
-      "destination_airport_name": "Dallas Love Field",
-      "destination_city": "Dallas",
-      "destination_country": "US",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "12:50",
-      "flight_duration": "51m",
-      "price_raw": "$2,473",
-      "price_amount": "2473",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kaus-kdal-aircraft-2026-08-16-7c9d6984?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kaus-kdal-aircraft-2026-08-16-7c9d6984?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kaus-kdal-aircraft-2026-08-16-7c9d6984?id=ADHUHR",
-      "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kchd-klas-cessna-citation-ultra-2026-08-16-a5c636ce?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Ultra | Chandler Municipal Airport → Harry Reid International Airport | $3,440",
-      "description": "",
-      "aircraft_type": "Cessna Citation Ultra",
-      "origin_airport_raw": "KCHD - Chandler Municipal Airport",
-      "origin_icao": "KCHD",
-      "origin_iata": "",
-      "origin_airport_name": "Chandler Municipal Airport",
-      "origin_city": "Chandler",
-      "origin_country": "US",
-      "destination_airport_raw": "KLAS - Harry Reid International Airport",
-      "destination_icao": "KLAS",
-      "destination_iata": "LAS",
-      "destination_airport_name": "Harry Reid International Airport",
-      "destination_city": "Las Vegas",
-      "destination_country": "US",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "13:00",
-      "flight_duration": "1h 0m",
-      "price_raw": "$3,440",
-      "price_amount": "3440",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kchd-klas-cessna-citation-ultra-2026-08-16-a5c636ce?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kchd-klas-cessna-citation-ultra-2026-08-16-a5c636ce?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kchd-klas-cessna-citation-ultra-2026-08-16-a5c636ce?id=ADHUHR",
-      "published": "Sun, 16 Aug 2026 14:11:48 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kcrq-ksaf-citation-cj3-2026-08-16-736838d2?id=ADHUHR",
-      "status": "active",
-      "title": "Citation CJ3 | McClellan-Palomar Airport → Santa Fe Municipal Airport | $6,988",
-      "description": "",
-      "aircraft_type": "Citation CJ3",
-      "origin_airport_raw": "KCRQ - McClellan-Palomar Airport",
-      "origin_icao": "KCRQ",
-      "origin_iata": "CLD",
-      "origin_airport_name": "Mc Clellan-Palomar Airport",
-      "origin_city": "Carlsbad",
-      "origin_country": "US",
-      "destination_airport_raw": "KSAF - Santa Fe Municipal Airport",
-      "destination_icao": "KSAF",
-      "destination_iata": "SAF",
-      "destination_airport_name": "Santa Fe Regional Airport",
-      "destination_city": "Santa Fe",
-      "destination_country": "US",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "13:43",
-      "flight_duration": "1h 43m",
-      "price_raw": "$6,988",
-      "price_amount": "6988",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "6",
-      "tracking_link": "https://villiers.ai/empty-legs/kcrq-ksaf-citation-cj3-2026-08-16-736838d2?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kcrq-ksaf-citation-cj3-2026-08-16-736838d2?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kcrq-ksaf-citation-cj3-2026-08-16-736838d2?id=ADHUHR",
-      "published": "Wed, 12 Aug 2026 22:00:20 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kerv-kril-cessna-citation-ultra-2026-08-16-f86b80c4?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Ultra | Kerrville / Kerr County Airport at Louis Schreiner Field → Garfield County Regional Airport | $8,600",
-      "description": "",
-      "aircraft_type": "Cessna Citation Ultra",
-      "origin_airport_raw": "KERV - Kerrville / Kerr County Airport at Louis Schreiner Field",
-      "origin_icao": "KERV",
-      "origin_iata": "ERV",
-      "origin_airport_name": "Kerrville Municipal/Louis Schreiner Field",
-      "origin_city": "Kerrville",
-      "origin_country": "US",
-      "destination_airport_raw": "KRIL - Garfield County Regional Airport",
-      "destination_icao": "KRIL",
-      "destination_iata": "RIL",
-      "destination_airport_name": "Rifle Garfield County Airport",
-      "destination_city": "Rifle",
-      "destination_country": "US",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "14:01",
-      "flight_duration": "2h 1m",
-      "price_raw": "$8,600",
-      "price_amount": "8600",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kerv-kril-cessna-citation-ultra-2026-08-16-f86b80c4?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kerv-kril-cessna-citation-ultra-2026-08-16-f86b80c4?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kerv-kril-cessna-citation-ultra-2026-08-16-f86b80c4?id=ADHUHR",
-      "published": "Sat, 15 Aug 2026 14:13:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/khou-kase-2026-08-16?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Excel | William P. Hobby Airport → Aspen-Pitkin County Airport (Sardy Field) | $13,115",
-      "description": "",
-      "aircraft_type": "Cessna Citation Excel",
-      "origin_airport_raw": "KHOU - William P. Hobby Airport",
-      "origin_icao": "KHOU",
-      "origin_iata": "HOU",
-      "origin_airport_name": "William P Hobby Airport",
-      "origin_city": "Houston",
-      "origin_country": "US",
-      "destination_airport_raw": "KASE - Aspen-Pitkin County Airport (Sardy Field)",
-      "destination_icao": "KASE",
-      "destination_iata": "ASE",
-      "destination_airport_name": "Aspen-Pitkin County/Sardy Field",
-      "destination_city": "Aspen",
-      "destination_country": "US",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "14:13",
-      "flight_duration": "2h 14m",
-      "price_raw": "$13,115",
-      "price_amount": "13115",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "9",
-      "tracking_link": "https://villiers.ai/empty-legs/khou-kase-2026-08-16?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/khou-kase-2026-08-16?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/khou-kase-2026-08-16?id=ADHUHR",
-      "published": "Mon, 27 Jul 2026 17:11:47 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/khou-kdzb-cessna-citation-ultra-2026-08-16-145af712?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Ultra | William P. Hobby Airport → Horseshoe Bay Resort Airport | $2,795",
-      "description": "",
-      "aircraft_type": "Cessna Citation Ultra",
-      "origin_airport_raw": "KHOU - William P. Hobby Airport",
-      "origin_icao": "KHOU",
-      "origin_iata": "HOU",
-      "origin_airport_name": "William P Hobby Airport",
-      "origin_city": "Houston",
-      "origin_country": "US",
-      "destination_airport_raw": "KDZB - Horseshoe Bay Resort Airport",
-      "destination_icao": "KDZB",
-      "destination_iata": "",
-      "destination_airport_name": "Horseshoe Bay Resort Airport",
-      "destination_city": "Horseshoe Bay",
-      "destination_country": "US",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "12:51",
-      "flight_duration": "51m",
-      "price_raw": "$2,795",
-      "price_amount": "2795",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/khou-kdzb-cessna-citation-ultra-2026-08-16-145af712?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/khou-kdzb-cessna-citation-ultra-2026-08-16-145af712?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/khou-kdzb-cessna-citation-ultra-2026-08-16-145af712?id=ADHUHR",
-      "published": "Sat, 15 Aug 2026 14:13:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/khou-klas-aircraft-2026-08-16-6b249f11?id=ADHUHR",
-      "status": "active",
-      "title": "Private Jet | William P. Hobby Airport → Harry Reid International Airport | $12,470",
-      "description": "",
-      "aircraft_type": "Private Jet",
-      "origin_airport_raw": "KHOU - William P. Hobby Airport",
-      "origin_icao": "KHOU",
-      "origin_iata": "HOU",
-      "origin_airport_name": "William P Hobby Airport",
-      "origin_city": "Houston",
-      "origin_country": "US",
-      "destination_airport_raw": "KLAS - Harry Reid International Airport",
-      "destination_icao": "KLAS",
-      "destination_iata": "LAS",
-      "destination_airport_name": "Harry Reid International Airport",
-      "destination_city": "Las Vegas",
-      "destination_country": "US",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "14:46",
-      "flight_duration": "2h 47m",
-      "price_raw": "$12,470",
-      "price_amount": "12470",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/khou-klas-aircraft-2026-08-16-6b249f11?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/khou-klas-aircraft-2026-08-16-6b249f11?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/khou-klas-aircraft-2026-08-16-6b249f11?id=ADHUHR",
-      "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/khou-kril-aircraft-2026-08-16-0c63f68d?id=ADHUHR",
-      "status": "active",
-      "title": "Private Jet | William P. Hobby Airport → Garfield County Regional Airport | $9,998",
-      "description": "",
-      "aircraft_type": "Private Jet",
-      "origin_airport_raw": "KHOU - William P. Hobby Airport",
-      "origin_icao": "KHOU",
-      "origin_iata": "HOU",
-      "origin_airport_name": "William P Hobby Airport",
-      "origin_city": "Houston",
-      "origin_country": "US",
-      "destination_airport_raw": "KRIL - Garfield County Regional Airport",
-      "destination_icao": "KRIL",
-      "destination_iata": "RIL",
-      "destination_airport_name": "Rifle Garfield County Airport",
-      "destination_city": "Rifle",
-      "destination_country": "US",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "14:18",
-      "flight_duration": "2h 19m",
-      "price_raw": "$9,998",
-      "price_amount": "9998",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/khou-kril-aircraft-2026-08-16-0c63f68d?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/khou-kril-aircraft-2026-08-16-0c63f68d?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/khou-kril-aircraft-2026-08-16-0c63f68d?id=ADHUHR",
-      "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/khou-mrlb-bombardier-challenger-604-2026-08-16-2e5f09dd?id=ADHUHR",
-      "status": "active",
-      "title": "Bombardier Challenger 604 | William P. Hobby Airport → Guanacaste Airport | $24,403",
-      "description": "",
-      "aircraft_type": "Bombardier Challenger 604",
-      "origin_airport_raw": "KHOU - William P. Hobby Airport",
-      "origin_icao": "KHOU",
-      "origin_iata": "HOU",
-      "origin_airport_name": "William P Hobby Airport",
-      "origin_city": "Houston",
-      "origin_country": "US",
-      "destination_airport_raw": "MRLB - Guanacaste Airport",
-      "destination_icao": "MRLB",
-      "destination_iata": "LIR",
-      "destination_airport_name": "Daniel Oduber Quiros International Airport",
-      "destination_city": "Liberia",
-      "destination_country": "CR",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "15:11",
-      "flight_duration": "3h 12m",
-      "price_raw": "$24,403",
-      "price_amount": "24403",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "10",
-      "tracking_link": "https://villiers.ai/empty-legs/khou-mrlb-bombardier-challenger-604-2026-08-16-2e5f09dd?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/khou-mrlb-bombardier-challenger-604-2026-08-16-2e5f09dd?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/khou-mrlb-bombardier-challenger-604-2026-08-16-2e5f09dd?id=ADHUHR",
-      "published": "Fri, 07 Aug 2026 14:24:20 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/khpn-khou-aircraft-2026-08-16-e4ad63b8?id=ADHUHR",
-      "status": "active",
-      "title": "Private Jet | Westchester County Airport → William P. Hobby Airport | $14,835",
-      "description": "",
-      "aircraft_type": "Private Jet",
-      "origin_airport_raw": "KHPN - Westchester County Airport",
-      "origin_icao": "KHPN",
-      "origin_iata": "HPN",
-      "origin_airport_name": "Westchester County Airport",
-      "origin_city": "White Plains",
-      "origin_country": "US",
-      "destination_airport_raw": "KHOU - William P. Hobby Airport",
-      "destination_icao": "KHOU",
-      "destination_iata": "HOU",
-      "destination_airport_name": "William P Hobby Airport",
-      "destination_city": "Houston",
-      "destination_country": "US",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "15:10",
-      "flight_duration": "3h 10m",
-      "price_raw": "$14,835",
-      "price_amount": "14835",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/khpn-khou-aircraft-2026-08-16-e4ad63b8?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/khpn-khou-aircraft-2026-08-16-e4ad63b8?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/khpn-khou-aircraft-2026-08-16-e4ad63b8?id=ADHUHR",
-      "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kiwa-klas-cessna-citation-ultra-2026-08-16-a06678b0?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Ultra | Mesa Gateway Airport → Harry Reid International Airport | $3,870",
-      "description": "",
-      "aircraft_type": "Cessna Citation Ultra",
-      "origin_airport_raw": "KIWA - Mesa Gateway Airport",
-      "origin_icao": "KIWA",
-      "origin_iata": "AZA",
-      "origin_airport_name": "Mesa Gateway Airport",
-      "origin_city": "Phoenix",
-      "origin_country": "US",
-      "destination_airport_raw": "KLAS - Harry Reid International Airport",
-      "destination_icao": "KLAS",
-      "destination_iata": "LAS",
-      "destination_airport_name": "Harry Reid International Airport",
-      "destination_city": "Las Vegas",
-      "destination_country": "US",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "13:00",
-      "flight_duration": "1h 1m",
-      "price_raw": "$3,870",
-      "price_amount": "3870",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kiwa-klas-cessna-citation-ultra-2026-08-16-a06678b0?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kiwa-klas-cessna-citation-ultra-2026-08-16-a06678b0?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kiwa-klas-cessna-citation-ultra-2026-08-16-a06678b0?id=ADHUHR",
-      "published": "Sat, 15 Aug 2026 14:13:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kopf-mrlb-2026-08-16?id=ADHUHR",
-      "status": "active",
-      "title": "Bombardier Challenger 604 | Miami-Opa Locka Executive Airport → Guanacaste Airport | $20,425",
-      "description": "",
-      "aircraft_type": "Bombardier Challenger 604",
-      "origin_airport_raw": "KOPF - Miami-Opa Locka Executive Airport",
-      "origin_icao": "KOPF",
-      "origin_iata": "OPF",
-      "origin_airport_name": "Miami-Opa Locka Executive Airport",
-      "origin_city": "Miami",
-      "origin_country": "US",
-      "destination_airport_raw": "MRLB - Guanacaste Airport",
-      "destination_icao": "MRLB",
-      "destination_iata": "LIR",
-      "destination_airport_name": "Daniel Oduber Quiros International Airport",
-      "destination_city": "Liberia",
-      "destination_country": "CR",
-      "departure_date_raw": "16 August 2026",
-      "departure_date_iso": "2026-08-16",
-      "departure_time": "12:00",
-      "arrival_time": "14:33",
-      "flight_duration": "2h 33m",
-      "price_raw": "$20,425",
-      "price_amount": "20425",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "10",
-      "tracking_link": "https://villiers.ai/empty-legs/kopf-mrlb-2026-08-16?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kopf-mrlb-2026-08-16?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kopf-mrlb-2026-08-16?id=ADHUHR",
-      "published": "Tue, 14 Jul 2026 14:09:12 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
-    },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-v-2026-08-17-9858d958?id=ADHUHR",
       "status": "active",
@@ -447,7 +39,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-v-2026-08-17-9858d958?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-v-2026-08-17-9858d958?id=ADHUHR",
       "published": "Mon, 10 Aug 2026 14:06:58 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kege-khou-pilatus-pc-12-ng-2026-08-17-ddc85f70?id=ADHUHR",
@@ -481,7 +73,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kege-khou-pilatus-pc-12-ng-2026-08-17-ddc85f70?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kege-khou-pilatus-pc-12-ng-2026-08-17-ddc85f70?id=ADHUHR",
       "published": "Sat, 15 Aug 2026 14:13:14 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kggg-kcha-gulfstream-g280-2026-08-17-59ee49f7?id=ADHUHR",
@@ -515,7 +107,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kggg-kcha-gulfstream-g280-2026-08-17-59ee49f7?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kggg-kcha-gulfstream-g280-2026-08-17-59ee49f7?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 14:24:20 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kggg-gulfstream-g280-2026-08-17-11f4e05d?id=ADHUHR",
@@ -549,7 +141,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kggg-gulfstream-g280-2026-08-17-11f4e05d?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kggg-gulfstream-g280-2026-08-17-11f4e05d?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 14:24:20 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-klwb-cessna-citation-ultra-2026-08-17-77278b4c?id=ADHUHR",
@@ -583,7 +175,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-klwb-cessna-citation-ultra-2026-08-17-77278b4c?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-klwb-cessna-citation-ultra-2026-08-17-77278b4c?id=ADHUHR",
       "published": "Tue, 11 Aug 2026 14:47:20 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ksus-khou-cessna-citation-v-2026-08-17-c6702922?id=ADHUHR",
@@ -617,7 +209,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ksus-khou-cessna-citation-v-2026-08-17-c6702922?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ksus-khou-cessna-citation-v-2026-08-17-c6702922?id=ADHUHR",
       "published": "Wed, 12 Aug 2026 14:28:14 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ktul-khou-cessna-citation-ultra-2026-08-17-f9e212a5?id=ADHUHR",
@@ -651,7 +243,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ktul-khou-cessna-citation-ultra-2026-08-17-f9e212a5?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ktul-khou-cessna-citation-ultra-2026-08-17-f9e212a5?id=ADHUHR",
       "published": "Tue, 11 Aug 2026 14:47:20 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ktul-klwb-aircraft-2026-08-17-af360b2f?id=ADHUHR",
@@ -685,7 +277,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ktul-klwb-aircraft-2026-08-17-af360b2f?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ktul-klwb-aircraft-2026-08-17-af360b2f?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-ksgr-cessna-citation-ultra-2026-08-18-b7477327?id=ADHUHR",
@@ -719,7 +311,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-ksgr-cessna-citation-ultra-2026-08-18-b7477327?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-ksgr-cessna-citation-ultra-2026-08-18-b7477327?id=ADHUHR",
       "published": "Tue, 11 Aug 2026 14:47:20 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kege-khou-2026-08-18?id=ADHUHR",
@@ -753,7 +345,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kege-khou-2026-08-18?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kege-khou-2026-08-18?id=ADHUHR",
       "published": "Thu, 30 Jul 2026 02:41:56 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eggw-lowk-citation-cj2-2026-08-20-921b97ad?id=ADHUHR",
@@ -787,7 +379,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eggw-lowk-citation-cj2-2026-08-20-921b97ad?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eggw-lowk-citation-cj2-2026-08-20-921b97ad?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 18:00:57 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/egkb-lowk-2026-08-20?id=ADHUHR",
@@ -821,7 +413,7 @@
       "rss_link": "https://villiers.ai/empty-legs/egkb-lowk-2026-08-20?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/egkb-lowk-2026-08-20?id=ADHUHR",
       "published": "Fri, 10 Jul 2026 18:21:55 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-kege-cessna-citation-ultra-2026-08-20-7e335bca?id=ADHUHR",
@@ -855,7 +447,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-kege-cessna-citation-ultra-2026-08-20-7e335bca?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-kege-cessna-citation-ultra-2026-08-20-7e335bca?id=ADHUHR",
       "published": "Sat, 15 Aug 2026 14:13:14 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kaus-aircraft-2026-08-20-50c0e2aa?id=ADHUHR",
@@ -889,7 +481,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kaus-aircraft-2026-08-20-50c0e2aa?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kaus-aircraft-2026-08-20-50c0e2aa?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-ultra-2026-08-21-3f1f50de?id=ADHUHR",
@@ -923,7 +515,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-ultra-2026-08-21-3f1f50de?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-ultra-2026-08-21-3f1f50de?id=ADHUHR",
       "published": "Sat, 08 Aug 2026 14:08:44 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kaus-2026-08-21?id=ADHUHR",
@@ -957,7 +549,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kaus-2026-08-21?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kaus-2026-08-21?id=ADHUHR",
       "published": "Wed, 05 Aug 2026 15:25:58 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-khou-aircraft-2026-08-22-047bb634?id=ADHUHR",
@@ -991,7 +583,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-khou-aircraft-2026-08-22-047bb634?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-khou-aircraft-2026-08-22-047bb634?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kftw-khou-pilatus-pc-12-ng-2026-08-23-b4c2b97e?id=ADHUHR",
@@ -1025,7 +617,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kftw-khou-pilatus-pc-12-ng-2026-08-23-b4c2b97e?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kftw-khou-pilatus-pc-12-ng-2026-08-23-b4c2b97e?id=ADHUHR",
       "published": "Sat, 15 Aug 2026 14:13:14 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kege-2026-08-23?id=ADHUHR",
@@ -1059,7 +651,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kege-2026-08-23?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kege-2026-08-23?id=ADHUHR",
       "published": "Thu, 30 Jul 2026 02:41:56 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-kbna-bombardier-challenger-300-2026-08-24-e860e8a3?id=ADHUHR",
@@ -1093,7 +685,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-kbna-bombardier-challenger-300-2026-08-24-e860e8a3?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-kbna-bombardier-challenger-300-2026-08-24-e860e8a3?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 14:24:20 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-khou-2026-08-24?id=ADHUHR",
@@ -1127,7 +719,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-khou-2026-08-24?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-khou-2026-08-24?id=ADHUHR",
       "published": "Wed, 05 Aug 2026 15:25:58 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kbna-2026-08-24?id=ADHUHR",
@@ -1161,7 +753,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kbna-2026-08-24?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kbna-2026-08-24?id=ADHUHR",
       "published": "Thu, 30 Jul 2026 02:41:56 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kege-pilatus-pc-12-ng-2026-08-24-f79c43de?id=ADHUHR",
@@ -1195,7 +787,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kege-pilatus-pc-12-ng-2026-08-24-f79c43de?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kege-pilatus-pc-12-ng-2026-08-24-f79c43de?id=ADHUHR",
       "published": "Tue, 11 Aug 2026 14:47:21 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-khou-aircraft-2026-08-25-e1796a85?id=ADHUHR",
@@ -1229,7 +821,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-khou-aircraft-2026-08-25-e1796a85?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-khou-aircraft-2026-08-25-e1796a85?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-mrlb-2026-08-25?id=ADHUHR",
@@ -1263,7 +855,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-mrlb-2026-08-25?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-mrlb-2026-08-25?id=ADHUHR",
       "published": "Tue, 07 Jul 2026 13:58:53 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kftw-2026-08-27?id=ADHUHR",
@@ -1297,7 +889,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kftw-2026-08-27?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kftw-2026-08-27?id=ADHUHR",
       "published": "Wed, 15 Jul 2026 14:20:14 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kftw-khou-2026-08-28?id=ADHUHR",
@@ -1331,7 +923,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kftw-khou-2026-08-28?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kftw-khou-2026-08-28?id=ADHUHR",
       "published": "Thu, 30 Jul 2026 14:21:38 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kpne-kfok-cessna-citation-ultra-2026-08-28-257926c1?id=ADHUHR",
@@ -1365,7 +957,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kpne-kfok-cessna-citation-ultra-2026-08-28-257926c1?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kpne-kfok-cessna-citation-ultra-2026-08-28-257926c1?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 14:24:20 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-08-29-ae88811f?id=ADHUHR",
@@ -1399,7 +991,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-08-29-ae88811f?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-08-29-ae88811f?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:45 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eglf-leib-aircraft-2026-08-29-1f2e01e6?id=ADHUHR",
@@ -1433,7 +1025,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eglf-leib-aircraft-2026-08-29-1f2e01e6?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eglf-leib-aircraft-2026-08-29-1f2e01e6?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:45 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eglf-lfpb-2026-08-30?id=ADHUHR",
@@ -1467,7 +1059,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eglf-lfpb-2026-08-30?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eglf-lfpb-2026-08-30?id=ADHUHR",
       "published": "Fri, 17 Jul 2026 22:25:16 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kfok-kpne-cessna-citation-ultra-2026-08-30-c0176eaf?id=ADHUHR",
@@ -1501,7 +1093,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kfok-kpne-cessna-citation-ultra-2026-08-30-c0176eaf?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kfok-kpne-cessna-citation-ultra-2026-08-30-c0176eaf?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 14:24:21 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ksbm-kmyj-pilatus-pc-12-ng-2026-08-30-d6ddd487?id=ADHUHR",
@@ -1535,7 +1127,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ksbm-kmyj-pilatus-pc-12-ng-2026-08-30-d6ddd487?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ksbm-kmyj-pilatus-pc-12-ng-2026-08-30-d6ddd487?id=ADHUHR",
       "published": "Sat, 15 Aug 2026 14:13:15 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ktvc-ksbm-pilatus-pc-12-ng-2026-08-30-d21f52ff?id=ADHUHR",
@@ -1569,7 +1161,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ktvc-ksbm-pilatus-pc-12-ng-2026-08-30-d21f52ff?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ktvc-ksbm-pilatus-pc-12-ng-2026-08-30-d21f52ff?id=ADHUHR",
       "published": "Sat, 15 Aug 2026 14:13:15 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eggw-lszh-aircraft-2026-09-02-a3efb61d?id=ADHUHR",
@@ -1603,7 +1195,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eggw-lszh-aircraft-2026-09-02-a3efb61d?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eggw-lszh-aircraft-2026-09-02-a3efb61d?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:45 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-khou-pilatus-pc-12-ng-2026-09-02-441f07d4?id=ADHUHR",
@@ -1637,7 +1229,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-khou-pilatus-pc-12-ng-2026-09-02-441f07d4?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-khou-pilatus-pc-12-ng-2026-09-02-441f07d4?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 14:24:21 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eggw-lfbo-aircraft-2026-09-03-41ddde01?id=ADHUHR",
@@ -1671,7 +1263,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eggw-lfbo-aircraft-2026-09-03-41ddde01?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eggw-lfbo-aircraft-2026-09-03-41ddde01?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:45 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kgtu-aircraft-2026-09-04-8b9a3416?id=ADHUHR",
@@ -1705,7 +1297,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kgtu-aircraft-2026-09-04-8b9a3416?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kgtu-aircraft-2026-09-04-8b9a3416?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kmdw-kopf-2026-09-04?id=ADHUHR",
@@ -1739,7 +1331,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kmdw-kopf-2026-09-04?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kmdw-kopf-2026-09-04?id=ADHUHR",
       "published": "Sat, 06 Jun 2026 23:56:41 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kpil-khou-2026-09-04?id=ADHUHR",
@@ -1773,7 +1365,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kpil-khou-2026-09-04?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kpil-khou-2026-09-04?id=ADHUHR",
       "published": "Tue, 09 Jun 2026 06:25:29 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kpil-kiws-2026-09-04?id=ADHUHR",
@@ -1807,7 +1399,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kpil-kiws-2026-09-04?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kpil-kiws-2026-09-04?id=ADHUHR",
       "published": "Tue, 24 Mar 2026 12:35:16 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kxna-khou-aircraft-2026-09-05-21018cde?id=ADHUHR",
@@ -1841,7 +1433,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kxna-khou-aircraft-2026-09-05-21018cde?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kxna-khou-aircraft-2026-09-05-21018cde?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kftw-2026-09-08?id=ADHUHR",
@@ -1875,7 +1467,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kftw-2026-09-08?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kftw-2026-09-08?id=ADHUHR",
       "published": "Thu, 30 Jul 2026 02:41:57 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kopf-kmdw-2026-09-08?id=ADHUHR",
@@ -1909,7 +1501,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kopf-kmdw-2026-09-08?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kopf-kmdw-2026-09-08?id=ADHUHR",
       "published": "Sat, 06 Jun 2026 23:56:41 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kiws-kpil-2026-09-10?id=ADHUHR",
@@ -1943,7 +1535,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kiws-kpil-2026-09-10?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kiws-kpil-2026-09-10?id=ADHUHR",
       "published": "Tue, 24 Mar 2026 12:35:16 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kftw-khou-2026-09-11?id=ADHUHR",
@@ -1977,7 +1569,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kftw-khou-2026-09-11?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kftw-khou-2026-09-11?id=ADHUHR",
       "published": "Thu, 30 Jul 2026 02:41:57 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-v-2026-09-12-112f0f48?id=ADHUHR",
@@ -2011,7 +1603,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-v-2026-09-12-112f0f48?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-v-2026-09-12-112f0f48?id=ADHUHR",
       "published": "Mon, 10 Aug 2026 14:06:59 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eglf-lsgs-aircraft-2026-09-13-cbdbce82?id=ADHUHR",
@@ -2045,7 +1637,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eglf-lsgs-aircraft-2026-09-13-cbdbce82?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eglf-lsgs-aircraft-2026-09-13-cbdbce82?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:46 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-09-14-47a7f05f?id=ADHUHR",
@@ -2079,7 +1671,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-09-14-47a7f05f?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-09-14-47a7f05f?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:46 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/egkb-lepa-hawker-400xp-2026-09-14-924d9f46?id=ADHUHR",
@@ -2113,7 +1705,7 @@
       "rss_link": "https://villiers.ai/empty-legs/egkb-lepa-hawker-400xp-2026-09-14-924d9f46?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/egkb-lepa-hawker-400xp-2026-09-14-924d9f46?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 18:00:57 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eggw-lfpb-aircraft-2026-09-22-64acf40b?id=ADHUHR",
@@ -2147,7 +1739,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eggw-lfpb-aircraft-2026-09-22-64acf40b?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eggw-lfpb-aircraft-2026-09-22-64acf40b?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:46 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-604-2026-10-11-30ae8b95?id=ADHUHR",
@@ -2181,7 +1773,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-604-2026-10-11-30ae8b95?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-604-2026-10-11-30ae8b95?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 14:24:21 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kuox-khou-2026-10-15?id=ADHUHR",
@@ -2215,7 +1807,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kuox-khou-2026-10-15?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kuox-khou-2026-10-15?id=ADHUHR",
       "published": "Mon, 27 Jul 2026 17:11:47 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kuox-2026-10-18?id=ADHUHR",
@@ -2249,7 +1841,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kuox-2026-10-18?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kuox-2026-10-18?id=ADHUHR",
       "published": "Mon, 27 Jul 2026 17:11:47 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khpn-kesn-2026-10-18?id=ADHUHR",
@@ -2283,7 +1875,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khpn-kesn-2026-10-18?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khpn-kesn-2026-10-18?id=ADHUHR",
       "published": "Thu, 16 Jul 2026 14:21:55 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kuox-khou-2026-10-29?id=ADHUHR",
@@ -2317,7 +1909,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kuox-khou-2026-10-29?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kuox-khou-2026-10-29?id=ADHUHR",
       "published": "Mon, 27 Jul 2026 17:11:47 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kuox-2026-11-01?id=ADHUHR",
@@ -2351,7 +1943,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kuox-2026-11-01?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kuox-2026-11-01?id=ADHUHR",
       "published": "Tue, 28 Jul 2026 14:22:35 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kuox-khou-2026-11-05?id=ADHUHR",
@@ -2385,7 +1977,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kuox-khou-2026-11-05?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kuox-khou-2026-11-05?id=ADHUHR",
       "published": "Sat, 01 Aug 2026 14:40:08 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kiws-kdal-2026-11-07?id=ADHUHR",
@@ -2419,7 +2011,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kiws-kdal-2026-11-07?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kiws-kdal-2026-11-07?id=ADHUHR",
       "published": "Tue, 14 Jul 2026 14:09:12 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-kiws-2026-11-08?id=ADHUHR",
@@ -2453,7 +2045,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-kiws-2026-11-08?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-kiws-2026-11-08?id=ADHUHR",
       "published": "Tue, 14 Jul 2026 14:09:12 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kuox-2026-11-08?id=ADHUHR",
@@ -2487,7 +2079,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kuox-2026-11-08?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kuox-2026-11-08?id=ADHUHR",
       "published": "Mon, 27 Jul 2026 17:11:47 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-khou-2026-11-13?id=ADHUHR",
@@ -2521,7 +2113,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-khou-2026-11-13?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-khou-2026-11-13?id=ADHUHR",
       "published": "Mon, 01 Jun 2026 18:31:08 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kiws-kaus-2026-11-13?id=ADHUHR",
@@ -2555,7 +2147,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kiws-kaus-2026-11-13?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kiws-kaus-2026-11-13?id=ADHUHR",
       "published": "Tue, 09 Jun 2026 06:25:30 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kiws-kdal-2026-11-13?id=ADHUHR",
@@ -2589,7 +2181,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kiws-kdal-2026-11-13?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kiws-kdal-2026-11-13?id=ADHUHR",
       "published": "Tue, 19 May 2026 09:06:09 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-kiws-2026-11-15?id=ADHUHR",
@@ -2623,7 +2215,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-kiws-2026-11-15?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-kiws-2026-11-15?id=ADHUHR",
       "published": "Tue, 09 Jun 2026 06:25:30 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-kiws-2026-11-15?id=ADHUHR",
@@ -2657,7 +2249,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-kiws-2026-11-15?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-kiws-2026-11-15?id=ADHUHR",
       "published": "Tue, 19 May 2026 09:06:10 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kdal-2026-11-16?id=ADHUHR",
@@ -2691,7 +2283,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kdal-2026-11-16?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kdal-2026-11-16?id=ADHUHR",
       "published": "Mon, 01 Jun 2026 18:31:08 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-khou-2026-11-18?id=ADHUHR",
@@ -2725,7 +2317,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-khou-2026-11-18?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-khou-2026-11-18?id=ADHUHR",
       "published": "Mon, 23 Mar 2026 12:11:29 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ksba-klas-2026-11-18?id=ADHUHR",
@@ -2759,7 +2351,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ksba-klas-2026-11-18?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ksba-klas-2026-11-18?id=ADHUHR",
       "published": "Wed, 25 Mar 2026 13:10:39 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/klas-ksba-2026-11-27?id=ADHUHR",
@@ -2793,7 +2385,7 @@
       "rss_link": "https://villiers.ai/empty-legs/klas-ksba-2026-11-27?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/klas-ksba-2026-11-27?id=ADHUHR",
       "published": "Wed, 25 Mar 2026 13:10:39 GMT",
-      "fetched_at": "2026-08-16T23:47:04+00:00"
+      "fetched_at": "2026-08-17T00:17:03+00:00"
     }
   ]
 }
