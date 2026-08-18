@@ -128,7 +128,7 @@ def process_flight_selection(message):
     }
     
     try:
-        cmd = f"npx remotion render HelloWorld {OUTPUT_VIDEO_PATH} --props='{json.dumps(props)}' --frames=0-539 --image-format=jpeg --concurrency=1"
+        cmd = f"TMPDIR=/mnt/volume_fra1_1786451349368/tmp npx remotion render HelloWorld {OUTPUT_VIDEO_PATH} --props='{json.dumps(props)}' --frames=0-539 --image-format=jpeg --concurrency=1"
         subprocess.run(cmd, shell=True, check=True, cwd="/mnt/volume_fra1_1786451349368/video-generator")
     except Exception as e:
         bot.send_message(message.chat.id, f"❌ שגיאה ברינדור הוידאו: {e}")
