@@ -15987,3 +15987,29 @@ Encoded 540/540
 ✅ Successfully sent to Make.com!
 [*] Cleaning up temporary files...
 [*] Automation run finished successfully!
+Bundling 8%
+Bundling 24%
+Bundling 60%
+Bundling 65%
+Bundling 70%
+Bundling 75%
+Bundling 81%
+Bundling 87%
+Bundling 93%
+Bundling 100%
+Getting composition
+Composition          HelloWorld
+Codec                h264
+Output               /mnt/volume_fra1_1786451349368/output_deal.mp4
+Concurrency          1x
+Rendered 0/540
+Rendered 1/540, time remaining: 34m 55s
+Rendered 2/540, time remaining: 24m 27s
+Rendered 3/540, time remaining: 21m 38s
+Rendered 4/540, time remaining: 19m 30s
+Rendered 5/540, time remaining: 16m 21s
+Rendered 6/540, time remaining: 14m 12s
+Rendered 7/540, time remaining: 12m 59s
+Rendered 8/540, time remaining: 11m 50s
+Rendered 9/540, time remaining: 10m 55s
+R
