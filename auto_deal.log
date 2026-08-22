@@ -28880,3 +28880,55 @@ Encoded 479/540
 Encoded 479/540
 Encoded 480/540
 Encoded 480/540
+Encoded 481/540
+Encoded 482/540
+Encoded 483/540
+Encoded 483/540
+Encoded 484/540
+Encoded 484/540
+Encoded 485/540
+Encoded 486/540
+Encoded 487/540
+Encoded 487/540
+Encoded 488/540
+Encoded 489/540
+Encoded 490/540
+Encoded 491/540
+Encoded 491/540
+Encoded 492/540
+Encoded 492/540
+Encoded 493/540
+Encoded 494/540
+Encoded 495/540
+Encoded 496/540
+Encoded 497/540
+Encoded 497/540
+Encoded 498/540
+Encoded 500/540
+Encoded 502/540
+Encoded 503/540
+Encoded 505/540
+Encoded 507/540
+Encoded 510/540
+Encoded 512/540
+Encoded 513/540
+Encoded 515/540
+Encoded 516/540
+Encoded 518/540
+Encoded 520/540
+Encoded 523/540
+Encoded 525/540
+Encoded 527/540
+Encoded 529/540
+Encoded 532/540
+Encoded 536/540
+Encoded 540/540
++                    /mnt/volume_fra1_1786451349368/output_deal.mp4 13.4 MB
+[*] Starting automated flight deal processing...
+[*] Selected Flight: HYS ➡️ HOU | 13 September 2026
+[*] Rendering video (this takes about 7-10 minutes)...
+[*] Render complete. Uploading to Telegram to get CDN URL...
+[*] Video uploaded. Triggering Make.com Webhook...
+✅ Successfully sent to Make.com!
+[*] Cleaning up temporary files...
+[*] Automation run finished successfully!
