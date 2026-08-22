@@ -17,14 +17,14 @@
         "registered_at": "2026-08-05T19:38:24+00:00",
         "preferences_updated_at": "2026-08-09T13:00:06+00:00",
         "frequency_hours": 6,
-        "last_sent_timestamp": 1787420824.1598508
+        "last_sent_timestamp": 1787442424.9458032
     },
     "1072595765": {
         "first_name": "Ardit",
         "origin": "Not set",
         "destination": "Not set",
         "frequency_hours": 1,
-        "last_sent_timestamp": 1787437024.7572055,
+        "last_sent_timestamp": 1787442424.9458032,
         "status": "free",
         "registered_at": "2026-08-18T11:29:57+00:00",
         "preferences_updated_at": ""
