@@ -34330,3 +34330,107 @@ Encoded 437/540
 Encoded 438/540
 Encoded 438/540
 Encoded 438/540
+Encoded 438/540
+Encoded 438/540
+Encoded 439/540
+Encoded 440/540
+Encoded 441/540
+Encoded 441/540
+Encoded 442/540
+Encoded 442/540
+Encoded 443/540
+Encoded 443/540
+Encoded 444/540
+Encoded 444/540
+Encoded 445/540
+Encoded 445/540
+Encoded 446/540
+Encoded 447/540
+Encoded 447/540
+Encoded 447/540
+Encoded 448/540
+Encoded 449/540
+Encoded 450/540
+Encoded 450/540
+Encoded 451/540
+Encoded 452/540
+Encoded 452/540
+Encoded 452/540
+Encoded 452/540
+Encoded 453/540
+Encoded 454/540
+Encoded 455/540
+Encoded 457/540
+Encoded 458/540
+Encoded 459/540
+Encoded 460/540
+Encoded 461/540
+Encoded 462/540
+Encoded 463/540
+Encoded 464/540
+Encoded 465/540
+Encoded 466/540
+Encoded 467/540
+Encoded 467/540
+Encoded 469/540
+Encoded 470/540
+Encoded 470/540
+Encoded 471/540
+Encoded 472/540
+Encoded 473/540
+Encoded 474/540
+Encoded 475/540
+Encoded 476/540
+Encoded 477/540
+Encoded 478/540
+Encoded 479/540
+Encoded 480/540
+Encoded 481/540
+Encoded 482/540
+Encoded 483/540
+Encoded 483/540
+Encoded 484/540
+Encoded 485/540
+Encoded 485/540
+Encoded 486/540
+Encoded 486/540
+Encoded 487/540
+Encoded 487/540
+Encoded 488/540
+Encoded 489/540
+Encoded 490/540
+Encoded 490/540
+Encoded 491/540
+Encoded 492/540
+Encoded 493/540
+Encoded 494/540
+Encoded 495/540
+Encoded 495/540
+Encoded 496/540
+Encoded 497/540
+Encoded 498/540
+Encoded 499/540
+Encoded 499/540
+Encoded 501/540
+Encoded 502/540
+Encoded 504/540
+Encoded 506/540
+Encoded 508/540
+Encoded 510/540
+Encoded 512/540
+Encoded 514/540
+Encoded 516/540
+Encoded 519/540
+Encoded 520/540
+Encoded 523/540
+Encoded 533/540
+Encoded 540/540
++                    /mnt/volume_fra1_1786451349368/output_deal.mp4 13.1 MB
+[*] Starting automated flight deal processing...
+[*] Selected Flight: HOU ➡️ DAL | 16 November 2026
+[*] Rendering video (this takes about 7-10 minutes)...
+[*] Render complete. Uploading to Telegram to get CDN URL...
+[*] Video uploaded. Triggering Make.com Webhook...
+✅ Successfully sent to Make.com!
+[*] Cleaning up temporary files...
+[*] Automation run finished successfully!
