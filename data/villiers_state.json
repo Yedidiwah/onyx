@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-23T18:47:02+00:00",
+  "updated_at": "2026-08-23T19:17:01+00:00",
   "flights": {
     "https://villiers.ai/empty-legs/kiad-ksyr-citation-x-2026-08-23-571d0f73?id=ADHUHR": {
       "fingerprint": "12e7fe445ead5abcad05a8965fa31d890e91fb2191d475ba86768af35dd29d6e",
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kiad-ksyr-citation-x-2026-08-23-571d0f73?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Washington Dulles International Airport → Syracuse Hancock International Airport | $8,600",
         "description": "",
@@ -39,7 +39,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kiad-ksyr-citation-x-2026-08-23-571d0f73?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kiad-ksyr-citation-x-2026-08-23-571d0f73?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:02 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kmry-sf_all-citation-x-2026-08-23-f713a2e6?id=ADHUHR": {
@@ -47,9 +47,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kmry-sf_all-citation-x-2026-08-23-f713a2e6?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Monterey Peninsula Airport → All San Francisco, United States Airports | $8,600",
         "description": "",
@@ -80,7 +80,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kmry-sf_all-citation-x-2026-08-23-f713a2e6?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kmry-sf_all-citation-x-2026-08-23-f713a2e6?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:02 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kpdk-ktpa-citation-x-2026-08-23-1d29030f?id=ADHUHR": {
@@ -88,9 +88,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kpdk-ktpa-citation-x-2026-08-23-1d29030f?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | DeKalb Peachtree Airport → Tampa International Airport | $9,675",
         "description": "",
@@ -121,7 +121,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kpdk-ktpa-citation-x-2026-08-23-1d29030f?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kpdk-ktpa-citation-x-2026-08-23-1d29030f?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:02 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kpne-kmmu-citation-x-2026-08-23-c75388cd?id=ADHUHR": {
@@ -129,9 +129,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kpne-kmmu-citation-x-2026-08-23-c75388cd?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Northeast Philadelphia Airport → Morristown Municipal Airport | $8,600",
         "description": "",
@@ -162,7 +162,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kpne-kmmu-citation-x-2026-08-23-c75388cd?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kpne-kmmu-citation-x-2026-08-23-c75388cd?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:03 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kshv-kgpt-cessna-citation-excel-2026-08-23-ee322ee0?id=ADHUHR": {
@@ -172,7 +172,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-23T04:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Excel | Shreveport Regional Airport → Gulfport Biloxi International Airport | $4,408",
         "description": "",
@@ -203,7 +203,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kshv-kgpt-cessna-citation-excel-2026-08-23-ee322ee0?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kshv-kgpt-cessna-citation-excel-2026-08-23-ee322ee0?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 04:28:20 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khou-kege-2026-08-23?id=ADHUHR": {
@@ -213,7 +213,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Pilatus PC 12 NG | William P. Hobby Airport → Eagle County Regional Airport | $10,535",
         "description": "",
@@ -244,7 +244,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khou-kege-2026-08-23?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khou-kege-2026-08-23?id=ADHUHR",
         "published": "Thu, 30 Jul 2026 02:41:56 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kcrq-kboi-xls-2026-08-23-4819fa82?id=ADHUHR": {
@@ -254,7 +254,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-18T22:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "XLS | McClellan-Palomar Airport → Boise Air Terminal/Gowen Field | $14,996",
         "description": "",
@@ -285,7 +285,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kcrq-kboi-xls-2026-08-23-4819fa82?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kcrq-kboi-xls-2026-08-23-4819fa82?id=ADHUHR",
         "published": "Tue, 18 Aug 2026 21:56:48 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kelm-ksyr-citation-x-2026-08-23-bb38ceb6?id=ADHUHR": {
@@ -293,9 +293,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kelm-ksyr-citation-x-2026-08-23-bb38ceb6?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Elmira Corning Regional Airport → Syracuse Hancock International Airport | $8,600",
         "description": "",
@@ -326,7 +326,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kelm-ksyr-citation-x-2026-08-23-bb38ceb6?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kelm-ksyr-citation-x-2026-08-23-bb38ceb6?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:01 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kfok-kfrg-citation-x-2026-08-23-8ea7f802?id=ADHUHR": {
@@ -334,9 +334,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kfok-kfrg-citation-x-2026-08-23-8ea7f802?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Francis S Gabreski Airport → Republic Airport | $8,600",
         "description": "",
@@ -367,7 +367,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kfok-kfrg-citation-x-2026-08-23-8ea7f802?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kfok-kfrg-citation-x-2026-08-23-8ea7f802?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:02 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kftw-khou-pilatus-pc-12-ng-2026-08-23-b4c2b97e?id=ADHUHR": {
@@ -377,7 +377,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-15T14:17:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Pilatus PC 12 NG | Fort Worth Meacham International Airport → William P. Hobby Airport | $2,795",
         "description": "",
@@ -408,7 +408,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kftw-khou-pilatus-pc-12-ng-2026-08-23-b4c2b97e?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kftw-khou-pilatus-pc-12-ng-2026-08-23-b4c2b97e?id=ADHUHR",
         "published": "Sat, 15 Aug 2026 14:13:14 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kmdd-khou-cessna-citation-v-2026-08-23-187a34d5?id=ADHUHR": {
@@ -418,7 +418,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-20T21:47:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation V | Midland Airpark → William P. Hobby Airport | $4,515",
         "description": "",
@@ -449,7 +449,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kmdd-khou-cessna-citation-v-2026-08-23-187a34d5?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kmdd-khou-cessna-citation-v-2026-08-23-187a34d5?id=ADHUHR",
         "published": "Thu, 20 Aug 2026 21:34:20 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kfok-kteb-citation-x-2026-08-23-478c114d?id=ADHUHR": {
@@ -457,9 +457,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kfok-kteb-citation-x-2026-08-23-478c114d?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Francis S Gabreski Airport → Teterboro Airport | $8,600",
         "description": "",
@@ -490,7 +490,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kfok-kteb-citation-x-2026-08-23-478c114d?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kfok-kteb-citation-x-2026-08-23-478c114d?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:02 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kfrg-khpn-citation-x-2026-08-23-e8afd48e?id=ADHUHR": {
@@ -498,9 +498,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kfrg-khpn-citation-x-2026-08-23-e8afd48e?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Republic Airport → Westchester County Airport | $8,600",
         "description": "",
@@ -531,7 +531,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kfrg-khpn-citation-x-2026-08-23-e8afd48e?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kfrg-khpn-citation-x-2026-08-23-e8afd48e?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:02 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kftw-kege-pilatus-pc-12-ng-2026-08-23-4d4daeda?id=ADHUHR": {
@@ -541,7 +541,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-18T17:47:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Pilatus PC 12 NG | Fort Worth Meacham International Airport → Eagle County Regional Airport | $8,600",
         "description": "",
@@ -572,7 +572,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kftw-kege-pilatus-pc-12-ng-2026-08-23-4d4daeda?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kftw-kege-pilatus-pc-12-ng-2026-08-23-4d4daeda?id=ADHUHR",
         "published": "Tue, 18 Aug 2026 17:30:03 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/ksdf-kcrq-hawker-850xp-2026-08-23-7b1122b0?id=ADHUHR": {
@@ -582,7 +582,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-18T22:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Hawker 850XP | Louisville Muhammad Ali International Airport → McClellan-Palomar Airport | $26,875",
         "description": "",
@@ -613,7 +613,7 @@
         "rss_link": "https://villiers.ai/empty-legs/ksdf-kcrq-hawker-850xp-2026-08-23-7b1122b0?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/ksdf-kcrq-hawker-850xp-2026-08-23-7b1122b0?id=ADHUHR",
         "published": "Tue, 18 Aug 2026 21:56:48 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kcrq-kapc-beechjet-400a-2026-08-23-e2401b5b?id=ADHUHR": {
@@ -623,7 +623,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-18T22:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Beechjet 400A | McClellan-Palomar Airport → Napa County Airport | $8,600",
         "description": "",
@@ -654,7 +654,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kcrq-kapc-beechjet-400a-2026-08-23-e2401b5b?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kcrq-kapc-beechjet-400a-2026-08-23-e2401b5b?id=ADHUHR",
         "published": "Tue, 18 Aug 2026 21:56:47 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-ultra-2026-08-23-0c327913?id=ADHUHR": {
@@ -664,7 +664,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-19T23:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Austin Bergstrom International Airport → William P. Hobby Airport | $2,150",
         "description": "",
@@ -695,7 +695,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-ultra-2026-08-23-0c327913?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-ultra-2026-08-23-0c327913?id=ADHUHR",
         "published": "Wed, 19 Aug 2026 22:51:09 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kopf-kmjx-challenger-300-2026-08-23-c44b98f9?id=ADHUHR": {
@@ -703,9 +703,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kopf-kmjx-challenger-300-2026-08-23-c44b98f9?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Miami-Opa Locka Executive Airport → Ocean County Airport | $12,900",
         "description": "",
@@ -736,7 +736,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kopf-kmjx-challenger-300-2026-08-23-c44b98f9?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kopf-kmjx-challenger-300-2026-08-23-c44b98f9?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:57 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kaus-kads-challenger-300-2026-08-23-76a5ff69?id=ADHUHR": {
@@ -744,9 +744,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kaus-kads-challenger-300-2026-08-23-76a5ff69?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Austin Bergstrom International Airport → Addison Airport | $8,600",
         "description": "",
@@ -777,7 +777,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kaus-kads-challenger-300-2026-08-23-76a5ff69?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kaus-kads-challenger-300-2026-08-23-76a5ff69?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:58 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kbtv-kpwm-challenger-300-2026-08-23-917f6d34?id=ADHUHR": {
@@ -785,9 +785,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kbtv-kpwm-challenger-300-2026-08-23-917f6d34?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Burlington International Airport → Portland International Jetport | $8,600",
         "description": "",
@@ -818,7 +818,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kbtv-kpwm-challenger-300-2026-08-23-917f6d34?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kbtv-kpwm-challenger-300-2026-08-23-917f6d34?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:58 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kbzn-kjac-challenger-300-2026-08-23-ab2d4b98?id=ADHUHR": {
@@ -826,9 +826,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kbzn-kjac-challenger-300-2026-08-23-ab2d4b98?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Bozeman Yellowstone International Airport → Jackson Hole Airport | $8,600",
         "description": "",
@@ -859,7 +859,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kbzn-kjac-challenger-300-2026-08-23-ab2d4b98?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kbzn-kjac-challenger-300-2026-08-23-ab2d4b98?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:58 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khef-khpn-challenger-300-2026-08-23-a3181cf6?id=ADHUHR": {
@@ -867,9 +867,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khef-khpn-challenger-300-2026-08-23-a3181cf6?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Manassas Regional Airport/Harry P. Davis Field → Westchester County Airport | $8,600",
         "description": "",
@@ -900,7 +900,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khef-khpn-challenger-300-2026-08-23-a3181cf6?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khef-khpn-challenger-300-2026-08-23-a3181cf6?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:58 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kgjt-kafo-challenger-300-2026-08-23-0a87fc71?id=ADHUHR": {
@@ -908,9 +908,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kgjt-kafo-challenger-300-2026-08-23-0a87fc71?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Grand Junction Regional Airport → Afton Municipal Airport | $9,675",
         "description": "",
@@ -941,7 +941,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kgjt-kafo-challenger-300-2026-08-23-0a87fc71?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kgjt-kafo-challenger-300-2026-08-23-0a87fc71?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:58 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/mynn-kteb-challenger-300-2026-08-23-491dbf2a?id=ADHUHR": {
@@ -949,9 +949,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/mynn-kteb-challenger-300-2026-08-23-491dbf2a?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Lynden Pindling International Airport → Teterboro Airport | $12,900",
         "description": "",
@@ -982,7 +982,7 @@
         "rss_link": "https://villiers.ai/empty-legs/mynn-kteb-challenger-300-2026-08-23-491dbf2a?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/mynn-kteb-challenger-300-2026-08-23-491dbf2a?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:58 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kpie-khrf-challenger-300-2026-08-23-53445c92?id=ADHUHR": {
@@ -990,9 +990,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kpie-khrf-challenger-300-2026-08-23-53445c92?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | St. Petersburg Clearwater International Airport → Ravalli County Airport | $8,600",
         "description": "",
@@ -1023,7 +1023,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kpie-khrf-challenger-300-2026-08-23-53445c92?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kpie-khrf-challenger-300-2026-08-23-53445c92?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:59 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/ksgu-kapa-challenger-300-2026-08-23-c2e2a786?id=ADHUHR": {
@@ -1031,9 +1031,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/ksgu-kapa-challenger-300-2026-08-23-c2e2a786?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | St George Regional Airport → Centennial Airport | $9,675",
         "description": "",
@@ -1064,7 +1064,7 @@
         "rss_link": "https://villiers.ai/empty-legs/ksgu-kapa-challenger-300-2026-08-23-c2e2a786?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/ksgu-kapa-challenger-300-2026-08-23-c2e2a786?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:59 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kapc-kmhr-citation-x-2026-08-23-445015f7?id=ADHUHR": {
@@ -1072,9 +1072,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kapc-kmhr-citation-x-2026-08-23-445015f7?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Napa County Airport → Sacramento Mather Airport | $8,600",
         "description": "",
@@ -1105,7 +1105,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kapc-kmhr-citation-x-2026-08-23-445015f7?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kapc-kmhr-citation-x-2026-08-23-445015f7?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:00 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kaus-ksaf-citation-x-2026-08-23-0b3c5de4?id=ADHUHR": {
@@ -1113,9 +1113,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kaus-ksaf-citation-x-2026-08-23-0b3c5de4?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Austin Bergstrom International Airport → Santa Fe Municipal Airport | $8,600",
         "description": "",
@@ -1146,7 +1146,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kaus-ksaf-citation-x-2026-08-23-0b3c5de4?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kaus-ksaf-citation-x-2026-08-23-0b3c5de4?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:01 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kbed-kmvy-citation-x-2026-08-23-fd2fb445?id=ADHUHR": {
@@ -1154,9 +1154,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kbed-kmvy-citation-x-2026-08-23-fd2fb445?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Laurence G Hanscom Field → Martha's Vineyard Airport | $8,600",
         "description": "",
@@ -1187,7 +1187,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kbed-kmvy-citation-x-2026-08-23-fd2fb445?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kbed-kmvy-citation-x-2026-08-23-fd2fb445?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:01 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khrf-mmtl-citation-x-2026-08-23-ef3d16c7?id=ADHUHR": {
@@ -1195,9 +1195,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khrf-mmtl-citation-x-2026-08-23-ef3d16c7?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Ravalli County Airport → Felipe Carrillo Puerto International Airport | $10,750",
         "description": "",
@@ -1228,7 +1228,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khrf-mmtl-citation-x-2026-08-23-ef3d16c7?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khrf-mmtl-citation-x-2026-08-23-ef3d16c7?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:01 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kelp-ksan-citation-x-2026-08-23-81fe2c11?id=ADHUHR": {
@@ -1236,9 +1236,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kelp-ksan-citation-x-2026-08-23-81fe2c11?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | El Paso International Airport → San Diego International Airport | $8,600",
         "description": "",
@@ -1269,7 +1269,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kelp-ksan-citation-x-2026-08-23-81fe2c11?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kelp-ksan-citation-x-2026-08-23-81fe2c11?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:01 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/krno-kpga-citation-x-2026-08-23-54db8ec2?id=ADHUHR": {
@@ -1277,9 +1277,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/krno-kpga-citation-x-2026-08-23-54db8ec2?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Reno Tahoe International Airport → Page Municipal Airport | $8,600",
         "description": "",
@@ -1310,7 +1310,7 @@
         "rss_link": "https://villiers.ai/empty-legs/krno-kpga-citation-x-2026-08-23-54db8ec2?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/krno-kpga-citation-x-2026-08-23-54db8ec2?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:03 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/ksjc-kvny-citation-x-2026-08-23-2ceefe86?id=ADHUHR": {
@@ -1318,9 +1318,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/ksjc-kvny-citation-x-2026-08-23-2ceefe86?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | San Jose International Airport → Van Nuys Airport | $8,600",
         "description": "",
@@ -1351,7 +1351,7 @@
         "rss_link": "https://villiers.ai/empty-legs/ksjc-kvny-citation-x-2026-08-23-2ceefe86?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/ksjc-kvny-citation-x-2026-08-23-2ceefe86?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:03 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/ksjc-sf_all-citation-x-2026-08-23-3e500a47?id=ADHUHR": {
@@ -1359,9 +1359,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/ksjc-sf_all-citation-x-2026-08-23-3e500a47?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | San Jose International Airport → All San Francisco, United States Airports | $8,600",
         "description": "",
@@ -1392,7 +1392,7 @@
         "rss_link": "https://villiers.ai/empty-legs/ksjc-sf_all-citation-x-2026-08-23-3e500a47?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/ksjc-sf_all-citation-x-2026-08-23-3e500a47?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:03 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khou-kege-pilatus-pc-12-ng-2026-08-24-f79c43de?id=ADHUHR": {
@@ -1402,7 +1402,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-11T15:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Pilatus PC-12 NG | William P. Hobby Airport → Eagle County Regional Airport | $10,535",
         "description": "",
@@ -1433,7 +1433,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khou-kege-pilatus-pc-12-ng-2026-08-24-f79c43de?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khou-kege-pilatus-pc-12-ng-2026-08-24-f79c43de?id=ADHUHR",
         "published": "Tue, 11 Aug 2026 14:47:21 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khou-kbna-2026-08-24?id=ADHUHR": {
@@ -1443,7 +1443,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Gulfstream G280 | William P. Hobby Airport → Nashville International Airport | $11,073",
         "description": "",
@@ -1474,130 +1474,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khou-kbna-2026-08-24?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khou-kbna-2026-08-24?id=ADHUHR",
         "published": "Thu, 30 Jul 2026 02:41:56 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/kdal-kmco-citation-x-2026-08-24-dee83dec?id=ADHUHR": {
-      "fingerprint": "c2999c29b0553e0f98b2953fa91379cfde9d7fa5379ff6e0dc9e271cbd9ef3b4",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/kdal-kmco-citation-x-2026-08-24-dee83dec?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Citation X | Dallas Love Field → Orlando International Airport | $15,050",
-        "description": "",
-        "aircraft_type": "Citation X",
-        "origin_airport_raw": "KDAL - Dallas Love Field",
-        "origin_icao": "KDAL",
-        "origin_iata": "DAL",
-        "origin_airport_name": "Dallas Love Field",
-        "origin_city": "Dallas",
-        "origin_country": "US",
-        "destination_airport_raw": "KMCO - Orlando International Airport",
-        "destination_icao": "KMCO",
-        "destination_iata": "MCO",
-        "destination_airport_name": "Orlando International Airport",
-        "destination_city": "Orlando",
-        "destination_country": "US",
-        "departure_date_raw": "24 August 2026",
-        "departure_date_iso": "2026-08-24",
-        "departure_time": "12:00",
-        "arrival_time": "14:17",
-        "flight_duration": "2h 18m",
-        "price_raw": "$15,050",
-        "price_amount": "15050",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "12",
-        "tracking_link": "https://villiers.ai/empty-legs/kdal-kmco-citation-x-2026-08-24-dee83dec?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/kdal-kmco-citation-x-2026-08-24-dee83dec?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/kdal-kmco-citation-x-2026-08-24-dee83dec?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:05 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/cyyz-kiad-challenger-300-2026-08-24-dba8909a?id=ADHUHR": {
-      "fingerprint": "ba4621b99b91c9558d48b393d9144bc8aba62840a1ec1ffcedc8373fec8a43d6",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/cyyz-kiad-challenger-300-2026-08-24-dba8909a?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Challenger 300 | Toronto Lester B. Pearson International Airport → Washington Dulles International Airport | $9,675",
-        "description": "",
-        "aircraft_type": "Challenger 300",
-        "origin_airport_raw": "CYYZ - Toronto Lester B. Pearson International Airport",
-        "origin_icao": "CYYZ",
-        "origin_iata": "YYZ",
-        "origin_airport_name": "Toronto Pearson International Airport",
-        "origin_city": "Mississauga",
-        "origin_country": "CA",
-        "destination_airport_raw": "KIAD - Washington Dulles International Airport",
-        "destination_icao": "KIAD",
-        "destination_iata": "IAD",
-        "destination_airport_name": "Washington Dulles International Airport",
-        "destination_city": "Washington",
-        "destination_country": "US",
-        "departure_date_raw": "24 August 2026",
-        "departure_date_iso": "2026-08-24",
-        "departure_time": "12:00",
-        "arrival_time": "13:08",
-        "flight_duration": "1h 8m",
-        "price_raw": "$9,675",
-        "price_amount": "9675",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "10",
-        "tracking_link": "https://villiers.ai/empty-legs/cyyz-kiad-challenger-300-2026-08-24-dba8909a?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/cyyz-kiad-challenger-300-2026-08-24-dba8909a?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/cyyz-kiad-challenger-300-2026-08-24-dba8909a?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/kvny-kapc-citation-x-2026-08-24-8012c57b?id=ADHUHR": {
-      "fingerprint": "0799284932d3d6a827c0d4175db7c982fc64bbc2c81aa13dc77742a6f9aed5ea",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/kvny-kapc-citation-x-2026-08-24-8012c57b?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Citation X | Van Nuys Airport → Napa County Airport | $8,600",
-        "description": "",
-        "aircraft_type": "Citation X",
-        "origin_airport_raw": "KVNY - Van Nuys Airport",
-        "origin_icao": "KVNY",
-        "origin_iata": "VNY",
-        "origin_airport_name": "Van Nuys Airport",
-        "origin_city": "Van Nuys",
-        "origin_country": "US",
-        "destination_airport_raw": "KAPC - Napa County Airport",
-        "destination_icao": "KAPC",
-        "destination_iata": "APC",
-        "destination_airport_name": "Napa County Airport",
-        "destination_city": "Napa",
-        "destination_country": "US",
-        "departure_date_raw": "24 August 2026",
-        "departure_date_iso": "2026-08-24",
-        "departure_time": "12:00",
-        "arrival_time": "13:08",
-        "flight_duration": "1h 9m",
-        "price_raw": "$8,600",
-        "price_amount": "8600",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "12",
-        "tracking_link": "https://villiers.ai/empty-legs/kvny-kapc-citation-x-2026-08-24-8012c57b?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/kvny-kapc-citation-x-2026-08-24-8012c57b?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/kvny-kapc-citation-x-2026-08-24-8012c57b?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:03 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kguc-kase-citation-x-2026-08-24-5e1721ec?id=ADHUHR": {
@@ -1605,9 +1482,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kguc-kase-citation-x-2026-08-24-5e1721ec?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Gunnison Crested Butte Regional Airport → Aspen-Pitkin County Airport (Sardy Field) | $8,600",
         "description": "",
@@ -1638,171 +1515,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kguc-kase-citation-x-2026-08-24-5e1721ec?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kguc-kase-citation-x-2026-08-24-5e1721ec?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:05 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/kmdd-kbpt-cessna-citation-ultra-2026-08-24-b82b8e62?id=ADHUHR": {
-      "fingerprint": "47f831526bcbfde3928b8422a10f7c8400bcb13c5f6d7a30599cd774547b7a28",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/kmdd-kbpt-cessna-citation-ultra-2026-08-24-b82b8e62?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Cessna Citation Ultra | Midland Airpark → Jack Brooks Regional Airport | $4,515",
-        "description": "",
-        "aircraft_type": "Cessna Citation Ultra",
-        "origin_airport_raw": "KMDD - Midland Airpark",
-        "origin_icao": "KMDD",
-        "origin_iata": "MDD",
-        "origin_airport_name": "Midland Airpark",
-        "origin_city": "Midland",
-        "origin_country": "US",
-        "destination_airport_raw": "KBPT - Jack Brooks Regional Airport",
-        "destination_icao": "KBPT",
-        "destination_iata": "BPT",
-        "destination_airport_name": "Jack Brooks Regional Airport",
-        "destination_city": "Beaumont/Port Arthur",
-        "destination_country": "US",
-        "departure_date_raw": "24 August 2026",
-        "departure_date_iso": "2026-08-24",
-        "departure_time": "12:00",
-        "arrival_time": "13:25",
-        "flight_duration": "1h 25m",
-        "price_raw": "$4,515",
-        "price_amount": "4515",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "7",
-        "tracking_link": "https://villiers.ai/empty-legs/kmdd-kbpt-cessna-citation-ultra-2026-08-24-b82b8e62?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/kmdd-kbpt-cessna-citation-ultra-2026-08-24-b82b8e62?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/kmdd-kbpt-cessna-citation-ultra-2026-08-24-b82b8e62?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:23:21 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/swbc-ktpl-citation-x-2026-08-24-52c642d1?id=ADHUHR": {
-      "fingerprint": "d6b0ed08fb7ec102a680eb650c189f3a6a73249d621bdcd20014e705e38a44cd",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/swbc-ktpl-citation-x-2026-08-24-52c642d1?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Citation X | Barcelos Airport → Draughon Miller Central Texas Regional Airport | $8,600",
-        "description": "",
-        "aircraft_type": "Citation X",
-        "origin_airport_raw": "SWBC - Barcelos Airport",
-        "origin_icao": "SWBC",
-        "origin_iata": "BAZ",
-        "origin_airport_name": "Barcelos Airport",
-        "origin_city": "Barcelos",
-        "origin_country": "BR",
-        "destination_airport_raw": "KTPL - Draughon Miller Central Texas Regional Airport",
-        "destination_icao": "KTPL",
-        "destination_iata": "TPL",
-        "destination_airport_name": "Draughon-Miller Central Texas Regional Airport",
-        "destination_city": "Temple",
-        "destination_country": "US",
-        "departure_date_raw": "24 August 2026",
-        "departure_date_iso": "2026-08-24",
-        "departure_time": "12:00",
-        "arrival_time": "18:21",
-        "flight_duration": "6h 22m",
-        "price_raw": "$8,600",
-        "price_amount": "8600",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "12",
-        "tracking_link": "https://villiers.ai/empty-legs/swbc-ktpl-citation-x-2026-08-24-52c642d1?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/swbc-ktpl-citation-x-2026-08-24-52c642d1?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/swbc-ktpl-citation-x-2026-08-24-52c642d1?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:04 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/kbna-kmdw-citation-x-2026-08-24-0c1b5c3d?id=ADHUHR": {
-      "fingerprint": "d794a183c294c6eff42ddb4184ac95ec8e0e2eb7e3b082e46f68c1927c2ed86d",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/kbna-kmdw-citation-x-2026-08-24-0c1b5c3d?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Citation X | Nashville International Airport → Chicago Midway International Airport | $9,675",
-        "description": "",
-        "aircraft_type": "Citation X",
-        "origin_airport_raw": "KBNA - Nashville International Airport",
-        "origin_icao": "KBNA",
-        "origin_iata": "BNA",
-        "origin_airport_name": "Nashville International Airport",
-        "origin_city": "Nashville",
-        "origin_country": "US",
-        "destination_airport_raw": "KMDW - Chicago Midway International Airport",
-        "destination_icao": "KMDW",
-        "destination_iata": "MDW",
-        "destination_airport_name": "Chicago Midway International Airport",
-        "destination_city": "Chicago",
-        "destination_country": "US",
-        "departure_date_raw": "24 August 2026",
-        "departure_date_iso": "2026-08-24",
-        "departure_time": "12:00",
-        "arrival_time": "13:13",
-        "flight_duration": "1h 14m",
-        "price_raw": "$9,675",
-        "price_amount": "9675",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "12",
-        "tracking_link": "https://villiers.ai/empty-legs/kbna-kmdw-citation-x-2026-08-24-0c1b5c3d?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/kbna-kmdw-citation-x-2026-08-24-0c1b5c3d?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/kbna-kmdw-citation-x-2026-08-24-0c1b5c3d?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:05 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/kaus-kbct-citation-x-2026-08-24-3e0b6639?id=ADHUHR": {
-      "fingerprint": "0071951639a90936853f9b90d10edf9ee05b73bd1d2a3559215668671d0ce9d6",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/kaus-kbct-citation-x-2026-08-24-3e0b6639?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Citation X | Austin Bergstrom International Airport → Boca Raton Airport | $15,050",
-        "description": "",
-        "aircraft_type": "Citation X",
-        "origin_airport_raw": "KAUS - Austin Bergstrom International Airport",
-        "origin_icao": "KAUS",
-        "origin_iata": "AUS",
-        "origin_airport_name": "Austin-Bergstrom International Airport",
-        "origin_city": "Austin",
-        "origin_country": "US",
-        "destination_airport_raw": "KBCT - Boca Raton Airport",
-        "destination_icao": "KBCT",
-        "destination_iata": "BCT",
-        "destination_airport_name": "Boca Raton Airport",
-        "destination_city": "Boca Raton",
-        "destination_country": "US",
-        "departure_date_raw": "24 August 2026",
-        "departure_date_iso": "2026-08-24",
-        "departure_time": "12:00",
-        "arrival_time": "14:31",
-        "flight_duration": "2h 32m",
-        "price_raw": "$15,050",
-        "price_amount": "15050",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "12",
-        "tracking_link": "https://villiers.ai/empty-legs/kaus-kbct-citation-x-2026-08-24-3e0b6639?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/kaus-kbct-citation-x-2026-08-24-3e0b6639?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/kaus-kbct-citation-x-2026-08-24-3e0b6639?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:04 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kvny-ksrq-citation-x-2026-08-24-685d4604?id=ADHUHR": {
@@ -1810,9 +1523,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kvny-ksrq-citation-x-2026-08-24-685d4604?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Van Nuys Airport → Sarasota Bradenton International Airport | $25,800",
         "description": "",
@@ -1843,7 +1556,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kvny-ksrq-citation-x-2026-08-24-685d4604?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kvny-ksrq-citation-x-2026-08-24-685d4604?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:04 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/sf_all-koak-citation-x-2026-08-24-3213890a?id=ADHUHR": {
@@ -1851,9 +1564,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/sf_all-koak-citation-x-2026-08-24-3213890a?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | All San Francisco, United States Airports → San Francisco Bay Oakland International Airport | $8,600",
         "description": "",
@@ -1884,48 +1597,7 @@
         "rss_link": "https://villiers.ai/empty-legs/sf_all-koak-citation-x-2026-08-24-3213890a?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/sf_all-koak-citation-x-2026-08-24-3213890a?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:05 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/kteb-kpdk-citation-x-2026-08-24-06ae064d?id=ADHUHR": {
-      "fingerprint": "12130ae80d7aeb86762c44e9f9b45c36e6cf5f157997e35ec5a43a4594c0ca7d",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/kteb-kpdk-citation-x-2026-08-24-06ae064d?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Citation X | Teterboro Airport → DeKalb Peachtree Airport | $9,675",
-        "description": "",
-        "aircraft_type": "Citation X",
-        "origin_airport_raw": "KTEB - Teterboro Airport",
-        "origin_icao": "KTEB",
-        "origin_iata": "TEB",
-        "origin_airport_name": "Teterboro Airport",
-        "origin_city": "Teterboro",
-        "origin_country": "US",
-        "destination_airport_raw": "KPDK - DeKalb Peachtree Airport",
-        "destination_icao": "KPDK",
-        "destination_iata": "PDK",
-        "destination_airport_name": "Dekalb-Peachtree Airport",
-        "destination_city": "Atlanta",
-        "destination_country": "US",
-        "departure_date_raw": "24 August 2026",
-        "departure_date_iso": "2026-08-24",
-        "departure_time": "12:00",
-        "arrival_time": "13:52",
-        "flight_duration": "1h 52m",
-        "price_raw": "$9,675",
-        "price_amount": "9675",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "12",
-        "tracking_link": "https://villiers.ai/empty-legs/kteb-kpdk-citation-x-2026-08-24-06ae064d?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/kteb-kpdk-citation-x-2026-08-24-06ae064d?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/kteb-kpdk-citation-x-2026-08-24-06ae064d?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:04 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kaus-khou-2026-08-24?id=ADHUHR": {
@@ -1935,7 +1607,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Bombardier Challenger 300 | Austin Bergstrom International Airport → William P. Hobby Airport | $6,450",
         "description": "",
@@ -1966,7 +1638,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kaus-khou-2026-08-24?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kaus-khou-2026-08-24?id=ADHUHR",
         "published": "Wed, 05 Aug 2026 15:25:58 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kcrq-kase-citation-cj3-2026-08-24-7a0541bb?id=ADHUHR": {
@@ -1976,7 +1648,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-21T18:47:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation CJ3 | McClellan-Palomar Airport → Aspen-Pitkin County Airport (Sardy Field) | $4,838",
         "description": "",
@@ -2007,7 +1679,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kcrq-kase-citation-cj3-2026-08-24-7a0541bb?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kcrq-kase-citation-cj3-2026-08-24-7a0541bb?id=ADHUHR",
         "published": "Fri, 21 Aug 2026 18:38:36 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kaus-kbna-bombardier-challenger-300-2026-08-24-e860e8a3?id=ADHUHR": {
@@ -2017,7 +1689,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-08T00:17:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Bombardier Challenger 300 | Austin Bergstrom International Airport → Nashville International Airport | $11,825",
         "description": "",
@@ -2048,7 +1720,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kaus-kbna-bombardier-challenger-300-2026-08-24-e860e8a3?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kaus-kbna-bombardier-challenger-300-2026-08-24-e860e8a3?id=ADHUHR",
         "published": "Fri, 07 Aug 2026 14:24:20 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kteb-kfok-challenger-300-2026-08-24-c3439cd2?id=ADHUHR": {
@@ -2056,9 +1728,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kteb-kfok-challenger-300-2026-08-24-c3439cd2?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Teterboro Airport → Francis S Gabreski Airport | $8,600",
         "description": "",
@@ -2089,7 +1761,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kteb-kfok-challenger-300-2026-08-24-c3439cd2?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kteb-kfok-challenger-300-2026-08-24-c3439cd2?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:59 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kdal-kxna-challenger-300-2026-08-24-5914d497?id=ADHUHR": {
@@ -2097,9 +1769,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kdal-kxna-challenger-300-2026-08-24-5914d497?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Dallas Love Field → Northwest Arkansas National Airport | $9,675",
         "description": "",
@@ -2130,7 +1802,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kdal-kxna-challenger-300-2026-08-24-5914d497?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kdal-kxna-challenger-300-2026-08-24-5914d497?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:59 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khpn-kmmu-challenger-300-2026-08-24-fde3bb33?id=ADHUHR": {
@@ -2138,9 +1810,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khpn-kmmu-challenger-300-2026-08-24-fde3bb33?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Westchester County Airport → Morristown Municipal Airport | $8,600",
         "description": "",
@@ -2171,7 +1843,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khpn-kmmu-challenger-300-2026-08-24-fde3bb33?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khpn-kmmu-challenger-300-2026-08-24-fde3bb33?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:59 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/klgb-ksjc-challenger-300-2026-08-24-c4a171da?id=ADHUHR": {
@@ -2179,9 +1851,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/klgb-ksjc-challenger-300-2026-08-24-c4a171da?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Long Beach Airport (Daugherty Field) → San Jose International Airport | $8,600",
         "description": "",
@@ -2212,7 +1884,7 @@
         "rss_link": "https://villiers.ai/empty-legs/klgb-ksjc-challenger-300-2026-08-24-c4a171da?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/klgb-ksjc-challenger-300-2026-08-24-c4a171da?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:59 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kphx-kvny-challenger-300-2026-08-24-7ca4613f?id=ADHUHR": {
@@ -2220,9 +1892,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kphx-kvny-challenger-300-2026-08-24-7ca4613f?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Challenger 300 | Phoenix Sky Harbor International Airport → Van Nuys Airport | $9,675",
         "description": "",
@@ -2253,7 +1925,335 @@
         "rss_link": "https://villiers.ai/empty-legs/kphx-kvny-challenger-300-2026-08-24-7ca4613f?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kphx-kvny-challenger-300-2026-08-24-7ca4613f?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:21:59 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/cyyz-kiad-challenger-300-2026-08-24-dba8909a?id=ADHUHR": {
+      "fingerprint": "ba4621b99b91c9558d48b393d9144bc8aba62840a1ec1ffcedc8373fec8a43d6",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/cyyz-kiad-challenger-300-2026-08-24-dba8909a?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Challenger 300 | Toronto Lester B. Pearson International Airport → Washington Dulles International Airport | $9,675",
+        "description": "",
+        "aircraft_type": "Challenger 300",
+        "origin_airport_raw": "CYYZ - Toronto Lester B. Pearson International Airport",
+        "origin_icao": "CYYZ",
+        "origin_iata": "YYZ",
+        "origin_airport_name": "Toronto Pearson International Airport",
+        "origin_city": "Mississauga",
+        "origin_country": "CA",
+        "destination_airport_raw": "KIAD - Washington Dulles International Airport",
+        "destination_icao": "KIAD",
+        "destination_iata": "IAD",
+        "destination_airport_name": "Washington Dulles International Airport",
+        "destination_city": "Washington",
+        "destination_country": "US",
+        "departure_date_raw": "24 August 2026",
+        "departure_date_iso": "2026-08-24",
+        "departure_time": "12:00",
+        "arrival_time": "13:08",
+        "flight_duration": "1h 8m",
+        "price_raw": "$9,675",
+        "price_amount": "9675",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "10",
+        "tracking_link": "https://villiers.ai/empty-legs/cyyz-kiad-challenger-300-2026-08-24-dba8909a?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/cyyz-kiad-challenger-300-2026-08-24-dba8909a?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/cyyz-kiad-challenger-300-2026-08-24-dba8909a?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/kvny-kapc-citation-x-2026-08-24-8012c57b?id=ADHUHR": {
+      "fingerprint": "0799284932d3d6a827c0d4175db7c982fc64bbc2c81aa13dc77742a6f9aed5ea",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/kvny-kapc-citation-x-2026-08-24-8012c57b?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Citation X | Van Nuys Airport → Napa County Airport | $8,600",
+        "description": "",
+        "aircraft_type": "Citation X",
+        "origin_airport_raw": "KVNY - Van Nuys Airport",
+        "origin_icao": "KVNY",
+        "origin_iata": "VNY",
+        "origin_airport_name": "Van Nuys Airport",
+        "origin_city": "Van Nuys",
+        "origin_country": "US",
+        "destination_airport_raw": "KAPC - Napa County Airport",
+        "destination_icao": "KAPC",
+        "destination_iata": "APC",
+        "destination_airport_name": "Napa County Airport",
+        "destination_city": "Napa",
+        "destination_country": "US",
+        "departure_date_raw": "24 August 2026",
+        "departure_date_iso": "2026-08-24",
+        "departure_time": "12:00",
+        "arrival_time": "13:08",
+        "flight_duration": "1h 9m",
+        "price_raw": "$8,600",
+        "price_amount": "8600",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "12",
+        "tracking_link": "https://villiers.ai/empty-legs/kvny-kapc-citation-x-2026-08-24-8012c57b?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/kvny-kapc-citation-x-2026-08-24-8012c57b?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/kvny-kapc-citation-x-2026-08-24-8012c57b?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:03 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/kteb-kpdk-citation-x-2026-08-24-06ae064d?id=ADHUHR": {
+      "fingerprint": "12130ae80d7aeb86762c44e9f9b45c36e6cf5f157997e35ec5a43a4594c0ca7d",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/kteb-kpdk-citation-x-2026-08-24-06ae064d?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Citation X | Teterboro Airport → DeKalb Peachtree Airport | $9,675",
+        "description": "",
+        "aircraft_type": "Citation X",
+        "origin_airport_raw": "KTEB - Teterboro Airport",
+        "origin_icao": "KTEB",
+        "origin_iata": "TEB",
+        "origin_airport_name": "Teterboro Airport",
+        "origin_city": "Teterboro",
+        "origin_country": "US",
+        "destination_airport_raw": "KPDK - DeKalb Peachtree Airport",
+        "destination_icao": "KPDK",
+        "destination_iata": "PDK",
+        "destination_airport_name": "Dekalb-Peachtree Airport",
+        "destination_city": "Atlanta",
+        "destination_country": "US",
+        "departure_date_raw": "24 August 2026",
+        "departure_date_iso": "2026-08-24",
+        "departure_time": "12:00",
+        "arrival_time": "13:52",
+        "flight_duration": "1h 52m",
+        "price_raw": "$9,675",
+        "price_amount": "9675",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "12",
+        "tracking_link": "https://villiers.ai/empty-legs/kteb-kpdk-citation-x-2026-08-24-06ae064d?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/kteb-kpdk-citation-x-2026-08-24-06ae064d?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/kteb-kpdk-citation-x-2026-08-24-06ae064d?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:04 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/kaus-kbct-citation-x-2026-08-24-3e0b6639?id=ADHUHR": {
+      "fingerprint": "0071951639a90936853f9b90d10edf9ee05b73bd1d2a3559215668671d0ce9d6",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/kaus-kbct-citation-x-2026-08-24-3e0b6639?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Citation X | Austin Bergstrom International Airport → Boca Raton Airport | $15,050",
+        "description": "",
+        "aircraft_type": "Citation X",
+        "origin_airport_raw": "KAUS - Austin Bergstrom International Airport",
+        "origin_icao": "KAUS",
+        "origin_iata": "AUS",
+        "origin_airport_name": "Austin-Bergstrom International Airport",
+        "origin_city": "Austin",
+        "origin_country": "US",
+        "destination_airport_raw": "KBCT - Boca Raton Airport",
+        "destination_icao": "KBCT",
+        "destination_iata": "BCT",
+        "destination_airport_name": "Boca Raton Airport",
+        "destination_city": "Boca Raton",
+        "destination_country": "US",
+        "departure_date_raw": "24 August 2026",
+        "departure_date_iso": "2026-08-24",
+        "departure_time": "12:00",
+        "arrival_time": "14:31",
+        "flight_duration": "2h 32m",
+        "price_raw": "$15,050",
+        "price_amount": "15050",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "12",
+        "tracking_link": "https://villiers.ai/empty-legs/kaus-kbct-citation-x-2026-08-24-3e0b6639?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/kaus-kbct-citation-x-2026-08-24-3e0b6639?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/kaus-kbct-citation-x-2026-08-24-3e0b6639?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:04 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/swbc-ktpl-citation-x-2026-08-24-52c642d1?id=ADHUHR": {
+      "fingerprint": "d6b0ed08fb7ec102a680eb650c189f3a6a73249d621bdcd20014e705e38a44cd",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/swbc-ktpl-citation-x-2026-08-24-52c642d1?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Citation X | Barcelos Airport → Draughon Miller Central Texas Regional Airport | $8,600",
+        "description": "",
+        "aircraft_type": "Citation X",
+        "origin_airport_raw": "SWBC - Barcelos Airport",
+        "origin_icao": "SWBC",
+        "origin_iata": "BAZ",
+        "origin_airport_name": "Barcelos Airport",
+        "origin_city": "Barcelos",
+        "origin_country": "BR",
+        "destination_airport_raw": "KTPL - Draughon Miller Central Texas Regional Airport",
+        "destination_icao": "KTPL",
+        "destination_iata": "TPL",
+        "destination_airport_name": "Draughon-Miller Central Texas Regional Airport",
+        "destination_city": "Temple",
+        "destination_country": "US",
+        "departure_date_raw": "24 August 2026",
+        "departure_date_iso": "2026-08-24",
+        "departure_time": "12:00",
+        "arrival_time": "18:21",
+        "flight_duration": "6h 22m",
+        "price_raw": "$8,600",
+        "price_amount": "8600",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "12",
+        "tracking_link": "https://villiers.ai/empty-legs/swbc-ktpl-citation-x-2026-08-24-52c642d1?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/swbc-ktpl-citation-x-2026-08-24-52c642d1?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/swbc-ktpl-citation-x-2026-08-24-52c642d1?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:04 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/kbna-kmdw-citation-x-2026-08-24-0c1b5c3d?id=ADHUHR": {
+      "fingerprint": "d794a183c294c6eff42ddb4184ac95ec8e0e2eb7e3b082e46f68c1927c2ed86d",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/kbna-kmdw-citation-x-2026-08-24-0c1b5c3d?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Citation X | Nashville International Airport → Chicago Midway International Airport | $9,675",
+        "description": "",
+        "aircraft_type": "Citation X",
+        "origin_airport_raw": "KBNA - Nashville International Airport",
+        "origin_icao": "KBNA",
+        "origin_iata": "BNA",
+        "origin_airport_name": "Nashville International Airport",
+        "origin_city": "Nashville",
+        "origin_country": "US",
+        "destination_airport_raw": "KMDW - Chicago Midway International Airport",
+        "destination_icao": "KMDW",
+        "destination_iata": "MDW",
+        "destination_airport_name": "Chicago Midway International Airport",
+        "destination_city": "Chicago",
+        "destination_country": "US",
+        "departure_date_raw": "24 August 2026",
+        "departure_date_iso": "2026-08-24",
+        "departure_time": "12:00",
+        "arrival_time": "13:13",
+        "flight_duration": "1h 14m",
+        "price_raw": "$9,675",
+        "price_amount": "9675",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "12",
+        "tracking_link": "https://villiers.ai/empty-legs/kbna-kmdw-citation-x-2026-08-24-0c1b5c3d?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/kbna-kmdw-citation-x-2026-08-24-0c1b5c3d?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/kbna-kmdw-citation-x-2026-08-24-0c1b5c3d?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:05 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/kdal-kmco-citation-x-2026-08-24-dee83dec?id=ADHUHR": {
+      "fingerprint": "c2999c29b0553e0f98b2953fa91379cfde9d7fa5379ff6e0dc9e271cbd9ef3b4",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/kdal-kmco-citation-x-2026-08-24-dee83dec?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Citation X | Dallas Love Field → Orlando International Airport | $15,050",
+        "description": "",
+        "aircraft_type": "Citation X",
+        "origin_airport_raw": "KDAL - Dallas Love Field",
+        "origin_icao": "KDAL",
+        "origin_iata": "DAL",
+        "origin_airport_name": "Dallas Love Field",
+        "origin_city": "Dallas",
+        "origin_country": "US",
+        "destination_airport_raw": "KMCO - Orlando International Airport",
+        "destination_icao": "KMCO",
+        "destination_iata": "MCO",
+        "destination_airport_name": "Orlando International Airport",
+        "destination_city": "Orlando",
+        "destination_country": "US",
+        "departure_date_raw": "24 August 2026",
+        "departure_date_iso": "2026-08-24",
+        "departure_time": "12:00",
+        "arrival_time": "14:17",
+        "flight_duration": "2h 18m",
+        "price_raw": "$15,050",
+        "price_amount": "15050",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "12",
+        "tracking_link": "https://villiers.ai/empty-legs/kdal-kmco-citation-x-2026-08-24-dee83dec?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/kdal-kmco-citation-x-2026-08-24-dee83dec?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/kdal-kmco-citation-x-2026-08-24-dee83dec?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:05 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/kmdd-kbpt-cessna-citation-ultra-2026-08-24-b82b8e62?id=ADHUHR": {
+      "fingerprint": "47f831526bcbfde3928b8422a10f7c8400bcb13c5f6d7a30599cd774547b7a28",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/kmdd-kbpt-cessna-citation-ultra-2026-08-24-b82b8e62?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Cessna Citation Ultra | Midland Airpark → Jack Brooks Regional Airport | $4,515",
+        "description": "",
+        "aircraft_type": "Cessna Citation Ultra",
+        "origin_airport_raw": "KMDD - Midland Airpark",
+        "origin_icao": "KMDD",
+        "origin_iata": "MDD",
+        "origin_airport_name": "Midland Airpark",
+        "origin_city": "Midland",
+        "origin_country": "US",
+        "destination_airport_raw": "KBPT - Jack Brooks Regional Airport",
+        "destination_icao": "KBPT",
+        "destination_iata": "BPT",
+        "destination_airport_name": "Jack Brooks Regional Airport",
+        "destination_city": "Beaumont/Port Arthur",
+        "destination_country": "US",
+        "departure_date_raw": "24 August 2026",
+        "departure_date_iso": "2026-08-24",
+        "departure_time": "12:00",
+        "arrival_time": "13:25",
+        "flight_duration": "1h 25m",
+        "price_raw": "$4,515",
+        "price_amount": "4515",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "7",
+        "tracking_link": "https://villiers.ai/empty-legs/kmdd-kbpt-cessna-citation-ultra-2026-08-24-b82b8e62?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/kmdd-kbpt-cessna-citation-ultra-2026-08-24-b82b8e62?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/kmdd-kbpt-cessna-citation-ultra-2026-08-24-b82b8e62?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:23:21 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kdal-khou-aircraft-2026-08-25-e1796a85?id=ADHUHR": {
@@ -2263,7 +2263,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-14T14:17:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Private Jet | Dallas Love Field → William P. Hobby Airport | $2,795",
         "description": "",
@@ -2294,7 +2294,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kdal-khou-aircraft-2026-08-25-e1796a85?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kdal-khou-aircraft-2026-08-25-e1796a85?id=ADHUHR",
         "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kdal-kbpt-cessna-citation-ultra-2026-08-25-2567ccfd?id=ADHUHR": {
@@ -2304,7 +2304,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-23T04:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Dallas Love Field → Jack Brooks Regional Airport | $2,795",
         "description": "",
@@ -2335,48 +2335,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kdal-kbpt-cessna-citation-ultra-2026-08-25-2567ccfd?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kdal-kbpt-cessna-citation-ultra-2026-08-25-2567ccfd?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 04:28:21 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/kvny-cyvr-challenger-300-2026-08-25-88216ab0?id=ADHUHR": {
-      "fingerprint": "6514d631b5aaca8c0f87967a1bfbc6d9ed89b8e44d27a0b52fe3255ab71c0b5a",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/kvny-cyvr-challenger-300-2026-08-25-88216ab0?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Challenger 300 | Van Nuys Airport → Vancouver International Airport | $12,900",
-        "description": "",
-        "aircraft_type": "Challenger 300",
-        "origin_airport_raw": "KVNY - Van Nuys Airport",
-        "origin_icao": "KVNY",
-        "origin_iata": "VNY",
-        "origin_airport_name": "Van Nuys Airport",
-        "origin_city": "Van Nuys",
-        "origin_country": "US",
-        "destination_airport_raw": "CYVR - Vancouver International Airport",
-        "destination_icao": "CYVR",
-        "destination_iata": "YVR",
-        "destination_airport_name": "Vancouver International Airport",
-        "destination_city": "Richmond",
-        "destination_country": "CA",
-        "departure_date_raw": "25 August 2026",
-        "departure_date_iso": "2026-08-25",
-        "departure_time": "12:00",
-        "arrival_time": "14:27",
-        "flight_duration": "2h 28m",
-        "price_raw": "$12,900",
-        "price_amount": "12900",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "10",
-        "tracking_link": "https://villiers.ai/empty-legs/kvny-cyvr-challenger-300-2026-08-25-88216ab0?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/kvny-cyvr-challenger-300-2026-08-25-88216ab0?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/kvny-cyvr-challenger-300-2026-08-25-88216ab0?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/tjig-khrf-citation-x-2026-08-25-181a485f?id=ADHUHR": {
@@ -2384,9 +2343,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/tjig-khrf-citation-x-2026-08-25-181a485f?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Fernando Luis Ribas Dominicci Airport → Ravalli County Airport | $12,900",
         "description": "",
@@ -2417,7 +2376,7 @@
         "rss_link": "https://villiers.ai/empty-legs/tjig-khrf-citation-x-2026-08-25-181a485f?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/tjig-khrf-citation-x-2026-08-25-181a485f?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:06 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khpn-kfok-citation-x-2026-08-25-c630752b?id=ADHUHR": {
@@ -2425,9 +2384,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khpn-kfok-citation-x-2026-08-25-c630752b?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Westchester County Airport → Francis S Gabreski Airport | $8,600",
         "description": "",
@@ -2458,7 +2417,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khpn-kfok-citation-x-2026-08-25-c630752b?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khpn-kfok-citation-x-2026-08-25-c630752b?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:06 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kaus-kbpt-cessna-citation-v-2026-08-25-ca291c93?id=ADHUHR": {
@@ -2466,9 +2425,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kaus-kbpt-cessna-citation-v-2026-08-25-ca291c93?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation V | Austin Bergstrom International Airport → Jack Brooks Regional Airport | $2,795",
         "description": "",
@@ -2499,48 +2458,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kaus-kbpt-cessna-citation-v-2026-08-25-ca291c93?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kaus-kbpt-cessna-citation-v-2026-08-25-ca291c93?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:23:21 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/kapa-kflg-challenger-300-2026-08-25-e370b039?id=ADHUHR": {
-      "fingerprint": "b882573c0c4bc6215564b5199284e8994ef50aa0c1a55149f7afcf2bded4082d",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/kapa-kflg-challenger-300-2026-08-25-e370b039?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Challenger 300 | Centennial Airport → Flagstaff Pulliam International Airport | $10,750",
-        "description": "",
-        "aircraft_type": "Challenger 300",
-        "origin_airport_raw": "KAPA - Centennial Airport",
-        "origin_icao": "KAPA",
-        "origin_iata": "APA",
-        "origin_airport_name": "Centennial Airport",
-        "origin_city": "Denver",
-        "origin_country": "US",
-        "destination_airport_raw": "KFLG - Flagstaff Pulliam International Airport",
-        "destination_icao": "KFLG",
-        "destination_iata": "FLG",
-        "destination_airport_name": "Flagstaff Pulliam Airport",
-        "destination_city": "Flagstaff",
-        "destination_country": "US",
-        "departure_date_raw": "25 August 2026",
-        "departure_date_iso": "2026-08-25",
-        "departure_time": "12:00",
-        "arrival_time": "13:23",
-        "flight_duration": "1h 24m",
-        "price_raw": "$10,750",
-        "price_amount": "10750",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "10",
-        "tracking_link": "https://villiers.ai/empty-legs/kapa-kflg-challenger-300-2026-08-25-e370b039?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/kapa-kflg-challenger-300-2026-08-25-e370b039?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/kapa-kflg-challenger-300-2026-08-25-e370b039?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kvny-kabq-citation-x-2026-08-25-fe40ab44?id=ADHUHR": {
@@ -2548,9 +2466,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kvny-kabq-citation-x-2026-08-25-fe40ab44?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Van Nuys Airport → Albuquerque International Sunport | $9,675",
         "description": "",
@@ -2581,48 +2499,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kvny-kabq-citation-x-2026-08-25-fe40ab44?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kvny-kabq-citation-x-2026-08-25-fe40ab44?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:05 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/khdn-knuq-challenger-300-2026-08-25-3bf57811?id=ADHUHR": {
-      "fingerprint": "e634b89e96d721ef08e6f576f278ecf7501fe99369c80e85fea7f9d084be7bba",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/khdn-knuq-challenger-300-2026-08-25-3bf57811?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Challenger 300 | Yampa Valley Airport → Moffett Federal Airfield | $12,900",
-        "description": "",
-        "aircraft_type": "Challenger 300",
-        "origin_airport_raw": "KHDN - Yampa Valley Airport",
-        "origin_icao": "KHDN",
-        "origin_iata": "HDN",
-        "origin_airport_name": "Yampa Valley Airport",
-        "origin_city": "Hayden",
-        "origin_country": "US",
-        "destination_airport_raw": "KNUQ - Moffett Federal Airfield",
-        "destination_icao": "KNUQ",
-        "destination_iata": "NUQ",
-        "destination_airport_name": "Moffett Federal Airfield",
-        "destination_city": "Mountain View",
-        "destination_country": "US",
-        "departure_date_raw": "25 August 2026",
-        "departure_date_iso": "2026-08-25",
-        "departure_time": "12:00",
-        "arrival_time": "14:01",
-        "flight_duration": "2h 1m",
-        "price_raw": "$12,900",
-        "price_amount": "12900",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "10",
-        "tracking_link": "https://villiers.ai/empty-legs/khdn-knuq-challenger-300-2026-08-25-3bf57811?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/khdn-knuq-challenger-300-2026-08-25-3bf57811?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/khdn-knuq-challenger-300-2026-08-25-3bf57811?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/ktvl-kflg-citation-x-2026-08-25-0468c96c?id=ADHUHR": {
@@ -2630,9 +2507,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/ktvl-kflg-citation-x-2026-08-25-0468c96c?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Lake Tahoe Airport → Flagstaff Pulliam International Airport | $8,600",
         "description": "",
@@ -2663,48 +2540,7 @@
         "rss_link": "https://villiers.ai/empty-legs/ktvl-kflg-citation-x-2026-08-25-0468c96c?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/ktvl-kflg-citation-x-2026-08-25-0468c96c?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:06 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/kjac-ksba-challenger-300-2026-08-25-f6a784fb?id=ADHUHR": {
-      "fingerprint": "e0b81e96d2566c06719ea9d090ae9571125943130d43be85897108afb0557945",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/kjac-ksba-challenger-300-2026-08-25-f6a784fb?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Challenger 300 | Jackson Hole Airport → Santa Barbara Municipal Airport | $15,050",
-        "description": "",
-        "aircraft_type": "Challenger 300",
-        "origin_airport_raw": "KJAC - Jackson Hole Airport",
-        "origin_icao": "KJAC",
-        "origin_iata": "JAC",
-        "origin_airport_name": "Jackson Hole Airport",
-        "origin_city": "Jackson",
-        "origin_country": "US",
-        "destination_airport_raw": "KSBA - Santa Barbara Municipal Airport",
-        "destination_icao": "KSBA",
-        "destination_iata": "SBA",
-        "destination_airport_name": "Santa Barbara Municipal Airport",
-        "destination_city": "Santa Barbara",
-        "destination_country": "US",
-        "departure_date_raw": "25 August 2026",
-        "departure_date_iso": "2026-08-25",
-        "departure_time": "12:00",
-        "arrival_time": "13:58",
-        "flight_duration": "1h 59m",
-        "price_raw": "$15,050",
-        "price_amount": "15050",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "10",
-        "tracking_link": "https://villiers.ai/empty-legs/kjac-ksba-challenger-300-2026-08-25-f6a784fb?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/kjac-ksba-challenger-300-2026-08-25-f6a784fb?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/kjac-ksba-challenger-300-2026-08-25-f6a784fb?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kbur-sf_all-citation-x-2026-08-25-019e66f6?id=ADHUHR": {
@@ -2712,9 +2548,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kbur-sf_all-citation-x-2026-08-25-019e66f6?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Hollywood Burbank Airport → All San Francisco, United States Airports | $8,600",
         "description": "",
@@ -2745,48 +2581,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kbur-sf_all-citation-x-2026-08-25-019e66f6?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kbur-sf_all-citation-x-2026-08-25-019e66f6?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:05 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
-      }
-    },
-    "https://villiers.ai/empty-legs/kmia-kphx-challenger-300-2026-08-25-582464f9?id=ADHUHR": {
-      "fingerprint": "5954fac30b321da065735b6f4c063b99aac499714fb79a2b46bacadb4aa09842",
-      "row": {
-        "source_id": "https://villiers.ai/empty-legs/kmia-kphx-challenger-300-2026-08-25-582464f9?id=ADHUHR",
-        "status": "active",
-        "change_type": "new",
-        "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
-        "inactive_since": "",
-        "title": "Challenger 300 | Miami International Airport → Phoenix Sky Harbor International Airport | $32,250",
-        "description": "",
-        "aircraft_type": "Challenger 300",
-        "origin_airport_raw": "KMIA - Miami International Airport",
-        "origin_icao": "KMIA",
-        "origin_iata": "MIA",
-        "origin_airport_name": "Miami International Airport",
-        "origin_city": "Miami",
-        "origin_country": "US",
-        "destination_airport_raw": "KPHX - Phoenix Sky Harbor International Airport",
-        "destination_icao": "KPHX",
-        "destination_iata": "PHX",
-        "destination_airport_name": "Phoenix Sky Harbor International Airport",
-        "destination_city": "Phoenix",
-        "destination_country": "US",
-        "departure_date_raw": "25 August 2026",
-        "departure_date_iso": "2026-08-25",
-        "departure_time": "12:00",
-        "arrival_time": "16:08",
-        "flight_duration": "4h 8m",
-        "price_raw": "$32,250",
-        "price_amount": "32250",
-        "price_currency": "USD",
-        "price_currency_symbol": "$",
-        "seats_available": "10",
-        "tracking_link": "https://villiers.ai/empty-legs/kmia-kphx-challenger-300-2026-08-25-582464f9?id=ADHUHR",
-        "rss_link": "https://villiers.ai/empty-legs/kmia-kphx-challenger-300-2026-08-25-582464f9?id=ADHUHR",
-        "booking_link": "https://villiers.ai/empty-legs/kmia-kphx-challenger-300-2026-08-25-582464f9?id=ADHUHR",
-        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kfok-kmaf-citation-x-2026-08-25-32b214e1?id=ADHUHR": {
@@ -2794,9 +2589,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kfok-kmaf-citation-x-2026-08-25-32b214e1?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Francis S Gabreski Airport → Midland International Air and Space Port | $15,050",
         "description": "",
@@ -2827,7 +2622,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kfok-kmaf-citation-x-2026-08-25-32b214e1?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kfok-kmaf-citation-x-2026-08-25-32b214e1?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:06 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/ksyr-kfwa-citation-x-2026-08-25-8cd1decc?id=ADHUHR": {
@@ -2835,9 +2630,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/ksyr-kfwa-citation-x-2026-08-25-8cd1decc?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Syracuse Hancock International Airport → Fort Wayne International Airport | $9,675",
         "description": "",
@@ -2868,7 +2663,7 @@
         "rss_link": "https://villiers.ai/empty-legs/ksyr-kfwa-citation-x-2026-08-25-8cd1decc?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/ksyr-kfwa-citation-x-2026-08-25-8cd1decc?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:06 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/ktpa-kfll-citation-x-2026-08-25-6e1de733?id=ADHUHR": {
@@ -2876,9 +2671,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/ktpa-kfll-citation-x-2026-08-25-6e1de733?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | Tampa International Airport → Fort Lauderdale Hollywood International Airport | $8,600",
         "description": "",
@@ -2909,7 +2704,7 @@
         "rss_link": "https://villiers.ai/empty-legs/ktpa-kfll-citation-x-2026-08-25-6e1de733?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/ktpa-kfll-citation-x-2026-08-25-6e1de733?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:06 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/ksna-kjhw-citation-x-2026-08-25-a4d228e7?id=ADHUHR": {
@@ -2917,9 +2712,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/ksna-kjhw-citation-x-2026-08-25-a4d228e7?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation X | John Wayne Orange County International Airport → Chautauqua County-Jamestown Airport | $25,800",
         "description": "",
@@ -2950,7 +2745,7 @@
         "rss_link": "https://villiers.ai/empty-legs/ksna-kjhw-citation-x-2026-08-25-a4d228e7?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/ksna-kjhw-citation-x-2026-08-25-a4d228e7?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:22:06 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kmaf-kdal-cessna-citation-ultra-2026-08-25-2897d6fc?id=ADHUHR": {
@@ -2960,7 +2755,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-17T14:47:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Midland International Air and Space Port → Dallas Love Field | $3,118",
         "description": "",
@@ -2991,7 +2786,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kmaf-kdal-cessna-citation-ultra-2026-08-25-2897d6fc?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kmaf-kdal-cessna-citation-ultra-2026-08-25-2897d6fc?id=ADHUHR",
         "published": "Mon, 17 Aug 2026 14:28:55 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kmaf-khou-cessna-citation-ultra-2026-08-25-aa52ec7a?id=ADHUHR": {
@@ -3001,7 +2796,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-18T17:47:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Midland International Air and Space Port → William P. Hobby Airport | $4,193",
         "description": "",
@@ -3032,7 +2827,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kmaf-khou-cessna-citation-ultra-2026-08-25-aa52ec7a?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kmaf-khou-cessna-citation-ultra-2026-08-25-aa52ec7a?id=ADHUHR",
         "published": "Tue, 18 Aug 2026 17:30:04 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kdal-mrlb-2026-08-25?id=ADHUHR": {
@@ -3042,7 +2837,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Bombardier Challenger 604 | Dallas Love Field → Guanacaste Airport | $23,220",
         "description": "",
@@ -3073,7 +2868,212 @@
         "rss_link": "https://villiers.ai/empty-legs/kdal-mrlb-2026-08-25?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kdal-mrlb-2026-08-25?id=ADHUHR",
         "published": "Tue, 07 Jul 2026 13:58:53 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/kvny-cyvr-challenger-300-2026-08-25-88216ab0?id=ADHUHR": {
+      "fingerprint": "6514d631b5aaca8c0f87967a1bfbc6d9ed89b8e44d27a0b52fe3255ab71c0b5a",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/kvny-cyvr-challenger-300-2026-08-25-88216ab0?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Challenger 300 | Van Nuys Airport → Vancouver International Airport | $12,900",
+        "description": "",
+        "aircraft_type": "Challenger 300",
+        "origin_airport_raw": "KVNY - Van Nuys Airport",
+        "origin_icao": "KVNY",
+        "origin_iata": "VNY",
+        "origin_airport_name": "Van Nuys Airport",
+        "origin_city": "Van Nuys",
+        "origin_country": "US",
+        "destination_airport_raw": "CYVR - Vancouver International Airport",
+        "destination_icao": "CYVR",
+        "destination_iata": "YVR",
+        "destination_airport_name": "Vancouver International Airport",
+        "destination_city": "Richmond",
+        "destination_country": "CA",
+        "departure_date_raw": "25 August 2026",
+        "departure_date_iso": "2026-08-25",
+        "departure_time": "12:00",
+        "arrival_time": "14:27",
+        "flight_duration": "2h 28m",
+        "price_raw": "$12,900",
+        "price_amount": "12900",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "10",
+        "tracking_link": "https://villiers.ai/empty-legs/kvny-cyvr-challenger-300-2026-08-25-88216ab0?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/kvny-cyvr-challenger-300-2026-08-25-88216ab0?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/kvny-cyvr-challenger-300-2026-08-25-88216ab0?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/kapa-kflg-challenger-300-2026-08-25-e370b039?id=ADHUHR": {
+      "fingerprint": "b882573c0c4bc6215564b5199284e8994ef50aa0c1a55149f7afcf2bded4082d",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/kapa-kflg-challenger-300-2026-08-25-e370b039?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Challenger 300 | Centennial Airport → Flagstaff Pulliam International Airport | $10,750",
+        "description": "",
+        "aircraft_type": "Challenger 300",
+        "origin_airport_raw": "KAPA - Centennial Airport",
+        "origin_icao": "KAPA",
+        "origin_iata": "APA",
+        "origin_airport_name": "Centennial Airport",
+        "origin_city": "Denver",
+        "origin_country": "US",
+        "destination_airport_raw": "KFLG - Flagstaff Pulliam International Airport",
+        "destination_icao": "KFLG",
+        "destination_iata": "FLG",
+        "destination_airport_name": "Flagstaff Pulliam Airport",
+        "destination_city": "Flagstaff",
+        "destination_country": "US",
+        "departure_date_raw": "25 August 2026",
+        "departure_date_iso": "2026-08-25",
+        "departure_time": "12:00",
+        "arrival_time": "13:23",
+        "flight_duration": "1h 24m",
+        "price_raw": "$10,750",
+        "price_amount": "10750",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "10",
+        "tracking_link": "https://villiers.ai/empty-legs/kapa-kflg-challenger-300-2026-08-25-e370b039?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/kapa-kflg-challenger-300-2026-08-25-e370b039?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/kapa-kflg-challenger-300-2026-08-25-e370b039?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/khdn-knuq-challenger-300-2026-08-25-3bf57811?id=ADHUHR": {
+      "fingerprint": "e634b89e96d721ef08e6f576f278ecf7501fe99369c80e85fea7f9d084be7bba",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/khdn-knuq-challenger-300-2026-08-25-3bf57811?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Challenger 300 | Yampa Valley Airport → Moffett Federal Airfield | $12,900",
+        "description": "",
+        "aircraft_type": "Challenger 300",
+        "origin_airport_raw": "KHDN - Yampa Valley Airport",
+        "origin_icao": "KHDN",
+        "origin_iata": "HDN",
+        "origin_airport_name": "Yampa Valley Airport",
+        "origin_city": "Hayden",
+        "origin_country": "US",
+        "destination_airport_raw": "KNUQ - Moffett Federal Airfield",
+        "destination_icao": "KNUQ",
+        "destination_iata": "NUQ",
+        "destination_airport_name": "Moffett Federal Airfield",
+        "destination_city": "Mountain View",
+        "destination_country": "US",
+        "departure_date_raw": "25 August 2026",
+        "departure_date_iso": "2026-08-25",
+        "departure_time": "12:00",
+        "arrival_time": "14:01",
+        "flight_duration": "2h 1m",
+        "price_raw": "$12,900",
+        "price_amount": "12900",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "10",
+        "tracking_link": "https://villiers.ai/empty-legs/khdn-knuq-challenger-300-2026-08-25-3bf57811?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/khdn-knuq-challenger-300-2026-08-25-3bf57811?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/khdn-knuq-challenger-300-2026-08-25-3bf57811?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/kjac-ksba-challenger-300-2026-08-25-f6a784fb?id=ADHUHR": {
+      "fingerprint": "e0b81e96d2566c06719ea9d090ae9571125943130d43be85897108afb0557945",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/kjac-ksba-challenger-300-2026-08-25-f6a784fb?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Challenger 300 | Jackson Hole Airport → Santa Barbara Municipal Airport | $15,050",
+        "description": "",
+        "aircraft_type": "Challenger 300",
+        "origin_airport_raw": "KJAC - Jackson Hole Airport",
+        "origin_icao": "KJAC",
+        "origin_iata": "JAC",
+        "origin_airport_name": "Jackson Hole Airport",
+        "origin_city": "Jackson",
+        "origin_country": "US",
+        "destination_airport_raw": "KSBA - Santa Barbara Municipal Airport",
+        "destination_icao": "KSBA",
+        "destination_iata": "SBA",
+        "destination_airport_name": "Santa Barbara Municipal Airport",
+        "destination_city": "Santa Barbara",
+        "destination_country": "US",
+        "departure_date_raw": "25 August 2026",
+        "departure_date_iso": "2026-08-25",
+        "departure_time": "12:00",
+        "arrival_time": "13:58",
+        "flight_duration": "1h 59m",
+        "price_raw": "$15,050",
+        "price_amount": "15050",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "10",
+        "tracking_link": "https://villiers.ai/empty-legs/kjac-ksba-challenger-300-2026-08-25-f6a784fb?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/kjac-ksba-challenger-300-2026-08-25-f6a784fb?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/kjac-ksba-challenger-300-2026-08-25-f6a784fb?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
+      }
+    },
+    "https://villiers.ai/empty-legs/kmia-kphx-challenger-300-2026-08-25-582464f9?id=ADHUHR": {
+      "fingerprint": "5954fac30b321da065735b6f4c063b99aac499714fb79a2b46bacadb4aa09842",
+      "row": {
+        "source_id": "https://villiers.ai/empty-legs/kmia-kphx-challenger-300-2026-08-25-582464f9?id=ADHUHR",
+        "status": "active",
+        "change_type": "unchanged",
+        "first_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
+        "inactive_since": "",
+        "title": "Challenger 300 | Miami International Airport → Phoenix Sky Harbor International Airport | $32,250",
+        "description": "",
+        "aircraft_type": "Challenger 300",
+        "origin_airport_raw": "KMIA - Miami International Airport",
+        "origin_icao": "KMIA",
+        "origin_iata": "MIA",
+        "origin_airport_name": "Miami International Airport",
+        "origin_city": "Miami",
+        "origin_country": "US",
+        "destination_airport_raw": "KPHX - Phoenix Sky Harbor International Airport",
+        "destination_icao": "KPHX",
+        "destination_iata": "PHX",
+        "destination_airport_name": "Phoenix Sky Harbor International Airport",
+        "destination_city": "Phoenix",
+        "destination_country": "US",
+        "departure_date_raw": "25 August 2026",
+        "departure_date_iso": "2026-08-25",
+        "departure_time": "12:00",
+        "arrival_time": "16:08",
+        "flight_duration": "4h 8m",
+        "price_raw": "$32,250",
+        "price_amount": "32250",
+        "price_currency": "USD",
+        "price_currency_symbol": "$",
+        "seats_available": "10",
+        "tracking_link": "https://villiers.ai/empty-legs/kmia-kphx-challenger-300-2026-08-25-582464f9?id=ADHUHR",
+        "rss_link": "https://villiers.ai/empty-legs/kmia-kphx-challenger-300-2026-08-25-582464f9?id=ADHUHR",
+        "booking_link": "https://villiers.ai/empty-legs/kmia-kphx-challenger-300-2026-08-25-582464f9?id=ADHUHR",
+        "published": "Sun, 23 Aug 2026 18:22:00 GMT",
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khou-kftw-2026-08-27?id=ADHUHR": {
@@ -3083,7 +3083,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Bombardier Challenger 604 | William P. Hobby Airport → Fort Worth Meacham International Airport | $7,095",
         "description": "",
@@ -3114,7 +3114,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khou-kftw-2026-08-27?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khou-kftw-2026-08-27?id=ADHUHR",
         "published": "Wed, 15 Jul 2026 14:20:14 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khou-kpne-cessna-citation-ultra-2026-08-27-d7cf87e0?id=ADHUHR": {
@@ -3122,9 +3122,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kpne-cessna-citation-ultra-2026-08-27-d7cf87e0?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | William P. Hobby Airport → Northeast Philadelphia Airport | $10,320",
         "description": "",
@@ -3155,7 +3155,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khou-kpne-cessna-citation-ultra-2026-08-27-d7cf87e0?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khou-kpne-cessna-citation-ultra-2026-08-27-d7cf87e0?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:23:22 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kdal-kpne-cessna-citation-ultra-2026-08-27-ddc0da74?id=ADHUHR": {
@@ -3165,7 +3165,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-19T23:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Dallas Love Field → Northeast Philadelphia Airport | $9,998",
         "description": "",
@@ -3196,7 +3196,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kdal-kpne-cessna-citation-ultra-2026-08-27-ddc0da74?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kdal-kpne-cessna-citation-ultra-2026-08-27-ddc0da74?id=ADHUHR",
         "published": "Wed, 19 Aug 2026 22:51:09 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khou-kbfl-cessna-citation-ultra-2026-08-27-dbfec96a?id=ADHUHR": {
@@ -3206,7 +3206,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-19T23:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | William P. Hobby Airport → Meadows Field | $14,190",
         "description": "",
@@ -3237,7 +3237,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khou-kbfl-cessna-citation-ultra-2026-08-27-dbfec96a?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khou-kbfl-cessna-citation-ultra-2026-08-27-dbfec96a?id=ADHUHR",
         "published": "Wed, 19 Aug 2026 22:51:09 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kbpt-kbfl-cessna-citation-ultra-2026-08-27-86b5923d?id=ADHUHR": {
@@ -3247,7 +3247,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-23T04:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Jack Brooks Regional Airport → Meadows Field | $14,835",
         "description": "",
@@ -3278,7 +3278,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kbpt-kbfl-cessna-citation-ultra-2026-08-27-86b5923d?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kbpt-kbfl-cessna-citation-ultra-2026-08-27-86b5923d?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 04:28:21 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kbpt-kpne-cessna-citation-ultra-2026-08-27-7513bfe2?id=ADHUHR": {
@@ -3288,7 +3288,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-23T04:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Jack Brooks Regional Airport → Northeast Philadelphia Airport | $9,998",
         "description": "",
@@ -3319,7 +3319,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kbpt-kpne-cessna-citation-ultra-2026-08-27-7513bfe2?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kbpt-kpne-cessna-citation-ultra-2026-08-27-7513bfe2?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 04:28:21 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kftw-khou-2026-08-28?id=ADHUHR": {
@@ -3329,7 +3329,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Bombardier Challenger 604 | Fort Worth Meacham International Airport → William P. Hobby Airport | $6,343",
         "description": "",
@@ -3360,7 +3360,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kftw-khou-2026-08-28?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kftw-khou-2026-08-28?id=ADHUHR",
         "published": "Thu, 30 Jul 2026 14:21:38 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khou-kdal-cessna-citation-ultra-2026-08-28-0ab68992?id=ADHUHR": {
@@ -3370,7 +3370,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-18T17:47:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | William P. Hobby Airport → Dallas Love Field | $3,118",
         "description": "",
@@ -3401,7 +3401,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khou-kdal-cessna-citation-ultra-2026-08-28-0ab68992?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khou-kdal-cessna-citation-ultra-2026-08-28-0ab68992?id=ADHUHR",
         "published": "Tue, 18 Aug 2026 17:30:04 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kprb-kcrq-beechjet-400a-2026-08-28-a8fc1956?id=ADHUHR": {
@@ -3411,7 +3411,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-18T22:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Beechjet 400A | Paso Robles Municipal Airport → McClellan-Palomar Airport | $5,375",
         "description": "",
@@ -3442,7 +3442,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kprb-kcrq-beechjet-400a-2026-08-28-a8fc1956?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kprb-kcrq-beechjet-400a-2026-08-28-a8fc1956?id=ADHUHR",
         "published": "Tue, 18 Aug 2026 21:56:48 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kcrq-ksdf-cj3-2026-08-28-4c1f626b?id=ADHUHR": {
@@ -3452,7 +3452,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-18T22:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "CJ3 | McClellan-Palomar Airport → Louisville Muhammad Ali International Airport | $21,500",
         "description": "",
@@ -3483,7 +3483,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kcrq-ksdf-cj3-2026-08-28-4c1f626b?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kcrq-ksdf-cj3-2026-08-28-4c1f626b?id=ADHUHR",
         "published": "Tue, 18 Aug 2026 21:56:49 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kpne-kfok-cessna-citation-ultra-2026-08-28-257926c1?id=ADHUHR": {
@@ -3493,7 +3493,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-08T00:17:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Northeast Philadelphia Airport → Francis S Gabreski Airport | $1,720",
         "description": "",
@@ -3524,7 +3524,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kpne-kfok-cessna-citation-ultra-2026-08-28-257926c1?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kpne-kfok-cessna-citation-ultra-2026-08-28-257926c1?id=ADHUHR",
         "published": "Fri, 07 Aug 2026 14:24:20 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/khml-kcrq-hawker-900xp-2026-08-28-622e6c5d?id=ADHUHR": {
@@ -3534,7 +3534,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-18T22:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Hawker 900XP | Hamilton Municipal Airport → McClellan-Palomar Airport | $16,125",
         "description": "",
@@ -3565,7 +3565,7 @@
         "rss_link": "https://villiers.ai/empty-legs/khml-kcrq-hawker-900xp-2026-08-28-622e6c5d?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/khml-kcrq-hawker-900xp-2026-08-28-622e6c5d?id=ADHUHR",
         "published": "Tue, 18 Aug 2026 21:56:49 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kfok-khou-bombardier-challenger-300-2026-08-28-c73a70b8?id=ADHUHR": {
@@ -3575,7 +3575,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-23T04:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Bombardier Challenger 300 | Francis S Gabreski Airport → William P. Hobby Airport | $26,768",
         "description": "",
@@ -3606,7 +3606,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kfok-khou-bombardier-challenger-300-2026-08-28-c73a70b8?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kfok-khou-bombardier-challenger-300-2026-08-28-c73a70b8?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 04:28:21 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/eglf-leib-aircraft-2026-08-29-1f2e01e6?id=ADHUHR": {
@@ -3616,7 +3616,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-14T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Private Jet | Farnborough Airport → Ibiza Airport | £15,910",
         "description": "",
@@ -3647,7 +3647,7 @@
         "rss_link": "https://villiers.ai/empty-legs/eglf-leib-aircraft-2026-08-29-1f2e01e6?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/eglf-leib-aircraft-2026-08-29-1f2e01e6?id=ADHUHR",
         "published": "Fri, 14 Aug 2026 18:19:45 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-08-29-ae88811f?id=ADHUHR": {
@@ -3657,7 +3657,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-14T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Private Jet | London Luton Airport → Palma de Mallorca Airport | £10,213",
         "description": "",
@@ -3688,7 +3688,7 @@
         "rss_link": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-08-29-ae88811f?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-08-29-ae88811f?id=ADHUHR",
         "published": "Fri, 14 Aug 2026 18:19:45 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/ktrk-kcrq-beechjet-400a-2026-08-29-a372e5c1?id=ADHUHR": {
@@ -3698,7 +3698,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-18T22:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Beechjet 400A | Truckee Tahoe Airport → McClellan-Palomar Airport | $8,600",
         "description": "",
@@ -3729,7 +3729,7 @@
         "rss_link": "https://villiers.ai/empty-legs/ktrk-kcrq-beechjet-400a-2026-08-29-a372e5c1?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/ktrk-kcrq-beechjet-400a-2026-08-29-a372e5c1?id=ADHUHR",
         "published": "Tue, 18 Aug 2026 21:56:49 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kdal-kamw-cessna-citation-v-2026-08-30-b55c5238?id=ADHUHR": {
@@ -3737,9 +3737,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kdal-kamw-cessna-citation-v-2026-08-30-b55c5238?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation V | Dallas Love Field → Ames Municipal Airport | $6,235",
         "description": "",
@@ -3770,7 +3770,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kdal-kamw-cessna-citation-v-2026-08-30-b55c5238?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kdal-kamw-cessna-citation-v-2026-08-30-b55c5238?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:23:23 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kamw-khou-cessna-citation-ultra-2026-08-30-ef0296f0?id=ADHUHR": {
@@ -3778,9 +3778,9 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kamw-khou-cessna-citation-ultra-2026-08-30-ef0296f0?id=ADHUHR",
         "status": "active",
-        "change_type": "new",
+        "change_type": "unchanged",
         "first_seen_at": "2026-08-23T18:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Ames Municipal Airport → William P. Hobby Airport | $8,600",
         "description": "",
@@ -3811,7 +3811,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kamw-khou-cessna-citation-ultra-2026-08-30-ef0296f0?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kamw-khou-cessna-citation-ultra-2026-08-30-ef0296f0?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 18:23:23 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/ksbm-kmyj-pilatus-pc-12-ng-2026-08-30-d6ddd487?id=ADHUHR": {
@@ -3821,7 +3821,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-15T14:17:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Pilatus PC 12 NG | Sheboygan County Memorial Airport → Mexico Memorial Airport | $5,375",
         "description": "",
@@ -3852,7 +3852,7 @@
         "rss_link": "https://villiers.ai/empty-legs/ksbm-kmyj-pilatus-pc-12-ng-2026-08-30-d6ddd487?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/ksbm-kmyj-pilatus-pc-12-ng-2026-08-30-d6ddd487?id=ADHUHR",
         "published": "Sat, 15 Aug 2026 14:13:15 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/ktvc-ksbm-pilatus-pc-12-ng-2026-08-30-d21f52ff?id=ADHUHR": {
@@ -3862,7 +3862,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-15T14:17:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Pilatus PC 12 NG | Cherry Capital Airport → Sheboygan County Memorial Airport | $3,010",
         "description": "",
@@ -3893,7 +3893,7 @@
         "rss_link": "https://villiers.ai/empty-legs/ktvc-ksbm-pilatus-pc-12-ng-2026-08-30-d21f52ff?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/ktvc-ksbm-pilatus-pc-12-ng-2026-08-30-d21f52ff?id=ADHUHR",
         "published": "Sat, 15 Aug 2026 14:13:15 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-ultra-2026-08-30-f3713b95?id=ADHUHR": {
@@ -3903,7 +3903,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-18T17:47:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Dallas Love Field → William P. Hobby Airport | $2,795",
         "description": "",
@@ -3934,7 +3934,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-ultra-2026-08-30-f3713b95?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-ultra-2026-08-30-f3713b95?id=ADHUHR",
         "published": "Tue, 18 Aug 2026 17:30:04 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/eglf-lfpb-2026-08-30?id=ADHUHR": {
@@ -3944,7 +3944,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Citation XLS+ | Farnborough Airport → Paris Le Bourget Airport | £10,213",
         "description": "",
@@ -3975,7 +3975,7 @@
         "rss_link": "https://villiers.ai/empty-legs/eglf-lfpb-2026-08-30?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/eglf-lfpb-2026-08-30?id=ADHUHR",
         "published": "Fri, 17 Jul 2026 22:25:16 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kfok-kpne-cessna-citation-ultra-2026-08-30-c0176eaf?id=ADHUHR": {
@@ -3985,7 +3985,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-08T00:17:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Francis S Gabreski Airport → Northeast Philadelphia Airport | $2,473",
         "description": "",
@@ -4016,7 +4016,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kfok-kpne-cessna-citation-ultra-2026-08-30-c0176eaf?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kfok-kpne-cessna-citation-ultra-2026-08-30-c0176eaf?id=ADHUHR",
         "published": "Fri, 07 Aug 2026 14:24:21 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kfok-khou-cessna-citation-ultra-2026-08-30-4e380b26?id=ADHUHR": {
@@ -4026,7 +4026,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-19T23:17:01+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Francis S Gabreski Airport → William P. Hobby Airport | $15,158",
         "description": "",
@@ -4057,7 +4057,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kfok-khou-cessna-citation-ultra-2026-08-30-4e380b26?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kfok-khou-cessna-citation-ultra-2026-08-30-4e380b26?id=ADHUHR",
         "published": "Wed, 19 Aug 2026 22:51:09 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/kfok-kdal-cessna-citation-ultra-2026-08-30-20f8967f?id=ADHUHR": {
@@ -4067,7 +4067,7 @@
         "status": "active",
         "change_type": "unchanged",
         "first_seen_at": "2026-08-23T04:47:02+00:00",
-        "last_seen_at": "2026-08-23T18:47:02+00:00",
+        "last_seen_at": "2026-08-23T19:17:01+00:00",
         "inactive_since": "",
         "title": "Cessna Citation Ultra | Francis S Gabreski Airport → Dallas Love Field | $15,158",
         "description": "",
@@ -4098,7 +4098,7 @@
         "rss_link": "https://villiers.ai/empty-legs/kfok-kdal-cessna-citation-ultra-2026-08-30-20f8967f?id=ADHUHR",
         "booking_link": "https://villiers.ai/empty-legs/kfok-kdal-cessna-citation-ultra-2026-08-30-20f8967f?id=ADHUHR",
         "published": "Sun, 23 Aug 2026 04:28:22 GMT",
-        "fetched_at": "2026-08-23T18:47:02+00:00"
+        "fetched_at": "2026-08-23T19:17:01+00:00"
       }
     },
     "https://villiers.ai/empty-legs/eggw-lszh-aircraft-2026-09-02-a3efb61d?id=ADHUHR": {
@@ -4106,7 +4106,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/eggw-lszh-aircraft-2026-09-02-a3efb61d?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-14T18:47:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4147,7 +4147,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kaus-khou-pilatus-pc-12-ng-2026-09-02-441f07d4?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-08T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4188,7 +4188,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/eggw-lfbo-aircraft-2026-09-03-41ddde01?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-14T18:47:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4229,7 +4229,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-khqz-cessna-citation-v-2026-09-03-56c8f80f?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-20T21:47:01+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4270,7 +4270,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kpil-khou-2026-09-04?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4311,7 +4311,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kpil-kiws-2026-09-04?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4352,7 +4352,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kgtu-aircraft-2026-09-04-8b9a3416?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-14T14:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4393,7 +4393,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khqz-kgtu-cessna-citation-v-2026-09-04-1f649e83?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-21T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4434,7 +4434,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/knew-khou-cessna-citation-ultra-2026-09-04-ce279168?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-21T18:47:01+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4475,7 +4475,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kmdw-kopf-2026-09-04?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4516,7 +4516,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kxna-khou-aircraft-2026-09-05-21018cde?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-14T14:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4557,7 +4557,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kaus-bombardier-challenger-604-2026-09-05-078d4627?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-21T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4598,7 +4598,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kxna-cessna-citation-ultra-2026-09-07-37c8131e?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-21T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4639,7 +4639,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kftw-2026-09-08?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4680,7 +4680,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kgtu-kftw-cessna-citation-ultra-2026-09-08-b2859fdc?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-21T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4721,7 +4721,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kopf-kmdw-2026-09-08?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4762,7 +4762,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kaus-khou-bombardier-challenger-604-2026-09-08-91a072c3?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-21T18:47:01+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4803,7 +4803,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kerv-cessna-citation-ultra-2026-09-09-100d1091?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-19T23:17:01+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4844,7 +4844,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kiws-kpil-2026-09-10?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4885,7 +4885,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kftw-khou-2026-09-11?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4926,7 +4926,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kdal-khys-cessna-citation-ultra-2026-09-11-63128f98?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-19T00:17:03+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -4967,7 +4967,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kftw-khys-cessna-citation-ultra-2026-09-11-26d261c5?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-19T23:17:01+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5008,7 +5008,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-v-2026-09-12-112f0f48?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-10T14:17:01+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5049,7 +5049,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kerv-khou-cessna-citation-ultra-2026-09-12-63d72fa0?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-19T23:17:01+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5090,7 +5090,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/eglf-lsgs-aircraft-2026-09-13-cbdbce82?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-14T18:47:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5131,7 +5131,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khys-kapa-cessna-citation-ultra-2026-09-13-893ebe50?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-19T00:17:03+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5172,7 +5172,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khys-khou-cessna-citation-ultra-2026-09-13-1c1ae741?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-19T23:17:01+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5213,7 +5213,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-09-14-47a7f05f?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-14T18:47:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5254,7 +5254,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/egkb-lepa-hawker-400xp-2026-09-14-924d9f46?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-09T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5295,7 +5295,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/eggw-lfpb-aircraft-2026-09-22-64acf40b?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-14T18:47:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5336,7 +5336,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/ktys-khou-cessna-citation-v-2026-09-25-e64dae99?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-22T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5377,7 +5377,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kfwa-ktys-cessna-citation-v-2026-09-25-ea8c1f15?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-22T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5418,7 +5418,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kfwa-khou-cessna-citation-ultra-2026-09-25-e87bee37?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-20T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5459,7 +5459,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kosu-pilatus-pc-12-ng-2026-09-29-f28d1d29?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-22T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5500,7 +5500,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kfwa-cessna-citation-ultra-2026-10-04-cf212e44?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-20T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5541,7 +5541,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kosu-kbna-pilatus-pc-12-ng-2026-10-05-cb075261?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-22T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5582,7 +5582,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kiws-kaus-pilatus-pc-12-ng-2026-10-09-dc6b909f?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-20T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5623,7 +5623,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kaus-kiws-pilatus-pc-12-ng-2026-10-11-35d726b9?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-20T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5664,7 +5664,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-604-2026-10-11-30ae8b95?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-09T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5705,7 +5705,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kuox-khou-2026-10-15?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5746,7 +5746,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khpn-kesn-2026-10-18?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5787,7 +5787,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kuox-2026-10-18?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5828,7 +5828,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kuox-khou-2026-10-29?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5869,7 +5869,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kuox-2026-11-01?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5910,7 +5910,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kuox-khou-2026-11-05?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5951,7 +5951,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kiws-kdal-2026-11-07?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -5992,7 +5992,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kdal-kiws-2026-11-08?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6033,7 +6033,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kuox-2026-11-08?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6074,7 +6074,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kbyh-cessna-citation-ultra-2026-11-08-fc6703b8?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-23T04:47:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6115,7 +6115,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kdfw-cessna-citation-ultra-2026-11-12-482a4a4b?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-23T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6156,7 +6156,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kiws-kaus-2026-11-13?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6197,7 +6197,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kiws-kdal-2026-11-13?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6238,7 +6238,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kdal-khou-2026-11-13?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6279,7 +6279,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-ultra-2026-11-14-23e437e8?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-23T00:17:02+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6320,7 +6320,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kaus-kiws-2026-11-15?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6361,7 +6361,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kdal-kiws-2026-11-15?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6402,7 +6402,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/khou-kdal-2026-11-16?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6443,7 +6443,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/kdal-khou-2026-11-18?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
@@ -6484,7 +6484,7 @@
       "row": {
         "source_id": "https://villiers.ai/empty-legs/ksba-klas-2026-11-18?id=ADHUHR",
         "status": "inactive",
-        "change_type": "removed",
+        "change_type": "inactive",
         "first_seen_at": "2026-08-05T22:38:36+00:00",
         "last_seen_at": "2026-08-23T18:17:02+00:00",
         "inactive_since": "2026-08-23T18:47:02+00:00",
