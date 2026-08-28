@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T23:47:03+00:00",
+  "generated_at": "2026-08-28T00:17:05+00:00",
   "source": "Villiers Empty Legs - Affiliate ADHUHR",
   "provider": "Villiers Jets Limited",
   "publisher": "ONYX Radar",
@@ -7,448 +7,6 @@
   "affiliate_disclosure": "ONYX Radar is an independent affiliate participating in the Villiers affiliate programme and may receive a commission from qualifying bookings.",
   "data_notice": "Flight details, schedules, availability and listed prices are supplied by Villiers and may change without notice.",
   "flights": [
-    {
-      "source_id": "https://villiers.ai/empty-legs/kack-kiad-pilatus-pc-12-ng-2026-08-27-046180c5?id=ADHUHR",
-      "status": "active",
-      "title": "Pilatus PC 12 NG | Nantucket Memorial Airport → Washington Dulles International Airport | $6,020",
-      "description": "",
-      "aircraft_type": "Pilatus PC 12 NG",
-      "origin_airport_raw": "KACK - Nantucket Memorial Airport",
-      "origin_icao": "KACK",
-      "origin_iata": "ACK",
-      "origin_airport_name": "Nantucket Memorial Airport",
-      "origin_city": "Nantucket",
-      "origin_country": "US",
-      "destination_airport_raw": "KIAD - Washington Dulles International Airport",
-      "destination_icao": "KIAD",
-      "destination_iata": "IAD",
-      "destination_airport_name": "Washington Dulles International Airport",
-      "destination_city": "Washington",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "13:16",
-      "flight_duration": "1h 17m",
-      "price_raw": "$6,020",
-      "price_amount": "6020",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kack-kiad-pilatus-pc-12-ng-2026-08-27-046180c5?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kack-kiad-pilatus-pc-12-ng-2026-08-27-046180c5?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kack-kiad-pilatus-pc-12-ng-2026-08-27-046180c5?id=ADHUHR",
-      "published": "Tue, 25 Aug 2026 17:17:14 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kack-kmyj-pilatus-pc-12-ng-2026-08-27-328efbf2?id=ADHUHR",
-      "status": "active",
-      "title": "Pilatus PC-12 NG | Nantucket Memorial Airport → Mexico Memorial Airport | $18,490",
-      "description": "",
-      "aircraft_type": "Pilatus PC-12 NG",
-      "origin_airport_raw": "KACK - Nantucket Memorial Airport",
-      "origin_icao": "KACK",
-      "origin_iata": "ACK",
-      "origin_airport_name": "Nantucket Memorial Airport",
-      "origin_city": "Nantucket",
-      "origin_country": "US",
-      "destination_airport_raw": "KMYJ - Mexico Memorial Airport",
-      "destination_icao": "KMYJ",
-      "destination_iata": "",
-      "destination_airport_name": "Mexico Memorial Airport",
-      "destination_city": "Mexico",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "14:38",
-      "flight_duration": "2h 38m",
-      "price_raw": "$18,490",
-      "price_amount": "18490",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kack-kmyj-pilatus-pc-12-ng-2026-08-27-328efbf2?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kack-kmyj-pilatus-pc-12-ng-2026-08-27-328efbf2?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kack-kmyj-pilatus-pc-12-ng-2026-08-27-328efbf2?id=ADHUHR",
-      "published": "Wed, 26 Aug 2026 16:50:01 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kbpt-kbfl-cessna-citation-ultra-2026-08-27-86b5923d?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Ultra | Jack Brooks Regional Airport → Meadows Field | $14,835",
-      "description": "",
-      "aircraft_type": "Cessna Citation Ultra",
-      "origin_airport_raw": "KBPT - Jack Brooks Regional Airport",
-      "origin_icao": "KBPT",
-      "origin_iata": "BPT",
-      "origin_airport_name": "Jack Brooks Regional Airport",
-      "origin_city": "Beaumont/Port Arthur",
-      "origin_country": "US",
-      "destination_airport_raw": "KBFL - Meadows Field",
-      "destination_icao": "KBFL",
-      "destination_iata": "BFL",
-      "destination_airport_name": "Meadows Field",
-      "destination_city": "Bakersfield",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "15:16",
-      "flight_duration": "3h 16m",
-      "price_raw": "$14,835",
-      "price_amount": "14835",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kbpt-kbfl-cessna-citation-ultra-2026-08-27-86b5923d?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kbpt-kbfl-cessna-citation-ultra-2026-08-27-86b5923d?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kbpt-kbfl-cessna-citation-ultra-2026-08-27-86b5923d?id=ADHUHR",
-      "published": "Sun, 23 Aug 2026 04:28:21 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kbpt-kpne-cessna-citation-ultra-2026-08-27-7513bfe2?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Ultra | Jack Brooks Regional Airport → Northeast Philadelphia Airport | $9,998",
-      "description": "",
-      "aircraft_type": "Cessna Citation Ultra",
-      "origin_airport_raw": "KBPT - Jack Brooks Regional Airport",
-      "origin_icao": "KBPT",
-      "origin_iata": "BPT",
-      "origin_airport_name": "Jack Brooks Regional Airport",
-      "origin_city": "Beaumont/Port Arthur",
-      "origin_country": "US",
-      "destination_airport_raw": "KPNE - Northeast Philadelphia Airport",
-      "destination_icao": "KPNE",
-      "destination_iata": "PNE",
-      "destination_airport_name": "Northeast Philadelphia Airport",
-      "destination_city": "Philadelphia",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "14:51",
-      "flight_duration": "2h 52m",
-      "price_raw": "$9,998",
-      "price_amount": "9998",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kbpt-kpne-cessna-citation-ultra-2026-08-27-7513bfe2?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kbpt-kpne-cessna-citation-ultra-2026-08-27-7513bfe2?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kbpt-kpne-cessna-citation-ultra-2026-08-27-7513bfe2?id=ADHUHR",
-      "published": "Sun, 23 Aug 2026 04:28:21 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kdal-kbfl-cessna-citation-v-2026-08-27-5d82262f?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation V | Dallas Love Field → Meadows Field | $13,760",
-      "description": "",
-      "aircraft_type": "Cessna Citation V",
-      "origin_airport_raw": "KDAL - Dallas Love Field",
-      "origin_icao": "KDAL",
-      "origin_iata": "DAL",
-      "origin_airport_name": "Dallas Love Field",
-      "origin_city": "Dallas",
-      "origin_country": "US",
-      "destination_airport_raw": "KBFL - Meadows Field",
-      "destination_icao": "KBFL",
-      "destination_iata": "BFL",
-      "destination_airport_name": "Meadows Field",
-      "destination_city": "Bakersfield",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "14:51",
-      "flight_duration": "2h 52m",
-      "price_raw": "$13,760",
-      "price_amount": "13760",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kdal-kbfl-cessna-citation-v-2026-08-27-5d82262f?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kdal-kbfl-cessna-citation-v-2026-08-27-5d82262f?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kdal-kbfl-cessna-citation-v-2026-08-27-5d82262f?id=ADHUHR",
-      "published": "Wed, 26 Aug 2026 16:50:01 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kdal-kpne-cessna-citation-ultra-2026-08-27-ddc0da74?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Ultra | Dallas Love Field → Northeast Philadelphia Airport | $9,998",
-      "description": "",
-      "aircraft_type": "Cessna Citation Ultra",
-      "origin_airport_raw": "KDAL - Dallas Love Field",
-      "origin_icao": "KDAL",
-      "origin_iata": "DAL",
-      "origin_airport_name": "Dallas Love Field",
-      "origin_city": "Dallas",
-      "origin_country": "US",
-      "destination_airport_raw": "KPNE - Northeast Philadelphia Airport",
-      "destination_icao": "KPNE",
-      "destination_iata": "PNE",
-      "destination_airport_name": "Northeast Philadelphia Airport",
-      "destination_city": "Philadelphia",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "14:55",
-      "flight_duration": "2h 55m",
-      "price_raw": "$9,998",
-      "price_amount": "9998",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kdal-kpne-cessna-citation-ultra-2026-08-27-ddc0da74?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kdal-kpne-cessna-citation-ultra-2026-08-27-ddc0da74?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kdal-kpne-cessna-citation-ultra-2026-08-27-ddc0da74?id=ADHUHR",
-      "published": "Wed, 19 Aug 2026 22:51:09 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kgpt-kdal-cessna-citation-ultra-2026-08-27-e36fc4a5?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Ultra | Gulfport Biloxi International Airport → Dallas Love Field | $5,590",
-      "description": "",
-      "aircraft_type": "Cessna Citation Ultra",
-      "origin_airport_raw": "KGPT - Gulfport Biloxi International Airport",
-      "origin_icao": "KGPT",
-      "origin_iata": "GPT",
-      "origin_airport_name": "Gulfport-Biloxi International Airport",
-      "origin_city": "Gulfport",
-      "origin_country": "US",
-      "destination_airport_raw": "KDAL - Dallas Love Field",
-      "destination_icao": "KDAL",
-      "destination_iata": "DAL",
-      "destination_airport_name": "Dallas Love Field",
-      "destination_city": "Dallas",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "13:24",
-      "flight_duration": "1h 24m",
-      "price_raw": "$5,590",
-      "price_amount": "5590",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kgpt-kdal-cessna-citation-ultra-2026-08-27-e36fc4a5?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kgpt-kdal-cessna-citation-ultra-2026-08-27-e36fc4a5?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kgpt-kdal-cessna-citation-ultra-2026-08-27-e36fc4a5?id=ADHUHR",
-      "published": "Wed, 26 Aug 2026 16:50:01 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/khou-kbfl-cessna-citation-ultra-2026-08-27-dbfec96a?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Ultra | William P. Hobby Airport → Meadows Field | $14,190",
-      "description": "",
-      "aircraft_type": "Cessna Citation Ultra",
-      "origin_airport_raw": "KHOU - William P. Hobby Airport",
-      "origin_icao": "KHOU",
-      "origin_iata": "HOU",
-      "origin_airport_name": "William P Hobby Airport",
-      "origin_city": "Houston",
-      "origin_country": "US",
-      "destination_airport_raw": "KBFL - Meadows Field",
-      "destination_icao": "KBFL",
-      "destination_iata": "BFL",
-      "destination_airport_name": "Meadows Field",
-      "destination_city": "Bakersfield",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "15:09",
-      "flight_duration": "3h 9m",
-      "price_raw": "$14,190",
-      "price_amount": "14190",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/khou-kbfl-cessna-citation-ultra-2026-08-27-dbfec96a?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/khou-kbfl-cessna-citation-ultra-2026-08-27-dbfec96a?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/khou-kbfl-cessna-citation-ultra-2026-08-27-dbfec96a?id=ADHUHR",
-      "published": "Wed, 19 Aug 2026 22:51:09 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/khou-kftw-2026-08-27?id=ADHUHR",
-      "status": "active",
-      "title": "Bombardier Challenger 604 | William P. Hobby Airport → Fort Worth Meacham International Airport | $7,095",
-      "description": "",
-      "aircraft_type": "Bombardier Challenger 604",
-      "origin_airport_raw": "KHOU - William P. Hobby Airport",
-      "origin_icao": "KHOU",
-      "origin_iata": "HOU",
-      "origin_airport_name": "William P Hobby Airport",
-      "origin_city": "Houston",
-      "origin_country": "US",
-      "destination_airport_raw": "KFTW - Fort Worth Meacham International Airport",
-      "destination_icao": "KFTW",
-      "destination_iata": "FTW",
-      "destination_airport_name": "Fort Worth Meacham International Airport",
-      "destination_city": "Fort Worth",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "12:57",
-      "flight_duration": "58m",
-      "price_raw": "$7,095",
-      "price_amount": "7095",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "10",
-      "tracking_link": "https://villiers.ai/empty-legs/khou-kftw-2026-08-27?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/khou-kftw-2026-08-27?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/khou-kftw-2026-08-27?id=ADHUHR",
-      "published": "Wed, 15 Jul 2026 14:20:14 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/khou-kpne-cessna-citation-ultra-2026-08-27-d7cf87e0?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Ultra | William P. Hobby Airport → Northeast Philadelphia Airport | $10,320",
-      "description": "",
-      "aircraft_type": "Cessna Citation Ultra",
-      "origin_airport_raw": "KHOU - William P. Hobby Airport",
-      "origin_icao": "KHOU",
-      "origin_iata": "HOU",
-      "origin_airport_name": "William P Hobby Airport",
-      "origin_city": "Houston",
-      "origin_country": "US",
-      "destination_airport_raw": "KPNE - Northeast Philadelphia Airport",
-      "destination_icao": "KPNE",
-      "destination_iata": "PNE",
-      "destination_airport_name": "Northeast Philadelphia Airport",
-      "destination_city": "Philadelphia",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "14:59",
-      "flight_duration": "2h 60m",
-      "price_raw": "$10,320",
-      "price_amount": "10320",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/khou-kpne-cessna-citation-ultra-2026-08-27-d7cf87e0?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/khou-kpne-cessna-citation-ultra-2026-08-27-d7cf87e0?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/khou-kpne-cessna-citation-ultra-2026-08-27-d7cf87e0?id=ADHUHR",
-      "published": "Sun, 23 Aug 2026 18:23:22 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/kluk-kpne-cessna-citation-ultra-2026-08-27-96242a8c?id=ADHUHR",
-      "status": "active",
-      "title": "Cessna Citation Ultra | Cincinnati Municipal Airport Lunken Field → Northeast Philadelphia Airport | $4,193",
-      "description": "",
-      "aircraft_type": "Cessna Citation Ultra",
-      "origin_airport_raw": "KLUK - Cincinnati Municipal Airport Lunken Field",
-      "origin_icao": "KLUK",
-      "origin_iata": "LUK",
-      "origin_airport_name": "Cincinnati Municipal/Lunken Field",
-      "origin_city": "Cincinnati",
-      "origin_country": "US",
-      "destination_airport_raw": "KPNE - Northeast Philadelphia Airport",
-      "destination_icao": "KPNE",
-      "destination_iata": "PNE",
-      "destination_airport_name": "Northeast Philadelphia Airport",
-      "destination_city": "Philadelphia",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "13:26",
-      "flight_duration": "1h 26m",
-      "price_raw": "$4,193",
-      "price_amount": "4193",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "7",
-      "tracking_link": "https://villiers.ai/empty-legs/kluk-kpne-cessna-citation-ultra-2026-08-27-96242a8c?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/kluk-kpne-cessna-citation-ultra-2026-08-27-96242a8c?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/kluk-kpne-cessna-citation-ultra-2026-08-27-96242a8c?id=ADHUHR",
-      "published": "Thu, 27 Aug 2026 16:34:20 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/ksaf-kcrq-citation-cj3-2026-08-27-f69a9eb3?id=ADHUHR",
-      "status": "active",
-      "title": "Citation CJ3 | Santa Fe Municipal Airport → McClellan-Palomar Airport | $5,913",
-      "description": "",
-      "aircraft_type": "Citation CJ3",
-      "origin_airport_raw": "KSAF - Santa Fe Municipal Airport",
-      "origin_icao": "KSAF",
-      "origin_iata": "SAF",
-      "origin_airport_name": "Santa Fe Regional Airport",
-      "origin_city": "Santa Fe",
-      "origin_country": "US",
-      "destination_airport_raw": "KCRQ - McClellan-Palomar Airport",
-      "destination_icao": "KCRQ",
-      "destination_iata": "CLD",
-      "destination_airport_name": "Mc Clellan-Palomar Airport",
-      "destination_city": "Carlsbad",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "13:43",
-      "flight_duration": "1h 43m",
-      "price_raw": "$5,913",
-      "price_amount": "5913",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "6",
-      "tracking_link": "https://villiers.ai/empty-legs/ksaf-kcrq-citation-cj3-2026-08-27-f69a9eb3?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/ksaf-kcrq-citation-cj3-2026-08-27-f69a9eb3?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/ksaf-kcrq-citation-cj3-2026-08-27-f69a9eb3?id=ADHUHR",
-      "published": "Thu, 27 Aug 2026 00:21:40 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
-    {
-      "source_id": "https://villiers.ai/empty-legs/ksan-kbfi-challenger-605-2026-08-27-baa1fd12?id=ADHUHR",
-      "status": "active",
-      "title": "Challenger 605 | San Diego International Airport → Boeing Field King County International Airport | $12,900",
-      "description": "",
-      "aircraft_type": "Challenger 605",
-      "origin_airport_raw": "KSAN - San Diego International Airport",
-      "origin_icao": "KSAN",
-      "origin_iata": "SAN",
-      "origin_airport_name": "San Diego International Airport",
-      "origin_city": "San Diego",
-      "origin_country": "US",
-      "destination_airport_raw": "KBFI - Boeing Field King County International Airport",
-      "destination_icao": "KBFI",
-      "destination_iata": "BFI",
-      "destination_airport_name": "Boeing Field/King County International Airport",
-      "destination_city": "Seattle",
-      "destination_country": "US",
-      "departure_date_raw": "27 August 2026",
-      "departure_date_iso": "2026-08-27",
-      "departure_time": "12:00",
-      "arrival_time": "14:27",
-      "flight_duration": "2h 27m",
-      "price_raw": "$12,900",
-      "price_amount": "12900",
-      "price_currency": "USD",
-      "price_currency_symbol": "$",
-      "seats_available": "9",
-      "tracking_link": "https://villiers.ai/empty-legs/ksan-kbfi-challenger-605-2026-08-27-baa1fd12?id=ADHUHR",
-      "rss_link": "https://villiers.ai/empty-legs/ksan-kbfi-challenger-605-2026-08-27-baa1fd12?id=ADHUHR",
-      "booking_link": "https://villiers.ai/empty-legs/ksan-kbfi-challenger-605-2026-08-27-baa1fd12?id=ADHUHR",
-      "published": "Thu, 27 Aug 2026 00:21:40 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
-    },
     {
       "source_id": "https://villiers.ai/empty-legs/kbmi-ksat-cessna-citation-v-2026-08-28-ed31dde1?id=ADHUHR",
       "status": "active",
@@ -481,7 +39,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kbmi-ksat-cessna-citation-v-2026-08-28-ed31dde1?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kbmi-ksat-cessna-citation-v-2026-08-28-ed31dde1?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 17:17:14 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kcrq-ksdf-cj3-2026-08-28-4c1f626b?id=ADHUHR",
@@ -515,7 +73,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kcrq-ksdf-cj3-2026-08-28-4c1f626b?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kcrq-ksdf-cj3-2026-08-28-4c1f626b?id=ADHUHR",
       "published": "Tue, 18 Aug 2026 21:56:49 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-kt82-cessna-citation-v-2026-08-28-d2af0d54?id=ADHUHR",
@@ -549,7 +107,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-kt82-cessna-citation-v-2026-08-28-d2af0d54?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-kt82-cessna-citation-v-2026-08-28-d2af0d54?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 17:17:14 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kfok-khou-bombardier-challenger-300-2026-08-28-c73a70b8?id=ADHUHR",
@@ -583,7 +141,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kfok-khou-bombardier-challenger-300-2026-08-28-c73a70b8?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kfok-khou-bombardier-challenger-300-2026-08-28-c73a70b8?id=ADHUHR",
       "published": "Sun, 23 Aug 2026 04:28:21 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kftw-khou-2026-08-28?id=ADHUHR",
@@ -617,7 +175,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kftw-khou-2026-08-28?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kftw-khou-2026-08-28?id=ADHUHR",
       "published": "Thu, 30 Jul 2026 14:21:38 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khml-kcrq-hawker-900xp-2026-08-28-622e6c5d?id=ADHUHR",
@@ -651,7 +209,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khml-kcrq-hawker-900xp-2026-08-28-622e6c5d?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khml-kcrq-hawker-900xp-2026-08-28-622e6c5d?id=ADHUHR",
       "published": "Tue, 18 Aug 2026 21:56:49 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kdal-cessna-citation-ultra-2026-08-28-0ab68992?id=ADHUHR",
@@ -685,7 +243,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kdal-cessna-citation-ultra-2026-08-28-0ab68992?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kdal-cessna-citation-ultra-2026-08-28-0ab68992?id=ADHUHR",
       "published": "Tue, 18 Aug 2026 17:30:04 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kpil-khou-pilatus-pc-12-ng-2026-08-28-102dc51b?id=ADHUHR",
@@ -719,7 +277,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kpil-khou-pilatus-pc-12-ng-2026-08-28-102dc51b?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kpil-khou-pilatus-pc-12-ng-2026-08-28-102dc51b?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 17:17:15 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kpil-kiws-pilatus-pc-12-ng-2026-08-28-0d6cb1ed?id=ADHUHR",
@@ -753,7 +311,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kpil-kiws-pilatus-pc-12-ng-2026-08-28-0d6cb1ed?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kpil-kiws-pilatus-pc-12-ng-2026-08-28-0d6cb1ed?id=ADHUHR",
       "published": "Wed, 26 Aug 2026 16:50:01 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kpne-kfok-cessna-citation-ultra-2026-08-28-257926c1?id=ADHUHR",
@@ -787,7 +345,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kpne-kfok-cessna-citation-ultra-2026-08-28-257926c1?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kpne-kfok-cessna-citation-ultra-2026-08-28-257926c1?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 14:24:20 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kprb-kcrq-beechjet-400a-2026-08-28-a8fc1956?id=ADHUHR",
@@ -821,7 +379,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kprb-kcrq-beechjet-400a-2026-08-28-a8fc1956?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kprb-kcrq-beechjet-400a-2026-08-28-a8fc1956?id=ADHUHR",
       "published": "Tue, 18 Aug 2026 21:56:48 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-08-29-ae88811f?id=ADHUHR",
@@ -855,7 +413,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-08-29-ae88811f?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-08-29-ae88811f?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:45 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eglf-leib-aircraft-2026-08-29-1f2e01e6?id=ADHUHR",
@@ -889,7 +447,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eglf-leib-aircraft-2026-08-29-1f2e01e6?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eglf-leib-aircraft-2026-08-29-1f2e01e6?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:45 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ksat-kamw-cessna-citation-v-2026-08-29-432f6175?id=ADHUHR",
@@ -923,7 +481,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ksat-kamw-cessna-citation-v-2026-08-29-432f6175?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ksat-kamw-cessna-citation-v-2026-08-29-432f6175?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 17:17:15 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ktrk-kcrq-beechjet-400a-2026-08-29-a372e5c1?id=ADHUHR",
@@ -957,7 +515,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ktrk-kcrq-beechjet-400a-2026-08-29-a372e5c1?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ktrk-kcrq-beechjet-400a-2026-08-29-a372e5c1?id=ADHUHR",
       "published": "Tue, 18 Aug 2026 21:56:49 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eglf-lfpb-2026-08-30?id=ADHUHR",
@@ -991,7 +549,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eglf-lfpb-2026-08-30?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eglf-lfpb-2026-08-30?id=ADHUHR",
       "published": "Fri, 17 Jul 2026 22:25:16 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kamw-khou-cessna-citation-ultra-2026-08-30-ef0296f0?id=ADHUHR",
@@ -1025,7 +583,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kamw-khou-cessna-citation-ultra-2026-08-30-ef0296f0?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kamw-khou-cessna-citation-ultra-2026-08-30-ef0296f0?id=ADHUHR",
       "published": "Sun, 23 Aug 2026 18:23:23 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kbed-khou-bombardier-challenger-300-2026-08-30-1e2d4053?id=ADHUHR",
@@ -1059,7 +617,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kbed-khou-bombardier-challenger-300-2026-08-30-1e2d4053?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kbed-khou-bombardier-challenger-300-2026-08-30-1e2d4053?id=ADHUHR",
       "published": "Wed, 26 Aug 2026 16:50:01 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-kamw-cessna-citation-v-2026-08-30-b55c5238?id=ADHUHR",
@@ -1093,7 +651,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-kamw-cessna-citation-v-2026-08-30-b55c5238?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-kamw-cessna-citation-v-2026-08-30-b55c5238?id=ADHUHR",
       "published": "Sun, 23 Aug 2026 18:23:23 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-ultra-2026-08-30-f3713b95?id=ADHUHR",
@@ -1127,7 +685,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-ultra-2026-08-30-f3713b95?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-khou-cessna-citation-ultra-2026-08-30-f3713b95?id=ADHUHR",
       "published": "Tue, 18 Aug 2026 17:30:04 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kfok-kdal-cessna-citation-ultra-2026-08-30-20f8967f?id=ADHUHR",
@@ -1161,7 +719,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kfok-kdal-cessna-citation-ultra-2026-08-30-20f8967f?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kfok-kdal-cessna-citation-ultra-2026-08-30-20f8967f?id=ADHUHR",
       "published": "Sun, 23 Aug 2026 04:28:22 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kfok-khou-cessna-citation-ultra-2026-08-30-4e380b26?id=ADHUHR",
@@ -1195,7 +753,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kfok-khou-cessna-citation-ultra-2026-08-30-4e380b26?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kfok-khou-cessna-citation-ultra-2026-08-30-4e380b26?id=ADHUHR",
       "published": "Wed, 19 Aug 2026 22:51:09 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kfok-kpne-cessna-citation-ultra-2026-08-30-c0176eaf?id=ADHUHR",
@@ -1229,7 +787,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kfok-kpne-cessna-citation-ultra-2026-08-30-c0176eaf?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kfok-kpne-cessna-citation-ultra-2026-08-30-c0176eaf?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 14:24:21 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ksat-khou-cessna-citation-v-2026-08-30-ff20294b?id=ADHUHR",
@@ -1263,7 +821,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ksat-khou-cessna-citation-v-2026-08-30-ff20294b?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ksat-khou-cessna-citation-v-2026-08-30-ff20294b?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:20 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ksbm-kmyj-pilatus-pc-12-ng-2026-08-30-d6ddd487?id=ADHUHR",
@@ -1297,7 +855,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ksbm-kmyj-pilatus-pc-12-ng-2026-08-30-d6ddd487?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ksbm-kmyj-pilatus-pc-12-ng-2026-08-30-d6ddd487?id=ADHUHR",
       "published": "Sat, 15 Aug 2026 14:13:15 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ktvc-ksbm-pilatus-pc-12-ng-2026-08-30-d21f52ff?id=ADHUHR",
@@ -1331,7 +889,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ktvc-ksbm-pilatus-pc-12-ng-2026-08-30-d21f52ff?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ktvc-ksbm-pilatus-pc-12-ng-2026-08-30-d21f52ff?id=ADHUHR",
       "published": "Sat, 15 Aug 2026 14:13:15 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kfok-kopf-cessna-citation-ultra-2026-08-31-a7d9e0c1?id=ADHUHR",
@@ -1365,7 +923,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kfok-kopf-cessna-citation-ultra-2026-08-31-a7d9e0c1?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kfok-kopf-cessna-citation-ultra-2026-08-31-a7d9e0c1?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:21 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eggw-lszh-aircraft-2026-09-02-a3efb61d?id=ADHUHR",
@@ -1399,7 +957,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eggw-lszh-aircraft-2026-09-02-a3efb61d?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eggw-lszh-aircraft-2026-09-02-a3efb61d?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:45 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-khou-pilatus-pc-12-ng-2026-09-02-441f07d4?id=ADHUHR",
@@ -1433,7 +991,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-khou-pilatus-pc-12-ng-2026-09-02-441f07d4?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-khou-pilatus-pc-12-ng-2026-09-02-441f07d4?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 14:24:21 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kmaf-cessna-citation-ultra-2026-09-02-b0482bde?id=ADHUHR",
@@ -1467,7 +1025,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kmaf-cessna-citation-ultra-2026-09-02-b0482bde?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kmaf-cessna-citation-ultra-2026-09-02-b0482bde?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:21 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eggw-lfbo-aircraft-2026-09-03-41ddde01?id=ADHUHR",
@@ -1501,7 +1059,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eggw-lfbo-aircraft-2026-09-03-41ddde01?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eggw-lfbo-aircraft-2026-09-03-41ddde01?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:45 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-kiws-pilatus-pc-12-ng-2026-09-03-36613c16?id=ADHUHR",
@@ -1535,7 +1093,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-kiws-pilatus-pc-12-ng-2026-09-03-36613c16?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-kiws-pilatus-pc-12-ng-2026-09-03-36613c16?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:21 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kfok-khqz-cessna-citation-v-2026-09-03-e66f7cf7?id=ADHUHR",
@@ -1569,7 +1127,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kfok-khqz-cessna-citation-v-2026-09-03-e66f7cf7?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kfok-khqz-cessna-citation-v-2026-09-03-e66f7cf7?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 00:33:48 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-khqz-cessna-citation-v-2026-09-03-56c8f80f?id=ADHUHR",
@@ -1603,7 +1161,41 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-khqz-cessna-citation-v-2026-09-03-56c8f80f?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-khqz-cessna-citation-v-2026-09-03-56c8f80f?id=ADHUHR",
       "published": "Thu, 20 Aug 2026 21:34:20 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/kmry-kcrq-citation-cj3-2026-09-03-4b799f91?id=ADHUHR",
+      "status": "active",
+      "title": "Citation CJ3 | Monterey Peninsula Airport → McClellan-Palomar Airport | $2,688",
+      "description": "",
+      "aircraft_type": "Citation CJ3",
+      "origin_airport_raw": "KMRY - Monterey Peninsula Airport",
+      "origin_icao": "KMRY",
+      "origin_iata": "MRY",
+      "origin_airport_name": "Monterey Regional Airport",
+      "origin_city": "Monterey",
+      "origin_country": "US",
+      "destination_airport_raw": "KCRQ - McClellan-Palomar Airport",
+      "destination_icao": "KCRQ",
+      "destination_iata": "CLD",
+      "destination_airport_name": "Mc Clellan-Palomar Airport",
+      "destination_city": "Carlsbad",
+      "destination_country": "US",
+      "departure_date_raw": "03 September 2026",
+      "departure_date_iso": "2026-09-03",
+      "departure_time": "12:00",
+      "arrival_time": "13:09",
+      "flight_duration": "1h 9m",
+      "price_raw": "$2,688",
+      "price_amount": "2688",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "6",
+      "tracking_link": "https://villiers.ai/empty-legs/kmry-kcrq-citation-cj3-2026-09-03-4b799f91?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/kmry-kcrq-citation-cj3-2026-09-03-4b799f91?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/kmry-kcrq-citation-cj3-2026-09-03-4b799f91?id=ADHUHR",
+      "published": "Fri, 28 Aug 2026 00:10:59 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kcha-kvny-challenger-350-2026-09-04-915f02c8?id=ADHUHR",
@@ -1637,7 +1229,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kcha-kvny-challenger-350-2026-09-04-915f02c8?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kcha-kvny-challenger-350-2026-09-04-915f02c8?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 00:21:40 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kdal-cessna-citation-ultra-2026-09-04-d70bf696?id=ADHUHR",
@@ -1671,7 +1263,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kdal-cessna-citation-ultra-2026-09-04-d70bf696?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kdal-cessna-citation-ultra-2026-09-04-d70bf696?id=ADHUHR",
       "published": "Wed, 26 Aug 2026 16:50:01 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kgtu-aircraft-2026-09-04-8b9a3416?id=ADHUHR",
@@ -1705,7 +1297,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kgtu-aircraft-2026-09-04-8b9a3416?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kgtu-aircraft-2026-09-04-8b9a3416?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khqz-kgtu-cessna-citation-v-2026-09-04-1f649e83?id=ADHUHR",
@@ -1739,7 +1331,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khqz-kgtu-cessna-citation-v-2026-09-04-1f649e83?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khqz-kgtu-cessna-citation-v-2026-09-04-1f649e83?id=ADHUHR",
       "published": "Thu, 20 Aug 2026 21:34:20 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kmdw-kopf-2026-09-04?id=ADHUHR",
@@ -1773,7 +1365,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kmdw-kopf-2026-09-04?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kmdw-kopf-2026-09-04?id=ADHUHR",
       "published": "Sat, 06 Jun 2026 23:56:41 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/knew-khou-cessna-citation-ultra-2026-09-04-ce279168?id=ADHUHR",
@@ -1807,7 +1399,7 @@
       "rss_link": "https://villiers.ai/empty-legs/knew-khou-cessna-citation-ultra-2026-09-04-ce279168?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/knew-khou-cessna-citation-ultra-2026-09-04-ce279168?id=ADHUHR",
       "published": "Fri, 21 Aug 2026 18:42:16 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kpil-khou-2026-09-04?id=ADHUHR",
@@ -1841,7 +1433,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kpil-khou-2026-09-04?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kpil-khou-2026-09-04?id=ADHUHR",
       "published": "Tue, 09 Jun 2026 06:25:29 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kpil-kiws-2026-09-04?id=ADHUHR",
@@ -1875,7 +1467,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kpil-kiws-2026-09-04?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kpil-kiws-2026-09-04?id=ADHUHR",
       "published": "Tue, 24 Mar 2026 12:35:16 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-kpil-pilatus-pc-12-ng-2026-09-05-54f85dac?id=ADHUHR",
@@ -1909,7 +1501,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-kpil-pilatus-pc-12-ng-2026-09-05-54f85dac?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-kpil-pilatus-pc-12-ng-2026-09-05-54f85dac?id=ADHUHR",
       "published": "Wed, 26 Aug 2026 16:50:01 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kaus-bombardier-challenger-604-2026-09-05-078d4627?id=ADHUHR",
@@ -1943,7 +1535,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kaus-bombardier-challenger-604-2026-09-05-078d4627?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kaus-bombardier-challenger-604-2026-09-05-078d4627?id=ADHUHR",
       "published": "Thu, 20 Aug 2026 21:34:21 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kopf-khou-cessna-citation-ultra-2026-09-05-6dbf34cb?id=ADHUHR",
@@ -1977,7 +1569,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kopf-khou-cessna-citation-ultra-2026-09-05-6dbf34cb?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kopf-khou-cessna-citation-ultra-2026-09-05-6dbf34cb?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:22 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ktus-kaus-bombardier-challenger-604-2026-09-05-d1122a27?id=ADHUHR",
@@ -2011,7 +1603,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ktus-kaus-bombardier-challenger-604-2026-09-05-d1122a27?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ktus-kaus-bombardier-challenger-604-2026-09-05-d1122a27?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:22 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kxna-khou-aircraft-2026-09-05-21018cde?id=ADHUHR",
@@ -2045,7 +1637,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kxna-khou-aircraft-2026-09-05-21018cde?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kxna-khou-aircraft-2026-09-05-21018cde?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 14:01:13 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/klwb-kxna-cessna-citation-ultra-2026-09-06-37c99f33?id=ADHUHR",
@@ -2079,7 +1671,7 @@
       "rss_link": "https://villiers.ai/empty-legs/klwb-kxna-cessna-citation-ultra-2026-09-06-37c99f33?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/klwb-kxna-cessna-citation-ultra-2026-09-06-37c99f33?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 17:17:15 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kdts-pilatus-pc-12-ng-2026-09-07-4ca63b05?id=ADHUHR",
@@ -2113,7 +1705,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kdts-pilatus-pc-12-ng-2026-09-07-4ca63b05?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kdts-pilatus-pc-12-ng-2026-09-07-4ca63b05?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:22 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kxna-cessna-citation-ultra-2026-09-07-37c8131e?id=ADHUHR",
@@ -2147,7 +1739,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kxna-cessna-citation-ultra-2026-09-07-37c8131e?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kxna-cessna-citation-ultra-2026-09-07-37c8131e?id=ADHUHR",
       "published": "Thu, 20 Aug 2026 21:34:21 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-khou-bombardier-challenger-604-2026-09-08-91a072c3?id=ADHUHR",
@@ -2181,7 +1773,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-khou-bombardier-challenger-604-2026-09-08-91a072c3?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-khou-bombardier-challenger-604-2026-09-08-91a072c3?id=ADHUHR",
       "published": "Fri, 21 Aug 2026 18:42:16 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kbfi-kcrq-pilatus-pc-12-ngx-2026-09-08-2c06b956?id=ADHUHR",
@@ -2215,7 +1807,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kbfi-kcrq-pilatus-pc-12-ngx-2026-09-08-2c06b956?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kbfi-kcrq-pilatus-pc-12-ngx-2026-09-08-2c06b956?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 00:21:41 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kgtu-kftw-cessna-citation-ultra-2026-09-08-b2859fdc?id=ADHUHR",
@@ -2249,7 +1841,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kgtu-kftw-cessna-citation-ultra-2026-09-08-b2859fdc?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kgtu-kftw-cessna-citation-ultra-2026-09-08-b2859fdc?id=ADHUHR",
       "published": "Thu, 20 Aug 2026 21:34:22 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kftw-2026-09-08?id=ADHUHR",
@@ -2283,7 +1875,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kftw-2026-09-08?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kftw-2026-09-08?id=ADHUHR",
       "published": "Thu, 30 Jul 2026 02:41:57 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kopf-kmdw-2026-09-08?id=ADHUHR",
@@ -2317,7 +1909,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kopf-kmdw-2026-09-08?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kopf-kmdw-2026-09-08?id=ADHUHR",
       "published": "Sat, 06 Jun 2026 23:56:41 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kerv-cessna-citation-ultra-2026-09-09-100d1091?id=ADHUHR",
@@ -2351,7 +1943,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kerv-cessna-citation-ultra-2026-09-09-100d1091?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kerv-cessna-citation-ultra-2026-09-09-100d1091?id=ADHUHR",
       "published": "Wed, 19 Aug 2026 22:51:09 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-ksba-cessna-citation-v-2026-09-10-f2af0be7?id=ADHUHR",
@@ -2385,7 +1977,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-ksba-cessna-citation-v-2026-09-10-f2af0be7?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-ksba-cessna-citation-v-2026-09-10-f2af0be7?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 17:17:16 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kiws-kpil-2026-09-10?id=ADHUHR",
@@ -2419,7 +2011,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kiws-kpil-2026-09-10?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kiws-kpil-2026-09-10?id=ADHUHR",
       "published": "Tue, 24 Mar 2026 12:35:16 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kmsl-kdwh-cessna-citation-ultra-2026-09-10-0eee0891?id=ADHUHR",
@@ -2453,7 +2045,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kmsl-kdwh-cessna-citation-ultra-2026-09-10-0eee0891?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kmsl-kdwh-cessna-citation-ultra-2026-09-10-0eee0891?id=ADHUHR",
       "published": "Wed, 26 Aug 2026 16:50:01 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kuox-khou-cessna-citation-ultra-2026-09-10-8a64246a?id=ADHUHR",
@@ -2487,7 +2079,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kuox-khou-cessna-citation-ultra-2026-09-10-8a64246a?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kuox-khou-cessna-citation-ultra-2026-09-10-8a64246a?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 17:17:16 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdal-khys-cessna-citation-ultra-2026-09-11-63128f98?id=ADHUHR",
@@ -2521,7 +2113,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdal-khys-cessna-citation-ultra-2026-09-11-63128f98?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdal-khys-cessna-citation-ultra-2026-09-11-63128f98?id=ADHUHR",
       "published": "Tue, 18 Aug 2026 17:30:04 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kftw-khou-2026-09-11?id=ADHUHR",
@@ -2555,7 +2147,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kftw-khou-2026-09-11?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kftw-khou-2026-09-11?id=ADHUHR",
       "published": "Thu, 30 Jul 2026 02:41:57 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kftw-khys-cessna-citation-ultra-2026-09-11-26d261c5?id=ADHUHR",
@@ -2589,7 +2181,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kftw-khys-cessna-citation-ultra-2026-09-11-26d261c5?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kftw-khys-cessna-citation-ultra-2026-09-11-26d261c5?id=ADHUHR",
       "published": "Wed, 19 Aug 2026 22:51:09 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-v-2026-09-12-112f0f48?id=ADHUHR",
@@ -2623,7 +2215,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-v-2026-09-12-112f0f48?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-v-2026-09-12-112f0f48?id=ADHUHR",
       "published": "Mon, 10 Aug 2026 14:06:59 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-kuox-cessna-citation-v-2026-09-12-1562e01b?id=ADHUHR",
@@ -2657,7 +2249,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-kuox-cessna-citation-v-2026-09-12-1562e01b?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-kuox-cessna-citation-v-2026-09-12-1562e01b?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 17:17:16 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdts-kmsl-cessna-citation-ultra-2026-09-12-becedf17?id=ADHUHR",
@@ -2691,7 +2283,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdts-kmsl-cessna-citation-ultra-2026-09-12-becedf17?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdts-kmsl-cessna-citation-ultra-2026-09-12-becedf17?id=ADHUHR",
       "published": "Wed, 26 Aug 2026 16:50:01 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kerv-khou-cessna-citation-ultra-2026-09-12-63d72fa0?id=ADHUHR",
@@ -2725,7 +2317,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kerv-khou-cessna-citation-ultra-2026-09-12-63d72fa0?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kerv-khou-cessna-citation-ultra-2026-09-12-63d72fa0?id=ADHUHR",
       "published": "Wed, 19 Aug 2026 22:51:09 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kdfw-cessna-citation-excel-2026-09-12-8263d4b0?id=ADHUHR",
@@ -2759,7 +2351,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kdfw-cessna-citation-excel-2026-09-12-8263d4b0?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kdfw-cessna-citation-excel-2026-09-12-8263d4b0?id=ADHUHR",
       "published": "Sun, 23 Aug 2026 18:23:23 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eglf-lsgs-aircraft-2026-09-13-cbdbce82?id=ADHUHR",
@@ -2793,7 +2385,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eglf-lsgs-aircraft-2026-09-13-cbdbce82?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eglf-lsgs-aircraft-2026-09-13-cbdbce82?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:46 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kdfw-khou-cessna-citation-excel-2026-09-13-b210a8d1?id=ADHUHR",
@@ -2827,7 +2419,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kdfw-khou-cessna-citation-excel-2026-09-13-b210a8d1?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kdfw-khou-cessna-citation-excel-2026-09-13-b210a8d1?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 17:17:17 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kdts-pilatus-pc-12-ng-2026-09-13-00e9bcf8?id=ADHUHR",
@@ -2861,7 +2453,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kdts-pilatus-pc-12-ng-2026-09-13-00e9bcf8?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kdts-pilatus-pc-12-ng-2026-09-13-00e9bcf8?id=ADHUHR",
       "published": "Wed, 26 Aug 2026 16:50:01 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khys-kapa-cessna-citation-ultra-2026-09-13-893ebe50?id=ADHUHR",
@@ -2895,7 +2487,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khys-kapa-cessna-citation-ultra-2026-09-13-893ebe50?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khys-kapa-cessna-citation-ultra-2026-09-13-893ebe50?id=ADHUHR",
       "published": "Tue, 18 Aug 2026 17:30:04 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khys-khou-cessna-citation-ultra-2026-09-13-1c1ae741?id=ADHUHR",
@@ -2929,7 +2521,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khys-khou-cessna-citation-ultra-2026-09-13-1c1ae741?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khys-khou-cessna-citation-ultra-2026-09-13-1c1ae741?id=ADHUHR",
       "published": "Wed, 19 Aug 2026 22:51:09 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-09-14-47a7f05f?id=ADHUHR",
@@ -2963,7 +2555,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-09-14-47a7f05f?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eggw-lepa-aircraft-2026-09-14-47a7f05f?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:46 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/egkb-lepa-hawker-400xp-2026-09-14-924d9f46?id=ADHUHR",
@@ -2997,7 +2589,7 @@
       "rss_link": "https://villiers.ai/empty-legs/egkb-lepa-hawker-400xp-2026-09-14-924d9f46?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/egkb-lepa-hawker-400xp-2026-09-14-924d9f46?id=ADHUHR",
       "published": "Fri, 07 Aug 2026 18:00:57 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kiws-klft-pilatus-pc-12-ng-2026-09-16-1b109130?id=ADHUHR",
@@ -3031,7 +2623,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kiws-klft-pilatus-pc-12-ng-2026-09-16-1b109130?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kiws-klft-pilatus-pc-12-ng-2026-09-16-1b109130?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:23 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/klft-khou-pilatus-pc-12-ng-2026-09-16-60e30ed1?id=ADHUHR",
@@ -3065,7 +2657,7 @@
       "rss_link": "https://villiers.ai/empty-legs/klft-khou-pilatus-pc-12-ng-2026-09-16-60e30ed1?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/klft-khou-pilatus-pc-12-ng-2026-09-16-60e30ed1?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:24 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kege-kdal-cessna-citation-ultra-2026-09-17-5c12f3dc?id=ADHUHR",
@@ -3099,7 +2691,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kege-kdal-cessna-citation-ultra-2026-09-17-5c12f3dc?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kege-kdal-cessna-citation-ultra-2026-09-17-5c12f3dc?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:24 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-klas-cessna-citation-v-2026-09-19-c1604968?id=ADHUHR",
@@ -3133,7 +2725,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-klas-cessna-citation-v-2026-09-19-c1604968?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-klas-cessna-citation-v-2026-09-19-c1604968?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 17:17:17 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-kuox-cessna-citation-v-2026-09-20-83757213?id=ADHUHR",
@@ -3167,7 +2759,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-kuox-cessna-citation-v-2026-09-20-83757213?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-kuox-cessna-citation-v-2026-09-20-83757213?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:24 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ksbp-klas-cessna-citation-v-2026-09-20-f03af217?id=ADHUHR",
@@ -3201,7 +2793,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ksbp-klas-cessna-citation-v-2026-09-20-f03af217?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ksbp-klas-cessna-citation-v-2026-09-20-f03af217?id=ADHUHR",
       "published": "Wed, 26 Aug 2026 16:50:01 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/eggw-lfpb-aircraft-2026-09-22-64acf40b?id=ADHUHR",
@@ -3235,7 +2827,7 @@
       "rss_link": "https://villiers.ai/empty-legs/eggw-lfpb-aircraft-2026-09-22-64acf40b?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/eggw-lfpb-aircraft-2026-09-22-64acf40b?id=ADHUHR",
       "published": "Fri, 14 Aug 2026 18:19:46 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-v-2026-09-22-cfd44a58?id=ADHUHR",
@@ -3269,7 +2861,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-v-2026-09-22-cfd44a58?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-khou-cessna-citation-v-2026-09-22-cfd44a58?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 00:33:49 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/khou-klas-cessna-citation-v-2026-09-22-72194246?id=ADHUHR",
@@ -3303,7 +2895,7 @@
       "rss_link": "https://villiers.ai/empty-legs/khou-klas-cessna-citation-v-2026-09-22-72194246?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/khou-klas-cessna-citation-v-2026-09-22-72194246?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 00:33:49 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/ksbp-klas-cessna-citation-v-2026-09-22-282cf079?id=ADHUHR",
@@ -3337,7 +2929,7 @@
       "rss_link": "https://villiers.ai/empty-legs/ksbp-klas-cessna-citation-v-2026-09-22-282cf079?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/ksbp-klas-cessna-citation-v-2026-09-22-282cf079?id=ADHUHR",
       "published": "Thu, 27 Aug 2026 16:34:25 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kaus-ksgr-cessna-citation-v-2026-09-24-706c77b7?id=ADHUHR",
@@ -3371,7 +2963,7 @@
       "rss_link": "https://villiers.ai/empty-legs/kaus-ksgr-cessna-citation-v-2026-09-24-706c77b7?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kaus-ksgr-cessna-citation-v-2026-09-24-706c77b7?id=ADHUHR",
       "published": "Tue, 25 Aug 2026 17:17:18 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     },
     {
       "source_id": "https://villiers.ai/empty-legs/kteb-kopf-cessna-citation-excel-2026-09-24-0dc88045?id=ADHUHR",
@@ -3405,7 +2997,415 @@
       "rss_link": "https://villiers.ai/empty-legs/kteb-kopf-cessna-citation-excel-2026-09-24-0dc88045?id=ADHUHR",
       "booking_link": "https://villiers.ai/empty-legs/kteb-kopf-cessna-citation-excel-2026-09-24-0dc88045?id=ADHUHR",
       "published": "Sun, 23 Aug 2026 18:23:24 GMT",
-      "fetched_at": "2026-08-27T23:47:02+00:00"
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/kfwa-khou-cessna-citation-ultra-2026-09-25-e87bee37?id=ADHUHR",
+      "status": "active",
+      "title": "Cessna Citation Ultra | Fort Wayne International Airport → William P. Hobby Airport | $9,998",
+      "description": "",
+      "aircraft_type": "Cessna Citation Ultra",
+      "origin_airport_raw": "KFWA - Fort Wayne International Airport",
+      "origin_icao": "KFWA",
+      "origin_iata": "FWA",
+      "origin_airport_name": "Fort Wayne International Airport",
+      "origin_city": "Fort Wayne",
+      "origin_country": "US",
+      "destination_airport_raw": "KHOU - William P. Hobby Airport",
+      "destination_icao": "KHOU",
+      "destination_iata": "HOU",
+      "destination_airport_name": "William P Hobby Airport",
+      "destination_city": "Houston",
+      "destination_country": "US",
+      "departure_date_raw": "25 September 2026",
+      "departure_date_iso": "2026-09-25",
+      "departure_time": "12:00",
+      "arrival_time": "14:17",
+      "flight_duration": "2h 17m",
+      "price_raw": "$9,998",
+      "price_amount": "9998",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "7",
+      "tracking_link": "https://villiers.ai/empty-legs/kfwa-khou-cessna-citation-ultra-2026-09-25-e87bee37?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/kfwa-khou-cessna-citation-ultra-2026-09-25-e87bee37?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/kfwa-khou-cessna-citation-ultra-2026-09-25-e87bee37?id=ADHUHR",
+      "published": "Wed, 19 Aug 2026 22:51:09 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/kfwa-ktys-cessna-citation-v-2026-09-25-ea8c1f15?id=ADHUHR",
+      "status": "active",
+      "title": "Cessna Citation V | Fort Wayne International Airport → McGhee Tyson Airport | $3,870",
+      "description": "",
+      "aircraft_type": "Cessna Citation V",
+      "origin_airport_raw": "KFWA - Fort Wayne International Airport",
+      "origin_icao": "KFWA",
+      "origin_iata": "FWA",
+      "origin_airport_name": "Fort Wayne International Airport",
+      "origin_city": "Fort Wayne",
+      "origin_country": "US",
+      "destination_airport_raw": "KTYS - McGhee Tyson Airport",
+      "destination_icao": "KTYS",
+      "destination_iata": "TYS",
+      "destination_airport_name": "Mc Ghee Tyson Airport",
+      "destination_city": "Knoxville",
+      "destination_country": "US",
+      "departure_date_raw": "25 September 2026",
+      "departure_date_iso": "2026-09-25",
+      "departure_time": "12:00",
+      "arrival_time": "13:10",
+      "flight_duration": "1h 10m",
+      "price_raw": "$3,870",
+      "price_amount": "3870",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "7",
+      "tracking_link": "https://villiers.ai/empty-legs/kfwa-ktys-cessna-citation-v-2026-09-25-ea8c1f15?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/kfwa-ktys-cessna-citation-v-2026-09-25-ea8c1f15?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/kfwa-ktys-cessna-citation-v-2026-09-25-ea8c1f15?id=ADHUHR",
+      "published": "Fri, 21 Aug 2026 18:42:16 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/ktys-khou-cessna-citation-v-2026-09-25-e64dae99?id=ADHUHR",
+      "status": "active",
+      "title": "Cessna Citation V | McGhee Tyson Airport → William P. Hobby Airport | $8,600",
+      "description": "",
+      "aircraft_type": "Cessna Citation V",
+      "origin_airport_raw": "KTYS - McGhee Tyson Airport",
+      "origin_icao": "KTYS",
+      "origin_iata": "TYS",
+      "origin_airport_name": "Mc Ghee Tyson Airport",
+      "origin_city": "Knoxville",
+      "origin_country": "US",
+      "destination_airport_raw": "KHOU - William P. Hobby Airport",
+      "destination_icao": "KHOU",
+      "destination_iata": "HOU",
+      "destination_airport_name": "William P Hobby Airport",
+      "destination_city": "Houston",
+      "destination_country": "US",
+      "departure_date_raw": "25 September 2026",
+      "departure_date_iso": "2026-09-25",
+      "departure_time": "12:00",
+      "arrival_time": "13:56",
+      "flight_duration": "1h 57m",
+      "price_raw": "$8,600",
+      "price_amount": "8600",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "7",
+      "tracking_link": "https://villiers.ai/empty-legs/ktys-khou-cessna-citation-v-2026-09-25-e64dae99?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/ktys-khou-cessna-citation-v-2026-09-25-e64dae99?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/ktys-khou-cessna-citation-v-2026-09-25-e64dae99?id=ADHUHR",
+      "published": "Fri, 21 Aug 2026 18:42:16 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/kopf-kteb-cessna-citation-excel-2026-09-28-e1dd89a8?id=ADHUHR",
+      "status": "active",
+      "title": "Cessna Citation Excel | Miami-Opa Locka Executive Airport → Teterboro Airport | $12,578",
+      "description": "",
+      "aircraft_type": "Cessna Citation Excel",
+      "origin_airport_raw": "KOPF - Miami-Opa Locka Executive Airport",
+      "origin_icao": "KOPF",
+      "origin_iata": "OPF",
+      "origin_airport_name": "Miami-Opa Locka Executive Airport",
+      "origin_city": "Miami",
+      "origin_country": "US",
+      "destination_airport_raw": "KTEB - Teterboro Airport",
+      "destination_icao": "KTEB",
+      "destination_iata": "TEB",
+      "destination_airport_name": "Teterboro Airport",
+      "destination_city": "Teterboro",
+      "destination_country": "US",
+      "departure_date_raw": "28 September 2026",
+      "departure_date_iso": "2026-09-28",
+      "departure_time": "12:00",
+      "arrival_time": "14:31",
+      "flight_duration": "2h 31m",
+      "price_raw": "$12,578",
+      "price_amount": "12578",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "9",
+      "tracking_link": "https://villiers.ai/empty-legs/kopf-kteb-cessna-citation-excel-2026-09-28-e1dd89a8?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/kopf-kteb-cessna-citation-excel-2026-09-28-e1dd89a8?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/kopf-kteb-cessna-citation-excel-2026-09-28-e1dd89a8?id=ADHUHR",
+      "published": "Sun, 23 Aug 2026 18:23:24 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/khou-kosu-pilatus-pc-12-ng-2026-09-29-f28d1d29?id=ADHUHR",
+      "status": "active",
+      "title": "Pilatus PC 12 NG | William P. Hobby Airport → The Ohio State University Airport - Don Scott Field | $7,740",
+      "description": "",
+      "aircraft_type": "Pilatus PC 12 NG",
+      "origin_airport_raw": "KHOU - William P. Hobby Airport",
+      "origin_icao": "KHOU",
+      "origin_iata": "HOU",
+      "origin_airport_name": "William P Hobby Airport",
+      "origin_city": "Houston",
+      "origin_country": "US",
+      "destination_airport_raw": "KOSU - The Ohio State University Airport - Don Scott Field",
+      "destination_icao": "KOSU",
+      "destination_iata": "OSU",
+      "destination_airport_name": "Ohio State University Airport",
+      "destination_city": "Columbus",
+      "destination_country": "US",
+      "departure_date_raw": "29 September 2026",
+      "departure_date_iso": "2026-09-29",
+      "departure_time": "12:00",
+      "arrival_time": "14:20",
+      "flight_duration": "2h 21m",
+      "price_raw": "$7,740",
+      "price_amount": "7740",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "7",
+      "tracking_link": "https://villiers.ai/empty-legs/khou-kosu-pilatus-pc-12-ng-2026-09-29-f28d1d29?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/khou-kosu-pilatus-pc-12-ng-2026-09-29-f28d1d29?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/khou-kosu-pilatus-pc-12-ng-2026-09-29-f28d1d29?id=ADHUHR",
+      "published": "Fri, 21 Aug 2026 18:42:16 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/khou-kfwa-cessna-citation-ultra-2026-10-04-cf212e44?id=ADHUHR",
+      "status": "active",
+      "title": "Cessna Citation Ultra | William P. Hobby Airport → Fort Wayne International Airport | $7,955",
+      "description": "",
+      "aircraft_type": "Cessna Citation Ultra",
+      "origin_airport_raw": "KHOU - William P. Hobby Airport",
+      "origin_icao": "KHOU",
+      "origin_iata": "HOU",
+      "origin_airport_name": "William P Hobby Airport",
+      "origin_city": "Houston",
+      "origin_country": "US",
+      "destination_airport_raw": "KFWA - Fort Wayne International Airport",
+      "destination_icao": "KFWA",
+      "destination_iata": "FWA",
+      "destination_airport_name": "Fort Wayne International Airport",
+      "destination_city": "Fort Wayne",
+      "destination_country": "US",
+      "departure_date_raw": "04 October 2026",
+      "departure_date_iso": "2026-10-04",
+      "departure_time": "12:00",
+      "arrival_time": "14:17",
+      "flight_duration": "2h 17m",
+      "price_raw": "$7,955",
+      "price_amount": "7955",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "7",
+      "tracking_link": "https://villiers.ai/empty-legs/khou-kfwa-cessna-citation-ultra-2026-10-04-cf212e44?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/khou-kfwa-cessna-citation-ultra-2026-10-04-cf212e44?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/khou-kfwa-cessna-citation-ultra-2026-10-04-cf212e44?id=ADHUHR",
+      "published": "Wed, 19 Aug 2026 22:51:09 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/kosu-kbna-pilatus-pc-12-ng-2026-10-05-cb075261?id=ADHUHR",
+      "status": "active",
+      "title": "Pilatus PC 12 NG | The Ohio State University Airport - Don Scott Field → Nashville International Airport | $4,730",
+      "description": "",
+      "aircraft_type": "Pilatus PC 12 NG",
+      "origin_airport_raw": "KOSU - The Ohio State University Airport - Don Scott Field",
+      "origin_icao": "KOSU",
+      "origin_iata": "OSU",
+      "origin_airport_name": "Ohio State University Airport",
+      "origin_city": "Columbus",
+      "origin_country": "US",
+      "destination_airport_raw": "KBNA - Nashville International Airport",
+      "destination_icao": "KBNA",
+      "destination_iata": "BNA",
+      "destination_airport_name": "Nashville International Airport",
+      "destination_city": "Nashville",
+      "destination_country": "US",
+      "departure_date_raw": "05 October 2026",
+      "departure_date_iso": "2026-10-05",
+      "departure_time": "12:00",
+      "arrival_time": "13:07",
+      "flight_duration": "1h 7m",
+      "price_raw": "$4,730",
+      "price_amount": "4730",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "7",
+      "tracking_link": "https://villiers.ai/empty-legs/kosu-kbna-pilatus-pc-12-ng-2026-10-05-cb075261?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/kosu-kbna-pilatus-pc-12-ng-2026-10-05-cb075261?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/kosu-kbna-pilatus-pc-12-ng-2026-10-05-cb075261?id=ADHUHR",
+      "published": "Fri, 21 Aug 2026 18:42:16 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/kiws-kaus-pilatus-pc-12-ng-2026-10-09-dc6b909f?id=ADHUHR",
+      "status": "active",
+      "title": "Pilatus PC-12 NG | West Houston Airport → Austin Bergstrom International Airport | $1,935",
+      "description": "",
+      "aircraft_type": "Pilatus PC-12 NG",
+      "origin_airport_raw": "KIWS - West Houston Airport",
+      "origin_icao": "KIWS",
+      "origin_iata": "IWS",
+      "origin_airport_name": "West Houston Airport",
+      "origin_city": "Houston",
+      "origin_country": "US",
+      "destination_airport_raw": "KAUS - Austin Bergstrom International Airport",
+      "destination_icao": "KAUS",
+      "destination_iata": "AUS",
+      "destination_airport_name": "Austin-Bergstrom International Airport",
+      "destination_city": "Austin",
+      "destination_country": "US",
+      "departure_date_raw": "09 October 2026",
+      "departure_date_iso": "2026-10-09",
+      "departure_time": "12:00",
+      "arrival_time": "12:43",
+      "flight_duration": "44m",
+      "price_raw": "$1,935",
+      "price_amount": "1935",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "7",
+      "tracking_link": "https://villiers.ai/empty-legs/kiws-kaus-pilatus-pc-12-ng-2026-10-09-dc6b909f?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/kiws-kaus-pilatus-pc-12-ng-2026-10-09-dc6b909f?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/kiws-kaus-pilatus-pc-12-ng-2026-10-09-dc6b909f?id=ADHUHR",
+      "published": "Wed, 19 Aug 2026 22:51:09 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/khbv-kdal-cessna-citation-ultra-2026-10-10-aabd5fe8?id=ADHUHR",
+      "status": "active",
+      "title": "Cessna Citation Ultra | Jim Hogg County Airport → Dallas Love Field | $3,870",
+      "description": "",
+      "aircraft_type": "Cessna Citation Ultra",
+      "origin_airport_raw": "KHBV - Jim Hogg County Airport",
+      "origin_icao": "KHBV",
+      "origin_iata": "",
+      "origin_airport_name": "Jim Hogg County Airport",
+      "origin_city": "Hebbronville",
+      "origin_country": "US",
+      "destination_airport_raw": "KDAL - Dallas Love Field",
+      "destination_icao": "KDAL",
+      "destination_iata": "DAL",
+      "destination_airport_name": "Dallas Love Field",
+      "destination_city": "Dallas",
+      "destination_country": "US",
+      "departure_date_raw": "10 October 2026",
+      "departure_date_iso": "2026-10-10",
+      "departure_time": "12:00",
+      "arrival_time": "13:13",
+      "flight_duration": "1h 14m",
+      "price_raw": "$3,870",
+      "price_amount": "3870",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "7",
+      "tracking_link": "https://villiers.ai/empty-legs/khbv-kdal-cessna-citation-ultra-2026-10-10-aabd5fe8?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/khbv-kdal-cessna-citation-ultra-2026-10-10-aabd5fe8?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/khbv-kdal-cessna-citation-ultra-2026-10-10-aabd5fe8?id=ADHUHR",
+      "published": "Sun, 23 Aug 2026 18:23:24 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/kaus-kiws-pilatus-pc-12-ng-2026-10-11-35d726b9?id=ADHUHR",
+      "status": "active",
+      "title": "Pilatus PC-12 NG | Austin Bergstrom International Airport → West Houston Airport | $1,505",
+      "description": "",
+      "aircraft_type": "Pilatus PC-12 NG",
+      "origin_airport_raw": "KAUS - Austin Bergstrom International Airport",
+      "origin_icao": "KAUS",
+      "origin_iata": "AUS",
+      "origin_airport_name": "Austin-Bergstrom International Airport",
+      "origin_city": "Austin",
+      "origin_country": "US",
+      "destination_airport_raw": "KIWS - West Houston Airport",
+      "destination_icao": "KIWS",
+      "destination_iata": "IWS",
+      "destination_airport_name": "West Houston Airport",
+      "destination_city": "Houston",
+      "destination_country": "US",
+      "departure_date_raw": "11 October 2026",
+      "departure_date_iso": "2026-10-11",
+      "departure_time": "12:00",
+      "arrival_time": "12:43",
+      "flight_duration": "44m",
+      "price_raw": "$1,505",
+      "price_amount": "1505",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "7",
+      "tracking_link": "https://villiers.ai/empty-legs/kaus-kiws-pilatus-pc-12-ng-2026-10-11-35d726b9?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/kaus-kiws-pilatus-pc-12-ng-2026-10-11-35d726b9?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/kaus-kiws-pilatus-pc-12-ng-2026-10-11-35d726b9?id=ADHUHR",
+      "published": "Wed, 19 Aug 2026 22:51:09 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-604-2026-10-11-30ae8b95?id=ADHUHR",
+      "status": "active",
+      "title": "Bombardier Challenger 604 | William P. Hobby Airport → Dallas Love Field | $6,343",
+      "description": "",
+      "aircraft_type": "Bombardier Challenger 604",
+      "origin_airport_raw": "KHOU - William P. Hobby Airport",
+      "origin_icao": "KHOU",
+      "origin_iata": "HOU",
+      "origin_airport_name": "William P Hobby Airport",
+      "origin_city": "Houston",
+      "origin_country": "US",
+      "destination_airport_raw": "KDAL - Dallas Love Field",
+      "destination_icao": "KDAL",
+      "destination_iata": "DAL",
+      "destination_airport_name": "Dallas Love Field",
+      "destination_city": "Dallas",
+      "destination_country": "US",
+      "departure_date_raw": "11 October 2026",
+      "departure_date_iso": "2026-10-11",
+      "departure_time": "12:00",
+      "arrival_time": "12:56",
+      "flight_duration": "57m",
+      "price_raw": "$6,343",
+      "price_amount": "6343",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "10",
+      "tracking_link": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-604-2026-10-11-30ae8b95?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-604-2026-10-11-30ae8b95?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-604-2026-10-11-30ae8b95?id=ADHUHR",
+      "published": "Fri, 07 Aug 2026 14:24:21 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
+    },
+    {
+      "source_id": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-300-2026-10-13-8428d729?id=ADHUHR",
+      "status": "active",
+      "title": "Bombardier Challenger 300 | William P. Hobby Airport → Dallas Love Field | $6,343",
+      "description": "",
+      "aircraft_type": "Bombardier Challenger 300",
+      "origin_airport_raw": "KHOU - William P. Hobby Airport",
+      "origin_icao": "KHOU",
+      "origin_iata": "HOU",
+      "origin_airport_name": "William P Hobby Airport",
+      "origin_city": "Houston",
+      "origin_country": "US",
+      "destination_airport_raw": "KDAL - Dallas Love Field",
+      "destination_icao": "KDAL",
+      "destination_iata": "DAL",
+      "destination_airport_name": "Dallas Love Field",
+      "destination_city": "Dallas",
+      "destination_country": "US",
+      "departure_date_raw": "13 October 2026",
+      "departure_date_iso": "2026-10-13",
+      "departure_time": "12:00",
+      "arrival_time": "12:56",
+      "flight_duration": "57m",
+      "price_raw": "$6,343",
+      "price_amount": "6343",
+      "price_currency": "USD",
+      "price_currency_symbol": "$",
+      "seats_available": "9",
+      "tracking_link": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-300-2026-10-13-8428d729?id=ADHUHR",
+      "rss_link": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-300-2026-10-13-8428d729?id=ADHUHR",
+      "booking_link": "https://villiers.ai/empty-legs/khou-kdal-bombardier-challenger-300-2026-10-13-8428d729?id=ADHUHR",
+      "published": "Tue, 25 Aug 2026 17:17:18 GMT",
+      "fetched_at": "2026-08-28T00:17:05+00:00"
     }
   ]
 }
