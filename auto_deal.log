@@ -82677,3 +82677,40 @@ Encoded 487/540
 Encoded 488/540
 Encoded 489/540
 Encoded 489/540
+Encoded 490/540
+Encoded 491/540
+Encoded 491/540
+Encoded 492/540
+Encoded 492/540
+Encoded 493/540
+Encoded 494/540
+Encoded 495/540
+Encoded 496/540
+Encoded 497/540
+Encoded 498/540
+Encoded 499/540
+Encoded 501/540
+Encoded 503/540
+Encoded 505/540
+Encoded 507/540
+Encoded 509/540
+Encoded 511/540
+Encoded 513/540
+Encoded 515/540
+Encoded 517/540
+Encoded 520/540
+Encoded 522/540
+Encoded 524/540
+Encoded 526/540
+Encoded 529/540
+Encoded 534/540
+Encoded 540/540
++                    /mnt/volume_fra1_1786451349368/output_deal.mp4 12.6 MB
+[*] Starting automated flight deal processing...
+[*] Selected Flight: DSI ➡️ MSL | 12 September 2026
+[*] Rendering video (this takes about 7-10 minutes)...
+[*] Render complete. Uploading to Telegram to get CDN URL...
+[*] Video uploaded. Triggering Make.com Webhook...
+✅ Successfully sent to Make.com!
+[*] Cleaning up temporary files...
+[*] Automation run finished successfully!
