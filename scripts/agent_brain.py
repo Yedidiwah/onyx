@@ -4,16 +4,15 @@ import requests
 from dotenv import load_dotenv
 from openai import OpenAI
 
-load_dotenv()
+# טעינת המפתחות ישירות מתיקיית האב
+load_dotenv("/root/onyx/.env")
 
-# טעינת המפתחות
 MCP_TOKEN = os.getenv("VILLIERS_MCP_TOKEN")
 MCP_URL = "https://mcp.villiers.ai/mcp"
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # פונקציה לתקשורת עם השרת של Villiers
 def get_jet_estimate_from_villiers(origin, destination, date, passengers=1):
-    print(f"\n[מערכת] ה-AI החליט לפנות ל-Villiers עבור המסלול: {origin} -> {destination}...")
     headers = {
         "Authorization": f"Bearer {MCP_TOKEN}",
         "Content-Type": "application/json"
@@ -39,15 +38,17 @@ def get_jet_estimate_from_villiers(origin, destination, date, passengers=1):
     except Exception as e:
         return {"error": str(e)}
 
-# הפונקציה הראשית שמפעילה את הסוכן
+# הפונקציה הראשית שמפעילה את הסוכן - מחזירה את הטקסט במקום להדפיס
 def run_onyx_agent(user_message):
-    print(f"\nלקוח: {user_message}")
-    
-    # הגדרת סוכן ה-AI והכלים שלו
     system_prompt = """
     You are the luxury private jet concierge for ONYX (flywithonyx.com).
     Your goal is to provide exceptional, high-end customer service.
     When a user asks for a flight, use the get_jet_estimate tool to find the price.
+    
+    CRITICAL: You must accurately translate city names from the user's input (especially from Hebrew) to the correct 3-letter IATA airport code before calling the tool. 
+    Examples: פריז = Paris = CDG or LBG, לונדון = London = LHR, רומא = Rome = FCO. 
+    DO NOT guess or substitute cities. If a city is unclear, ask the user to clarify.
+    
     Always reply in a professional, luxurious tone. If the user writes in Hebrew, reply in Hebrew.
     """
 
@@ -71,54 +72,52 @@ def run_onyx_agent(user_message):
         }
     ]
 
-    # שלב 1: שולחים את הבקשה ל-OpenAI
-    response = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_message}
-        ],
-        tools=tools,
-        tool_choice="auto"
-    )
-
-    response_message = response.choices[0].message
-
-    # שלב 2: ה-AI בודק אם הוא צריך להשתמש בכלי (Villiers API)
-    if response_message.tool_calls:
-        tool_call = response_message.tool_calls[0]
-        arguments = json.loads(tool_call.function.arguments)
-        
-        # מפעילים את הפונקציה האמיתית מול Villiers
-        function_response = get_jet_estimate_from_villiers(
-            origin=arguments.get('origin'),
-            destination=arguments.get('destination'),
-            date=arguments.get('date'),
-            passengers=arguments.get('passengers', 1)
-        )
-        
-        # שלב 3: מחזירים את התשובה מ-Villiers ל-OpenAI כדי שינסח תשובה ללקוח
-        final_response = client.chat.completions.create(
+    try:
+        response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_message},
-                response_message,
-                {
-                    "role": "tool",
-                    "tool_call_id": tool_call.id,
-                    "name": tool_call.function.name,
-                    "content": json.dumps(function_response)
-                }
-            ]
+                {"role": "user", "content": user_message}
+            ],
+            tools=tools,
+            tool_choice="auto"
         )
-        print("\nסוכן ONYX:")
-        print(final_response.choices[0].message.content)
-    else:
-        print("\nסוכן ONYX:")
-        print(response_message.content)
+
+        response_message = response.choices[0].message
+
+        if response_message.tool_calls:
+            tool_call = response_message.tool_calls[0]
+            arguments = json.loads(tool_call.function.arguments)
+            
+            function_response = get_jet_estimate_from_villiers(
+                origin=arguments.get('origin'),
+                destination=arguments.get('destination'),
+                date=arguments.get('date'),
+                passengers=arguments.get('passengers', 1)
+            )
+            
+            final_response = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_message},
+                    response_message,
+                    {
+                        "role": "tool",
+                        "tool_call_id": tool_call.id,
+                        "name": tool_call.function.name,
+                        "content": json.dumps(function_response)
+                    }
+                ]
+            )
+            return final_response.choices[0].message.content
+        else:
+            return response_message.content
+    except Exception as e:
+        print(f"Agent Logic Error: {e}")
+        raise e
 
 if __name__ == "__main__":
-    # אנחנו מדמים כאן הודעה מלקוח בטלגרם או באתר
-    test_message = "היי, אני צריך הצעת מחיר לטיסה פרטית מלונדון לניס ב-15 בספטמבר ל-4 נוסעים. מה האפשרויות?"
-    run_onyx_agent(test_message)
+    # מאפשר להריץ את הקובץ ישירות בשביל טסטים מהטרמינל
+    test_message = "היי, אני צריך הצעת מחיר לטיסה פרטית מלונדון לניס ב-15 בספטמבר ל-4 נוסעים."
+    print(run_onyx_agent(test_message))
