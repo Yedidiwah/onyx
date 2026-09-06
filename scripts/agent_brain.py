@@ -1,5 +1,6 @@
 import os
 import json
+import re
 import requests
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -11,13 +12,13 @@ MCP_URL = "https://mcp.villiers.ai/mcp"
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 user_histories = {}
+user_active_routes = {}
 
 def call_villiers_mcp(tool_name, arguments):
-    # וידוא ששדות חסרים לא מפילים את הקריאה
     if tool_name == "request_jet_confirmation":
         if not arguments.get("last_name"):
             arguments["last_name"] = "Guest"
-
+    
     headers = {
         "Authorization": f"Bearer {MCP_TOKEN}",
         "Content-Type": "application/json"
@@ -45,27 +46,60 @@ def run_onyx_agent(chat_id, user_message):
     You are the luxury private jet concierge for ONYX (flywithonyx.com).
     Your goal is to provide exceptional, high-end customer service.
     
-    MANDATORY INTEGRATION RULES:
-    1. You must call `get_jet_estimate` and display the price range to the user before calling `request_jet_confirmation`.
-    2. Use `search_empty_legs` if the user is looking for discounted empty-leg deals.
-    3. As soon as the user provides their contact details (name, email, phone) and confirms the route, immediately invoke `request_jet_confirmation` without asking unnecessary follow-up questions. If last name is missing, use "Guest".
-    
-    AIRPORT & CITY TRANSLATION:
-    - Accurately translate cities to 3-letter IATA codes. 
-    - For cities with multiple airports (like London, Paris, Rome, New York, etc.), use the primary main hub by default (e.g., London -> LHR, Paris -> CDG, Rome -> FCO, New York -> JFK) unless specified otherwise.
+    STRICT VILLIERS INTEGRATION PROTOCOL:
+    1. ESTIMATE FIRST: Call `get_jet_estimate` and display the price range to the user. 
+    2. NEVER output raw links or generic URLs (like villiers.ai) in your text responses.
+    3. AFTER SHOWING THE ESTIMATE: You must explicitly ask the user for their contact details (First Name, Email, Phone Number) so you can submit a confirmed live pricing request on their behalf.
+    4. ACTIVE AIRPORTS ONLY: Translate cities strictly to active 3-letter IATA codes. For multi-airport cities, use primary active hubs (Rome -> FCO, Berlin -> BER, London -> LHR, Paris -> CDG). NEVER use closed airports like TXL.
+    5. LEAD SUBMISSION: Once the user provides their contact details, you must invoke the `request_jet_confirmation` tool immediately.
     
     Always reply in a professional, luxurious tone. If the user writes in Hebrew, reply in Hebrew.
     """
 
     if chat_id_str not in user_histories:
-        user_histories[chat_id_str] = [
-            {"role": "system", "content": system_prompt}
-        ]
+        user_histories[chat_id_str] = [{"role": "system", "content": system_prompt}]
 
     user_histories[chat_id_str].append({"role": "user", "content": user_message})
 
-    if len(user_histories[chat_id_str]) > 15:
-        user_histories[chat_id_str] = [user_histories[chat_id_str][0]] + user_histories[chat_id_str][-14:]
+    # מנגנון הגנה דטרמיניסטי בפייתון ללכידת פרטי קשר והרצת ה-MCP
+    is_contact_info = "@" in user_message or (any(char.isdigit() for char in user_message) and len(user_message) > 6)
+    
+    if is_contact_info and chat_id_str in user_active_routes:
+        route_info = user_active_routes[chat_id_str]
+        
+        email_match = re.search(r'[\w\.-]+@[\w\.-]+\.\w+', user_message)
+        email = email_match.group(0) if email_match else "sandbox-test@mail.villiers.ai"
+        
+        phone_digits = "".join(filter(lambda c: c.isdigit() or c == '+', user_message))
+        if not phone_digits.startswith("+"):
+            phone_digits = "+" + phone_digits.lstrip("0")
+        phone = phone_digits if len(phone_digits) > 8 else "+972507400786"
+        
+        first_name = user_message.split()[0] if user_message.strip() else "Guest"
+        if "@" in first_name or first_name.isdigit():
+            first_name = "Yedidya"
+
+        tool_args = {
+            "email": email,
+            "first_name": first_name,
+            "last_name": "Guest",
+            "phone": phone,
+            "route": route_info
+        }
+
+        mcp_res = call_villiers_mcp("request_jet_confirmation", tool_args)
+        print(f"Direct MCP Execution Result: {mcp_res}")
+
+        del user_active_routes[chat_id_str]
+
+        success_reply = (
+            f"תודה רבה, {first_name}! פרטי ההזמנה שלך עבור המסלול ({route_info}) נקלטו בהצלחה והועברו לצוות הטיסות לפתיחת תיק אישור מול המפעילים.\n\n"
+            "תוכל להמשיך לצפות ולנהל את כל הדילים הזמינים ישירות דרך פלטפורמת הפרימיום שלנו:\n"
+            "🔗 https://www.villiers.ai/?id=ADHUHR\n\n"
+            "אשמח לעמוד לשירותך בכל בקשה נוספת!"
+        )
+        user_histories[chat_id_str].append({"role": "assistant", "content": success_reply})
+        return success_reply
 
     tools = [
         {
@@ -76,41 +110,12 @@ def run_onyx_agent(chat_id, user_message):
                 "parameters": {
                     "type": "object",
                     "properties": {
-                        "origin": {"type": "string", "description": "3-letter IATA airport code for origin"},
-                        "destination": {"type": "string", "description": "3-letter IATA airport code for destination"},
+                        "origin": {"type": "string", "description": "3-letter active IATA code for origin (e.g. FCO)"},
+                        "destination": {"type": "string", "description": "3-letter active IATA code for destination (e.g. BER)"},
                         "date": {"type": "string", "description": "Date of flight in YYYY-MM-DD format"},
                         "passengers": {"type": "integer", "description": "Number of passengers"}
                     },
                     "required": ["origin", "destination", "date"]
-                }
-            }
-        },
-        {
-            "type": "function",
-            "function": {
-                "name": "search_empty_legs",
-                "description": "Find discounted empty-leg repositioning flights.",
-                "parameters": {
-                    "type": "object",
-                    "properties": {}
-                }
-            }
-        },
-        {
-            "type": "function",
-            "function": {
-                "name": "request_jet_confirmation",
-                "description": "Request confirmed live pricing by email (creates a booking lead).",
-                "parameters": {
-                    "type": "object",
-                    "properties": {
-                        "email": {"type": "string", "description": "User email address"},
-                        "first_name": {"type": "string", "description": "User first name"},
-                        "last_name": {"type": "string", "description": "User last name (optional)"},
-                        "phone": {"type": "string", "description": "User phone number"},
-                        "route": {"type": "string", "description": "Route description or IATA codes, e.g. FCO - BER"}
-                    },
-                    "required": ["email", "first_name", "phone", "route"]
                 }
             }
         }
@@ -128,17 +133,20 @@ def run_onyx_agent(chat_id, user_message):
 
         if response_message.tool_calls:
             user_histories[chat_id_str].append(response_message)
-            
             tool_call = response_message.tool_calls[0]
-            tool_name = tool_call.function.name
             arguments = json.loads(tool_call.function.arguments)
             
-            function_response = call_villiers_mcp(tool_name, arguments)
+            if tool_call.function.name == "get_jet_estimate":
+                orig = arguments.get("origin", "FCO")
+                dest = arguments.get("destination", "BER")
+                user_active_routes[chat_id_str] = f"{orig} to {dest}"
+
+            function_response = call_villiers_mcp(tool_call.function.name, arguments)
             
             tool_msg = {
                 "role": "tool",
                 "tool_call_id": tool_call.id,
-                "name": tool_name,
+                "name": tool_call.function.name,
                 "content": json.dumps(function_response)
             }
             user_histories[chat_id_str].append(tool_msg)
