@@ -184,6 +184,8 @@ def process_empty_leg():
 
 🔗 Book this flight: {deal_link}
 
+🤖 Need a custom route? Chat with our 24/7 AI Concierge: https://t.me/OnyxAirRadar_bot
+
 #PrivateJet #EmptyLegs #LuxuryTravel"""
 
     # 1. Generate Video
