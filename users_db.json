@@ -4,7 +4,7 @@
         "origin": "Anywhere in United Kingdom",
         "destination": "Anywhere in France",
         "status": "free",
-        "last_sent_timestamp": 1788677225.6024442,
+        "last_sent_timestamp": 1788689825.5146914,
         "frequency_hours": 3,
         "registered_at": "2026-08-06T10:12:23+00:00",
         "preferences_updated_at": "2026-08-06T14:32:26+00:00"
@@ -24,7 +24,7 @@
         "origin": "Not set",
         "destination": "Not set",
         "frequency_hours": 1,
-        "last_sent_timestamp": 1788686225.2635584,
+        "last_sent_timestamp": 1788689825.5146914,
         "status": "free",
         "registered_at": "2026-08-18T11:29:57+00:00",
         "preferences_updated_at": ""
