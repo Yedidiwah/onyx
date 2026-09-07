@@ -14,12 +14,19 @@ user_histories = {}
 
 def call_villiers_mcp(tool_name, arguments):
     if tool_name == "request_jet_confirmation":
-        if not arguments.get("last_name"):
-            arguments["last_name"] = "Guest"
         
-        phone = arguments.get("phone", "")
-        if phone and not phone.startswith("+"):
-            arguments["phone"] = "+" + phone.lstrip("0")
+        # --- מעקף Sandbox מדויק ---
+        if arguments.get("email") == "sandbox-test@mail.villiers.ai":
+            arguments["first_name"] = "Sandbox"
+            arguments["last_name"] = "Test"
+            arguments["phone"] = "+1 555 0100"
+        else:
+            if not arguments.get("last_name"):
+                arguments["last_name"] = "Guest"
+            
+            phone = arguments.get("phone", "")
+            if phone and not phone.startswith("+"):
+                arguments["phone"] = "+" + phone.lstrip("0")
 
     headers = {
         "Authorization": f"Bearer {MCP_TOKEN}",
@@ -34,12 +41,19 @@ def call_villiers_mcp(tool_name, arguments):
             "arguments": arguments
         }
     }
+    
+    # הדפסות הלוג (קריטי לדיבאג בשרת)
+    print(f"--- MCP Request to {tool_name} ---")
+    print(f"Payload: {payload}")
+    
     try:
         response = requests.post(MCP_URL, headers=headers, json=payload)
+        print(f"Response: {response.text}")
         response.raise_for_status()
         return response.json()
     except Exception as e:
         err_msg = f"API Error: {str(e)} | Details: {response.text if 'response' in locals() else 'No response'}"
+        print(err_msg)
         return {"error": err_msg}
 
 def run_onyx_agent(chat_id, user_message):
@@ -48,17 +62,21 @@ def run_onyx_agent(chat_id, user_message):
     system_prompt = """
     You are the luxury private jet concierge for ONYX (flywithonyx.com).
     
-    STRICT PROTOCOL:
-    1. Call `get_jet_estimate` and display prices.
-    2. Ask for First Name, Email, and Phone.
-    3. Call `request_jet_confirmation` IMMEDIATELY when details are provided.
-    4. ALWAYS include your affiliate link securely formatted like this: [Book Direct with Villiers](https://www.villiers.ai/?id=ADHUHR)
-    5. IF a tool returns an error, DO NOT apologize. Just politely explain there was a system constraint and provide the affiliate link seamlessly: [Complete your booking here](https://www.villiers.ai/?id=ADHUHR)
-    6. AIRPORTS: Translate cities strictly to active 3-letter IATA codes. For multi-airport cities, ALWAYS default to the primary active main hub (e.g., Rome -> FCO, Berlin -> BER, London -> LHR, Paris -> CDG). NEVER use general city codes or closed airports.
+    STRICT WORKFLOW - YOU MUST FOLLOW THESE STEPS IN ORDER:
     
-    LANGUAGE & TONE:
-    Maintain a professional, high-end, luxurious tone. 
-    ALWAYS reply in the exact same language the user writes in.
+    STEP 1: When a user asks for a flight, call `get_jet_estimate`. 
+    
+    STEP 2: Display the estimated prices to the user in their language. 
+    CRITICAL: The API returns a generic link saying "Next step - Get confirmed live pricing". IGNORE THIS LINK COMPLETELY. DO NOT send any links at this stage. Instead, explicitly ask the user: "To get a confirmed live quote, please provide your First Name, Email, and Phone number."
+    
+    STEP 3: Once the user provides their details, immediately call `request_jet_confirmation`. Ensure you pass the correct `origin` and `destination` 3-letter IATA codes.
+    
+    STEP 4: After `request_jet_confirmation` is complete (whether successful or error due to limits), politely explain the result and NOW provide your exact affiliate link: [Book Direct with Villiers](https://www.villiers.ai/?id=ADHUHR).
+    
+    RULES:
+    - AIRPORTS: Translate cities strictly to active 3-letter IATA codes (e.g., Rome -> FCO, London -> LHR, Paris -> CDG).
+    - TRANSLATION: The API returns English results. You MUST translate the prices, descriptions, and jet types into the user's language before sending the message. Do NOT copy-paste English API output to a user speaking another language.
+    - TONE: Maintain a professional, high-end, luxurious tone.
     """
 
     if chat_id_str not in user_histories:
@@ -66,6 +84,7 @@ def run_onyx_agent(chat_id, user_message):
 
     user_histories[chat_id_str].append({"role": "user", "content": user_message})
 
+    # שמירה על זיכרון שיחה נקי (15 הודעות אחרונות)
     if len(user_histories[chat_id_str]) > 15:
         user_histories[chat_id_str] = [user_histories[chat_id_str][0]] + user_histories[chat_id_str][-14:]
 
