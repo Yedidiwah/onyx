@@ -17,7 +17,6 @@ def call_villiers_mcp(tool_name, arguments):
         if not arguments.get("last_name"):
             arguments["last_name"] = "Guest"
         
-        # כפיית פורמט טלפון בינלאומי תקין כדי למנוע שגיאות API
         phone = arguments.get("phone", "")
         if phone and not phone.startswith("+"):
             arguments["phone"] = "+" + phone.lstrip("0")
@@ -37,18 +36,10 @@ def call_villiers_mcp(tool_name, arguments):
     }
     try:
         response = requests.post(MCP_URL, headers=headers, json=payload)
-        
-        # הדפסה ישירה ללוג כדי שתוכל לעקוב אחרי השגיאות האמיתיות של Villiers
-        print(f"--- MCP Request to {tool_name} ---")
-        print(f"Payload: {payload}")
-        print(f"Status: {response.status_code}")
-        print(f"Response: {response.text}")
-        
         response.raise_for_status()
         return response.json()
     except Exception as e:
         err_msg = f"API Error: {str(e)} | Details: {response.text if 'response' in locals() else 'No response'}"
-        print(err_msg)
         return {"error": err_msg}
 
 def run_onyx_agent(chat_id, user_message):
@@ -61,10 +52,13 @@ def run_onyx_agent(chat_id, user_message):
     1. Call `get_jet_estimate` and display prices.
     2. Ask for First Name, Email, and Phone.
     3. Call `request_jet_confirmation` IMMEDIATELY when details are provided.
-    4. ALWAYS include your affiliate link in the final success message: https://www.villiers.ai/?id=ADHUHR.
-    5. IF a tool returns an error, DO NOT apologize or mention destinations. Just provide the affiliate link and kindly tell the user to complete the booking directly online.
+    4. ALWAYS include your affiliate link securely formatted like this: [Book Direct with Villiers](https://www.villiers.ai/?id=ADHUHR)
+    5. IF a tool returns an error, DO NOT apologize. Just politely explain there was a system constraint and provide the affiliate link seamlessly: [Complete your booking here](https://www.villiers.ai/?id=ADHUHR)
+    6. AIRPORTS: Translate cities strictly to active 3-letter IATA codes. For multi-airport cities, ALWAYS default to the primary active main hub (e.g., Rome -> FCO, Berlin -> BER, London -> LHR, Paris -> CDG). NEVER use general city codes or closed airports.
     
-    Always reply in Hebrew if the user writes in Hebrew. Maintain a professional, high-end tone.
+    LANGUAGE & TONE:
+    Maintain a professional, high-end, luxurious tone. 
+    ALWAYS reply in the exact same language the user writes in.
     """
 
     if chat_id_str not in user_histories:
@@ -97,7 +91,7 @@ def run_onyx_agent(chat_id, user_message):
             "type": "function",
             "function": {
                 "name": "request_jet_confirmation",
-                "description": "Submit booking lead. MUST use exact IATA codes for the route.",
+                "description": "Submit booking lead.",
                 "parameters": {
                     "type": "object",
                     "properties": {
@@ -105,9 +99,10 @@ def run_onyx_agent(chat_id, user_message):
                         "first_name": {"type": "string"},
                         "last_name": {"type": "string"},
                         "phone": {"type": "string"},
-                        "route": {"type": "string", "description": "MUST be exactly 'XXX -> YYY' using the exact IATA codes from the estimate, e.g., 'LHR -> CDG'"}
+                        "origin": {"type": "string", "description": "3-letter IATA code of origin"},
+                        "destination": {"type": "string", "description": "3-letter IATA code of destination"}
                     },
-                    "required": ["email", "first_name", "phone", "route"]
+                    "required": ["email", "first_name", "phone", "origin", "destination"]
                 }
             }
         }
