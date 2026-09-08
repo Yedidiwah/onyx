@@ -128014,3 +128014,6 @@ Encoded 540/540
   File "/root/onyx/auto_deal.py", line 112
     p1, p2, p3, music = get_smart_random_combo()
 IndentationError: unexpected indent
+  File "/root/onyx/auto_deal.py", line 112
+    p1, p2, p3, music = get_smart_random_combo()
+IndentationError: unexpected indent
