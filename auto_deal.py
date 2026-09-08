@@ -95,7 +95,7 @@ def main():
     deal_link = selected_deal.get("source_id", "https://flywithonyx.com")
 
     print(f"[*] Selected Flight: {origin_code} ➡️ {dest_code} | {date}")
-tweet_text = f"""🚨 VIP EMPTY LEG DEAL 🚨
+    tweet_text = f"""🚨 VIP EMPTY LEG DEAL 🚨
 🛫 {origin_city} ({origin_code}) ➡️ 🛬 {dest_city} ({dest_code})
 🗓️ {date}
 🛩️ {aircraft} | 💺 {seats} Seats

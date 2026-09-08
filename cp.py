@@ -69,7 +69,7 @@ def generate_video_with_remotion(deal_data):
     }
     try:
         cmd = f"npx remotion render HelloWorld {OUTPUT_VIDEO_PATH} --props='{json.dumps(props)}' --frames=0-539 --image-format=jpeg --concurrency=1"
-        subprocess.run(cmd, shell=True, check=True, cwd="/mnt/volume_fra1_1786451349368/video-generator"
+        subprocess.run(cmd, shell=True, check=True, cwd="/mnt/volume_fra1_1786451349368/video-generator")
         return OUTPUT_VIDEO_PATH
     except Exception as e:
         print(f"[!] Video generation failed: {e}")
