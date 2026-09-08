@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="description"
+        content="Browse current yacht charter discounts sourced from SkipperCity, filterable by country and boat type."
+    >
+
+    <meta
+        name="referrer"
+        content="strict-origin-when-cross-origin"
+    >
+
+    <meta
+        http-equiv="Content-Security-Policy"
+        content="
+            default-src 'self';
+            script-src 'self';
+            style-src 'self' 'unsafe-inline';
+            img-src 'self' data:;
+            connect-src 'self';
+            font-src 'self';
+            object-src 'none';
+            base-uri 'self';
+            form-action 'none';
+            upgrade-insecure-requests;
+        "
+    >
+
+    <title>ONYX Tides | Yacht Charter Discount Finder</title>
+
+    <link
+        rel="icon"
+        href="assets/onyx-logo.png"
+        type="image/png"
+    >
+
+    <link
+        rel="stylesheet"
+        href="assets/styles.css"
+    >
+
+    <script
+        src="assets/yachts.js"
+        defer
+    ></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">
+        Skip to yacht search
+    </a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a
+                class="brand"
+                href="./"
+                aria-label="ONYX Radar home"
+            >
+                <img
+                    class="brand-logo"
+                    src="assets/onyx-logo.png"
+                    alt="ONYX Premium Flight Finder"
+                    width="92"
+                    height="92"
+                >
+
+                <div class="brand-copy">
+                    <span class="brand-name">
+                        ONYX Tides
+                    </span>
+
+                    <span class="brand-tagline">
+                        Fly Private. Sail Private.
+                    </span>
+                </div>
+            </a>
+
+            <nav
+                class="main-navigation"
+                aria-label="Main navigation"
+            >
+                <a href="./">
+                    Flights
+                </a>
+
+                <a href="#yachts">
+                    Yachts
+                </a>
+
+                <a href="#affiliate-notice">
+                    Disclosure
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero">
+            <div class="hero-glow" aria-hidden="true"></div>
+
+            <div class="container hero-content">
+                <p class="eyebrow">
+                    Live yacht charter discounts
+                </p>
+
+                <h1>
+                    Discover The Best
+                    <span>Yacht Charter Discounts</span>
+                </h1>
+
+                <p class="hero-description">
+                    Live charter discounts sourced from SkipperCity,
+                    sorted by the biggest saving first. Filter by
+                    country or boat type to find your route.
+                </p>
+
+                <div class="hero-actions">
+                    <a
+                        class="button button-primary"
+                        href="#yachts"
+                    >
+                        Explore Yachts
+                    </a>
+                </div>
+
+                <div
+                    class="hero-statistics"
+                    aria-label="Current yacht statistics"
+                >
+                    <div class="statistic">
+                        <span
+                            class="statistic-value"
+                            id="hero-yacht-count"
+                        >
+                            —
+                        </span>
+
+                        <span class="statistic-label">
+                            Current Deals
+                        </span>
+                    </div>
+
+                    <div class="statistic">
+                        <span
+                            class="statistic-value"
+                            id="hero-country-count"
+                        >
+                            —
+                        </span>
+
+                        <span class="statistic-label">
+                            Countries
+                        </span>
+                    </div>
+
+                    <div class="statistic">
+                        <span
+                            class="statistic-value"
+                            id="hero-top-discount"
+                        >
+                            —
+                        </span>
+
+                        <span class="statistic-label">
+                            Best Discount
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="affiliate-strip"
+            id="affiliate-notice"
+            aria-labelledby="affiliate-heading"
+        >
+            <div class="container">
+                <h2
+                    id="affiliate-heading"
+                    class="visually-hidden"
+                >
+                    Affiliate disclosure
+                </h2>
+
+                <p>
+                    <strong>
+                        Independent Affiliate Disclosure:
+                    </strong>
+
+                    ONYX Radar is an independent affiliate
+                    participating in the SkipperCity affiliate
+                    programme. ONYX Radar may receive a
+                    commission from qualifying bookings made
+                    through links on this page, at no
+                    additional cost to you.
+                </p>
+
+                <a href="affiliate-disclosure.html">
+                    Read the full disclosure
+                </a>
+            </div>
+        </section>
+
+        <section
+            class="flight-search"
+            id="yachts"
+            aria-labelledby="yachts-heading"
+        >
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">
+                            Current opportunities
+                        </p>
+
+                        <h2 id="yachts-heading">
+                            Find Your Yacht
+                        </h2>
+
+                        <p>
+                            Sorted by biggest discount first.
+                            Filters are applied instantly in
+                            your browser.
+                        </p>
+                    </div>
+
+                    <div class="update-information">
+                        <span>Last data update</span>
+
+                        <strong id="last-updated">
+                            Loading…
+                        </strong>
+                    </div>
+                </div>
+
+                <form
+                    class="filter-panel"
+                    id="yacht-filters"
+                    aria-label="Yacht filters"
+                >
+                    <div class="filter-grid">
+                        <div class="form-field form-field-wide">
+                            <label for="country-filter">
+                                Country
+                            </label>
+
+                            <select id="country-filter">
+                                <option value="all">
+                                    All countries
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-field form-field-wide">
+                            <label for="type-filter">
+                                Boat type
+                            </label>
+
+                            <select id="type-filter">
+                                <option value="all">
+                                    All boat types
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="minimum-discount">
+                                Minimum discount %
+                            </label>
+
+                            <input
+                                id="minimum-discount"
+                                type="number"
+                                min="0"
+                                max="100"
+                                inputmode="numeric"
+                                placeholder="Any"
+                            >
+                        </div>
+
+                        <div class="form-field">
+                            <label for="sort-filter">
+                                Sort results
+                            </label>
+
+                            <select id="sort-filter">
+                                <option value="discount-desc">
+                                    Discount: highest first
+                                </option>
+
+                                <option value="price-asc">
+                                    Price: low to high
+                                </option>
+
+                                <option value="price-desc">
+                                    Price: high to low
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="filter-actions">
+                        <button
+                            class="button button-secondary"
+                            id="clear-filters"
+                            type="button"
+                        >
+                            Clear Filters
+                        </button>
+                    </div>
+                </form>
+
+                <div class="results-toolbar">
+                    <p
+                        id="results-status"
+                        role="status"
+                        aria-live="polite"
+                    >
+                        Loading current yacht deals…
+                    </p>
+                </div>
+
+                <div
+                    class="loading-state"
+                    id="loading-state"
+                    aria-live="polite"
+                >
+                    <span
+                        class="loading-spinner"
+                        aria-hidden="true"
+                    ></span>
+
+                    <p>
+                        Loading current yacht charter deals…
+                    </p>
+                </div>
+
+                <div
+                    class="error-state"
+                    id="error-state"
+                    hidden
+                >
+                    <h3>
+                        Yacht data is temporarily unavailable
+                    </h3>
+
+                    <p id="error-message">
+                        Please try again shortly.
+                    </p>
+
+                    <button
+                        class="button button-secondary"
+                        id="retry-loading"
+                        type="button"
+                    >
+                        Try Again
+                    </button>
+                </div>
+
+                <div
+                    class="empty-state"
+                    id="empty-state"
+                    hidden
+                >
+                    <h3>
+                        No matching yachts
+                    </h3>
+
+                    <p>
+                        Try broadening the country, type or
+                        discount filters.
+                    </p>
+
+                    <button
+                        class="button button-secondary"
+                        id="empty-clear-filters"
+                        type="button"
+                    >
+                        Clear Filters
+                    </button>
+                </div>
+
+                <div
+                    class="flight-grid"
+                    id="yacht-grid"
+                    aria-label="Current yacht charter deals"
+                ></div>
+            </div>
+        </section>
+
+        <section class="responsibility-section">
+            <div class="container">
+                <h2>
+                    Important Yacht Charter Information
+                </h2>
+
+                <p>
+                    Yacht details, availability and listed
+                    prices are sourced from SkipperCity's public
+                    search tool and may change or be withdrawn
+                    without notice. Confirm all final details,
+                    applicable fees and booking terms directly
+                    with SkipperCity before booking.
+                </p>
+
+                <p>
+                    ONYX Radar is not SkipperCity, an employee or
+                    official representative of SkipperCity, a
+                    vessel operator or a party to any charter
+                    booking.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-layout">
+            <div class="footer-brand">
+                <img
+                    src="assets/onyx-logo.png"
+                    alt=""
+                    width="70"
+                    height="70"
+                >
+
+                <div>
+                    <strong>ONYX Radar</strong>
+
+                    <span>
+                        Premium Empty Leg Intelligence
+                    </span>
+                </div>
+            </div>
+
+            <nav
+                class="footer-navigation"
+                aria-label="Legal navigation"
+            >
+                <a href="privacy.html">
+                    Privacy
+                </a>
+
+                <a href="cookies.html">
+                    Cookies
+                </a>
+
+                <a href="terms.html">
+                    Terms
+                </a>
+
+                <a href="affiliate-disclosure.html">
+                    Affiliate Disclosure
+                </a>
+
+                <a href="accessibility.html">
+                    Accessibility
+                </a>
+            </nav>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>
+                © <span id="current-year"></span>
+                ONYX Radar. All rights reserved.
+            </p>
+
+            <p>
+                ONYX Radar is an independent SkipperCity affiliate.
+                SkipperCity is a trademark of its respective owner.
+            </p>
+        </div>
+    </footer>
+
+    <noscript>
+        <div class="noscript-notice">
+            JavaScript is required to load and filter current
+            yacht charter deals.
+        </div>
+    </noscript>
+</body>
+</html>
