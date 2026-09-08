@@ -6,3 +6,8 @@ __pycache__/
 *.tmp
 .DS_Store
 Thumbs.db
+venv/
+users_db.json
+service_account.json
+*.swp
+*.swo

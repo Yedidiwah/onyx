@@ -669,3 +669,162 @@ a:hover {
     border-top: 1px solid var(--border-color);
     padding-top: 20px;
 }
+
+/* ==========================================================================
+   Result Card Internals (flight & yacht cards share this structure)
+   ========================================================================== */
+
+.flight-card {
+    position: relative;
+}
+
+.flight-card-badge {
+    display: inline-block;
+    align-self: flex-start;
+    background: var(--primary-color);
+    color: var(--bg-dark);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.yacht-discount-badge {
+    background: #2f9e44;
+    color: #fff;
+}
+
+.flight-route {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.flight-location {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.flight-code {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.flight-city {
+    font-size: 0.95rem;
+    color: var(--text-main);
+}
+
+.flight-country {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.route-arrow {
+    color: var(--text-muted);
+    flex-shrink: 0;
+}
+
+.flight-primary-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin: 12px 0;
+}
+
+.detail-box {
+    background: var(--bg-dark);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.detail-box span {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+.detail-box strong {
+    font-size: 0.9rem;
+    color: var(--text-main);
+}
+
+.flight-price {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-weight: 400;
+}
+
+.flight-price-label {
+    display: block;
+    width: 100%;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--text-muted);
+}
+
+.flight-price-value {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.yacht-original-price {
+    color: var(--text-muted);
+    text-decoration: line-through;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.flight-details {
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+.flight-details summary {
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.extended-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.extended-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.extended-detail span {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+.extended-detail strong {
+    font-size: 0.9rem;
+}
+
+.flight-booking {
+    margin-top: 15px;
+}
+
+.flight-disclaimer {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: 8px;
+}

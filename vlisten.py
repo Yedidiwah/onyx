@@ -209,12 +209,20 @@ def main_menu_keyboard():
         ),
     )
 
+    quote_button = KeyboardButton(
+        text="💰 Get a Price Quote"
+    )
+
     stop_button = KeyboardButton(
         text="🛑 Stop Alerts"
     )
 
     markup.add(
         preferences_button
+    )
+
+    markup.add(
+        quote_button
     )
 
     markup.add(
@@ -621,6 +629,56 @@ def stop_alerts(message):
         f"{get_first_name(message)} "
         f"({chat_id})"
     )
+
+
+# ============================================================
+# Price quote button
+# ============================================================
+
+@bot.message_handler(
+    func=lambda message: (
+        message.text == "💰 Get a Price Quote"
+    )
+)
+def start_quote_request(message):
+    """
+    Starts a price quote conversation with the AI concierge.
+    """
+
+    chat_id = str(message.chat.id)
+
+    bot.send_chat_action(chat_id, 'typing')
+
+    user_language = str(
+        getattr(message.from_user, "language_code", "") or ""
+    ).lower()
+
+    opening_message = (
+        "אני רוצה לקבל הצעת מחיר לטיסה במטוס פרטי."
+        if user_language.startswith("he")
+        else "I would like to get a price quote for a private jet charter."
+    )
+
+    try:
+        ai_response = run_onyx_agent(
+            chat_id,
+            opening_message,
+        )
+
+        bot.send_message(
+            chat_id,
+            ai_response
+        )
+
+        print(f"AI Concierge started a quote for {get_first_name(message)} ({chat_id})")
+
+    except Exception as error:
+        print(f"AI Concierge Error for {chat_id}: {error}")
+        bot.send_message(
+            message.chat.id,
+            "I'm currently updating my flight systems. Please try asking again in a few moments or use the Preferences menu below.",
+            reply_markup=main_menu_keyboard(),
+        )
 
 
 # ============================================================
