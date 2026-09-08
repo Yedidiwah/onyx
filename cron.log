@@ -126891,3 +126891,19 @@ Total flight entries delivered: 0
 ==================================================
 ONYX Radar update completed successfully.
 ==================================================
+[main 10f7952] Auto-update flights data and telegram alerts from server
+ 10 files changed, 2017 insertions(+), 303 deletions(-)
+ create mode 100644 exports/villiers_empty_legs_all_2026-09-08_08-17-02.csv
+ create mode 100644 exports/villiers_empty_legs_all_2026-09-08_08-17-05.csv
+ create mode 100644 exports/villiers_empty_legs_changes_2026-09-08_08-17-02.csv
+ create mode 100644 exports/villiers_empty_legs_changes_2026-09-08_08-17-05.csv
+ create mode 100644 exports/villiers_empty_legs_current_2026-09-08_08-17-02.csv
+ create mode 100644 exports/villiers_empty_legs_current_2026-09-08_08-17-05.csv
+To https://github.com/yedidiwah/onyx.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/yedidiwah/onyx.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
