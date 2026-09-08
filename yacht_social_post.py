@@ -17,7 +17,7 @@ import sys
 
 import requests
 
-MAKE_WEBHOOK_URL = "https://hook.eu1.make.com/mvudpjo9r7pdbfaqkydj66wwuc2939jq"
+MAKE_WEBHOOK_URL = "https://hook.eu1.make.com/zfmyo58djbt2bsrsd9bcvhrziwi9lq34"
 YACHTS_JSON = "data/yachts.json"
 
 
