@@ -117,9 +117,20 @@ def process_flight_selection(message):
     price = selected_deal.get("price_raw", "Request Price")
     deal_link = selected_deal.get("source_id", "https://flywithonyx.com")
 
-    tweet_text = f"🚨 VIP EMPTY LEG DEAL 🚨\n🛫 {origin_city} ({origin_code}) ➡️ 🛬 {dest_city} ({dest_code})\n🗓️ {date}\n🛩️ {aircraft} | 💺 {seats} Seats\n💰 {price} (Total Aircraft)\n\n🔗 Book this flight: {deal_link}\n\n#PrivateJet #EmptyLegs"
+tweet_text = f"""🚨 VIP EMPTY LEG DEAL 🚨
+🛫 {origin_city} ({origin_code}) ➡️ 🛬 {dest_city} ({dest_code})
+🗓️ {date}
+🛩️ {aircraft} | 💺 {seats} Seats
+💰 {price} (Total Aircraft)
 
-    # רינדור
+🔗 Book this flight: {deal_link}
+
+🤖 Need a custom route? Chat with our 24/7 AI Concierge: https://t.me/OnyxAirRadar_bot
+
+#PrivateJet #EmptyLegs #LuxuryTravel"""
+
+
+       # רינדור
     p1, p2, p3, music = get_smart_random_combo()
     props = {
         "titleToReplace": f"{origin_code} ➡️ {dest_code}",
