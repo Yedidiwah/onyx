@@ -1,0 +1,35 @@
+nohup: ignoring input
+[01] HDN-TEX 12 Aug $2,795  [02] HOU-TEX 12 Aug $9,353  [03] SSI-HOU 12 Aug $15,695 
+[04] FAB-GOA 13 Aug £10,535 [05] APC-CLD 13 Aug $6,450  [06] ASE-CLD 13 Aug $11,771 
+[07] EFD-SSI 13 Aug $14,190 [08] HOU-FTW 13 Aug $6,450  [09] HOU-TUL 13 Aug $4,838  
+[10] TCL-HOU 13 Aug $6,235  [11] LIR-DAL 13 Aug $25,155 [12] SOU-IBZ 14 Aug £7,203  
+[13] CLD-MRY 14 Aug $3,763  [14] DAL-HOU 14 Aug $2,795  [15] EFD-SSI 14 Aug $13,438 
+[16] HOU-CPR 14 Aug $10,750 [17] HOU-SSI 14 Aug $13,438 [18] RNO-LAS 14 Aug $7,260  
+[19] LTN-VLC 15 Aug £12,900 [20] FAB- 15 Aug £10,890    [21] FAB-GRO 15 Aug £10,450 
+[22] ORK-LHR 15 Aug £3,225  [23] HOU-DAL 15 Aug $3,118  [24] HOU-ASE 16 Aug $13,115 
+[25] HOU-LIR 16 Aug $24,403 [26] OPF-LIR 16 Aug $20,425 [27] DAL-HOU 17 Aug $2,795  
+[28] GGG-CHA 17 Aug $10,213 [29] HOU-GGG 17 Aug $4,730  [30] HOU-LWB 17 Aug $8,278  
+[31] TUL-HOU 17 Aug $4,515  [32] DAL-SGR 18 Aug $2,795  [33] EGE-HOU 18 Aug $7,740  
+[34] LTN-KLU 20 Aug £7,418  [35] BQH-KLU 20 Aug £7,418  [36] DAL-HOU 21 Aug $2,795  
+[37] HOU-AUS 21 Aug $6,450  [38] HOU-EGE 23 Aug $10,535 [39] AUS-BNA 24 Aug $11,825 
+[40] AUS-HOU 24 Aug $6,450  [41] HOU-BNA 24 Aug $11,073 [42] HOU-EGE 24 Aug $10,535 
+[43] DAL-LIR 25 Aug $23,220 [44] HOU-FTW 27 Aug $7,095  [45] FTW-HOU 28 Aug $6,343  
+[46] PNE-FOK 28 Aug $1,720  [47] FAB-LBG 30 Aug £10,213 [48] FOK-PNE 30 Aug $2,473  
+[49] AUS-HOU 02 Sep $1,720  [50] MDW-OPF 04 Sep $15,840 [51] -HOU 04 Sep $2,860     
+[52] -IWS 04 Sep $2,860     [53] HOU-FTW 08 Sep $3,440  [54] OPF-MDW 08 Sep $16,500 
+[55] IWS- 10 Sep $3,520     [56] FTW-HOU 11 Sep $3,118  [57] AUS-HOU 12 Sep $2,150  
+[58] BQH-PMI 14 Sep £10,965 [59] HOU-DAL 11 Oct $6,343  [60] UOX-HOU 15 Oct $5,590  
+[61] HOU-UOX 18 Oct $4,515  [62] HPN-ESN 18 Oct $4,408  [63] UOX-HOU 29 Oct $5,590  
+[64] HOU-UOX 01 Nov $4,515  [65] UOX-HOU 05 Nov $5,160  [66] IWS-DAL 07 Nov $2,580  
+[67] DAL-IWS 08 Nov $2,580  [68] HOU-UOX 08 Nov $4,515  [69] DAL-HOU 13 Nov $2,860  
+[70] IWS-AUS 13 Nov $1,980  [71] IWS-DAL 13 Nov $2,640  [72] AUS-IWS 15 Nov $1,540  
+[73] DAL-IWS 15 Nov $2,640  [74] HOU-DAL 16 Nov $3,190  [75] DAL-HOU 18 Nov $4,620  
+[76] SBA-LAS 18 Nov $5,280  [77] LAS-SBA 27 Nov $5,940  
+
+Enter the flight number you want to generate: Traceback (most recent call last):
+  File "/root/onyx/cp.py", line 214, in <module>
+    process_empty_leg()
+  File "/root/onyx/cp.py", line 171, in process_empty_leg
+    choice = int(input("\nEnter the flight number you want to generate: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 9] Bad file descriptor

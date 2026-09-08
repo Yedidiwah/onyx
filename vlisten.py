@@ -5,6 +5,12 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+# ============================================================
+# AI Agent Integration
+# ============================================================
+sys.path.append(os.path.join(os.path.dirname(__file__), 'scripts'))
+from agent_brain import run_onyx_agent
+
 import telebot
 from dotenv import load_dotenv
 from telebot.types import (
@@ -68,7 +74,7 @@ def utc_now():
 
 def load_db():
     """
-    Loads the users database.
+    Loads the users database[cite: 4].
     """
 
     if not DB_FILE.exists():
@@ -107,7 +113,7 @@ def load_db():
 
 def save_db(db):
     """
-    Saves the users database atomically.
+    Saves the users database atomically[cite: 4].
     """
 
     temporary_file = DB_FILE.with_suffix(
@@ -136,7 +142,7 @@ def save_db(db):
 
 def get_first_name(message):
     """
-    Returns a safe fallback first name.
+    Returns a safe fallback first name[cite: 4].
     """
 
     return (
@@ -147,7 +153,7 @@ def get_first_name(message):
 
 def ensure_user(db, message):
     """
-    Creates or updates one user record.
+    Creates or updates one user record[cite: 4].
     """
 
     chat_id = str(
@@ -160,7 +166,7 @@ def ensure_user(db, message):
 
     if chat_id not in db:
         db[chat_id] = {
-            "first_name": first_name,
+	    "first_name": first_name,
             "origin": "Not set",
             "destination": "Not set",
             "frequency_hours": 1,
@@ -189,7 +195,7 @@ def ensure_user(db, message):
 
 def main_menu_keyboard():
     """
-    Creates the persistent bot keyboard.
+    Creates the persistent bot keyboard[cite: 4].
     """
 
     markup = ReplyKeyboardMarkup(
@@ -228,7 +234,7 @@ def main_menu_keyboard():
 def send_welcome(message):
     """
     Registers the user and displays the
-    welcome message.
+    welcome message[cite: 4].
     """
 
     db = load_db()
@@ -312,7 +318,7 @@ def send_welcome(message):
 )
 def show_chat_id(message):
     """
-    Displays the user's Telegram Chat ID.
+    Displays the user's Telegram Chat ID[cite: 4].
     """
 
     chat_id = str(
@@ -343,7 +349,7 @@ def show_chat_id(message):
 )
 def show_preferences(message):
     """
-    Shows the user's current preferences.
+    Shows the user's current preferences[cite: 4].
     """
 
     chat_id = str(
@@ -415,7 +421,7 @@ def show_preferences(message):
 def handle_webapp_data(message):
     """
     Receives origin, destination and frequency from the
-    Telegram Mini App.
+    Telegram Mini App[cite: 4].
     """
 
     chat_id = str(
@@ -469,6 +475,8 @@ def handle_webapp_data(message):
 
         if not destination:
             destination = "Not set"
+
+
 
         db = load_db()
 
@@ -586,7 +594,7 @@ def handle_webapp_data(message):
 )
 def stop_alerts(message):
     """
-    Removes the user from the alerts database.
+    Removes the user from the alerts database[cite: 4].
     """
 
     chat_id = str(
@@ -616,7 +624,7 @@ def stop_alerts(message):
 
 
 # ============================================================
-# Other messages
+# AI Concierge Integration (Other messages)
 # ============================================================
 
 @bot.message_handler(
@@ -624,15 +632,29 @@ def stop_alerts(message):
 )
 def handle_text_input(message):
     """
-    Handles unsupported text messages.
+    Routes text messages to the AI Agent with history retention.
     """
+    chat_id = str(message.chat.id)
+    user_text = message.text
 
-    bot.send_message(
-        message.chat.id,
-        "Please use the ONYX Preferences "
-        "menu below.",
-        reply_markup=main_menu_keyboard(),
-    )
+    bot.send_chat_action(chat_id, 'typing')
+
+    try:
+        ai_response = run_onyx_agent(chat_id, user_text)
+        
+        bot.send_message(
+            chat_id,
+            ai_response
+        )
+        print(f"AI Concierge responded to {get_first_name(message)} ({chat_id})")
+
+    except Exception as error:
+        print(f"AI Concierge Error for {chat_id}: {error}")
+        bot.send_message(
+            message.chat.id,
+            "I'm currently updating my flight systems. Please try asking again in a few moments or use the Preferences menu below.",
+            reply_markup=main_menu_keyboard(),
+        )
 
 
 # ============================================================
@@ -641,7 +663,7 @@ def handle_text_input(message):
 
 def main():
     """
-    Starts the Telegram registration listener.
+    Starts the Telegram registration listener[cite: 4].
     """
 
     try:

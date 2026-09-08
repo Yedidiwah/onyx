@@ -8,3 +8,5 @@ __pycache__/
 Thumbs.db
 venv/
 users_db.json
+*.swp
+*.swo
