@@ -1,8 +1,10 @@
 airportsdata
+beautifulsoup4
 feedparser
+openai
 pycountry
+pyTelegramBotAPI
 python-dateutil
 python-dotenv
 requests
 tweepy
-python-dotenv
