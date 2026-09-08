@@ -18,13 +18,13 @@
         content="strict-origin-when-cross-origin"
     >
 
-    <meta
+<meta
         http-equiv="Content-Security-Policy"
         content="
             default-src 'self';
             script-src 'self';
-            style-src 'self';
-            img-src 'self' data:;
+            style-src 'self' 'unsafe-inline';
+            img-src 'self' data: https://assets.villiers.ai;
             connect-src 'self';
             font-src 'self';
             object-src 'none';
@@ -130,6 +130,15 @@
                         href="#flights"
                     >
                         Explore Flights
+                    </a>
+
+                    <a
+                        class="button button-telegram"
+                        href="https://t.me/OnyxAirRadar_bot"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        💬 Chat with AI Concierge
                     </a>
 
                     <a

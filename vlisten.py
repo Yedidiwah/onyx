@@ -166,7 +166,7 @@ def ensure_user(db, message):
 
     if chat_id not in db:
         db[chat_id] = {
-            "first_name": first_name,
+	    "first_name": first_name,
             "origin": "Not set",
             "destination": "Not set",
             "frequency_hours": 1,
@@ -475,6 +475,8 @@ def handle_webapp_data(message):
 
         if not destination:
             destination = "Not set"
+
+
 
         db = load_db()
 

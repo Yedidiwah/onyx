@@ -1,6 +1,7 @@
 name: Update and Deploy ONYX Radar
 
 on:
+  push:
   workflow_dispatch:
 
   schedule:
