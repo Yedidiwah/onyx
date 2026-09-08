@@ -56,8 +56,9 @@ bot = telebot.TeleBot(
 )
 
 BOT_CHAT_PROMPT = (
-    "\n\n💬 <b>Want to search for specific flights or change your route?</b>\n"
-    "You can chat with this bot directly anytime to update your origin, destination, or frequency preferences!"
+    "\n\n💬 <b>Want a price quote or a different route?</b>\n"
+    "Tap 💰 Get a Price Quote below for an instant estimate, "
+    "or chat with this bot anytime to update your origin, destination, or frequency preferences!"
 )
 
 
