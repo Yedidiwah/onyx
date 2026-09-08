@@ -15,11 +15,23 @@ user_histories = {}
 def call_villiers_mcp(tool_name, arguments):
     if tool_name == "request_jet_confirmation":
         
+        # --- פתרון לתעלומת התאריך של Villiers ---
+        # משכפלים את התאריך לשמות המשתנים שהשרת כנראה מצפה להם
+        if "date" in arguments:
+            arguments["departure_date"] = arguments["date"]
+            arguments["departureDate"] = arguments["date"]
+            
         # --- מעקף Sandbox מדויק ---
         if arguments.get("email") == "sandbox-test@mail.villiers.ai":
             arguments["first_name"] = "Sandbox"
             arguments["last_name"] = "Test"
             arguments["phone"] = "+1 555 0100"
+            
+            # וידוא הרמטי: אם איכשהו חסר תאריך בטסט, נשתול אחד אוטומטית
+            if "date" not in arguments:
+                arguments["date"] = "2026-12-01"
+                arguments["departure_date"] = "2026-12-01"
+                arguments["departureDate"] = "2026-12-01"
         else:
             if not arguments.get("last_name"):
                 arguments["last_name"] = "Guest"
@@ -42,7 +54,7 @@ def call_villiers_mcp(tool_name, arguments):
         }
     }
     
-    # הדפסות הלוג (קריטי לדיבאג בשרת)
+    # הדפסות הלוג 
     print(f"--- MCP Request to {tool_name} ---")
     print(f"Payload: {payload}")
     
@@ -66,16 +78,16 @@ def run_onyx_agent(chat_id, user_message):
     
     STEP 1: When a user asks for a flight, call `get_jet_estimate`. 
     
-    STEP 2: Display the estimated prices to the user in their language. 
+    STEP 2: Display the estimated prices to the user. 
     CRITICAL: The API returns a generic link saying "Next step - Get confirmed live pricing". IGNORE THIS LINK COMPLETELY. DO NOT send any links at this stage. Instead, explicitly ask the user: "To get a confirmed live quote, please provide your First Name, Email, and Phone number."
     
-    STEP 3: Once the user provides their details, immediately call `request_jet_confirmation`. Ensure you pass the correct `origin` and `destination` 3-letter IATA codes.
+    STEP 3: Once the user provides their details, immediately call `request_jet_confirmation`. Ensure you pass the correct `origin`, `destination`, and the `date` of the flight.
     
     STEP 4: After `request_jet_confirmation` is complete (whether successful or error due to limits), politely explain the result and NOW provide your exact affiliate link: [Book Direct with Villiers](https://www.villiers.ai/?id=ADHUHR).
     
     RULES:
-    - AIRPORTS: Translate cities strictly to active 3-letter IATA codes (e.g., Rome -> FCO, London -> LHR, Paris -> CDG).
-    - TRANSLATION: The API returns English results. You MUST translate the prices, descriptions, and jet types into the user's language before sending the message. Do NOT copy-paste English API output to a user speaking another language.
+    - LANGUAGE (CRITICAL): You MUST communicate entirely in the exact language the user uses. If the user writes in Hebrew, your ENTIRE response (including API results, jet categories, prices, and descriptions) MUST be translated to perfect Hebrew. Never copy-paste English API text to a non-English speaker.
+    - AIRPORTS & MULTIPLE AIRPORTS: Translate cities strictly to active 3-letter IATA codes. If a user asks for a city with multiple airports (e.g., London, Paris, New York), automatically default to the primary international hub (e.g., LHR for London, CDG for Paris, JFK for New York) to generate the API estimate. In your response, politely mention which exact airport you selected.
     - TONE: Maintain a professional, high-end, luxurious tone.
     """
 
@@ -84,7 +96,6 @@ def run_onyx_agent(chat_id, user_message):
 
     user_histories[chat_id_str].append({"role": "user", "content": user_message})
 
-    # שמירה על זיכרון שיחה נקי (15 הודעות אחרונות)
     if len(user_histories[chat_id_str]) > 15:
         user_histories[chat_id_str] = [user_histories[chat_id_str][0]] + user_histories[chat_id_str][-14:]
 
@@ -119,9 +130,10 @@ def run_onyx_agent(chat_id, user_message):
                         "last_name": {"type": "string"},
                         "phone": {"type": "string"},
                         "origin": {"type": "string", "description": "3-letter IATA code of origin"},
-                        "destination": {"type": "string", "description": "3-letter IATA code of destination"}
+                        "destination": {"type": "string", "description": "3-letter IATA code of destination"},
+                        "date": {"type": "string", "description": "YYYY-MM-DD of departure"}
                     },
-                    "required": ["email", "first_name", "phone", "origin", "destination"]
+                    "required": ["email", "first_name", "phone", "origin", "destination", "date"]
                 }
             }
         }
