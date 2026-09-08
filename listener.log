@@ -11688,6 +11688,644 @@ Traceback (most recent call last):
 2026-09-08 16:16:15,189 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
 Traceback (most recent call last):
   File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:17:15,207 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:17:15,208 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:17:18,477 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:17:18,478 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:18:18,586 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:18:18,587 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:18:21,852 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:18:21,854 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:19:21,875 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:19:21,876 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:19:25,144 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:19:25,145 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:20:25,164 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:20:25,166 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:20:28,443 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:20:28,444 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:21:28,460 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:21:28,462 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:21:31,730 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:21:31,731 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:22:31,750 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:22:31,751 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:22:35,019 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:22:35,020 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:23:35,035 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:23:35,036 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:23:38,310 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:23:38,311 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:24:38,332 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:24:38,334 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:24:41,596 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:24:41,597 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:25:41,614 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:25:41,616 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:25:44,883 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:25:44,884 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:26:44,897 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:26:44,898 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:26:48,180 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:26:48,181 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:27:48,193 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:27:48,194 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:27:51,460 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:27:51,461 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:28:51,537 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:28:51,538 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:28:54,805 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:28:54,806 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:29:54,822 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:29:54,824 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:29:58,089 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:29:58,091 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:30:58,105 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:30:58,106 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:31:01,373 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:31:01,374 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:32:01,390 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:32:01,391 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:32:04,657 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:32:04,658 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:33:04,673 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:33:04,674 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:33:07,988 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:33:07,989 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:34:08,004 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:34:08,006 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:34:11,271 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:34:11,272 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:35:11,288 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:35:11,289 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:35:14,555 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:35:14,556 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:36:14,572 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:36:14,573 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:36:17,836 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:36:17,838 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:37:17,852 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:37:17,854 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:37:21,121 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:37:21,123 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:38:21,140 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:38:21,141 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:38:24,403 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:38:24,404 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:39:24,492 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:39:24,493 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:39:27,758 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:39:27,760 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:40:27,776 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:40:27,778 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:40:31,042 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:40:31,042 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:41:31,056 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:41:31,058 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:41:34,319 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:41:34,320 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:42:34,335 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:42:34,336 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:42:37,598 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:42:37,599 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:43:37,610 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:43:37,612 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:43:40,879 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:43:40,880 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:44:40,892 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:44:40,893 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:44:44,156 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:44:44,157 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:45:44,173 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:45:44,175 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:45:47,505 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:45:47,507 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling2026-09-08 16:46:47,518 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:46:47,519 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 98, in run
+    task(*args, **kwargs)
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 691, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 663, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 382, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/apihelper.2026-09-08 16:46:50,781 (__init__.py:1280 MainThread) ERROR - TeleBot: "Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+2026-09-08 16:46:50,783 (__init__.py:1282 MainThread) ERROR - TeleBot: "Exception traceback:
+Traceback (most recent call last):
+  File "/root/onyx/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
     polling_thread.raise_exceptions()
   File "/root/onyx/venv/lib/python3.12/site-packages/telebot/util.py", line 116, in raise_exceptions
     raise self.exception_info
