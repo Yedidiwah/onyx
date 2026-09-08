@@ -123,7 +123,14 @@ def parse_deals(html: str) -> list[dict]:
 
         total_price = _field(card, "Total price:")
 
+        image_url = None
+        img = card.select_one(".image-slider img")
+        if img and img.get("src"):
+            src = img["src"]
+            image_url = src if src.startswith("http") else f"https://www.booking-manager.com/wbm2/{src}"
+
         deals.append({
+            "image_url": image_url,
             "model": model.strip(),
             "name": name.strip(),
             "type": _field(card, "Type:"),
