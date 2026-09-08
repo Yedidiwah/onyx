@@ -128011,3 +128011,6 @@ Encoded 540/540
 ✅ Successfully sent to Make.com!
 [*] Cleaning up temporary files...
 [*] Automation run finished successfully!
+  File "/root/onyx/auto_deal.py", line 112
+    p1, p2, p3, music = get_smart_random_combo()
+IndentationError: unexpected indent
