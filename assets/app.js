@@ -20,6 +20,8 @@ const elements = {
     maximumPrice: document.querySelector("#maximum-price"),
     sort: document.querySelector("#sort-filter"),
 
+    moreFiltersCount: document.querySelector("#more-filters-count"),
+
     clearFilters: document.querySelector("#clear-filters"),
     emptyClearFilters: document.querySelector("#empty-clear-filters"),
     telegramLink: document.querySelector("#filtered-telegram-link"),
@@ -261,6 +263,21 @@ function filterFlights() {
     sortFlights();
     renderFlights();
     updateTelegramLink();
+    updateMoreFiltersBadge();
+}
+
+function updateMoreFiltersBadge() {
+    const activeCount = [
+        elements.dateFrom.value,
+        elements.dateTo.value,
+        elements.minimumSeats.value,
+        elements.aircraft.value !== "all",
+        elements.currency.value !== "all",
+        elements.maximumPrice.value,
+    ].filter(Boolean).length;
+
+    elements.moreFiltersCount.hidden = activeCount === 0;
+    elements.moreFiltersCount.textContent = activeCount;
 }
 
 function sortFlights() {
