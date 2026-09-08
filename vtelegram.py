@@ -55,6 +55,11 @@ bot = telebot.TeleBot(
     BOT_TOKEN
 )
 
+BOT_CHAT_PROMPT = (
+    "\n\n💬 <b>Want to search for specific flights or change your route?</b>\n"
+    "You can chat with this bot directly anytime to update your origin, destination, or frequency preferences!"
+)
+
 
 # ============================================================
 # Country aliases
@@ -1136,6 +1141,8 @@ def build_message_chunks(
             current_flight_count += 1
 
     if current_flight_count > 0:
+        # Append the chat prompt to the very last chunk
+        current_message += BOT_CHAT_PROMPT
         chunks.append(
             (
                 current_message.rstrip(),
@@ -1184,6 +1191,26 @@ def send_user_flights(
             f"No matches for "
             f"{first_name} ({chat_id})"
         )
+
+        # Send a prompt message even when no flights match right now
+        try:
+            no_matches_text = (
+                f"👋 Hi {escape(first_name)},\n\n"
+                f"No new empty leg flights currently match your preferences "
+                f"(Origin: <b>{escape(display_preference(preferences.get('origin'), 'All origins'))}</b>, "
+                f"Destination: <b>{escape(display_preference(preferences.get('destination'), 'All destinations'))}</b>)."
+                f"{BOT_CHAT_PROMPT}"
+            )
+            bot.send_message(
+                chat_id,
+                no_matches_text,
+                parse_mode="HTML",
+                disable_web_page_preview=True,
+            )
+            time.sleep(MESSAGE_DELAY_SECONDS)
+        except Exception as error:
+            print(f"Failed to send no-match notification to {chat_id}: {error}")
+            return 0, True
 
         return 0, False
 
@@ -1316,7 +1343,7 @@ def process_all_alerts():
         f"Processing {len(users)} users."
     )
 
-total_flights_sent = 0
+    total_flights_sent = 0
     successful_users = 0
     failed_users = 0
     
@@ -1336,12 +1363,13 @@ total_flights_sent = 0
         sent_count, failed = send_user_flights(chat_id, preferences, flights)
         total_flights_sent += sent_count
 
-        if sent_count > 0:
-            successful_users += 1
+        if sent_count >= 0:
+            if sent_count > 0:
+                successful_users += 1
             preferences["last_sent_timestamp"] = current_time
             db_updated = True
 
-if failed:
+        if failed:
             failed_users += 1
 
     if db_updated:
