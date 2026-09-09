@@ -13,11 +13,15 @@ Usage:
     python yacht_social_post.py --dry-run        # prints the payload, does not post
 """
 import json
+import os
 import sys
 
 import requests
+from dotenv import load_dotenv
 
-MAKE_WEBHOOK_URL = "https://hook.eu1.make.com/zfmyo58djbt2bsrsd9bcvhrziwi9lq34"
+load_dotenv()
+
+MAKE_WEBHOOK_URL = os.getenv("MAKE_WEBHOOK_URL_YACHT")
 YACHTS_JSON = "data/yachts.json"
 
 

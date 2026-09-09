@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 TELEGRAM_CREAT_BOT_TOKEN = os.getenv("TELEGRAM_CREAT_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-MAKE_WEBHOOK_URL = "https://hook.eu1.make.com/mvudpjo9r7pdbfaqkydj66wwuc2939jq"
+MAKE_WEBHOOK_URL = os.getenv("MAKE_WEBHOOK_URL_FLIGHTS")
 HISTORY_FILE = "history.json"
 OUTPUT_VIDEO_PATH = "/mnt/volume_fra1_1786451349368/output_deal.mp4"
 
