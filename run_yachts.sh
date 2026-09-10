@@ -27,6 +27,9 @@ else
     fi
 fi
 
+echo "[*] Posting top deal to Make.com..."
+python -u yacht_social_post.py || echo "ERROR: Yacht social post failed (data update above still succeeded)."
+
 echo "=================================================="
 echo "ONYX Yacht Deals update completed."
 echo "=================================================="
