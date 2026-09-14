@@ -39,6 +39,7 @@ def build_caption(deal):
 🛥️ {deal['model']} • {deal['name']}
 💰 {deal['original_price']} ➡️ {deal['total_price']} (-{deal['discount_pct']:.0f}%)
 
+👉 Follow for a new yacht deal every day
 🔗 Book this charter: {deal['booking_link']}
 
 📍 {deal['from_location']}

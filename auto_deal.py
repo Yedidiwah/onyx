@@ -105,6 +105,7 @@ def main():
 🛫 {origin_city} ({origin_code}) ➡️ 🛬 {dest_city} ({dest_code})
 💰 {price} (Total Aircraft)
 
+👉 Follow for a new deal like this every day
 🤖 Want this route or a custom one? Chat 24/7: https://t.me/OnyxAirRadar_bot
 
 🗓️ {date}
