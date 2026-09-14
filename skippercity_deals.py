@@ -24,12 +24,42 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://www.booking-manager.com/wbm2/page.html"
 COMPANY_ID = "4630"  # SkipperCity's account on Booking Manager
 
-# Deep links into booking-manager.com don't reliably carry SkipperCity's
-# ?ref= affiliate attribution (verified: the widget's affiliateId stays
-# empty even when ?ref is set on the embedding skippercity.com page), so
-# every listing points back to the one link SkipperCity's own affiliate
-# programme documents as tracked.
+# Deep links straight into booking-manager.com don't reliably carry
+# SkipperCity's ?ref= affiliate attribution (verified: the widget's
+# affiliateId stays empty even when ?ref is set on the embedding
+# skippercity.com page). But skippercity.com/online-boat-search/ itself
+# reads its own query string and forwards matching filter_* params into
+# the embedded widget (verified) - so linking there with both ?ref=onyx
+# and filter_country lands the visitor on a pre-filtered, still-tracked
+# search instead of the fully generic homepage.
 BOOKING_LINK = "https://skippercity.com/online-boat-search/?ref=onyx"
+
+# value -> country name, from the widget's own filter_country dropdown
+COUNTRY_CODES = {
+    "AG": "Antigua and Barbuda", "BS": "Bahamas", "BE": "Belgium", "BZ": "Belize",
+    "BR": "Brazil", "VG": "British Virgin Islands", "CA": "Canada", "CV": "Cape Verde",
+    "HR": "Croatia", "CU": "Cuba", "CZ": "Czech Republic", "EC": "Ecuador",
+    "EG": "Egypt", "EE": "Estonia", "FJ": "Fiji", "FR": "France",
+    "PF": "French Polynesia", "DE": "Germany", "GR": "Greece", "GD": "Grenada",
+    "GP": "Guadeloupe", "HU": "Hungary", "IS": "Iceland", "IN": "India",
+    "IE": "Ireland", "IT": "Italy", "MG": "Madagascar", "MY": "Malaysia",
+    "MV": "Maldives", "MT": "Malta", "MQ": "Martinique", "MU": "Mauritius",
+    "MX": "Mexico", "MC": "Monaco", "ME": "Montenegro", "NL": "Netherlands",
+    "AN": "Netherlands Antilles", "NZ": "New Zealand", "NO": "Norway", "PA": "Panama",
+    "PL": "Poland", "PT": "Portugal", "SC": "Seychelles", "SI": "Slovenia",
+    "ES": "Spain", "LC": "Saint Lucia", "SX": "Sint Maarten", "MF": "Saint Martin",
+    "VC": "St. Vincent & Grenadines", "SE": "Sweden", "CH": "Switzerland", "TZ": "Tanzania",
+    "TH": "Thailand", "TR": "Turkey", "US": "United States", "AE": "United Arab Emirates",
+    "GB": "United Kingdom",
+}
+COUNTRY_NAME_TO_CODE = {name: code for code, name in COUNTRY_CODES.items()}
+
+
+def booking_link_for(country):
+    code = COUNTRY_NAME_TO_CODE.get(country)
+    if not code:
+        return BOOKING_LINK
+    return f"{BOOKING_LINK}&filter_country={code}"
 
 SORT_BY_DISCOUNT = "11"
 SORT_DESCENDING = "-1"
@@ -148,7 +178,7 @@ def parse_deals(html: str) -> list[dict]:
             "total_price": total_price,
             "total_price_amount": _price_amount(total_price),
             "currency": "EUR",
-            "booking_link": BOOKING_LINK,
+            "booking_link": booking_link_for(country),
         })
     return deals
 
