@@ -41,7 +41,7 @@ def build_caption(deal):
 🗓️ {deal['date_from']}
 💰 {deal['original_price']} ➡️ {deal['total_price']} (-{deal['discount_pct']:.0f}%)
 
-🔗 Book this charter: https://skippercity.com/online-boat-search/?ref=onyx
+🔗 Book this charter: {deal['booking_link']}
 
 #YachtCharter #EmptyLeg #LuxuryTravel"""
 
