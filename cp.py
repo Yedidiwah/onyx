@@ -178,13 +178,14 @@ def process_empty_leg():
 
     tweet_text = f"""🚨 VIP EMPTY LEG DEAL 🚨
 🛫 {origin_city} ({origin_code}) ➡️ 🛬 {dest_city} ({dest_code})
-🗓️ {date}
-🛩️ {aircraft} | 💺 {seats} Seats
 💰 {price_raw} (Total Aircraft)
 
-🔗 Book this flight: {deal_link}
+🤖 Want this route or a custom one? Chat 24/7: https://t.me/OnyxAirRadar_bot
 
-🤖 Need a custom route? Chat with our 24/7 AI Concierge: https://t.me/OnyxAirRadar_bot
+🗓️ {date}
+🛩️ {aircraft} | 💺 {seats} Seats
+
+🔗 Book this flight: {deal_link}
 
 #PrivateJet #EmptyLegs #LuxuryTravel"""
 
