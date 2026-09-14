@@ -81,8 +81,14 @@ def main():
         print("❌ No flights found in data file.")
         return
     
-    # בחירה רנדומלית
-    selected_deal = random.choice(flights)
+    # בוחר את הדיל הזול ביותר (עכשיו שרצים פעם ביום, שיהיה הכי טוב)
+    def _price(flight):
+        try:
+            return float(flight.get("price_amount", "inf"))
+        except (TypeError, ValueError):
+            return float("inf")
+
+    selected_deal = min(flights, key=_price)
     
     origin_city = selected_deal.get("origin_city", "Unknown")
     origin_code = selected_deal.get("origin_iata", "").upper()
