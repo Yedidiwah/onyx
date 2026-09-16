@@ -49,7 +49,7 @@ def load_top_deal(path=YACHTS_JSON):
 
 
 def build_caption(deal):
-    return f"""🚨 VIP YACHT CHARTER DEAL 🚨
+    return f"""🤫 The yacht charter secret: unbooked weeks get slashed last-minute instead of going empty
 🛥️ {deal['model']} • {deal['name']}
 💰 {deal['original_price']} ➡️ {deal['total_price']} (-{deal['discount_pct']:.0f}%)
 
