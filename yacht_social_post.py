@@ -74,6 +74,7 @@ def _escape_drawtext(text):
         str(text)
         .replace("\\", "\\\\")
         .replace(":", "\\:")
+        .replace(",", "\\,")
         .replace("'", "’")
         .replace("%", "\\%")
     )
@@ -87,34 +88,43 @@ def download_image(url, dest_path):
 
 
 def make_video_from_image(image_path, out_path, title, subtitle, duration=8):
+    """Letterboxed: a blurred full-bleed copy fills the 9:16 frame behind the
+    complete, un-cropped photo - avoids the ugly zoomed-in crop you get from
+    force-covering a landscape photo into a vertical frame. Ken Burns zoom is
+    applied to the whole composite; text sits in the blurred bars top/bottom
+    so it never overlaps the actual photo."""
     font = _find_font()
-    filters = [
-        "scale=1080:1920:force_original_aspect_ratio=increase",
-        "crop=1080:1920",
-        f"zoompan=z='min(zoom+0.0012,1.15)':d={duration * 25}:s=1080x1920:fps=25",
-    ]
+    frames = duration * 25
+
+    filter_complex = (
+        "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,"
+        "crop=1080:1920,gblur=sigma=25,eq=brightness=-0.08[bg];"
+        "[0:v]scale=1080:1920:force_original_aspect_ratio=decrease[fg];"
+        "[bg][fg]overlay=(W-w)/2:(H-h)/2[base];"
+        f"[base]zoompan=z='min(zoom+0.0012,1.15)':d={frames}:s=1080x1920:fps=25[zoomed]"
+    )
+
+    last_label = "zoomed"
     if font:
-        title_txt = _escape_drawtext(title)
-        subtitle_txt = _escape_drawtext(subtitle)
-        filters.append(
-            f"drawtext=fontfile={font}:text='{title_txt}':fontsize=64:"
-            "fontcolor=white:borderw=4:bordercolor=black:x=(w-text_w)/2:y=140"
-        )
-        filters.append(
-            f"drawtext=fontfile={font}:text='{subtitle_txt}':fontsize=46:"
-            "fontcolor=white:borderw=3:bordercolor=black:x=(w-text_w)/2:y=240"
-        )
-        filters.append(
-            f"drawtext=fontfile={font}:text='Follow ⮑ for a new deal every day':"
-            "fontsize=40:fontcolor=white:borderw=3:bordercolor=black:"
-            "x=(w-text_w)/2:y=h-160"
-        )
+        draws = [
+            (_escape_drawtext(title), 64, "140"),
+            (_escape_drawtext(subtitle), 46, "240"),
+            ("Follow for a new deal every day", 40, "h-160"),
+        ]
+        for i, (text, size, y_expr) in enumerate(draws):
+            out_label = f"t{i}"
+            filter_complex += (
+                f";[{last_label}]drawtext=fontfile={font}:text='{text}':fontsize={size}:"
+                f"fontcolor=white:borderw=3:bordercolor=black:x=(w-text_w)/2:y={y_expr}[{out_label}]"
+            )
+            last_label = out_label
     else:
         print("[!] No usable font found on this system - rendering video without text overlay.")
 
     cmd = [
         "ffmpeg", "-y", "-loop", "1", "-i", image_path,
-        "-vf", ",".join(filters),
+        "-filter_complex", filter_complex,
+        "-map", f"[{last_label}]",
         "-t", str(duration), "-pix_fmt", "yuv420p", "-r", "25",
         out_path,
     ]
