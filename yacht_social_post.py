@@ -181,8 +181,12 @@ if __name__ == "__main__":
         sys.exit(1)
 
     caption = build_caption(deal)
-    title = deal["model"]
-    subtitle = f"{deal['original_price']} -> {deal['total_price']} (-{deal['discount_pct']:.0f}%)"
+    # Lead with the discount, not the boat model - a stranger scrolling past
+    # doesn't know what a "Gulet" is, but a big "-60% OFF" is an instant hook.
+    # Retention data on flight posts showed a 3-4s avg watch time regardless
+    # of reach, so whatever's going to land needs to land immediately.
+    title = f"-{deal['discount_pct']:.0f}% OFF"
+    subtitle = f"{deal['model']} | {deal['original_price']} -> {deal['total_price']}"
 
     with tempfile.TemporaryDirectory() as tmp:
         image_path = os.path.join(tmp, "boat.jpg")
