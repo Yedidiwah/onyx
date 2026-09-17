@@ -81,14 +81,29 @@ def main():
         print("❌ No flights found in data file.")
         return
     
-    # בוחר את הדיל הזול ביותר (עכשיו שרצים פעם ביום, שיהיה הכי טוב)
+    # בוחר את הדיל הזול ביותר מבין אלה עם נתוני מסלול תקינים
+    # (ל-Villiers יש מדי פעם טיסות עם origin_iata/city חסר - למשל Georgetown -
+    # ואם נבחר כזו, השדה הריק ששולחים ל-Make שובר את הסצנריו בלי שגיאה גלויה)
     def _price(flight):
         try:
             return float(flight.get("price_amount", "inf"))
         except (TypeError, ValueError):
             return float("inf")
 
-    selected_deal = min(flights, key=_price)
+    def _has_valid_route(flight):
+        return all([
+            flight.get("origin_iata"),
+            flight.get("destination_iata"),
+            flight.get("origin_city"),
+            flight.get("destination_city"),
+        ])
+
+    valid_flights = [f for f in flights if _has_valid_route(f)]
+    if not valid_flights:
+        print("❌ No flights with complete route data found.")
+        return
+
+    selected_deal = min(valid_flights, key=_price)
     
     origin_city = selected_deal.get("origin_city", "Unknown")
     origin_code = selected_deal.get("origin_iata", "").upper()
