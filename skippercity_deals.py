@@ -16,6 +16,7 @@ Usage:
 import json
 import re
 import sys
+import time
 from datetime import date, datetime, timedelta, timezone
 
 import requests
@@ -106,11 +107,19 @@ def fetch_page(date_from: str, date_to: str, results_per_page: int = 100, page: 
         "sortBy": SORT_BY_DISCOUNT,
         "sortDirection": SORT_DESCENDING,
     })
-    resp = requests.post(BASE_URL, data=payload, timeout=30,
-                          headers={"User-Agent": "Mozilla/5.0"})
-    resp.raise_for_status()
-    resp.encoding = "utf-8"  # server omits charset; body is UTF-8 (e.g. the € sign) but requests guesses Latin-1
-    return resp.text
+    last_error = None
+    for attempt in range(3):
+        try:
+            resp = requests.post(BASE_URL, data=payload, timeout=30,
+                                  headers={"User-Agent": "Mozilla/5.0"})
+            resp.raise_for_status()
+            resp.encoding = "utf-8"  # server omits charset; body is UTF-8 (e.g. the € sign) but requests guesses Latin-1
+            return resp.text
+        except (requests.exceptions.HTTPError, requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+            last_error = e
+            if attempt < 2:
+                time.sleep(5 * (attempt + 1))
+    raise last_error
 
 
 def _field(card, label):
