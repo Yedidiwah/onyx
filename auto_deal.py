@@ -119,7 +119,7 @@ def main():
     # רינדור הווידאו
     p1, p2, p3, music = get_smart_random_combo()
     props = {
-        "titleToReplace": f"{origin_code} ➡️ {dest_code}",
+        "titleToReplace": f"{origin_city.split('/')[0].strip()} ➡️ {dest_city.split('/')[0].strip()}",
         "subTitleToReplace": f"Price: {price} | Seats: {seats}",
         "video1": f"part1_{p1}.mp4", "video2": f"part2_{p2}.mp4", "video3": f"part3_{p3}.mp4", "music": music
     }

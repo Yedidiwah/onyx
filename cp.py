@@ -59,8 +59,10 @@ def get_smart_random_combo():
 def generate_video_with_remotion(deal_data):
     print("[*] Starting Remotion video rendering...")
     p1, p2, p3, music = get_smart_random_combo()
+    origin_city = deal_data.get("origin_city", deal_data.get("origin_airport_name", deal_data.get("origin_iata", ""))).split('/')[0].strip()
+    dest_city = deal_data.get("destination_city", deal_data.get("destination_airport_name", deal_data.get("destination_iata", ""))).split('/')[0].strip()
     props = {
-        "titleToReplace": f"{deal_data.get('origin_iata')} ➡️ {deal_data.get('destination_iata')}",
+        "titleToReplace": f"{origin_city} ➡️ {dest_city}",
         "subTitleToReplace": f"Price: {deal_data.get('price_raw')} | Seats: {deal_data.get('seats_available')}",
         "video1": f"part1_{p1}.mp4",
         "video2": f"part2_{p2}.mp4",
