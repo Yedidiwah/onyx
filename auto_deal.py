@@ -147,13 +147,13 @@ def main():
     origin_code = selected_deal.get("origin_iata", "").upper()
     dest_city = selected_deal.get("destination_city", "Unknown")
     dest_code = selected_deal.get("destination_iata", "").upper()
-    date = selected_deal.get("departure_date_raw", "TBD")
+    flight_date = selected_deal.get("departure_date_raw", "TBD")
     aircraft = selected_deal.get("aircraft_type", "Private Jet")
     seats = selected_deal.get("seats_available", "N/A")
     price = selected_deal.get("price_raw", "Request Price")
     deal_link = selected_deal.get("source_id", "https://flywithonyx.com")
 
-    print(f"[*] Selected Flight: {origin_code} ➡️ {dest_code} | {date}")
+    print(f"[*] Selected Flight: {origin_code} ➡️ {dest_code} | {flight_date}")
     tweet_text = f"""🤫 The private jet secret: this plane is flying empty either way, so the seat is nearly free
 🛫 {origin_city} ({origin_code}) ➡️ 🛬 {dest_city} ({dest_code})
 💰 {price} (Total Aircraft)
@@ -161,7 +161,7 @@ def main():
 👉 Follow for a new deal like this every day
 🤖 Want this route or a custom one? Chat 24/7: https://t.me/OnyxAirRadar_bot
 
-🗓️ {date}
+🗓️ {flight_date}
 🛩️ {aircraft} | 💺 {seats} Seats
 
 🔗 Book this flight: {deal_link}
@@ -195,7 +195,7 @@ def main():
         data = {
             'caption': tweet_text,
             'origin': origin_code, 'destination': dest_code,
-            'price': price, 'date': date, 'video_url': video_url
+            'price': price, 'date': flight_date, 'video_url': video_url
         }
         res = requests.post(MAKE_WEBHOOK_URL, json=data)
         if res.status_code == 200:
@@ -203,7 +203,7 @@ def main():
             _mark_posted()
 
             # שליחת הודעת סיכום לטלגרם שלך
-            success_msg = f"🤖 *אוטומציה סיימה בהצלחה!*\n\n🛫 טיסה נבחרה: {origin_code} ➡️ {dest_code}\n🗓️ תאריך: {date}\n💰 מחיר: {price}\n\n✅ הווידאו נוצר ושוגר ל-Make (בדרך לאינסטגרם ו-X)."
+            success_msg = f"🤖 *אוטומציה סיימה בהצלחה!*\n\n🛫 טיסה נבחרה: {origin_code} ➡️ {dest_code}\n🗓️ תאריך: {flight_date}\n💰 מחיר: {price}\n\n✅ הווידאו נוצר ושוגר ל-Make (בדרך לאינסטגרם ו-X)."
             send_telegram_notification(success_msg)
         else:
             print(f"⚠️ Sent to Make.com, but received error status: {res.status_code}")
