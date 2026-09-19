@@ -21,6 +21,7 @@ import os
 import subprocess
 import sys
 import tempfile
+from datetime import date, datetime
 
 import requests
 from dotenv import load_dotenv
@@ -31,6 +32,8 @@ MAKE_WEBHOOK_URL = os.getenv("MAKE_WEBHOOK_URL_YACHT")
 TELEGRAM_CREAT_BOT_TOKEN = os.getenv("TELEGRAM_CREAT_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 YACHTS_JSON = "data/yachts.json"
+POSTED_YACHTS_FILE = "posted_yachts_history.json"
+REPOST_COOLDOWN_DAYS = 5
 
 FONT_CANDIDATES = [
     "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
@@ -39,13 +42,58 @@ FONT_CANDIDATES = [
 ]
 
 
+def _is_upcoming(deal):
+    try:
+        start = deal.get("date_from", "").split("-")[0].strip()
+        return datetime.strptime(start, "%d.%m.%Y").date() >= date.today()
+    except (ValueError, AttributeError):
+        return True  # can't parse it (incl. a None date_from) - don't skip a deal over that
+
+
+def _yacht_key(deal):
+    return f"{deal.get('model')}-{deal.get('name')}-{deal.get('date_from')}"
+
+
+def _load_posted_history():
+    if os.path.exists(POSTED_YACHTS_FILE):
+        try:
+            with open(POSTED_YACHTS_FILE, "r") as f:
+                history = json.load(f)
+        except Exception:
+            history = {}
+    else:
+        history = {}
+    cutoff = date.today().toordinal() - REPOST_COOLDOWN_DAYS
+    return {k: v for k, v in history.items() if v > cutoff}
+
+
+def mark_posted(deal):
+    # נקרא רק אחרי פרסום אמיתי שהצליח - לא ב---dry-run, אחרת בדיקה בלי פרסום
+    # בפועל "צורכת" את הדיל למשך 5 ימים בלי שום סיבה
+    history = _load_posted_history()
+    history[_yacht_key(deal)] = date.today().toordinal()
+    with open(POSTED_YACHTS_FILE, "w") as f:
+        json.dump(history, f)
+
+
 def load_top_deal(path=YACHTS_JSON):
+    # מעדיף הנחה גבוהה בין דילים שלא פורסמו ב-5 הימים האחרונים - "הכי גבוה"
+    # לבד גורם לאותה יאכטה (אם היא נשארת המובילה כמה ימים ברצף) לחזור שוב ושוב
     with open(path, "r", encoding="utf-8") as f:
         payload = json.load(f)
     yachts = payload.get("yachts", [])
     if not yachts:
         return None
-    return max(yachts, key=lambda d: d.get("discount_pct", 0))
+
+    upcoming = [d for d in yachts if _is_upcoming(d)]
+    if not upcoming:
+        return None
+
+    posted_history = _load_posted_history()
+    fresh = [d for d in upcoming if _yacht_key(d) not in posted_history]
+    candidates = fresh if fresh else upcoming
+
+    return max(candidates, key=lambda d: d.get("discount_pct", 0))
 
 
 def build_caption(deal):
@@ -213,4 +261,5 @@ if __name__ == "__main__":
 
         print(f"[*] Posting top deal: {deal['model']} • {deal['name']} (-{deal['discount_pct']:.0f}%)")
         send_to_make_webhook(deal, caption, video_url)
+        mark_posted(deal)
         print("[+] Sent to Make.com webhook.")

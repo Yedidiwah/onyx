@@ -135,10 +135,14 @@ def main():
     candidates = fresh_flights if fresh_flights else valid_flights
 
     selected_deal = min(candidates, key=_price)
-    posted_history[_flight_key(selected_deal)] = date.today().toordinal()
-    with open(POSTED_FLIGHTS_FILE, 'w') as f:
-        json.dump(posted_history, f)
-    
+
+    def _mark_posted():
+        # נקרא רק אחרי שהפרסום בפועל הצליח - לא מיד בבחירה, כדי שרינדור/שליחה
+        # שנכשלים לא "יצרכו" את הטיסה בלי שהיא באמת פורסמה
+        posted_history[_flight_key(selected_deal)] = date.today().toordinal()
+        with open(POSTED_FLIGHTS_FILE, 'w') as f:
+            json.dump(posted_history, f)
+
     origin_city = selected_deal.get("origin_city", "Unknown")
     origin_code = selected_deal.get("origin_iata", "").upper()
     dest_city = selected_deal.get("destination_city", "Unknown")
@@ -196,7 +200,8 @@ def main():
         res = requests.post(MAKE_WEBHOOK_URL, json=data)
         if res.status_code == 200:
             print("✅ Successfully sent to Make.com!")
-            
+            _mark_posted()
+
             # שליחת הודעת סיכום לטלגרם שלך
             success_msg = f"🤖 *אוטומציה סיימה בהצלחה!*\n\n🛫 טיסה נבחרה: {origin_code} ➡️ {dest_code}\n🗓️ תאריך: {date}\n💰 מחיר: {price}\n\n✅ הווידאו נוצר ושוגר ל-Make (בדרך לאינסטגרם ו-X)."
             send_telegram_notification(success_msg)
