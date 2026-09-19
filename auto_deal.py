@@ -3,6 +3,7 @@ import os
 import subprocess
 import requests
 import random
+from datetime import date, datetime
 from dotenv import load_dotenv
 
 # ==========================================
@@ -13,6 +14,8 @@ TELEGRAM_CREAT_BOT_TOKEN = os.getenv("TELEGRAM_CREAT_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 MAKE_WEBHOOK_URL = os.getenv("MAKE_WEBHOOK_URL_FLIGHTS")
 HISTORY_FILE = "history.json"
+POSTED_FLIGHTS_FILE = "posted_flights_history.json"
+REPOST_COOLDOWN_DAYS = 5
 OUTPUT_VIDEO_PATH = "/mnt/volume_fra1_1786451349368/output_deal.mp4"
 
 # ==========================================
@@ -98,12 +101,43 @@ def main():
             flight.get("destination_city"),
         ])
 
-    valid_flights = [f for f in flights if _has_valid_route(f)]
+    def _is_upcoming(flight):
+        raw = flight.get("departure_date_raw", "")
+        try:
+            return datetime.strptime(raw.strip(), "%d %B %Y").date() >= date.today()
+        except (ValueError, AttributeError):
+            return True  # can't parse it - don't let that be the reason we skip a deal
+
+    def _flight_key(flight):
+        return flight.get("source_id") or f"{flight.get('origin_iata')}-{flight.get('destination_iata')}-{flight.get('departure_date_raw')}"
+
+    def _load_posted_history():
+        if os.path.exists(POSTED_FLIGHTS_FILE):
+            try:
+                with open(POSTED_FLIGHTS_FILE, 'r') as f:
+                    history = json.load(f)
+            except Exception:
+                history = {}
+        else:
+            history = {}
+        cutoff = date.today().toordinal() - REPOST_COOLDOWN_DAYS
+        return {k: v for k, v in history.items() if v > cutoff}
+
+    valid_flights = [f for f in flights if _has_valid_route(f) and _is_upcoming(f)]
     if not valid_flights:
-        print("❌ No flights with complete route data found.")
+        print("❌ No flights with complete, upcoming route data found.")
         return
 
-    selected_deal = min(valid_flights, key=_price)
+    # מעדיף דיל זול שלא פורסם ב-5 הימים האחרונים - "הכי זול" לבד גורם לאותה
+    # טיסה (אם היא נשארת הכי זולה כמה ימים ברצף) לחזור על עצמה שוב ושוב
+    posted_history = _load_posted_history()
+    fresh_flights = [f for f in valid_flights if _flight_key(f) not in posted_history]
+    candidates = fresh_flights if fresh_flights else valid_flights
+
+    selected_deal = min(candidates, key=_price)
+    posted_history[_flight_key(selected_deal)] = date.today().toordinal()
+    with open(POSTED_FLIGHTS_FILE, 'w') as f:
+        json.dump(posted_history, f)
     
     origin_city = selected_deal.get("origin_city", "Unknown")
     origin_code = selected_deal.get("origin_iata", "").upper()
