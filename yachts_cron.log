@@ -1,0 +1,236 @@
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 73 yachts available for 09.09.2026 - 16.09.2026
+[i] 1217 yachts available for 16.09.2026 - 23.09.2026
+[i] 1429 yachts available for 23.09.2026 - 30.09.2026
+[i] 1801 yachts available for 30.09.2026 - 07.10.2026
+[i] 2213 yachts available for 07.10.2026 - 14.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 64 yachts available for 10.09.2026 - 17.09.2026
+[i] 1165 yachts available for 17.09.2026 - 24.09.2026
+[i] 1305 yachts available for 24.09.2026 - 01.10.2026
+[i] 1569 yachts available for 01.10.2026 - 08.10.2026
+[i] 1763 yachts available for 08.10.2026 - 15.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 60 yachts available for 11.09.2026 - 18.09.2026
+[i] 1408 yachts available for 18.09.2026 - 25.09.2026
+[i] 1709 yachts available for 25.09.2026 - 02.10.2026
+[i] 2280 yachts available for 02.10.2026 - 09.10.2026
+[i] 2671 yachts available for 09.10.2026 - 16.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Posting top deal: Gulet • Blue Dream (-60%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 259 yachts available for 12.09.2026 - 19.09.2026
+[i] 2413 yachts available for 19.09.2026 - 26.09.2026
+[i] 3253 yachts available for 26.09.2026 - 03.10.2026
+[i] 4791 yachts available for 03.10.2026 - 10.10.2026
+[i] 6202 yachts available for 10.10.2026 - 17.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Posting top deal: Sun Odyssey 509 • KAOS (-74%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 55 yachts available for 13.09.2026 - 20.09.2026
+[i] 1175 yachts available for 20.09.2026 - 27.09.2026
+[i] 1432 yachts available for 27.09.2026 - 04.10.2026
+[i] 1682 yachts available for 04.10.2026 - 11.10.2026
+[i] 1899 yachts available for 11.10.2026 - 18.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Posting top deal: Ocean Star 51.2 • Anemelia (-64%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 60 yachts available for 14.09.2026 - 21.09.2026
+[i] 1522 yachts available for 21.09.2026 - 28.09.2026
+[i] 1979 yachts available for 28.09.2026 - 05.10.2026
+[i] 2419 yachts available for 05.10.2026 - 12.10.2026
+[i] 2763 yachts available for 12.10.2026 - 19.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Posting top deal: Gulet • Blue Dream (-60%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 60 yachts available for 15.09.2026 - 22.09.2026
+[i] 1333 yachts available for 22.09.2026 - 29.09.2026
+[i] 1683 yachts available for 29.09.2026 - 06.10.2026
+[i] 1942 yachts available for 06.10.2026 - 13.10.2026
+[i] 2050 yachts available for 13.10.2026 - 20.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Posting top deal: Gulet • Blue Dream (-60%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 61 yachts available for 15.09.2026 - 22.09.2026
+[i] 1337 yachts available for 22.09.2026 - 29.09.2026
+[i] 1705 yachts available for 29.09.2026 - 06.10.2026
+[i] 1945 yachts available for 06.10.2026 - 13.10.2026
+[i] 2051 yachts available for 13.10.2026 - 20.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Posting top deal: Gulet • Blue Dream (-60%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+Traceback (most recent call last):
+  File "/root/onyx/skippercity_deals.py", line 259, in <module>
+    results = find_best_discounts()
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/skippercity_deals.py", line 222, in find_best_discounts
+    all_deals.extend(deals_for_window(date_from, date_to))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/skippercity_deals.py", line 198, in deals_for_window
+    html = fetch_page(date_from, date_to, results_per_page=100, page=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/onyx/skippercity_deals.py", line 111, in fetch_page
+    resp.raise_for_status()
+  File "/root/onyx/venv/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Unavailable for url: https://www.booking-manager.com/wbm2/page.html
+ERROR: Yacht data update failed.
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 62 yachts available for 17.09.2026 - 24.09.2026
+[i] 1203 yachts available for 24.09.2026 - 01.10.2026
+[i] 1535 yachts available for 01.10.2026 - 08.10.2026
+[i] 1738 yachts available for 08.10.2026 - 15.10.2026
+[i] 1838 yachts available for 15.10.2026 - 22.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Downloading boat photo...
+[*] Rendering video (Ken Burns zoom + text overlay)...
+[*] Uploading video to Telegram to get a CDN URL...
+[*] Posting top deal: Gulet • Blue Dream (-60%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 64 yachts available for 18.09.2026 - 25.09.2026
+[i] 1602 yachts available for 25.09.2026 - 02.10.2026
+[i] 2101 yachts available for 02.10.2026 - 09.10.2026
+[i] 2439 yachts available for 09.10.2026 - 16.10.2026
+[i] 2671 yachts available for 16.10.2026 - 23.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Downloading boat photo...
+[*] Rendering video (Ken Burns zoom + text overlay)...
+[*] Uploading video to Telegram to get a CDN URL...
+[*] Posting top deal: Gulet • Blue Dream (-60%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 243 yachts available for 19.09.2026 - 26.09.2026
+[i] 3026 yachts available for 26.09.2026 - 03.10.2026
+[i] 4503 yachts available for 03.10.2026 - 10.10.2026
+[i] 5920 yachts available for 10.10.2026 - 17.10.2026
+[i] 6825 yachts available for 17.10.2026 - 24.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Downloading boat photo...
+[*] Rendering video (Ken Burns zoom + text overlay)...
+[*] Uploading video to Telegram to get a CDN URL...
+[*] Posting top deal: Sun Odyssey 509 • KAOS (-74%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 66 yachts available for 20.09.2026 - 27.09.2026
+[i] 1352 yachts available for 27.09.2026 - 04.10.2026
+[i] 1656 yachts available for 04.10.2026 - 11.10.2026
+[i] 1871 yachts available for 11.10.2026 - 18.10.2026
+[i] 1990 yachts available for 18.10.2026 - 25.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Downloading boat photo...
+[*] Rendering video (Ken Burns zoom + text overlay)...
+[*] Uploading video to Telegram to get a CDN URL...
+[*] Posting top deal: Ocean Star 51.2 • Anemelia (-64%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 73 yachts available for 21.09.2026 - 28.09.2026
+[i] 1885 yachts available for 28.09.2026 - 05.10.2026
+[i] 2233 yachts available for 05.10.2026 - 12.10.2026
+[i] 2521 yachts available for 12.10.2026 - 19.10.2026
+[i] 2624 yachts available for 19.10.2026 - 26.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Downloading boat photo...
+[*] Rendering video (Ken Burns zoom + text overlay)...
+[*] Uploading video to Telegram to get a CDN URL...
+[*] Posting top deal: Gulet • Blue Dream (-60%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
