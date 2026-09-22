@@ -180,6 +180,14 @@ function initializeTelegram() {
         state.telegramAvailable = false;
         controls.externalNotice.hidden = false;
     }
+
+    const debugEl = document.querySelector("#debug-info");
+    if (debugEl) {
+        debugEl.textContent =
+            "v=" + (telegram ? telegram.version : "n/a") +
+            " platform=" + (telegram ? telegram.platform : "n/a") +
+            " initData_len=" + (telegram && telegram.initData ? telegram.initData.length : 0);
+    }
 }
 
 
