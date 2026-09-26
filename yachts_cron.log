@@ -310,3 +310,22 @@ Pushed successfully.
 ==================================================
 ONYX Yacht Deals update completed.
 ==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 363 yachts available for 26.09.2026 - 03.10.2026
+[i] 4238 yachts available for 03.10.2026 - 10.10.2026
+[i] 5623 yachts available for 10.10.2026 - 17.10.2026
+[i] 6540 yachts available for 17.10.2026 - 24.10.2026
+[i] 6475 yachts available for 24.10.2026 - 31.10.2026
+[i] wrote 50 deals to data/yachts.json
+Pushed successfully.
+[*] Posting top deal to Make.com...
+[*] Downloading boat photo...
+[*] Rendering video (Ken Burns zoom + text overlay)...
+[*] Uploading video to Telegram to get a CDN URL...
+[*] Posting top deal: Sun Odyssey 509 • KAOS (-74%)
+[+] Sent to Make.com webhook.
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
