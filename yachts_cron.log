@@ -437,3 +437,75 @@ Traceback (most recent call last):
     raise ReadTimeout(e, request=request)
 requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.booking-manager.com', port=443): Read timed out. (read timeout=30)
 ERROR: Yacht data update failed.
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 130 yachts available for 29.09.2026 - 06.10.2026
+[i] 1823 yachts available for 06.10.2026 - 13.10.2026
+[i] 2024 yachts available for 13.10.2026 - 20.10.2026
+[i] 2106 yachts available for 20.10.2026 - 27.10.2026
+[i] 1519 yachts available for 27.10.2026 - 03.11.2026
+[i] wrote 50 deals to data/yachts.json
+fatal: unable to write loose object file: No space left on device
+No change in yacht data - nothing to commit.
+[*] Posting top deal to Make.com...
+Traceback (most recent call last):
+  File "/root/onyx/yacht_social_post.py", line 239, in <module>
+    with tempfile.TemporaryDirectory() as tmp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 1021, in __init__
+    self.name = mkdtemp(suffix, prefix, dir)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 512, in mkdtemp
+    prefix, suffix, dir, output_type = _sanitize_params(prefix, suffix, dir)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 265, in _sanitize_params
+    dir = gettempdir()
+          ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 454, in gettempdir
+    return _os.fsdecode(_gettempdir())
+                        ^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 447, in _gettempdir
+    tempdir = _get_default_tempdir()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 362, in _get_default_tempdir
+    raise FileNotFoundError(_errno.ENOENT,
+FileNotFoundError: [Errno 2] No usable temporary directory found in ['/tmp', '/var/tmp', '/usr/tmp', '/root/onyx']
+ERROR: Yacht social post failed (data update above still succeeded).
+==================================================
+ONYX Yacht Deals update completed.
+==================================================
+==================================================
+ONYX Yacht Deals Update
+==================================================
+[i] 127 yachts available for 30.09.2026 - 07.10.2026
+[i] 1916 yachts available for 07.10.2026 - 14.10.2026
+[i] 2201 yachts available for 14.10.2026 - 21.10.2026
+[i] 2399 yachts available for 21.10.2026 - 28.10.2026
+[i] 1521 yachts available for 28.10.2026 - 04.11.2026
+[i] wrote 50 deals to data/yachts.json
+fatal: unable to write loose object file: No space left on device
+No change in yacht data - nothing to commit.
+[*] Posting top deal to Make.com...
+Traceback (most recent call last):
+  File "/root/onyx/yacht_social_post.py", line 239, in <module>
+    with tempfile.TemporaryDirectory() as tmp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 1021, in __init__
+    self.name = mkdtemp(suffix, prefix, dir)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 512, in mkdtemp
+    prefix, suffix, dir, output_type = _sanitize_params(prefix, suffix, dir)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 265, in _sanitize_params
+    dir = gettempdir()
+          ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 454, in gettempdir
+    return _os.fsdecode(_gettempdir())
+                        ^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 447, in _gettempdir
+    tempdir = _get_default_tempdir()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 362, in _get_default_tempdir
+    raise FileNotFoundError(_errno.ENOENT,
+FileNotFoundError: [Errno 2] No usable temporary directory found in ['/tmp', '/var/tmp', '/

@@ -20,3 +20,20 @@ Sat Sep 19 17:40:03 UTC 2026: Pulled new changes (69c6dd697c475333d44ead5e22587b
 Tue Sep 22 07:00:02 UTC 2026: Pulled new changes (0f84aadce1cba3c0d9460bfa9aa7d5ede39f5298 -> f277d7a04f022a868258c706aeeacc3882f27dc8)
 Tue Sep 22 07:15:02 UTC 2026: Pulled new changes (f277d7a04f022a868258c706aeeacc3882f27dc8 -> 40a388ce748ba9a8a8062bdfc1b21b45651dba11)
 Tue Sep 22 07:15:02 UTC 2026: Bot code changed - restarting onyx-listener.service
+There are no candidates for merging among the refs that you just fetched.
+Generally this means that you provided a wildcard refspec which had no
+matches on the remote end.
+Tue Sep 29 09:20:02 UTC 2026: git pull failed or conflicted - aborting merge, needs manual attention
+There are no candidates for merging among the refs that you just fetched.
+Generally this means that you provided a wildcard refspec which had no
+matches on the remote end.
+Tue Sep 29 09:25:02 UTC 2026: git pull failed or conflicted - aborting merge, needs manual attention
+There are no candidates for merging among the refs that you just fetched.
+Generally this means that you provided a wildcard refspec which had no
+matches on the remote end.
+Tue Sep 29 09:30:03 UTC 2026: git pull failed or conflicted - aborting merge, needs manual attention
+There are no candidates for merging among the refs that you just fetched.
+Generally this means that you provided a wildcard refspec which had no
+matches on the remote end.
+Tue Sep 29 09:35:02 UTC 2026: git pull failed or conflicted - aborting merge, needs manual attention
+There are no candidates for merging among the refs that you just f
