@@ -168143,3 +168143,1130 @@ Total flight entries delivered: 0
 ==================================================
 ONYX Radar update completed successfully.
 ==================================================
+[main e0a10c79] Auto-update flights data and telegram alerts from server
+ 8 files changed, 2226 insertions(+), 311 deletions(-)
+ create mode 100644 exports/villiers_empty_legs_all_2026-10-01_02-47-02.csv
+ create mode 100644 exports/villiers_empty_legs_changes_2026-10-01_02-47-02.csv
+ create mode 100644 exports/villiers_empty_legs_current_2026-10-01_02-47-02.csv
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File listener.log is 54.89 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/Yedidiwah/onyx.git
+   af16ca89..e0a10c79  main -> main
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creat==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד ==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+
+טיסה ראשונה לדוגמה:
+מוצא: SADF / FDO - San Fernando Airport
+יעד: SAAR / ROS - Islas Malvinas Airport
+תאריך מקורי: 02 October 2026
+תאריך ISO: 2026-10-02
+שעת יציאה: 07:17
+מחיר: $3,225
+מחיר מנורמל: 3225 USD
+מטוס: Learjet 40XR
+מושבים: 7
+סטטוס שינוי: unchanged
+
+שם הפיד: Villiers Empty Legs - Affiliate ADHUHR
+טיסות פעילות בפיד: 100
+כל הטיסות שנשמרו בהיסטוריה: 1090
+שינויים בהרצה הנוכחית: 16
+
+פירוט שינויים:
+  חדשות: 5
+  עודכנו: 0
+  חזרו לפיד: 3
+  ללא שינוי: 92
+  נעלמו מהפיד: 8
+
+קבצים שנוצרו:
+  טיסות פעילות: /root/onyx/exports/villiers_empty_legs_current_2026-10-02_06-47-02.csv
+  כל ההיסטוריה: /root/onyx/exports/villiers_empty_legs_all_2026-10-02_06-47-02.csv
+  שינויים בלבד: /root/onyx/exports/villiers_empty_legs_changes_2026-10-02_06-47-02.csv
+  קובץ מצב: /root/onyx/data/villiers_state.json
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Saved 100 flights.
+Output: /root/onyx/data/flights.json
+[3/4] Creating global airports.json...
+Loading global airport database...
+Prepared 28298 airports in 234 countries.
+Airport catalogue generation failed: [Errno 28] No space left on device
+ERROR: Airport catalogue generation failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device: 'exports/villiers_empty_legs_current_2026-10-02_07-47-02.csv'
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נ==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד ==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד ==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device: 'exports/villiers_empty_legs_current_2026-10-04_01-17-02.csv'
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+�==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device: 'exports/villiers_empty_legs_current_2026-10-05_02-17-02.csv'
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+�==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד ==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד ==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד ==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+שגיאה: [Errno 28] No space left on device
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Website data update failed: [Errno 28] No space left on device
+ERROR: Website flight data failed.
+==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד ==================================================
+ONYX Radar Full Update
+==================================================
+[1/4] Downloading current Villiers flights...
+טוען את מאגר שדות התעופה...
+נטענו 28298 שדות תעופה.
+
+מוריד את נתוני ה-RSS...
+הפיד זוהה כפיד Empty Legs.
+נמצאו 100 פריטים בפיד.
+
+טיסה ראשונה לדוגמה:
+מוצא: KASE / ASE - Aspen-Pitkin County/Sardy Field
+יעד: KLBB / LBB - Lubbock Preston Smith International Airport
+תאריך מקורי: 18 October 2026
+תאריך ISO: 2026-10-18
+שעת יציאה: 12:00
+מחיר: $4,193
+מחיר מנורמל: 4193 USD
+מטוס: Cessna Citation Ultra
+מושבים: 7
+סטטוס שינוי: new
+
+שם הפיד: Villiers Empty Legs - Affiliate ADHUHR
+טיסות פעילות בפיד: 100
+כל הטיסות שנשמרו בהיסטוריה: 1177
+שינויים בהרצה הנוכחית: 200
+
+פירוט שינויים:
+  חדשות: 87
+  עודכנו: 0
+  חזרו לפיד: 13
+  ללא שינוי: 0
+  נעלמו מהפיד: 100
+
+קבצים שנוצרו:
+  טיסות פעילות: /root/onyx/exports/villiers_empty_legs_current_2026-10-18_06-47-02.csv
+  כל ההיסטוריה: /root/onyx/exports/villiers_empty_legs_all_2026-10-18_06-47-02.csv
+  שינויים בלבד: /root/onyx/exports/villiers_empty_legs_changes_2026-10-18_06-47-02.csv
+  קובץ מצב: /root/onyx/data/villiers_state.json
+[2/4] Creating website flights.json...
+No local CSV was found. Falling back to RSS.
+Downloading Villiers RSS...
+Saved 100 flights.
+Output: /root/onyx/data/flights.json
+[3/4] Creating global airports.json...
+Loading global airport database...
+Prepared 28298 airports in 234 countries.
+Airport catalogue saved to: /root/onyx/data/airports.json
+[4/4] Sending current flights to Telegram...
+Connected to Telegram bot: @OnyxAirRadar_bot (bot ID: 8816902667)
+Reading flights from: /root/onyx/exports/villiers_empty_legs_current_2026-10-18_06-47-02.csv
+Loaded 100 active Empty Leg flights.
+Processing 2 users.
+No matches for yedidya (1049883799)
+Sent 100 of 100 flights in 17 messages to Yedidya (7445310755)
+Users database updated with new timestamps.
+
+Telegram processing complete.
+Users who received flights: 1
+Users with delivery errors: 0
+Total flight entries delivered: 100
+==================================================
+ONYX Radar update completed successfully.
+==================================================
