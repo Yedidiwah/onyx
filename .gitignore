@@ -11,3 +11,5 @@ users_db.json
 service_account.json
 *.swp
 *.swo
+exports/
+*.mp4

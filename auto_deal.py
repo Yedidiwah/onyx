@@ -154,6 +154,7 @@ def main():
     deal_link = selected_deal.get("source_id", "https://flywithonyx.com")
 
     print(f"[*] Selected Flight: {origin_code} ➡️ {dest_code} | {flight_date}")
+    posted = False
     tweet_text = f"""🤫 The private jet secret: this plane is flying empty either way, so the seat is nearly free
 🛫 {origin_city} ({origin_code}) ➡️ 🛬 {dest_city} ({dest_code})
 💰 {price} (Total Aircraft)
@@ -184,6 +185,7 @@ def main():
         subprocess.run(cmd, shell=True, check=True, cwd="/mnt/volume_fra1_1786451349368/video-generator")
     except Exception as e:
         print(f"❌ Video rendering failed: {e}")
+        clean_server(OUTPUT_VIDEO_PATH)
         return
 
     # העלאה ושיגור למייק
@@ -201,6 +203,7 @@ def main():
         if res.status_code == 200:
             print("✅ Successfully sent to Make.com!")
             _mark_posted()
+            posted = True
 
             # שליחת הודעת סיכום לטלגרם שלך
             success_msg = f"🤖 *אוטומציה סיימה בהצלחה!*\n\n🛫 טיסה נבחרה: {origin_code} ➡️ {dest_code}\n🗓️ תאריך: {flight_date}\n💰 מחיר: {price}\n\n✅ הווידאו נוצר ושוגר ל-Make (בדרך לאינסטגרם ו-X)."
@@ -212,7 +215,7 @@ def main():
     
     print("[*] Cleaning up temporary files...")
     clean_server(OUTPUT_VIDEO_PATH)
-    print("[*] Automation run finished successfully!")
+    print("[*] Automation run finished - posted." if posted else "[!] Automation run finished - NOT posted.")
 
 if __name__ == "__main__":
     main()

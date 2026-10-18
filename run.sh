@@ -22,6 +22,9 @@ echo "=================================================="
 echo "ONYX Radar update completed successfully."
 echo "=================================================="
 
+# Keep only the 6 newest exports so the disk doesn't fill up again
+ls -t exports/* 2>/dev/null | tail -n +7 | xargs -r rm -f
+
 # Git Auto-Push
 git add .
 git commit -m "Auto-update flights data and telegram alerts from server"
